@@ -15,7 +15,7 @@ The extension turns the question around and looks at the annotations themselves.
 
 The repository has two parts.
 
-`course-project/` is the team deliverable: the corpus, the annotation guideline and tool, the training and evaluation code, and the model results. It was made by a team of four students, including the author. The author's part of that work was the annotation of 200 of the 800 ads, the Naive Bayes model, and the presentation of results.
+`course-project/` is the team deliverable: the corpus, the annotation guideline and tool, the training and evaluation code, and the model results. It was made jointly by a team of four students, including the author.
 
 `individual-extension/` is the author's own work: a repeated annotator calibration and a systematic comparison of the first LLM annotation pass with the final human annotations.
 
