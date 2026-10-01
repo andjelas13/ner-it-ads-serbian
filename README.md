@@ -3,7 +3,13 @@
 Course project in Natural Language Processing, School of Electrical Engineering, University of Belgrade, 2026.
 Author of this repository: Anđela Spasić.
 
-A corpus of Serbian IT classified ads annotated with labels for computer components and price, six models trained on it, and an individual extension that compares the first automatic annotation pass with the final human annotations, case by case.
+A corpus of Serbian IT classified ads annotated with labels for computer components and price, six models trained on it, and an individual extension that compares the first automatic annotation pass with the final human annotations, case by case. The corpus and the models are the work of a team of four students, in which the author took part; the extension is her individual work.
+
+## What the project does
+
+The goal is to pull structured information out of ordinary classified ads: which processor, graphics card, memory and storage a seller is offering, and at what price. Ads are collected from a classifieds site, the relevant parts of the text are annotated by hand under a written guideline, and the annotated set is then used to train and evaluate six models, from Naive Bayes and CRF to BERTic and mBERT, with fixed cross validation folds so that results can be compared.
+
+The extension turns the question around and looks at the annotations themselves. How much do two annotators agree once the guideline is settled, and where does an automatic first pass of annotation differ from what people decided in the end? Each difference is reduced to a single case, classified by its shape, and the hard ones are judged against the guideline, example by example.
 
 ## Contents
 
