@@ -1,0 +1,23 @@
+{
+  "purpose": "reference_experiment_config",
+  "models": [
+    "nb",
+    "svm",
+    "xgb",
+    "crf",
+    "bertic",
+    "mbert"
+  ],
+  "outer_folds": 10,
+  "inner_folds_by_model": {
+    "nb": 10,
+    "svm": 5,
+    "xgb": 10,
+    "crf": 5,
+    "bertic": null,
+    "mbert": null
+  },
+  "outer_test_ads_per_fold": "approximately 100; see splits/split_summary.json",
+  "inner_validation_ads_per_fold": "approximately outer_train / configured inner folds",
+  "split_family": "strict_group_aware_multilabel_2026-08-27"
+}

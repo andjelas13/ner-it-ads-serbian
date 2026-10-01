@@ -1,0 +1,33 @@
+TITLE:
+Grafička (153) Asus Radeon X1650PRO 512M
+
+BODY:
+Ispravna PCI-E graficka kartica
+
+- Asus
+
+- Radeon X1650PRO 512M
+
+- 2 X DVI izlaz
+
+- 1 x TV izlaz
+
+- 512 Mb
+
+- hladnjak sa ispravnom turbinom
+
+Vrlo vazno
+
+Ispravnost navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- DELL 755 - OS WIN 7-32 bit
+
+- P5Q - E-8200 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorijama.

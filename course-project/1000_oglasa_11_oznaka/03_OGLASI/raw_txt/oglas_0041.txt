@@ -1,0 +1,7 @@
+TITLE:
+AMD A4 4000 APU Dual Core procesor FM2/FM2+
+
+BODY:
+- AMD A4-4000 2 cores 3.0GHz (3.2GHz), 64Bit, integrisana grafika: Radeon HD 7480D, Procesorsko ležište (socket): AMD FM2(odgovara i FM2+ leziste) Klasa procesora: AMD A4 Model: A4-4000 Broj jezgara procesora: 2 , Radni takt: 3.0GHz Turbo frekvencija: 3.2GHz Keš memorija: 1MB L2.
+
+Uz procesor dolazi hladnjak s ventilatorom.

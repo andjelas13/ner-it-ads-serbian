@@ -1,0 +1,88 @@
+TITLE:
+M2 SSD kućište M.2 na USB 3.1 Gen 2 10Gbps NVMe PCIE M key B
+
+BODY:
+STANJE: 4
+
+STANJE KOJE PIŠE JE STVARNO STANJE
+AKO JE (STANJE:0) NEMA NA STANJU
+  1. M.2 NVME na USB 3.1 kućište čvrstog diska.
+  2. Podržava NVME PCIE protokol, pogodan za M2 (B+M ključ/M ključ) SSD. M.2 SATA SSD ne podržava
+  3. Podržava M.2 SSD, 22*30mm, 22*42mm, 22*60mm, 22*80mm SSD diskove (SSD čvrsti diskovi nisu uključeni).
+  4. Brzina izlaza zavisi od tipa SSD-a koji koristite, NVME (10Gbps).
+  5. Oklop od aluminijumske legure povećava površinu odvođenja toplote, što olakšava rasipanje toplote čvrstog diska tokom rada i povećava vek trajanja čvrstog diska.
+  6. Podržava UASP protokol.
+  7. Bez alata, jednostavan za upotrebu, nema potrebe za vožnjom.
+Specifikacija:
+
+Tip: M.2 NVME SSD kućište
+
+Primenljivo: M.2 NVME 2230/2242/2260/2280 SSD
+
+Kabl: USB-C na USB-A kabl
+
+Materijal: Aluminijumska legura + Plastična PCB zaštita
+
+Glavna kontrola: JMS583
+
+Maksimalna podrška: 2TB
+
+Interfejs podrške: B+M ključ/M ključ
+
+Izlazni konektor: Tip-C
+
+Sistem: za Vindovs 98/Se/Me/2000/KSP/Vista/Vin7/Vin8/Vin10/MAC OS 8.6 ili najnoviju verziju
+
+Veličina: 104 * 40 * 12 mm (približno)
+
+Boja: siva
+NVMe Prioritet: 1. povećanje performansi 2. smanjenje kašnjenja 3. smanjenje disipacije energije 4. IPOS SSD-a će se povećati
+
+Topli podsetnik
+
+1. M.2 SSD NIJE uključen.
+
+2. NVMe model kućišta nije kompatibilan sa NGFF SATA M.2 SSD, obrnuto.
+
+3. Za novi nekorišćeni SSD prvo je potrebno napraviti particiju, inače se ne može prepoznati.
+
+4. Normalno je da se aluminijumsko kućište zagreva prilikom upotrebe i to ne utiče na normalnu upotrebu.
+
+Paket uključuje:
+
+1* M.2 NVMe kućište
+
+1 * USB kabl
+                          ⚜️ ODGOVORI NA PITANJA ⚜️
+☎️ PON-PET P oziv od 10h do 14:30h. Za kasnije, javljam se ako sam dostupan ☎️
+⏩SUBOTA poziv od 11h-13h za kasnije može KP i SMS za odgovor i dogovor za lično ili slanje.
+⏩NEDELJA samo KP i SMS za odgovor i dogovor za lično ili slanje.  ⏱
+⏩Kurir dolazi od 11h do 13h RADNI DAN, pretežno ranije, zavisi od mogućnosti.  ⏱
+⏩Kurir dolazi oko 9h do 11h (SUBOTA).  ⏱
+⏩Potrebni podaci 1. Ime Prezime 2. Mesto i Poštanski broj 3. Ulica I Broj 4. Telefon
+⏩Najbrže dobijate odgovor preko KP, zatim SMS pa ostalo.
+⏩Šaljem samo postexpressom (molim da ne pitate za drugu).
+⏩Slanje je uvek opcija (danas za sutra do 19h)
+⏩Ne šaljem preporučena pisma (SAMO kurirom POSTEXPRESS-a).
+⏩Ne šaljem DANAS za DANAS, DANAS za ODMAH (molim vas ne pitajte)
+⏩Ne javljam se na VIBER poziv, samo pozivi sa Srpske mobilne mreže.
+⏩Poruke tipa pozovite me ako se nisam javio ne saljite, pozovite u vreme gore ispisano.
+⏩Cene su fiksne i na 10-50 komada, pa ne pitajte, cena je maksimalno spuštena po jedinici.
+⏩Lično preuzimanje (ako sam tu) prethodno najava dolaska.
+⏩Poštarina je po važećem cenovniku postexpressa (najjeftinija kurirska)
+⏩Ukoliko niste tu, javite se kuriru i kažite (i ukućanima) da ostave u pošti, gde će biti max 15 dana, ako ne preuzmete vraća se meni sa troškom duple poštarine.
+⏩Molim vas da me ne pitate kad stiže, kad pošaljem u 99% slučajeva je kod vas sledeći dan
+Takođe zavisi od dana kada kurir dolazi u vaše mesto, i ako preuzima u petak (teško za dostavu u subotu da će stići kod vas) ali dešava se za velike gradove (ako pitate kopiracu vam ovaj odgovor)
+⏩Molim vas da me ne pitate za cenu, cena je ona sa oglasa, a u opisu je izmena cena ako je više proizvoda različitih na prodaji (najjeftinija je izložena na oglasu)
+⏩Stanje oglasa se ažurira sledećeg dana u 10h, ako je stanje: 1, 2 . . javljam da slučajno (tokom dana/noći) već nije drugi kupac kupio a da je lažno stanje.
+⏩Ne dolazim na pola puta ili gde vi kažete (molim da me ne pitate)
+> Može uplata na račun, tada vam je manja poštarina.
+✋ Lično preuzimanje POSLEDNJA SLIKA - Ulica Prvomajska 118c (kraj Prvomajske) Zemun.
+kod lukoil pumpe, to jest iza lukoil pumpe (ledja pumpe) (Tu su: perionica Stojanović, apoteka Rakić, Kladionica Taš i MaxBet) Najava pre dolaska.
+❗Ukoliko vidite da nema paketa dan-dva, obaveza vam je da me kontaktirate za broj za praćenje I da proverimo da li je ostavljen izveštaj… Realno obavezni ste kada naručite i da budete posvećeni tome da paket stigne do vas, tako da, ja se POTRUDIM da pošaljem a vi se POTRUDITE da preuzmete, i tako da smo se medjusobno ispoštovali. Hvala
+⚜️ Rok 7 dana od prijema paketa ukoliko postoji problem sa proizvodom, istestirajte dobro, posle 7 dana ne mogu pomoći, zamena ili vraćen novac prihvatam, tako da negativnu ocenu realno ne možete dati.
+❗Troškove slanja snosi kupac.
+❗Svaki proizvod mogu otvoriti i pregledati na vaš zahtev ali tada se povećava za dan dva slanje, uredji su odlični i za sad nije bilo problema i ako se šalju bez provere.
+❗Korisnici sa negativnim ocenama, novi korisnici, korisnici bez punih informacija, nazovite jer
+najviše problema ima sa takvim članovima, ne preuzimanje najčešće. Hvala.
+❗▶️❗Ako pošaljem očekujem da paket bude I preuzet od kurira ili iz pošte ako niste tu dostupni pa ostave u pošti (stoji 15 dana).

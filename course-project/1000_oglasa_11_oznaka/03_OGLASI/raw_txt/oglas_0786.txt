@@ -1,0 +1,44 @@
+TITLE:
+MSI GeForce RTX 5080 16G INSPIRE 3X OC grafička karta
+
+BODY:
+MSI GeForce RTX 5080 16G INSPIRE 3X OC grafička karta
+
+Grafički procesor
+Proizvođač čipa: nVidia
+Grafika: nVidia GeForce
+Model: GeForce RTX 5080
+Proizvođač kartice: MSI
+Serija: INSPIRE 3X
+Grafički čip: Blackwell
+Broj CUDA jezgara: 10752
+Radni takt: oko 2.295MHz (boost do oko 2.640MHz OC)
+Memorija
+Količina memorije: 16GB
+Magistrala memorije: 256bit
+Tip memorije: GDDR7
+Brzina memorije: 30Gbps
+Propusni opseg memorije: 960GB/s
+
+Priključci
+Ukupno DisplayPort priključaka: 3
+DisplayPort priključci: 3x DisplayPort 2.1b
+Ukupno HDMI priključaka: 1
+HDMI priključci: 1x HDMI 2.1b
+Dodatni naponski priključci: 1x16pin (12V-2x6)
+Ostale karakteristike
+Slot: PCI-Express 5.0 x16
+Broj ventilatora: 3x ventilatora
+Sistem hlađenja: STORMFORCE Fan Cooling
+Podržane tehnologije: OpenGL 4.6, Microsoft DirectX 12 Ultimate, nVidia DLSS 4, Ray Tracing, nVidia Reflex 2, CUDA, MSI Center, Afterburner
+Maksimalna rezolucija: 7.680 x 4.320
+Podrška za monitore: do 4 monitora
+Zero Frozr režim: Da
+SFF Ready: Da
+
+Fizičke karakteristike
+Dimenzije: oko 288mm x 112mm x 50mm
+Format: Pun format
+Boja: Zlatna / Crna
+
+Garancija 36 meseci

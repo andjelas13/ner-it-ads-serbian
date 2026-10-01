@@ -1,0 +1,56 @@
+TITLE:
+TwinMOS SSD M.2 NVMe 512GB 3500MBs/3080MBs NVMeFGBM2280
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+
+Brend
+TwinMOS
+
+Kapacitet
+128GB, 256GB, 512GB, 1TB, 2TB
+
+Kompatibilni OS
+Linux 2.4+, Mac 10.1+, Windows 10, Windows 7, Windows ME, Windows Vista, Windows XP, Windows® 2000
+
+Format
+M.2 2280
+
+Interface
+PCIe Gen 3.0×4
+
+Brzina citanja
+Up to 3550 MB/s
+
+Brzina upisa
+Up to 3225 MB/s
+brzina citanja (4K file)
+Up to 260 MB/s
+
+Brzina upisa (4K file)
+Up to 270 MB/s
+
+Cache Size
+2 GB (only in 2 TB Varient)
+
+Boja
+Black
+
+NAND Flash brend
+Micron/ Hynix
+
+NAND tip
+TLC 3D NAND
+
+SSD Controller Brand
+SMI
+
+Izdrzljivost
+1000 TB or 900 GB/Day
+
+Bridge Controller MTBF
+>1,000,000 hours
+
+31842
+
+Dsc

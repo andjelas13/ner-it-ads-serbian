@@ -1,0 +1,31 @@
+TITLE:
+Asus HD 7750 GDDR5 V2
+
+BODY:
+HD7750-1GD5-V2
+
+Ovo je jedan od najboljih modela ove kartice ako ne i najbolji.
+
+Razlog prodaje je taj što sam prešao na jaču.
+
+Dobra stvar kod ove grafičke je taj što joj nije potrebno dodatno napanaje, već samo matična može da je napaja.
+
+Može pokrenuti dobre igrice kao što su GTA V, Spintires, Ets2, Farming simulator 2017, Csgo...
+
+Specifikacije možete najbolje videti na ovom sajtu:
+
+U kratkim crtama:
+
+1GB GDDR5 128-bit V2
+
+TDP 55w
+
+Minimum napajanje je kako sajt kaže 250w, što je super
+
+Portovi:
+
+1xDvi
+
+1xHdmi
+
+1xDisplayPort

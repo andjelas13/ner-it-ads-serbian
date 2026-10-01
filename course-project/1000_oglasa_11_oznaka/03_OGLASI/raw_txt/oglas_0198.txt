@@ -1,0 +1,25 @@
+TITLE:
+Grafička (169) AMD Radeon HD 5450 - 512
+
+BODY:
+Ispravna PCI-E graficka kartica
+
+- Proizvodjac AMD
+
+- Radeon HD 5450
+
+- 1 X DV >?
+
+Ispravnost navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- Siemens - OS WIN 7-32 bit
+
+- P5Q - E-5300 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorijama.

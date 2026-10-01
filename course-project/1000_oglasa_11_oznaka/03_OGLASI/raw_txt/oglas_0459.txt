@@ -1,0 +1,17 @@
+TITLE:
+Hynix DDR2 - 1GB 800MHz
+
+BODY:
+Hynix PC2-6400U-666-12 - 1GB - 800 MHz
+
+ispravna, proverena memorija.
+
+Cena:
+
+1 komad - 1GB - 300 din
+
+2 komada - 2GB - 550 din
+
+4 komada 4GB - 800 din.
+
+Ukoliko uparujete više komada - sve su iste tako da rade bez problema i u dual chanell modu.

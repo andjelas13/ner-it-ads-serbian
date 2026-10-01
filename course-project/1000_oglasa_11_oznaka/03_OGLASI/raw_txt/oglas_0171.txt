@@ -1,0 +1,47 @@
+TITLE:
+Grafička GTX 1050 Pro 3Gb Rom
+
+BODY:
+Graficka kartica GTX PRO 1050 3 Gb. Stara 6 meseci. 3 godine garancijeNova je, , nema nigde ogrebotine, koristena je za probu 3 dana, uznju ide garantni list 3 godine, placena je 20, 700din u emmiju i najvaznije samo originale prodaju, znaci uz karticu ide garancija, kutija nova novcata, set sarafa u original kesici, origimal kesa za graficku kartu, sundjeri radi zastite fabricki, cd sa drajverima, knjiga sa upustvima, rasklopna karta sa semom. kartica bukvalno moze i da rudari bit koinse, necujna je, pokrece 98% novih igara-terminator, crisis3, dishonored 2, alan wakw 2, tom clancy winlands, witcher 3, tomb raider, vamir, gta 5, asasian cred sve nastavke i druge, , ima hdmi slot, vga, ddr5 je verzija, 3gb rom memorije, posto imam zavrsen fakultet informacionih nauka, po meni ovo je savrsena karta u srednjoj klasi, pokrece cak i igre od 4 i 6 gb roma, veoma je jaka, , , , nije koristena! ! ! ! drzi cenu. ko je kupi nece zazaliti! !
+
+NVIDIA GeForce GTX 1050 PRO
+
+Manufacturer NVIDIA
+
+Model GeForce GTX 1050 PRO
+
+Device ID 10DE-1C81
+
+Revision A2
+
+Subvendor ASUStek Computer Inc (1043)
+
+Current Performance Level Level 0
+
+Current GPU Clock 159 MHz
+
+Current Memory Clock 445 MHz
+
+Current Shader Clock 445 MHz
+
+Voltage 0. 675 V
+
+Technology 14 nm
+
+Bus Interface PCI Express x4
+
+Temperature 27 °C
+
+Driver version 26. 21. 14. 4587
+
+BIOS Version 86. 07. 39. 40. 1e
+
+Physical Memory 3 gb
+
+Virtual Memory 3 gb
+
+Count of performance levels : 1
+
+Level 1 - "Perf Level 0"
+
+GPU Clock 202 MHz

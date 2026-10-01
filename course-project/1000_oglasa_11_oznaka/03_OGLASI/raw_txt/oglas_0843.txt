@@ -1,0 +1,43 @@
+TITLE:
+LENOVO Monitor 23" 1920x1080 60Hz 4ms ThinkVision T24i-2L
+
+BODY:
+ISKALNI RACUN I GARANCIJA 3 GODINE!
+
+BESPLATNA DOSTAVA! *
+
+  * Dijagonala:  23.8"
+  * Tip panela:  IPS
+  * Rezolucija:  1920 x 1080
+  * Odnos strana:  16:9
+  * Osvetljenje:  250
+  * Ugao gledanja:  178/178
+  * Frekvencija osvežavanja ekrana:  60Hz
+Ime proizvođača    Lenovo
+Grupa    Monitori
+Dijagonala    23.8"
+Tip panela    IPS
+Rezolucija    1920 x 1080
+Odnos strana    16:9
+Osvetljenje    250
+Ugao gledanja    178/178
+Adaptivna sinhronizacija    AMD Freesync
+VGA    Da
+
+HDMI    1
+Display Port    1
+USB 3.0    4
+
+Frekvencija osvežavanja ekrana    60Hz
+Odziv (ms)    4ms
+Statički kontrast (XXX:1)    1000:1
+Dinamički kontrast (XXX:1)    3000000:1
+Audio out    Da
+Zvučnici    Da
+
+VESA    Da
+Pivot    Da
+Swivel    Da
+Podesivost po visini    Da
+Monitor LENOVO ThinkVision T24i-2L 23.8"/IPS 1920x1080/60Hz/4ms/VGA, HDMI, DP,4xUSB, Pivot, Swiwel/crna
+62B0MAR2EU

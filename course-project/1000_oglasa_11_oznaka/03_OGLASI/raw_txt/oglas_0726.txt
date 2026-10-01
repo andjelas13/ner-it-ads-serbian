@@ -1,0 +1,22 @@
+TITLE:
+PC NOVO AMD Ryzen 9 5900X / 32GB DDR4 RAM / AMD Radeon RX 69
+
+BODY:
+Sve naše konfiguracije prilagođavamo željama i potrebama kupaca, koristeći isključivo nove komponente.
+
+Ova konfiguracija predstavlja samo jedan od primera sistema koji možemo sastaviti po vašim specifikacijama.
+
+Vreme dostave poručene konfiguracije je od 3 do 5 radnih dana.
+
+Ovo je samo primer konfiguracije kakvu mozemo da sastavimo
+PC NOVO AMD Ryzen 9 5900X / 32GB DDR4 RAM / AMD Radeon RX 6900 XT / 2TB NVMe M.2
+Specifikacije:
+
+- Procesor: AMD Ryzen 9 5900X
+- Matična ploča: ASUS ROG Strix X570-E Gaming WiFi
+- Grafička kartica: AMD Radeon RX 6900 XT 16GB
+- RAM memorija: Corsair Vengeance RGB Pro DDR4 32GB (2x16GB) 3600MHz
+- SSD: Samsung 970 EVO Plus 2TB NVMe M.2
+- Napajanje: Corsair RM850x 850W 80+ Gold
+- Kućište: Phanteks Eclipse P500A
+- Hlađenje: NZXT Kraken X63 (280mm)

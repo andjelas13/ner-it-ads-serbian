@@ -1,0 +1,57 @@
+TITLE:
+Grafička GTX1650SUPER 4GB GDDR6 ZT-T16510F-10L
+
+BODY:
+Prodajem Zotakovu graficku.
+
+Ispravna. Kao nova. Nikad servisirana ili otvarana.
+
+GPUGeForce® GTX 1650 SUPER
+
+Cuda cores1280
+
+Video Memory4GB GDDR6
+
+Memory Bus128-bit
+
+Engine ClockBoost: 1725 MHz
+
+Memory Clock12 Gbps
+
+PCI Express3.0
+
+Display OutputsDisplayPort 1.4
+
+HDMI 2.0b
+
+Dual Link DVI-D
+
+HDCP SupportYes
+
+Multi Display CapabilityTriple Display
+
+Recommended Power Supply350W
+
+Power Consumption100W
+
+Power Input6-pin
+
+DirectX12 API feature level 12_1
+
+OpenGL4.6
+
+CoolingDual Fan
+
+Slot SizeDual Slot
+
+SLIN/A
+
+Supported OSWindows 10 / 7 64-bit
+
+Card Length158.5mm x 115.2mm x 35.3mm / 6.24in x 4.54in x 1.39in
+
+AccessoriesUser Manual
+
+edit:
+
+Kupac dobija 3D Mark Advance Edition karticu sa codom gratis.

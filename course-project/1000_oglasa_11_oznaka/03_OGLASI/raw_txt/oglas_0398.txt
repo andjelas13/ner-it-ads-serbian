@@ -1,0 +1,53 @@
+TITLE:
+EG-UPS-001 Gembird UPS sa stabilizatorom 650VA 4xs
+
+BODY:
+garancija 2 godine
+
+UPS with AVR, 650 VA
+
+ULTIMATE DEFENCE
+
+Table top design
+
+Provides backup power - prevents data loss
+
+Protects your sensitive and valuable equipment
+
+Compact and reliable - ideal for home and small office use
+
+Specifications
+
+Type: line interactive
+
+Waveform: sine wave (AC mains), modified (square) sine wave (battery)
+
+Input: 220 V AC ± 25%, 50 / 60 Hz ± 10%
+
+Output: 220 V AC ± 10%, 50 / 60 Hz ± 1% (220 V AC ± 5 % at inverter mode)
+
+Switching time: less than 10 ms
+
+Backup time: 10. ..30 mins (depends on the load)
+
+Battery: sealed lead-acid 12 V DC / 7Ah
+
+Charge time: up to 12 hours
+
+Sockets: 1 x C13 (input), 4 x Schuko (output)
+
+Operating conditions: 0° C~40° C, at humidity 20~90%RH non condensing
+
+Power: 650 VA (390 W)
+
+Charging current: up to 1.2 A
+
+Noise: < 45 dB at 1 m distance
+
+Dimensions: 280 x 185 x 95 mm
+
+Product weight: 4.5 kg
+
+System requirements
+
+In order to work correclty, the connected load should be at least 5% of the maximum capacity of the UPS. For example, a 700 W UPS needs at least a connected load of 35 W to work.

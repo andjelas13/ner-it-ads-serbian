@@ -1,0 +1,68 @@
+TITLE:
+Monitor PHILIPS 243V7QDSB/00 23.8/IPS/1920x1080
+
+BODY:
+* Monitor PHILIPS 243V7QDSB/00 23.8/IPS/1920x1080/75Hz/4ms GtG/VGA, DVI, HDMI/VESA
+  * Dijagonala: 23.6"
+  * Tip panela: IPS
+  * Rezolucija: 1920 x 1080
+  * Odnos strana: 16:9
+  * Osvetljenje: 250
+  * Ugao gledanja: 178/178
+  * Frekvencija osvežavanja ekrana: 75Hz
+
+Tehnički podaci:
+  * Šifra: 243V7QDSB/00
+  * EAN: 8712581742331
+  * Brend: Philips
+  * Grupa: Monitori
+  * Garancija: 3 godine
+  * Dijagonala: 23.6"
+  * Tip panela: IPS
+  * Rezolucija: 1920 x 1080
+  * Odnos strana: 16:9
+  * Osvetljenje: 250
+  * Ugao gledanja: 178/178
+  * VGA: Da
+  * DVI: 1
+  * HDMI: 1
+  * Display Port: 0
+  * USB 2.0: 0
+  * USB 3.0: 0
+  * USB Type-C: 0
+  * USB A: 0
+  * USB B: 0
+  * Frekvencija osvežavanja ekrana: 75Hz
+  * Odziv (ms): 5ms
+  * Statički kontrast (XXX:1): 1000:1
+  * Dinamički kontrast (XXX:1): 10000000:1
+  * Audio out: Da
+  * TV Tuner: Ne
+  * Zvučnici: Ne
+  * Touchscreen: Ne
+  * Zakrivljen ekran: Ne
+  * VESA: Da
+  * Pivot: Ne
+  * Swivel: Ne
+  * Podesivost po visini: Ne
+  * 3D funkcija: Ne
+  * WiFi: Ne
+  * Boja TV: Crna
+  * MP008
+NAPOMENA:
+
+  * Vikendom, praznicima i van radnog vremena call centra odgovaramo samo na KP poruke, na sms, viber, i pozive ne.
+  * Svi proizvodi su deo naše ponude i nisu uvek dostupni za poručivanje, zato Vas molimo da se prvo raspitate o dostupnosti željenog proizvoda.
+  * Proizvode možete poručiti preko sajta, ili putem telefona, sms, ili viber-a
+
+Za poručivanje potrebni su sledeći podaci:
+
+1. Ime i prezime
+2. Tačna adresa ( ulica i broj, mesto )
+3. Broj telefona
+4. E-mail adresa
+  * Troškove dostave snosi kupac, plaćanje pouzećem ili uplatom na račun.
+  * Roba je nova i neotpakovana, uz svaku porudžbinu dobija se račun i pripadajuća garancija.
+  * Zamena se vrši o trošku kupca, osim ako je u pitanju reklamacija.
+  * Kupac je dužan da po prijemu paketa u roku od 24h otvori i proveri paket da li je sve u redu.
+  * Nastojimo da budemo što precizniji u opisu proizvoda, prikazu slika i samih cena, ali ne možemo garantovati da su sve informacije kompletne i bez grešaka.

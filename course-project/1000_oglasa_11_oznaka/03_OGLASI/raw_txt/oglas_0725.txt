@@ -1,0 +1,51 @@
+TITLE:
+Mini PC Zeus MPI10-i323 Intel i3-1115G4 2C 4.1 GHz
+
+BODY:
+* Mini PC Zeus MPI10-i323 Intel i3-1115G4 2C 4.1 GHz/DDR4/LAN/Dual WiFi/BT/HDMI/DP/USB C/ext ANT
+
+Tehnički podaci:
+  * Šifra: MPI10-i323
+  * EAN: 8606027926044
+  * Brend: Zeus
+  * Klasa procesora: Intel Core i3
+  * Model: 1115G4
+  * Broj jezgara procesora: 2 (4 niti)
+  * Radni takt procesora: 2.1 GHz (4.1 GHz)
+  * Tip memorije: DDR4, maksimalno podržano 16GB
+  * Grafika: Intel® UHD Graphics for 10th Gen Intel® Processors
+  * Tip skladištenja: m.2 NVMe + SSD/HDD 2.5"
+  * Žična mreža (LAN): 10/100/1.000Mbps (Gigabit ethernet)
+  * Wi-Fi: Da
+  * Bežični mrežni standardi: 1x M.2 NGFF 2230 Slot for wifi (2.4GB/5.0GB) module
+  * Bluetooth: Da
+  * Bluetooth verzija: 4.2.
+  * HDMI priključci: 1
+  * DisplayPort priključci: 1
+  * Ukupno USB priključaka: 4
+  * USB 3.0 priključci: 2
+  * USB 2.0 priključci: 2
+  * RJ-45 (LAN): 1
+  * Audio: 1 x 3.5mm Audio Jack (MIC in / Line out Combo)
+  * USB-C 3.1: 1
+  * Model kućišta: MPI10
+  * Snaga: 40 W
+  * Dimenzije: 12.6 x 13 x 4.5cm
+  * MP023
+NAPOMENA:
+
+  * Vikendom, praznicima i van radnog vremena call centra odgovaramo samo na KP poruke, na sms, viber, i pozive ne.
+  * Svi proizvodi su deo naše ponude i nisu uvek dostupni za poručivanje, zato Vas molimo da se prvo raspitate o dostupnosti željenog proizvoda.
+  * Proizvode možete poručiti preko sajta, ili putem telefona, sms, ili viber-a
+
+Za poručivanje potrebni su sledeći podaci:
+
+1. Ime i prezime
+2. Tačna adresa ( ulica i broj, mesto )
+3. Broj telefona
+4. E-mail adresa
+  * Troškove dostave snosi kupac, plaćanje pouzećem ili uplatom na račun.
+  * Roba je nova i neotpakovana, uz svaku porudžbinu dobija se račun i pripadajuća garancija.
+  * Zamena se vrši o trošku kupca, osim ako je u pitanju reklamacija.
+  * Kupac je dužan da po prijemu paketa u roku od 24h otvori i proveri paket da li je sve u redu.
+  * Nastojimo da budemo što precizniji u opisu proizvoda, prikazu slika i samih cena, ali ne možemo garantovati da su sve informacije kompletne i bez grešaka.

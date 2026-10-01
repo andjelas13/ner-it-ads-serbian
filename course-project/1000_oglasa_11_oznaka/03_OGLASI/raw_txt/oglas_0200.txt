@@ -1,0 +1,39 @@
+TITLE:
+Grafička (146) Asus EN9800-HTDP-512M-A
+
+BODY:
+Ispravna PCI-E graficka kartica
+
+- Asus
+
+- EN9800-HTDP-512M-A
+
+- 2 X DVI izlaz
+
+- 1 X TV izlaz
+
+- 512 Mb
+
+- aktivno hladjenje za ogromnim hladnjakom
+
+- aktivno hladjenje sa velikom turbinom
+
+- potrebno kvalitetnije i jace napajanje za ovu karticu
+
+- potreban 6 - to pinski konektor
+
+Vrlo vazno
+
+Ispravnost navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- Siemens - OS WIN 7-32 bit
+
+- P5Q - E-5300 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorijama.

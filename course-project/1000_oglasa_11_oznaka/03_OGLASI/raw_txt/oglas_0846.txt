@@ -1,0 +1,31 @@
+TITLE:
+lcd tft monitor 10" lcd-lcd-lcd monitor
+
+BODY:
+Monitor 10.1"
+
+TFT monitor
+
+LCD monitor od 10.1 inča
+  * Monitor za video nadzor, tv, anycast uređaje, računare i sl.
+  * VGA konektor
+  * HDMI konektror
+  * USB 2.0 konektor
+  * Činč (AV, R, L) konektori, dva video ulaza i jedan audio ulaz
+  * BNC konektor
+  * Ugrađen zvučnik
+  * Napajanje: DC 12 V
+  * Aspect ratio : 16:10/16:9
+  * Podrška: MP5, wav, wma, amr, RM, RMVB, AVI, MPG, MPEG, Gif, BMP, JPG
+  * Kabal VGA se nazali u paketu
+  * Daljinski za monitor se nalazi u paketu
+  * Prilagodljivo postolje se nalazi u paketu
+  *  Dimenzije: Širina 25 cm x Visina 16,5 cm x Debljina 3,5 cm
+
+U paketu:
+
+  * Monitor 10.1 inča
+  * Daljinski za monitor
+  *  Napajanje DC 12 V
+  *  VGA kabal
+  * Samolepljiva 3M nalepnica

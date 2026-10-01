@@ -1,0 +1,23 @@
+TITLE:
+INTEL Core CPU Procesor i5-13600K 14-Core 3.50GHz (5.10GHz)
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+Klasa procesora    Intel® Core™ i5
+Model    13600K
+Broj jezgara procesora    14
+Broj logičkih jezgara (niti)    20
+Radni takt    3.5GHz
+Turbo frekvencija    5.10GHz
+Procesorsko ležište (socket)    Intel® 1700
+Keš memorija    24MB Intel® Smart Cache
+Proces izrade    10nm
+Arhitektura    64bit
+TDP    125W
+Podržane tehnologije    Intel® Quick Sync Video, Intel® Clear Video HD Technology, DirectX® 12, OpenGL 4.5, OpenCL 3.0
+Pakovanje    Box
+Napomena    Hladnjak se ne isporučuje u pakovanju
+
+27870
+
+Dsc

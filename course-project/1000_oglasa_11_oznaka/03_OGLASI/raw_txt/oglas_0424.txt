@@ -1,0 +1,41 @@
+TITLE:
+Ram + matična + kuler + procesor
+
+BODY:
+Nista nije testirano i zbog toga ide kao neispravno
+
+na kuleru je polomljena jedna nozica
+
+processor je ok
+
+ram 2x 256mb
+
+i maticna:
+
+cpu - lga 775 for intel® pentium® xe / pentium® d / pentium® 4 / celeron® d
+
+- fsb 1066* mhz for external graphics (by overclocking)
+
+- fsb 800/533 mhz for internal graphics
+
+- supports hyper-threading technology
+
+- supports untied overclocking technology
+
+- supports em64t cpu
+
+*fsb1066-cpu is supported by overclocking only when you adopt an external vga card and ddr400 cl2.5 memory modules.
+
+Chipset - northbridge: intel® 865g
+
+- southbridge: intel® ich5
+
+memory - dual channel ddr memory technology
+
+- 2 x ddr dimm slots
+
+- supports ddr400/333/266 non-ecc, un-buffered memory
+
+- max. Capacity of system memory: 2gb
+
+za vise informacija postavite mi pitanje

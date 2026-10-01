@@ -1,0 +1,27 @@
+TITLE:
+Caddy-fioke 2.5/3.5inča HP G5/G6/G7/G8/G9/G10,Dell
+
+BODY:
+Caddy-kasete-fioke za SAS/SATA diskove veličine 2.5` i 3.5".
+
+Za sve HP Proliant servere Generacije G1/G2/G3/G4/G5/G6/G7/G8 /G9 i G10 koji koriste 2.5 /3.5 inča SAS/SATA diskove.
+
+Oznake:
+HP2.5` SFF 371593-001 - HP G1/G2/G3/G4/G5/G6/G7 ,
+2.5` SFF 651687-001 - HP G8/G9/G10,
+3.5` LFF 373211-002 - HP G3 G4 G5 G6 G7,
+3.5` LFF 651314-001 - HP G8/G9/G10 ,
+Dell
+3.5` F238F - Dell PowerEdge R310. . . PowerVault MD1200,
+3.5` X7K8W - Dell Gen 14 R740 R740xd R440 R540 R940 R640,
+2.5" 8FKXC - Dell R900/M915/T710/6950/R730XD,
+3.5" na 2.5" Caddy adapter Dell 9W8C4 Y004G F238,
+2.5" Caddy-Filler DELL RJ8J9 G14 R640 R740 R940,
+NetApp
+3.5" 0095673-10 HN-600G15-SAS-VC-NA,
+Huawei
+2.5` RH1288 V3.
+
+Adapteri sa 2.5" na 3.5" za HD/SSD, Dell i HP caddy-je.
+
+NOVO!

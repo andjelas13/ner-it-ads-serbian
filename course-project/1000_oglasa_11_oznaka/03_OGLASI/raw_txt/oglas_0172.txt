@@ -1,0 +1,17 @@
+TITLE:
+Grafička kartica AMD Radeon RX470
+
+BODY:
+Nova ispravna graficka karta AMD Radeon RX470
+XFX OC 4GB GDDR5, 3x DP/HDMI/DL-DVI-D/256bit/RX-470P4LFB6
+Model RX-470P4LFB6
+Oznaka čipa RX470
+Brzina grafičkog čipa GPU Clock: 1226MHz; Memory Clock: 7000Mhz
+DirectX DirectX™ 12 Support OpenGL 4.5 Support
+Tip memorije DDR5
+Količina memorije 4GB
+Memorijska magistrala 256bit
+Hlađenje Dual Unibody Hard Swap
+Naponski konektori 6-pin
+Dimenzije 24 x 12.1 x 4 cm
+Ventilatori su tako patentirani, da ih u svakom trenutku možete nadograditi jednostavnim skidanjem sa karte. Sa svojim visoko kvalitetnim Unibody hladnjakom ostvaruje se i do 40% bolje hlađenje.

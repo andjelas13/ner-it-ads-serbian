@@ -1,0 +1,268 @@
+﻿case_id,ad_id,field,structural_category,primary_label,context,human_spans,llm_spans,decision_for_report,explanation_for_report
+K0036,68,body,GRANICA_I_OZNAKA,RAM,"r Base Frequency - 2.40 GHz
+Cache - 2 MB Intel® Smart Cache
+Bus Speed - 5 GT/s
+TDP - 35 W
+Max Memory Size (dependent on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 2","[{""start"": 586, ""end"": 591, ""label"": ""RAM"", ""text"": ""32 GB""}]","[{""start"": 541, ""end"": 591, ""label"": ""CPU"", ""text"": ""Max Memory Size (dependent on memory type) - 32 GB""}]",NIJEDNA,
+K0039,68,body,GRANICA_I_OZNAKA,RAM," on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 25.6 GB/s
+GPU Name‡ - Intel® HD Graphics for 3rd Generation Intel® Processors
+Graphics Base Frequen","[{""start"": 680, ""end"": 689, ""label"": ""RAM"", ""text"": ""25.6 GB/s""}]","[{""start"": 657, ""end"": 689, ""label"": ""CPU"", ""text"": ""Max Memory Bandwidth - 25.6 GB/s""}]",NIJEDNA,
+K0042,68,body,GRANICA_SIRA,GPU,"Intel® HD Graphics for 3rd Generation Intel® Processors
+Graphics Base Frequency - 650 MHz
+Graphics Max Dynamic Frequency - 1.10 GHz
+Graphics Output - eDP/DP/HDMI/SDVO/CRT
+PCI Express Revision - 2.0
+PCI Express Configurati","[{""start"": 825, ""end"": 833, ""label"": ""GPU"", ""text"": ""1.10 GHz""}]","[{""start"": 792, ""end"": 833, ""label"": ""GPU"", ""text"": ""Graphics Max Dynamic Frequency - 1.10 GHz""}]",RUCNA,
+K0072,88,body,FRAGMENTACIJA,SKLADISTE,"9 mb cache memorije)
+
+memorija: 16 gb ddr4-2666 sdram
+
+hard disk: samsung 256gb nvme ssd (čitanje 3000 mb/s, upis 1300 mb/s)
+
+grafika: intel® uhd graphics 630
+
+portovi (napred):
+
+2x usb 3.0
+
+1x usb type-c gen 2
+
+2","[{""start"": 466, ""end"": 499, ""label"": ""SKLADISTE"", ""text"": ""čitanje 3000 mb/s, upis 1300 mb/s""}]","[{""start"": 474, ""end"": 483, ""label"": ""SKLADISTE"", ""text"": ""3000 mb/s""}, {""start"": 490, ""end"": 499, ""label"": ""SKLADISTE"", ""text"": ""1300 mb/s""}]",LLM,
+K0125,132,body,FRAGMENTACIJA,CPU,"DELL OptiPlex 990 SFF
+
+-Kuciste: Dell
+
+-Model: OptiPlex 990 SFF
+
+-Procesor: Intel® Core™ i3-2100 Processor 3M Cache, 3. 10 GHz
+
+-Socket: FCLGA1155
+
+-Chipset: Intel Q67 Express
+
+-Hard disk: 250gb
+
+-Ram memorija: 4GB D","[{""start"": 76, ""end"": 126, ""label"": ""CPU"", ""text"": ""Intel® Core™ i3-2100 Processor 3M Cache, 3. 10 GHz""}]","[{""start"": 76, ""end"": 96, ""label"": ""CPU"", ""text"": ""Intel® Core™ i3-2100""}, {""start"": 107, ""end"": 126, ""label"": ""CPU"", ""text"": ""3M Cache, 3. 10 GHz""}]",OBE,
+K0146,146,body,SUVISNO,GPU," paket 2021 word excel . . .
+
+sve radi i sve je ispravno
+
+konekcija sa monitorom je preko Displej porta, ukoliko kupac zeli da se poveze sa HDMI konektorom doplata za adapter DP na HDMI je 5e
+
+",[],"[{""start"": 693, ""end"": 706, ""label"": ""GPU"", ""text"": ""Displej porta""}]",OBE,
+K0149,147,body,SUVISNO,SKLADISTE,"D 9250 (64)
+
+HDD: Western Digital 80GB (WDC WD800BB), 7. 200 RPM, IDE interfejs.
+
+Optika: HL-DT-ST DVD-RAM pisač.
+
+Matična ploča: K8U (Gigabyte).
+
+Stanje i napomene:
+
+VAŽNO: Kućištu fale prednji p",[],"[{""start"": 303, ""end"": 319, ""label"": ""SKLADISTE"", ""text"": ""HL-DT-ST DVD-RAM""}]",LLM,
+K0152,149,body,FRAGMENTACIJA,SKLADISTE,"KC (6 slotova za RAM)
+PODRŽAVA DDR2 I DDR3
+Procesor: Intel 4600 2,4Ghz RAM: 2Gb DDR3
+HDD: Kingston SSD 240Gb
+Grafička: Nvidia 9300 512Mb
+Mrežna
+Zvučna
+Kućište CODEGEN
+
+Računar radi odlično iako ima ","[{""start"": 104, ""end"": 122, ""label"": ""SKLADISTE"", ""text"": ""Kingston SSD 240Gb""}]","[{""start"": 104, ""end"": 112, ""label"": ""SKLADISTE"", ""text"": ""Kingston""}, {""start"": 117, ""end"": 122, ""label"": ""SKLADISTE"", ""text"": ""240Gb""}]",LLM,
+K0157,152,body,SPAJANJE,CPU,"i3-7100-sedma generacija mn.2 disk
+
+Procesor : Intel i3-7100 dual core windows ga vidi 4x 3900mhz. soket 1151
+
+Maticna : Biostar btc 250 ima mogucnosta za 6x minringa(graficki kartica)
+
+Ram : 8gb ddr","[{""start"": 47, ""end"": 70, ""label"": ""CPU"", ""text"": ""Intel i3-7100 dual core""}, {""start"": 87, ""end"": 97, ""label"": ""CPU"", ""text"": ""4x 3900mhz""}, {""start"": 99, ""end"": 109, ""label"": ""CPU"", ""text"": ""soket 1151""}]","[{""start"": 47, ""end"": 109, ""label"": ""CPU"", ""text"": ""Intel i3-7100 dual core windows ga vidi 4x 3900mhz. soket 1151""}]",RUCNA,
+K0237,201,body,GRANICA_SIRA,GPU,"Ispravna PCI-E graficka kartica
+
+- Asus
+
+- Radeon X1650PRO 512M
+
+- 2 X DVI izlaz
+
+- 1 x TV izlaz
+
+- 512 Mb
+
+- hladnjak sa ispravnom turbinom
+
+Vrlo vazno
+
+Ispravnost naved","[{""start"": 67, ""end"": 74, ""label"": ""GPU"", ""text"": ""2 X DVI""}]","[{""start"": 67, ""end"": 80, ""label"": ""GPU"", ""text"": ""2 X DVI izlaz""}]",RUCNA,
+K0251,209,body,FRAGMENTACIJA,GPU,"Na prodaju odlična grafička karta Palit GeForce GTX 560 Ti sa 1GB GDDR5 memorije na 256bit-a, sa izlazima 1x VGA, 2x Dual-DVI i 1x HDMI. Inače Palit je čuveni i ","[{""start"": 34, ""end"": 71, ""label"": ""GPU"", ""text"": ""Palit GeForce GTX 560 Ti sa 1GB GDDR5""}]","[{""start"": 34, ""end"": 58, ""label"": ""GPU"", ""text"": ""Palit GeForce GTX 560 Ti""}, {""start"": 62, ""end"": 71, ""label"": ""GPU"", ""text"": ""1GB GDDR5""}]",LLM,
+K0273,220,body,SPAJANJE,CENA,"o nov i savrseno ocuvan predmet,kako ne bi doslo do eventualnih nesuglasica.
+
+Fiksna cena 35400 dinara / 300 eura, bez ostalih predloga, molim.","[{""start"": 1383, ""end"": 1395, ""label"": ""CENA"", ""text"": ""35400 dinara""}, {""start"": 1398, ""end"": 1406, ""label"": ""CENA"", ""text"": ""300 eura""}]","[{""start"": 1383, ""end"": 1406, ""label"": ""CENA"", ""text"": ""35400 dinara / 300 eura""}]",OBE,
+K0327,288,body,SUVISNO,SKLADISTE,"
+
+Procesor: AMD E1 2100 Processor 1.00ghz
+
+Memorija: 4GB DDR3
+
+Hard disk: 500gb perfektan 100/100
+
+Graficka karta: AMD RADEON HD 8210
+
+Operativni sistem: Windows 10
+
+Optički uređaj: DVD
+
+",[],"[{""start"": 167, ""end"": 174, ""label"": ""SKLADISTE"", ""text"": ""100/100""}]",LLM,
+K0447,462,body,GRANICA_UZA,RAM,"Ispravna serverska DDR3 memorija
+
+- Micron
+
+- 4Gb 2RX4 PC3-10600R-9-10-JP
+
+- brzina 1333 MHz
+
+- 4096 Mb/1333 MHz
+","[{""start"": 9, ""end"": 23, ""label"": ""RAM"", ""text"": ""serverska DDR3""}]","[{""start"": 19, ""end"": 23, ""label"": ""RAM"", ""text"": ""DDR3""}]",OBE,
+K0464,488,body,SPAJANJE,SKLADISTE,Na prodaju sata 2.5' hard disk za laptopove. U hd sentinelu pokazuje 100% health i 100% performance. Prodaje se kao polovan. za sva pitanja vam stojim na raspolaganju.,"[{""start"": 69, ""end"": 73, ""label"": ""SKLADISTE"", ""text"": ""100%""}, {""start"": 83, ""end"": 87, ""label"": ""SKLADISTE"", ""text"": ""100%""}]","[{""start"": 69, ""end"": 99, ""label"": ""SKLADISTE"", ""text"": ""100% health i 100% performance""}]",RUCNA,
+K0481,499,body,GRANICA_SIRA,SKLADISTE,"Nove Kingston USB memorije 32-256GB, u originalnom pakovanju sa garancijom 5 godina, visok kvalitet i brzin","[{""start"": 5, ""end"": 13, ""label"": ""SKLADISTE"", ""text"": ""Kingston""}]","[{""start"": 5, ""end"": 17, ""label"": ""SKLADISTE"", ""text"": ""Kingston USB""}]",LLM,
+K0553,668,body,GRANICA_UZA,RAM,"Apple iPhone 6s (baterija crkla), odlično očuvan, sistem je iOS 15.7.9, ima 2Gb RAM i 32Gb interne flash memorije. Baterija je crkla, treba da se zameni, neće da uključi tel","[{""start"": 76, ""end"": 83, ""label"": ""RAM"", ""text"": ""2Gb RAM""}]","[{""start"": 76, ""end"": 79, ""label"": ""RAM"", ""text"": ""2Gb""}]",LLM,
+K0611,713,body,SUVISNO,CENA," 750
+Maksimalna brzina memorije     DDR4-3200 MHz
+Maksimalna podržana memorija    128 GB
+
+23900
+
+Dsc",[],"[{""start"": 401, ""end"": 406, ""label"": ""CENA"", ""text"": ""23900""}]",RUCNA,
+K0615,715,body,POGRESNA_OZNAKA,CPU," : 25MB
+Proizvodni proces    14nm
+TDP    190W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 770
+Maksimalna brzina memorije     DDR4-3200 MHz / DDR5-4800 MHz
+Maksimalna podržana memorija","[{""start"": 274, ""end"": 297, ""label"": ""CPU"", ""text"": ""Intel® UHD Graphics 770""}]","[{""start"": 274, ""end"": 297, ""label"": ""GPU"", ""text"": ""Intel® UHD Graphics 770""}]",LLM,
+K0634,735,body,GRANICA_UZA,SKLADISTE,".60GHz LGA-1200 BOX Intel
+  * GIGABYTE H410M ( vise modela)
+  * RAM : 16GB DDR4
+  * SSD : 512GB SSD
+  * Grafička kartica: Gtx 1060  (Više modela na stanju! )
+  *  Napajanje: 650 80+ (BeQuie","[{""start"": 252, ""end"": 261, ""label"": ""SKLADISTE"", ""text"": ""512GB SSD""}]","[{""start"": 252, ""end"": 257, ""label"": ""SKLADISTE"", ""text"": ""512GB""}]",LLM,
+K0663,753,body,PROPUSTENO,CENA,"pter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . (slika 6) cena 170e PRODATO
+5. NUC 8i7BEH
+    procesor: i7-8559 2.70Ghz up to 4.50Ghz 8MB
+    memorija: 16gb ","[{""start"": 1276, ""end"": 1280, ""label"": ""CENA"", ""text"": ""170e""}]",[],OBE,
+K0713,773,body,GRANICA_SIRA,GPU,"a grafičke: 12 GB
+  * Memorijska magistrala: 192-bit
+  * Interface: Support PCI-E 4.0
+  * Broj HDMI portova: 1
+  * Broj DisplayPortova: 3
+  * Dimenzije: 242*130*44 mm
+  * Prava potrošača: : Zakonska s","[{""start"": 496, ""end"": 497, ""label"": ""GPU"", ""text"": ""1""}]","[{""start"": 477, ""end"": 497, ""label"": ""GPU"", ""text"": ""Broj HDMI portova: 1""}]",RUCNA,
+K0724,786,body,GRANICA_UZA,GPU,", CUDA, MSI Center, Afterburner
+Maksimalna rezolucija: 7.680 x 4.320
+Podrška za monitore: do 4 monitora
+Zero Frozr režim: Da
+SFF Ready: Da
+
+Fizičke karakteristike
+Dimenzije: oko 288mm x 112mm x","[{""start"": 940, ""end"": 953, ""label"": ""GPU"", ""text"": ""do 4 monitora""}]","[{""start"": 940, ""end"": 944, ""label"": ""GPU"", ""text"": ""do 4""}]",RUCNA,
+K0751,793,body,FRAGMENTACIJA,SKLADISTE,"0 GHz
+Memorija
+16GB DDR4
+Intel®
+UHD Graphics 630
++ nVidia mx150 2GB DDR5
+(GTX1050 mobile)
+Micron
+512GB NVMe
+Webcam
+HD 720p
+Stereo speakers , microphone, zvucnici
+nadprosecnog kvaliteta
+zvuka
+Intel
+","[{""start"": 523, ""end"": 540, ""label"": ""SKLADISTE"", ""text"": ""Micron\n512GB NVMe""}]","[{""start"": 523, ""end"": 529, ""label"": ""SKLADISTE"", ""text"": ""Micron""}, {""start"": 530, ""end"": 540, ""label"": ""SKLADISTE"", ""text"": ""512GB NVMe""}]",RUCNA,
+K0764,800,body,GRANICA_UZA,CENA," namene. Preko 500 racunara prodatih do sada. Garancija na ispravnost. Cene povoljne, vec od 60-80 EUR
+Milan (Najbolje upit za slike, modele i cene). Viber/Sms
+063 77 55 725
+Takodje vršim uslu","[{""start"": 372, ""end"": 384, ""label"": ""CENA"", ""text"": ""od 60-80 EUR""}]","[{""start"": 375, ""end"": 384, ""label"": ""CENA"", ""text"": ""60-80 EUR""}]",RUCNA,
+K0771,804,body,POGRESNA_OZNAKA,SKLADISTE,"TET BEZ KOMPROMISA ! ! ! ! !
+Profesionalni DELL Latitude 5401 , Intel i7-9850H procesor , 32
+GB DDR4 memorije
+, brzi
+SSD M2 NVME
+od
+512
+GB
+i najnovijim
+Windows 11 25H2
++ Office paket","[{""start"": 240, ""end"": 242, ""label"": ""SKLADISTE"", ""text"": ""32""}]","[{""start"": 240, ""end"": 242, ""label"": ""RAM"", ""text"": ""32""}]",NIJEDNA,
+K0774,804,body,POGRESNA_OZNAKA,SKLADISTE,"sta kvalitetnih programa za rad !
+Procesor:
+Intel Core i7-9850H (Intel CPU 9th)
+Memorija:
+32 GB DDR4
+Hard disk:
+512
+GB
+- SSD M2 Nvme
+Grafika:
+INTEL UHD Graphics 630
+Ekran
+: IPS
+Slim LED FHD ","[{""start"": 427, ""end"": 437, ""label"": ""SKLADISTE"", ""text"": ""32 GB DDR4""}]","[{""start"": 427, ""end"": 437, ""label"": ""RAM"", ""text"": ""32 GB DDR4""}]",LLM,
+K0781,810,body,FRAGMENTACIJA,CENA,"u ponudi kvalitetni laptopovi iz uvoza svih generacija.
+cene idu od 100e pa do 800e.
+ima raznih brendova, uglavnom HP DELL LENOVO
+svi dolaze sa ssd diskovima!
+najbolje doci ","[{""start"": 65, ""end"": 83, ""label"": ""CENA"", ""text"": ""od 100e pa do 800e""}]","[{""start"": 68, ""end"": 72, ""label"": ""CENA"", ""text"": ""100e""}, {""start"": 79, ""end"": 83, ""label"": ""CENA"", ""text"": ""800e""}]",RUCNA,
+K0857,874,body,FRAGMENTACIJA,RAM,"Na prodaju 4gb, 8gb, 16gb, 32gb ddr3 ddr4 ddr5 za racunare i laptopove raznih prozivodjaca i raznih jacina.
+
+Memorije su testr","[{""start"": 27, ""end"": 36, ""label"": ""RAM"", ""text"": ""32gb ddr3""}]","[{""start"": 27, ""end"": 31, ""label"": ""RAM"", ""text"": ""32gb""}, {""start"": 32, ""end"": 36, ""label"": ""RAM"", ""text"": ""ddr3""}]",LLM,
+K0870,880,body,SPAJANJE,RAM,"DR4-2400 CL17-17-17 @ 1.2V
+-XMP Profile #1: DDR4-3200 CL16-18-18 @ 1.35V
+-XMP Profile #2: DDR4-3000 CL15-17-17 @ 1.35V
+-Power Supply: VDD = 1.2V Typical
+-VDDQ = 1.2V Typical
+-VPP = 2.5V Typical
+-VDDSPD = 2.2V","[{""start"": 804, ""end"": 824, ""label"": ""RAM"", ""text"": ""DDR4-3000 CL15-17-17""}, {""start"": 827, ""end"": 832, ""label"": ""RAM"", ""text"": ""1.35V""}]","[{""start"": 804, ""end"": 832, ""label"": ""RAM"", ""text"": ""DDR4-3000 CL15-17-17 @ 1.35V""}]",LLM,
+K0911,883,body,GRANICA_SIRA,RAM,"Active/Refresh: 295ns(min. )
+Command Time (tRFCmin)
+Row Active Time (tRASmin):32ns(min. )
+UL Rating: 94 V - 0
+Operating Temperature: 0o
+ C to +85o
+ C
+Storage Temperature: -55o
+ C to +100o","[{""start"": 1023, ""end"": 1031, ""label"": ""RAM"", ""text"": ""94 V - 0""}]","[{""start"": 1012, ""end"": 1031, ""label"": ""RAM"", ""text"": ""UL Rating: 94 V - 0""}]",RUCNA,
+K0921,887,body,GRANICA_SIRA,CENA," desktop
+4Gb - 1000din/kom  4 na stanju
+8Gb - 2000din/kom  6 na stanju
+DDR4 desktop
+4Gb - 1500din/kom nema na stanju
+8Gb-3500din/kom  8 na stanju
+4Gb sa hladnjacima 2000din/kom nema na stanju","[{""start"": 94, ""end"": 101, ""label"": ""CENA"", ""text"": ""1500din""}]","[{""start"": 94, ""end"": 105, ""label"": ""CENA"", ""text"": ""1500din/kom""}]",LLM,
+K1030,917,body,GRANICA_SIRA,CENA,"ez kutija!
+Kingston 1TB NV3 Gen4 sa heatsinkom - 13500 din.
+Kingston 1TB NV2 bez kutije - 12000 din.
+SK Hynix 1TB Gen4 - kao nov - 14500 din.
+Micron Pyrite 1TB Gen4 2242 format - kao nov - 1","[{""start"": 1414, ""end"": 1423, ""label"": ""CENA"", ""text"": ""12000 din""}]","[{""start"": 1414, ""end"": 1424, ""label"": ""CENA"", ""text"": ""12000 din.""}]",RUCNA,
+K1072,936,body,GRANICA_SIRA,CPU,"inicije (HD)WUXGA
+Procesor
+Proizvođač procesoraUnisoc
+ProcesorT610
+Takt procesora1,82 GHz
+Jezgra procesora8
+Memorija
+Interna memorija4 GB
+Vrsta interne memorijeLPDDR4x-SDRAM
+Maksimalna veličina int","[{""start"": 616, ""end"": 617, ""label"": ""CPU"", ""text"": ""8""}]","[{""start"": 600, ""end"": 617, ""label"": ""CPU"", ""text"": ""Jezgra procesora8""}]",RUCNA,
+K1090,951,body,SUVISNO,CENA,"500rsd ili 40w po ceni od 2200rsd.
+2) Zastita za ekran: Ultimativno plastificirano staklo 2200rsd ili UV Ultimate zastita 1600rsd ili Armor protection zastita 1200rsd
+✚ Nacin dostave:   P",[],"[{""start"": 743, ""end"": 750, ""label"": ""CENA"", ""text"": ""2200rsd""}]",LLM,

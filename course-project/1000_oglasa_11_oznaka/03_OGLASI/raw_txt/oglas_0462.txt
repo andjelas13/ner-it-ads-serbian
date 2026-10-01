@@ -1,0 +1,17 @@
+TITLE:
+Memorija DDR 3 (102) Micron 4Gb 2RX4 PC3-10600R-9-
+
+BODY:
+Ispravna serverska DDR3 memorija
+
+- Micron
+
+- 4Gb 2RX4 PC3-10600R-9-10-JP
+
+- brzina 1333 MHz
+
+- 4096 Mb/1333 MHz
+
+- kvalitetan modul memorije
+
+- memorija izvadjena iz HP server racunara

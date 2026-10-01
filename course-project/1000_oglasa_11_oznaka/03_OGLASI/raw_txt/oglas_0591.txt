@@ -1,0 +1,35 @@
+TITLE:
+XP-PEN Deco LW bežični grafički tablet, 10x6
+
+BODY:
+XP-PEN Deco LW bežični grafički tablet, 10"x6" – crni
+
+Model olovke: X3 Elite
+
+Tehnologija olovke: pasivna (bez baterije)
+
+Tehnologija olovke: elektromagnetna rezonanca bez baterije
+
+Nagib olovke: do 60°
+
+Interfejs: USB-C
+
+Ulazna snaga: DC 5V/1A
+
+Bluetooth: 5. 0
+
+Baterija: 1000 mAh / 3. 7 V
+
+Vreme rada: 10 sati
+
+Nivoi pritiska: 8192
+
+Brzina odziva: 220 RPS (maksimalno)
+
+Rezolucija: 5080 LPI
+
+Kompatibilnost: Windows / MacOS / Chrome / Linux / Android / iOS / iPadOS
+
+Dimenzije: 315 x 187 x 8, 8 mm
+
+Težina: 456 g

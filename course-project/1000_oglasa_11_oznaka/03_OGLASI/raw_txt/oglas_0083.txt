@@ -1,0 +1,7 @@
+TITLE:
+Intel Pentium DualCore E5300 775 2x 2.60Ghz 2MB
+
+BODY:
+Intel Pentium DualCore E5300 procesor, socket 775, frekvencija 2x 2.60Ghz, cache 2MB
+
+Proveren, testiran, ispravan

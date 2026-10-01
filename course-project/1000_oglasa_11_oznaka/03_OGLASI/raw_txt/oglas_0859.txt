@@ -1,0 +1,11 @@
+TITLE:
+Gejmerski Monitor 27 165hz ,1 ms Aoc 27g2sae/bk
+
+BODY:
+AOC 27G2SAE/BK je  gejming monitor koji nudi odličan balans performansi i cene, sa specifikacijama kao što su 165Hz osvežavanje i 1ms odziv.      Karakteristike i performanse Ovaj monitor je prvenstveno dizajniran za gejmere koji traže brzo i fluidno iskustvo igranja bez visokih troškova.
+  * Visoka brzina osvežavanja: Sa maksimalnom brzinom osvežavanja od 165 Hz, monitor pruža izuzetno glatku sliku, što je značajno bolje od standardnih 60 Hz i ključno za kompetitivno igranje.
+  * Brz odziv: Vreme odziva od 1 ms MPRT (Moving Picture Response Time) dodatno smanjuje zamućenje pokreta (motion blur) i ghosting, omogućavajući brze reakcije u igrama.
+  * Tehnologija adaptivne sinhronizacije: Uključuje AMD FreeSync Premium tehnologiju, koja sinhronizuje brzinu osvežavanja monitora sa grafičkom karticom, eliminišući cepanje ekrana (screen tearing) i seckanje (stuttering).
+  * VA panel: Koristi VA (Vertical Alignment) panel, koji nudi odličan statički kontrast od 3000:1, što rezultira dubljim crnim tonovima u poređenju sa IPS panelima.
+  * Full HD rezolucija: Rezolucija ekrana je 1920x1080 (Full HD) na dijagonali od 27 inča. Neki korisnici i recenzenti navode da na ovoj veličini ekrana, Full HD rezolucija možda neće biti dovoljno oštra za sve ukuse, što je uobičajen kompromis kod budžetskih 27-inčnih monitora.
+  * Integrisani zvučnici: Monitor poseduje ugrađene zvučnike od 2W, ali prema mišljenjima recenzenata, kvalitet zvuka je osrednji, pa se preporučuju eksterni zvučnici ili slušalice za bolje audio iskustvo.

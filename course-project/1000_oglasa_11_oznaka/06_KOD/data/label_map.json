@@ -1,0 +1,40 @@
+{
+  "entity_labels": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "SKLADISTE",
+    "EKRAN",
+    "BATERIJA",
+    "BRAND",
+    "MODEL",
+    "GARANCIJA",
+    "CENA",
+    "MESTO"
+  ],
+  "bio_labels": [
+    "O",
+    "B-CPU",
+    "I-CPU",
+    "B-GPU",
+    "I-GPU",
+    "B-RAM",
+    "I-RAM",
+    "B-SKLADISTE",
+    "I-SKLADISTE",
+    "B-EKRAN",
+    "I-EKRAN",
+    "B-BATERIJA",
+    "I-BATERIJA",
+    "B-BRAND",
+    "I-BRAND",
+    "B-MODEL",
+    "I-MODEL",
+    "B-GARANCIJA",
+    "I-GARANCIJA",
+    "B-CENA",
+    "I-CENA",
+    "B-MESTO",
+    "I-MESTO"
+  ]
+}

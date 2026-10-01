@@ -1,0 +1,8 @@
+TITLE:
+Procesor CPU Intel i5-2410M
+
+BODY:
+Korisceno, testirano, ispravno.
+
+Model: i5-2410m
+#731/1

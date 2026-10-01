@@ -1,0 +1,43 @@
+TITLE:
+Matična (65) Asus P5B MX
+
+BODY:
+Ispravna maticna ploca + CPU + Kuler + Memorija
+
+sledecih karakteristika
+
+- Ploca Asus
+
+- Tip P5B MX
+
+- Procesor Intel Socket 775 LGA
+
+Intel Celeron D420 /1, 6 GHz / 800 MHz - kuler
+
+- Memorija DDR 2
+
+1 Gb PC2-5300
+
+- intrisana graficka kartica VGA
+
+- PCI 16 Expres slot za graficku karticu
+
+- LAN prikljucak
+
+- 6, 1 analogni inalogni izlazi za pojacalo
+
+- 4 Sata konektora
+
+- 1 Ata Konektor
+
+- 6 USB prikljucka (4 out + 2 Front)
+
+- Serijski port
+
+- Paralelni port
+
+- NEMA zadnji limcic
+
+MATICNA PLOCA PRILIKOM STARTOVANJA PALI I NORMALNO GASI.
+
+NORMALNO JE INSTALIRAN OS WINDOWS 7.

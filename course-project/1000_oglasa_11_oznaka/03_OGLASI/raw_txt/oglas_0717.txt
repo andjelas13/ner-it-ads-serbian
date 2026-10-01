@@ -1,0 +1,20 @@
+TITLE:
+AMD Procesor CPU AM4 Ryzen 3 2200G 3.7GHz Wraith C.65W
+
+BODY:
+FISKALNI RACUN I GARANCIJA 2 GODINE!
+
+Podno? 3/4 je    AMD® AM4
+Tip procesora    AMD® Ryzen 3
+Broj jezgara    4
+Threads    4
+TDP    65W
+Radna frekvencija    3.5GHz
+Turbo frekvencija    3.7GHz
+L2 keš memorija    2MB
+L3 keš memorija    4MB
+Integrisani grafiÄ ? ki procesor    Radeon Vega 8
+
+17845
+
+Dsc

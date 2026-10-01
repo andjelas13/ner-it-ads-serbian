@@ -1,0 +1,78 @@
+TITLE:
+Mini PC racunari - Veliki izbor - i3, i5, i7 - 6-14 gen
+
+BODY:
+U ponudi vise modela mini pc racunara - korisceni, ispravni testirani, u odlicnom stanju
+SVE NAVEDENI MODELI SU NA STANJU.
+
+Zasto Mini PC?
+  * Izuzetno malih dimenzija, ne zauzimaju prostor (manje od 18x18x4 cm)
+  * Neuporedivo tisi u odnosu na klasicne racunare
+  * Znacajno manja potrosnja - 65-150w
+  * mogucnost povezivanja svih uredjaja kao i sa klasicnim racunarima
+U ponudi imamo 24-27 inca monitore po specijalnoj ceni uz racunare.
+Svi dolaze sa originalnim ispravljacima i 6 meseci garancije
+Windows 10/11 Pro licenciran.
+Mogucnost nadogradnje memorije i SSD-a/Hard Diska
+Licno preuzimanje u Beogradu
+Saljemo Postexpress-om
+Hp
+EliteDesk 800 G4 Mini
+Intel i7 8700, 16 Gb DDR4, 512 SSD NVMe, 6x USB 3.0, 2x DP, 1x Thunderbolt, 1x Type C
+Cena: 250e
+Lenovo
+ThinkCentre M700
+Intel i3 6100t, 8 Gb DDR4, 120 SSD , 6x USB 3.0, 2x DP
+Cena: 70e
+ThinkCentre M710
+Intel i3 7100t, 8 Gb DDR4, 120 SSD , 6x USB 3.0, 2x DP
+Cena: 80
+ThinkCentre M70q Gen 1
+Intel i5 10400t, 16 Gb DDR4, 512 SSD NVMe , 6x USB 3.0, 1x Type-C, 1x HDMI, 1x DP, Wifi
+Cena: 250e
+ThinkCentre M70q Gen 3
+Intel i5 12400t, 16 Gb DDR4, 512 SSD NVMe , 6x USB 3.0, 1x Type-C, 1x HDMI, 1x DP, Wifi
+Cena: 330e
+ThinkCentre M70q Gen 4
+Intel i5 13500t, 16 Gb DDR4, 512 SSD NVMe , 6x USB 3.0, 1x Type-C, 1x HDMI, 1x DP, Wifi
+Cena: 380e
+
+Dell
+
+Optiplex 3040 Micro
+Intel i3 6100t, 8 Gb DDR4, 120 SSD, 4x USB 3.0, 2x USB 2.0, 1x DP, 1x HDMI
+Cena: 70
+Optiplex 3090 Micro
+Intel i5 10500t, 16 Gb DDR4, 512 SSD NVMe, 4x USB 3.0, 2x USB 2.0, 1x DP, 1x HDMI, Wifi
+Cena: 240
+Terra
+Mini 5000V5.1
+Intel i3 10100, 16 Gb DDR4, 256 SSD NVMe, 4x USB 3.0, 2x USB 2.0, 1x DP, 1x HDMI, 2x LAN, 2x RS-232, Wifi
+Cena: 200
+
+Intel Nuc (11x11x3/4.5cm)
+Intel BOXNUCC7CJYH2
+Intel Celeron J4005, 8 Gb DDR4, 128 SSD, 4x USB 3.0, 2x HDMI, Lan, Wifi
+Cena: 60e
+Intel NUC7i3BNH
+Intel i3 7100U, 8 Gb DDR4, 128 SSD, 4x USB 3.0, HDMI, Type-C, Lan, Wifi
+Cena: 70e
+Intel BOXNUC8i7BEK2
+Intel i7 8559U, 16 Gb DDR4, 512 SSD, 4x USB 3.0, 1x HDMI, 1x Type C, Lan, Wifi
+Cena: 200e
+Intel BNUC11TNKI30000
+Intel i3-1115G4, 16 Gb DDR4, 256 SSD, 4x USB 3.0, 2x HDMI, 2x Type C, Lan, Wifi
+Cena: 200e
+ASUS NUC14MNK
+Intel N150, 8 Gb DDR5, 256 SSD, 4x USB 3.0, 1x HDMI, 1x DP, 2x Type C, Lan, Wifi
+Cena: 200e
+Intel BXNUC10i5FNH2
+Intel i5 10210u, 16 Gb DDR4, 512 SSD, 4x USB 3.0, 2x HDMI, 1x Type C, Lan, Wifi
+Cena: 220e
+
+Fanless - Industrijski PC sa pasivnim hladjenjem - bez ventilatora
+
+Dell Embedded Box PC 5000
+Intel i5 6440EQ,   8 GB DDR4,  2x128 GB M.2 SSD Raid
+Siemens CP 5613 A3 PROFIBUS PCI kartica
+Cena: 250e

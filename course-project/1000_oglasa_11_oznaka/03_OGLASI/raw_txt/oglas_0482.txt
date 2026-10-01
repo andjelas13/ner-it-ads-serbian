@@ -1,0 +1,9 @@
+TITLE:
+USB 2.0 HUB sa 7 priključaka i prekidača
+
+BODY:
+USB 2.0 HUB sa 7 prikljucaka i prekidaca - novo
+
+USB 2.0 HUB sa 7 portova i sa prekidacima za ukljucivanje i iskljucivanje svakog porta pojedinacno.
+
+Svaki port ima svoje indikaciono svetlo koje svetli plavo ako je prekidak ukljucen. Takodje uredjaj ima prikljucak za dodatno napajanje koje se ne isporucuje uz njega.

@@ -1,0 +1,65 @@
+TITLE:
+REALME Mobilni telefon 12GB 512GB Android 14 12 Pro+
+
+BODY:
+FISKALNI RAČUN I GARANCIJA 2 GODINE!
+Osnovne karakteristike
+Tip    Smartfon (pametni telefon)
+SIM kartice    2 (Dual SIM)
+Format SIM kartice    Nano-SIM
+Oblik    Monoblok
+Mobilna mreža
+GSM mreža    1.900MHz
+HSDPA mreža    2.100MHz
+Protokoli    5G
+Ekran
+Veličina ekrana    6.7 inča
+Rezolucija ekrana    2.412x 1.080
+Format rezolucije    Full HD +
+Tip ekrana    AMOLED
+Odnos stranica    20:9
+Gustina piksela    394ppi
+Paleta boja    1 bilion
+Ostalo    800 nits (HBM), 950nits (peak), 120Hz
+Softver
+Operativni sistem    Android 14
+Ostale osobine    Realme UI 5.0
+Čipset
+Procesor    Qualcomm SM7435-AB Snapdragon 7s Gen 2
+Broj jezgara    8 (4 + 4)
+Radni takt procesora    2.4Ghz + 1.9Ghz
+RAM memorija    12GB
+Grafički procesor    Adreno 710
+Memorija
+Unutrašnja memorija    512GB
+Kamera
+Rezolucija zadnje kamere    64MP + 50MP + 8MP
+Video rezolucija zadnje kamere    1080p@30/60/120fps, 4K@30fps
+Ostale osobine zadnje kamere    LED blic, HDR, Panorama režim, gyro-EIS
+Prednja kamera
+Rezolucija prednje kamere    32MP
+Video rezolucija prednje kamere    1080p@30fps
+Žična povezivost
+Bluetooth verzija    5.2
+NFC (Near Field Communication)    Da
+Priključci    USB 2.0 Tip C
+Ostale osobine    Dual Band
+Audio
+Zvučnici    Stereo
+Ostale karakteristike
+GPS navigacija    GLONASS, GPS, BDS, GALILEO, QZSS
+Senzori    Akcelerometar, Žiroskop, Kompas, Senzor blizine, Senzor otisaka prstiju
+Baterija
+Tip    Litijum-jonska
+Kapacitet    5.000mAh
+Ostalo    Brzo punjenje baterije 67W
+Fizičke karakteristike
+Dimenzije    161.5mm x 74mm x 8.8mm
+Masa    196g
+Boja    Plava
+Opis boje    Submarine blue
+Pakovanje    USB-C kabl, AC adapter
+
+MOB02606
+
+ewe

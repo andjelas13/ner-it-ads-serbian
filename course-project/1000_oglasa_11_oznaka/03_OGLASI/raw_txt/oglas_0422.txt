@@ -1,0 +1,13 @@
+TITLE:
+Ram memorija DDR3, 2 GB
+
+BODY:
+Naziv
+Proizvođač : Samsung
+Model : 2GB 1066MHz DDR3 SO-DIMM M471B5673FH0-CF8
+Modul
+Tip : DDR3 200-Pin SO-DIMM
+Kapacitet : 2048 MB
+Performanse
+Brzina : 1066 MHz
+CAS latency : 7

@@ -1,0 +1,8 @@
+TITLE:
+Procesor CPU i3 - 2350M
+
+BODY:
+Korisceno, testirano, ispravno.
+
+Intel i3-2350M
+#642

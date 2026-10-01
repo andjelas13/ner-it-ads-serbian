@@ -1,0 +1,36 @@
+TITLE:
+RAM memorija Kingston HyperX 8Gb/DDR3/1600MHz/CL10/1.5V
+
+BODY:
+NA STANJU JE !    AKTUELNO JE !    NIJE PRODATO !    DOSTUPNO JE !
+
+Ako je predmet na oglasu onda je na stanju, aktuelno je, nije prodato, dostupno je.
+
+Smarači koji iz dosade postavljaju pitanja u vezi gore navedenog biće automatski blokirani ! ! !
+RAM memorija za desktop računare Kingston HyperX kapaciteta 8Gb, tip DDR3, frekvencija 1600 MHz, latencija Cl 10.
+
+Jedan modul memorije od 8Gb sa haladnjakom.
+
+Memorija je testirana u radu i programu Memtest, potpuno ispravna (slike).
+
+Radna garancija 10 dana.
+
+Lično preuzimanje ili slanje post ekspresom o trošku kupca.
+
+Specifikacije:
+
+Capacity:                                              8GB (1 x 8GB)
+
+Memory Type:                                   DDR3 SDRAM
+Form Factor:                                      240-pin DIMM
+
+Bus Speed:                                          PC3-12800 (1600 MHz)
+
+CAS Latency:                                      CL10 (10-10-10 at 1600 MHz)
+
+Voltage:                                               1.5 V
+
+ECC:                                                       Non-ECC
+
+Registered:                                         Unbuffered
+Features:                                             Dual Rank ×8, Gold-plated contacts, includes a heat spreader

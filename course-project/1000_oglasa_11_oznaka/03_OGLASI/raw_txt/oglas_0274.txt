@@ -1,0 +1,19 @@
+TITLE:
+Dell Inspiron N5110 Core i7-2670QM 2.2GHz 4GB 640G
+
+BODY:
+Veličina ekrana 15.6"
+Rezolucija 1366x768
+Procesor Intel Core i7 2670QM 2.2GHz
+Čipset Intel QM67
+Memorija 6GB DDR3 1333MHz
+Grafička karta NVIDIA GeForce 525M 1GB
+Hard disk 640GB SATA2
+Optički uređaj DVD RW
+Bežicna mreža Wireless 802.11b/g/n, Bluetooth
+Mrežni adapter Ethernet RJ45 10/100Mbps
+Povezivanje VGA, HDMI, 1x USB 2.0, 2x USB 3.0
+Slotovi Multi Card Reader
+Kamera 1.0 Mega Pixela, sa mikrofonom
+Zvučnici Stereo Speakers
+Baterija 6-cell

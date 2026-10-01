@@ -1,0 +1,33 @@
+TITLE:
+Grafička (176) Ati Radeon HD 2400 Pro
+
+BODY:
+Ispravna PCI-E graficka kartica
+
+- Ati
+
+- Radeon HD 2400 Pro (Ati -102-B27602(B))
+
+2 X VGA izlaz
+
+TV izlaz
+
+DDR2 - 256 Mb / 64 bit
+
+1 X ventilator hladjenja
+
+- Win index > 3.9/5.5
+
+Ispravnost navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore.
+
+- DELL 840 - OS WIN 7-64 bit
+
+- P5K PRO - Q-6600 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorijama.

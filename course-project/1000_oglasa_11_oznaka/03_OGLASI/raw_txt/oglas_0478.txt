@@ -1,0 +1,5 @@
+TITLE:
+RF Receiver 2.4 Ghz
+
+BODY:
+Model: VP6499 R. Dobio sam ga kada ga ubacim na usb komp ga prepozna. Ali ne znam čemu služi.

@@ -1,0 +1,5 @@
+TITLE:
+AMD Athlon II X2 250 3.0 GHZ
+
+BODY:
+Procesorsko ležište (socket) AM2+, AM3Radni takt 3.0GHzBroj jezgara 2 jezgraCache memorija 2x1MB L2 cacheMagistrala 4GHz System BusPodržane tehnologije VirtualizacijaProces izrade 45nmTDP 65W

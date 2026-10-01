@@ -1,0 +1,25 @@
+TITLE:
+R9 390 8GB 512bit
+
+BODY:
+GV-R939G1 GAMING-8GD
+
+U odlicnom stanju. Garancija 7 dana.
+
+Graphics Processing Radeon R9 390
+I/O Dual-link DVI-D / HDMI / DisplayPort*3
+Core Clock 1025 MHz
+Process Technology 28 nm
+Memory Clock 6000 MHz
+Memory Size 8 GB
+Memory Type GDDR5
+Memory Bus 512 bit
+Card Bus PCI-E 3.0
+Digital max resolution 4096 X 2160
+Multi-view 4
+Card size H=42 L=243 W=114 mm
+PCB Form ATX
+DirectX 12
+OpenGL 4.4
+Recommended PSU 600W (with one 8-pin and one 6-pin external power connector)
+Analog max resolution 2048 x 1536

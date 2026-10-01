@@ -1,0 +1,59 @@
+TITLE:
+Grafička karta Zotac Gaming Geforce RTX 5080 Solid Core 16G
+
+BODY:
+Kupac dobija fiskalni račun i garanciju!
+
+Moguće plaćanje preko računa firme!
+
+Moguće plaćanje na rate od 3 do 12 meseci preko Intesa kreditnih kartica Master Card i American Express!
+
+Nismo u mogućnosti da sve artikle postavimo ovde koje možemo da ponudimo, slobodno pošaljite upit za određeni artikal.
+Uvek proveriti cenu pre porudžbine. Može da se desi da cena nekog proizvoda bude niža nego što trenutno stoji, ali i obrnuto — ili da proizvod trenutno nije dostupan.
+
+-------------------------------------------------------------------------------------------------------------------
+GPU
+NVIDIA GeForce RTX 5080
+CUDA jezgra
+10,752
+Video memorija
+16 GB GDDR7
+Širina memorijske magistrale
+256-bitna
+Radni takt (eng. Engine Clock)
+2617 MHz
+Takt memorije
+30 Gbps
+AI TOPS
+1801
+PCI Express
+PCI Express 5.0 x16
+Video izlazi
+3 x DisplayPort 2.1b sa UHBR20 (do 4K 480Hz ili 8K 165Hz uz DSC)
+1 x HDMI® konektor (podržava 4K 480Hz HDR ili 8K 120Hz HDR uz DSC, i Gaming VRR prema HDMI 2.1b specifikaciji)
+HDCP podrška
+Verzija 2.3
+Mogućnost više ekrana
+Do četiri ekrana
+Preporučeno napajanje
+850W
+Potrošnja energije
+360W *Visoka potrošnja – pažljivo pročitajte priručnik napajanja pre instalacije.
+Ulaz za napajanje
+1 x 12v-2x6 konektor
+DirectX
+Microsoft DirectX® 12 Ultimate
+OpenGL
+Verzija 4.6
+Hlađenje
+IceStorm 3.0
+Veličina slota
+2.5 slota
+SLI podrška
+Nema
+Podržani operativni sistemi
+Windows 11 / Windows 10 64-bit (verzija 1809 iz novembra 2018. ili novija)
+Dimenzije kartice
+303.5 mm x 115.8 mm x 55.7 mm / 11.9" x 4.6" x 2.2"
+Dodaci u pakovanju
+Korisničko uputstvo 3 x 8-pin u 16-pin kabl Postolje za podršku grafičke kartice

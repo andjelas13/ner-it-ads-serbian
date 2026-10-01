@@ -1,0 +1,20 @@
+TITLE:
+INTEL Core CPU Procesor s1700 i7-12700K 12-cores 3.6GHz BOX
+
+BODY:
+FISKALNI RACUN I GARANCIJA 2 GODINE!
+Podnožje    1700 (12. generacija)
+Radni takt    Base 2.7 GHz Turbo 5.0 GHz
+Broj fizičkih jezgra    12
+Broj logičkih jezgra    20
+Keš memorija    L3 : 25MB
+Proizvodni proces    14nm
+TDP    190W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 770
+Maksimalna brzina memorije     DDR4-3200 MHz / DDR5-4800 MHz
+Maksimalna podržana memorija    128 GB
+
+26662
+
+Dsc

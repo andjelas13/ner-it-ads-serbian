@@ -1,0 +1,25 @@
+TITLE:
+Procesor I5 - 3570 (socket 1155) Treća generacija
+
+BODY:
+Odlican QuadCore procesor za 1155 socket, u potpunosti ispravan i testiran, odlicnih performansi. Intel i5 3570 brzine 3. 40GHz sa 6MB kesa soket 1155.
+
+Specifikacija :
+
+Proizvođač : Intel
+
+Model : i5-3570 3. 40GHz 6MB 64bit
+
+Serija : Intel Core i5
+
+Podnožje : Socket 1155
+
+Ostalo : Quad-core, 64-bit,
+
+TDP : 77 W
+
+Radni takt : 3. 40 GHz
+
+Kes memorija : 6MB
+
+Pogledajte ostale nase oglase hvala.

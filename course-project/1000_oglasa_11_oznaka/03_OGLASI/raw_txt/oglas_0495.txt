@@ -1,0 +1,23 @@
+TITLE:
+HDD 3.5 1TB WD10EURX WD AV-GP Green IntelliPower
+
+BODY:
+Proizvodjac: WD
+
+Model: WD10EURX
+
+Tip: Interni hard disk
+
+Povezivanje: Sata III (SATA 6Gb/s)
+
+Kapacitet: 1TB
+
+Bafer kes: 64MB
+
+Broj obrtaja u minuti: 7200rpm
+
+Format: 3.5" za desktop racunar
+
+hdd rack harddisk HDD
+
+Hard disk je u originalnom ne otvaranom pakovanju.

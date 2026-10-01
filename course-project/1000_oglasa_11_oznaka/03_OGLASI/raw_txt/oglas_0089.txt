@@ -1,0 +1,5 @@
+TITLE:
+i5-4950/16Gb/Rx560-4gb/1Tb/500w
+
+BODY:
+Cpu: i5-4950 3.7Ghz - Ram:16Gb Hyper X Ddr3 - Maticna ploca: Asus Gryphon Z87 Grafika: Rx560 4Gb - Memorija: 1Tb - Kuciste: Cooler Master - Napajanje: Chieftec 500w

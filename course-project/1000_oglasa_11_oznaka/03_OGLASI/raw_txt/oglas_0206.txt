@@ -1,0 +1,26 @@
+TITLE:
+Biostar GeForce GT 610 2GB DDR3
+
+BODY:
+Novo i nekorišćeno!!
+Interfejs PCI Express 2.0
+
+Proizvođač čipa nVidia
+
+Tip memorije GDDR3
+
+Količina memorije 2 GB
+
+Magistrala memorije 64 bit
+
+Brzina memorije 1333MHz
+
+GPU Nvidia GeForce GT 610
+
+Brzina GPU 700MHz
+
+VGA D-sub 1
+
+DVI 1
+
+HDMI 1

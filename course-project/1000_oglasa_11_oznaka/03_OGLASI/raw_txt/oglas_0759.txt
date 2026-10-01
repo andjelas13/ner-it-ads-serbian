@@ -1,0 +1,36 @@
+TITLE:
+PURE AMD Radeo RX 9070 XT OC GPU
+
+BODY:
+Graficka kartica sa odlicnim perfomasama i u odlicnom stanju! Potpuno je nova! Graficka je pod garancijom!
+
+Core Specifications
+  * GPU Architecture: AMD RDNA 4 (Navi 48 XTX)
+  * Stream Processors / Shaders: 4,096
+  * Compute Units: 64 CUs (including 3rd Gen Ray Accelerators &2nd Gen AI Accelerators)
+  * AI Accelerators: 128
+  * Infinity Cache: 64MB
+  * Bus Interface: PCI-Express 5.0 x16 [1, 2, 3, 4]
+Clock Speeds &Memory
+  * Base Clock: 1,660 MHz
+  * Game Clock: Up to 2,460 MHz
+  * Boost Clock: Up to 3,010 MHz
+  * Video Memory (VRAM): 16GB GDDR6
+  * Memory Bus Width: 256-bit
+  * Memory Speed: 20 Gbps effective [1, 2, 3, 4, 5]
+Power, Dimensions, &Cooling
+  * Total Board Power (TBP): 317 Watts
+  * Power Connectors: 2x 8-pin PCIe cables
+  * Minimum Recommended PSU: 700 Watts
+  * Physical Dimensions: 320 mm (Length) x 120 mm (Height) x 61.6 mm (Width)
+  * Form Factor: 3.1-slot (requires 3 PCIe slots)
+  * Cooling Tech: Tri-X Cooling Technology with three AeroCurve fan blades and Honeywell PTM7950 Thermal Interface Material. [1, 2, 3, 4, 5, 6, 7]
+Display Outputs
+  * Max Display Support: Up to 4 screens
+  * Video Ports: 2x HDMI, 2x DisplayPort 2.1a
+  * Max Resolution: 7680×4320 (8K) [1, 2, 3]
+I'll tailor my next response. Just tell me:
+
+  * PC case model for clearance checks
+  * Target resolution and games
+  * Comparison options you are considering

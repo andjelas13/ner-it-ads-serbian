@@ -1,0 +1,42 @@
+TITLE:
+RAM memorija, KINGSTON FB KF552C40BB-8 8GB DDR5 5200MHz
+
+BODY:
+Brend: Kingston
+
+Model: KF552C40BB-8
+
+Karakteristike
+Kingston FURY KF552C40BB-8 is a 1G x 64-bit (8GB) DDR5-5200
+CL40 SDRAM (Synchronous DRAM) 1Rx16, memory module,
+based on four 1G x 16-bit FBGA components per module. The
+module supports Intel® Extreme Memory Profiles (Intel®
+XMP) 3.0. Each module has been tested to run at DDR5-5200 at a
+low latency timing of 40-40-40 at 1.25V. The SPDs are
+programmed to JEDEC standard latency DDR5-4800 timing
+of 40-39-39 at 1.1V. Each 288-pin DIMM uses gold contact
+fingers.
+FACTORY TIMING PARAMETERS
+• Default (JEDEC): DDR5-4800 CL40-39-39 @1.1V
+• XMP Profile #1: DDR5-5200 CL40-40-40 @1.25V
+• XMP Profile #2: DDR5-4800 CL38-38-38 @1.1V
+
+FEATURES
+• Power Supply: VDD = 1.1V Typical
+• VDDQ = 1.1V Typical
+• VPP = 1.8V Typical
+• VDDSPD = 1.8V to 2.0V
+• On-Die ECC
+• Height 1.37” (34.9mm), w/heatsink
+S PECIFICATIONS
+CL(IDD): 40 cycles
+Row Cycle Time (tRCmin): 48ns(min. )
+Refresh to Active/Refresh: 295ns(min. )
+Command Time (tRFCmin)
+Row Active Time (tRASmin):32ns(min. )
+UL Rating: 94 V - 0
+Operating Temperature: 0o
+ C to +85o
+ C
+Storage Temperature: -55o
+ C to +100o

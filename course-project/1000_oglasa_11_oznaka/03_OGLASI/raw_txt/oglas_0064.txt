@@ -1,0 +1,23 @@
+TITLE:
+Procesor (01) AMD Turion 64 X2 RM-70 2 GHz-800 MHz
+
+BODY:
+Ispravan procesor za laptop
+
+- Proizvodjac AMD
+
+- Tip Turion 64 X2 RM-70
+
+- broj jezga 2
+
+- tehnologija 0.065 mm
+
+- podnozje S1
+
+- brzina 2 GHz
+
+- magistrala 800 MHz
+
+- memorija 1 Mb
+
+- demontiran iz HP laptopa 6735B

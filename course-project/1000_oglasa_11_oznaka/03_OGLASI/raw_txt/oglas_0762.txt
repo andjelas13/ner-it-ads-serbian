@@ -1,0 +1,31 @@
+TITLE:
+Grafička karta PCI-E Gigabyte GeForce RTX 3060 WindForce OC
+
+BODY:
+GPU: Nvidia GeForce RTX 3060
+
+Magistrala memorije: 192bit
+
+ Količina memorije: 12GB
+
+ Tip memorije: GDDR6 Interfejs: PCI Express 4.0
+
+ Proizvođač čipa:
+
+Nvidia Brzina memorije: 15000 MHz Brzina GPU: 1792 MHz (referentna karta: 1777 MHz) CUDA
+
+procesori: 3584
+
+ Hladjenje: Aktivno
+ Konektori: 2 x DisplayPort 1.4a 2 x HDMI 2.1 Mini DisplayPort: Ne Mini HDMI: Ne Preporučeno napajanje (minimum): 550W Konektor za napajanje: 8-pin x1 Ostalo: DirectX 12 Ultimate OpenGL 4.6
+
+*** NOVO RAČUN GARANCIJA ***
+
+MH COMPUTERS -SREMSKA MITROVICA -MATIJE HUĐI 89
+
+***Na više kupljenih stvari kod nas u radnji montaža čišćenje stavljanje termalne paste free***
+šaljem poštom , bexom , aksom ili kako vama odgovara
+-Sva pitanja i slike odgovaram i saljem na VIBER ili MESENGER
+Za sva potrebna pitanja poruke i poziv na broj 06******** ALEKSANDAR
+
+                           *** CENA 39000 DIN***

@@ -1,0 +1,19 @@
+TITLE:
+Intel Pentijum B960
+
+BODY:
+Ispravan testiran procesor intel Core 2 B960 za Laptop
+
+brzina 2,2 GHz
+
+2MB cache
+
+intel HD graphics 2000
+
+socket G2 (rPGA 988B)
+
+Procesor se prodaje, jer sam kupio brži.
+
+Molim da pre kupovine proverite da li Vaš čipset podržava ovaj procesor?
+
+Ako to ne znate, pošaljite mi porukom marku i model Vašeg Laptopa i ja ću Vam odgovoriti.

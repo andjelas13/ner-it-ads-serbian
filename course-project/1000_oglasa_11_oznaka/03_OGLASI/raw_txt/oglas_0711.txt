@@ -1,0 +1,8 @@
+TITLE:
+Procesor CPU Intel i5-3320M
+
+BODY:
+Korisceno, testirano, ispravno.
+
+Model: Intel i5-3320M
+#693 3 komada

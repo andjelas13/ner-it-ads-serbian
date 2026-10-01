@@ -1,0 +1,12 @@
+TITLE:
+Računar matična, hard 250gb, grafička 1gb
+
+BODY:
+Maticna ploca: MSI MS-7525 775
+Procesor: dual core e5200
+
+Hard disk: 250 gb, healt 100%
+
+Graficka: HP Nvidia GeForce GT220 1GB Low Profile
+
+Ram : 2 gb ddr2

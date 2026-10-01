@@ -1,0 +1,5 @@
+TITLE:
+Grafička karta
+
+BODY:
+Ati radeon hd 4350 (RV 710), polovna

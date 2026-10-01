@@ -1,0 +1,5 @@
+TITLE:
+AGP grafika
+
+BODY:
+Ispravna grafička kartica

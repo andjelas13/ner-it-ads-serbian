@@ -1,0 +1,13 @@
+TITLE:
+Lenovo T570
+
+BODY:
+CPU: i5-6300U @ 2.40GHz
+RAM: 16GB DDR4
+Grafika: Intel HD Graphics 520 (Lenovo)
+Displej: 15.6 FHD TN ekran sa irokim uglom gledanja dijagonale (1920 x 1080)
+SSD: 256GB
+DVD-RW: Nema
+Baterija: 5:30h. na YT (720px)
+Originalan punjač
+Ostalo: Svetleca tastatura - 2 nivoa osvetljenja, Wireless-Intel Dual Band Wireless-AC 8265, Bluetooth 4.2, Mreza-LAN Gigabitni 10/100/1000Mbps-RJ45, 1 x HDMI, 3 x USB 3.0, 1 x USB , 3.1 type C`, 1 x SD Smartcard Reader-4-in-1 card reader (SD, MMC, SDHC, SDXC), -1 x Combo jack 3.5mm audio ulaz/izlaz in-out for HEADPHONES/SPEAKERPHONES, 1 x port za docking

@@ -1,0 +1,761 @@
+﻿round,case_id,ad_id,field,category,context,andjela_spans,nikola_spans
+stara,S0001,1,body,GRANICA_UZA,"m karakteristikama:
+Intel Pentium N3710, četiri jezgra, 1,60–2,56 GHz
+8 GB DDR3 RAM-a
+SSD od 256 GB, prikazuje oko 238 GB
+posebna AMD Radeon R5 M330 ","[{""start"": 135, ""end"": 144, ""label"": ""RAM"", ""text"": ""8 GB DDR3""}]","[{""start"": 135, ""end"": 139, ""label"": ""RAM"", ""text"": ""8 GB""}]"
+stara,S0002,1,body,SPAJANJE,"el Pentium N3710, četiri jezgra, 1,60–2,56 GHz
+8 GB DDR3 RAM-a
+SSD od 256 GB, prikazuje oko 238 GB
+posebna AMD Radeon R5 M330 grafika sa 2 GB
+integrisana Intel HD grafi","[{""start"": 158, ""end"": 164, ""label"": ""SKLADISTE"", ""text"": ""256 GB""}, {""start"": 176, ""end"": 186, ""label"": ""SKLADISTE"", ""text"": ""oko 238 GB""}]","[{""start"": 158, ""end"": 186, ""label"": ""SKLADISTE"", ""text"": ""256 GB, prikazuje oko 238 GB""}]"
+stara,S0003,2,body,GRANICA_UZA,"inča sa konfiguracijom:
+Intel Core i5-3320M, 2, 60 GHz
+8 GB RAM-a
+SSD približno 512 GB
+osvetljena nemačka tastatura
+pokazivač miša u sredini tastature
+origi","[{""start"": 112, ""end"": 128, ""label"": ""SKLADISTE"", ""text"": ""približno 512 GB""}]","[{""start"": 122, ""end"": 128, ""label"": ""SKLADISTE"", ""text"": ""512 GB""}]"
+stara,S0004,5,body,SPAJANJE,"Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)
+16 GB DDR4-2400 SDRAM (2 x 8 GB)
+Intel® UHD Graphics 620
+256 GB PCIe®","[{""start"": 0, ""end"": 21, ""label"": ""CPU"", ""text"": ""Intel® Core™ i3-8130U""}, {""start"": 23, ""end"": 30, ""label"": ""CPU"", ""text"": ""2.2 GHz""}, {""start"": 47, ""end"": 58, ""label"": ""CPU"", ""text"": ""up to 4 GHz""}, {""start"": 64, ""end"": 93, ""label"": ""CPU"", ""text"": ""Intel® Turbo Boost Technology""}, {""start"": 95, ""end"": 105, ""label"": ""CPU"", ""text"": ""4 MB cache""}, {""start"": 107, ""end"": 114, ""label"": ""CPU"", ""text"": ""2 cores""}]","[{""start"": 0, ""end"": 115, ""label"": ""CPU"", ""text"": ""Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)""}]"
+stara,S0005,5,body,SPAJANJE," up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)
+16 GB DDR4-2400 SDRAM (2 x 8 GB)
+Intel® UHD Graphics 620
+256 GB PCIe® NVMe™ M.2 SSD perfektan 100/100 ","[{""start"": 116, ""end"": 137, ""label"": ""RAM"", ""text"": ""16 GB DDR4-2400 SDRAM""}, {""start"": 139, ""end"": 147, ""label"": ""RAM"", ""text"": ""2 x 8 GB""}]","[{""start"": 116, ""end"": 148, ""label"": ""RAM"", ""text"": ""16 GB DDR4-2400 SDRAM (2 x 8 GB)""}]"
+stara,S0006,5,body,PROPUSTENO," x 8 GB)
+Intel® UHD Graphics 620
+256 GB PCIe® NVMe™ M.2 SSD perfektan 100/100 radio samo 8 sati
+39.6 cm (15.6"") diagonal FHD IPS anti-glare micro-e","[{""start"": 210, ""end"": 217, ""label"": ""SKLADISTE"", ""text"": ""100/100""}]",[]
+stara,S0007,5,body,PROPUSTENO," Graphics 620
+256 GB PCIe® NVMe™ M.2 SSD perfektan 100/100 radio samo 8 sati
+39.6 cm (15.6"") diagonal FHD IPS anti-glare micro-edge WLED-backlit (","[{""start"": 229, ""end"": 235, ""label"": ""SKLADISTE"", ""text"": ""8 sati""}]",[]
+stara,S0008,8,body,PROPUSTENO,"e turbo 3.30ghz
+GPU Intel HD4600
+SSD 240gb perfektan healt radio samo 126 dana
+RAM 2x4GB DDR3
+Panel 15,6"" LED backlight FHD 1920x1080
+WI-FI, DVD, mi","[{""start"": 301, ""end"": 309, ""label"": ""SKLADISTE"", ""text"": ""126 dana""}]",[]
+stara,S0009,9,body,SPAJANJE,"Na prodaju: Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 1333MHz)
+2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+1x Ramaxel 4GB ","[{""start"": 41, ""end"": 45, ""label"": ""RAM"", ""text"": ""12GB""}, {""start"": 47, ""end"": 57, ""label"": ""RAM"", ""text"": ""3x4GB DDR3""}, {""start"": 59, ""end"": 66, ""label"": ""RAM"", ""text"": ""1333MHz""}]","[{""start"": 41, ""end"": 67, ""label"": ""RAM"", ""text"": ""12GB (3x4GB DDR3, 1333MHz)""}]"
+stara,S0010,9,body,SPAJANJE,"Na prodaju: Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 1333MHz)
+2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+Sve memorije s","[{""start"": 68, ""end"": 94, ""label"": ""RAM"", ""text"": ""2x Elixir 4GB DDR3 SO-DIMM""}, {""start"": 96, ""end"": 120, ""label"": ""RAM"", ""text"": ""PC3-10600S, 1333MHz, CL9""}]","[{""start"": 68, ""end"": 121, ""label"": ""RAM"", ""text"": ""2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)""}]"
+stara,S0011,9,body,SPAJANJE," DDR3, 1333MHz)
+2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+Sve memorije su testirane i ispravne
+Odgovaraju većini laptopova sa D","[{""start"": 122, ""end"": 149, ""label"": ""RAM"", ""text"": ""1x Ramaxel 4GB DDR3 SO-DIMM""}, {""start"": 151, ""end"": 175, ""label"": ""RAM"", ""text"": ""PC3-10600S, 1333MHz, CL9""}]","[{""start"": 122, ""end"": 176, ""label"": ""RAM"", ""text"": ""1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)""}]"
+stara,S0012,9,body,FRAGMENTACIJA,"u testirane i ispravne
+Odgovaraju većini laptopova sa DDR3 slotovima (Intel Core i3/i5/i7 prve i druge generacije – Sandy Bridge i slično)
+Idealno za nad","[{""start"": 261, ""end"": 274, ""label"": ""CPU"", ""text"": ""Intel Core i3""}]","[{""start"": 261, ""end"": 271, ""label"": ""CPU"", ""text"": ""Intel Core""}, {""start"": 272, ""end"": 274, ""label"": ""CPU"", ""text"": ""i3""}]"
+stara,S0013,9,body,PROPUSTENO,"ne
+Odgovaraju većini laptopova sa DDR3 slotovima (Intel Core i3/i5/i7 prve i druge generacije – Sandy Bridge i slično)
+Idealno za nadogradnju st","[{""start"": 281, ""end"": 285, ""label"": ""CPU"", ""text"": ""prve""}]",[]
+stara,S0014,9,body,PROPUSTENO,"varaju većini laptopova sa DDR3 slotovima (Intel Core i3/i5/i7 prve i druge generacije – Sandy Bridge i slično)
+Idealno za nadogradnju starijeg laptopa – uk","[{""start"": 288, ""end"": 304, ""label"": ""CPU"", ""text"": ""druge generacije""}]",[]
+stara,S0015,11,body,PROPUSTENO,"10 inča 1920 X 1200
+Asus ME302C
+4 jezgra
+2/16GB
+Stavljen nov tač koji sa fabričkim sistemom radi normalno
+Ne tre","[{""start"": 41, ""end"": 42, ""label"": ""RAM"", ""text"": ""2""}]",[]
+stara,S0016,11,body,PROPUSTENO,"10 inča 1920 X 1200
+Asus ME302C
+4 jezgra
+2/16GB
+Stavljen nov tač koji sa fabričkim sistemom radi normalno
+Ne treba ap","[{""start"": 43, ""end"": 47, ""label"": ""SKLADISTE"", ""text"": ""16GB""}]",[]
+stara,S0017,14,body,GRANICA_UZA,"C General Features: Intel PXA270520 MHz processor.
+128MB total memory(64 MB ROM and 64 MB SDRAM)
+Microsoft Windows Mobile 2003 Second Edition for Poc","[{""start"": 196, ""end"": 205, ""label"": ""SKLADISTE"", ""text"": ""64 MB ROM""}]","[{""start"": 196, ""end"": 201, ""label"": ""SKLADISTE"", ""text"": ""64 MB""}]"
+stara,S0018,14,body,GRANICA_UZA,"ures: Intel PXA270520 MHz processor.
+128MB total memory(64 MB ROM and 64 MB SDRAM)
+Microsoft Windows Mobile 2003 Second Edition for Pocket PC.
+3.5 Tran","[{""start"": 210, ""end"": 221, ""label"": ""RAM"", ""text"": ""64 MB SDRAM""}]","[{""start"": 210, ""end"": 215, ""label"": ""RAM"", ""text"": ""64 MB""}]"
+stara,S0019,23,body,SPAJANJE," računar dolazi gratis naponski kabl.
+SPECIFIKACIJA:
+- Procesor: NOVO AMD Ryzen 5 5500 (6 jezgara / 12 niti) – odličan gejmerski procesor sa jakim performansama u svim modernim i","[{""start"": 422, ""end"": 438, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5500""}, {""start"": 440, ""end"": 459, ""label"": ""CPU"", ""text"": ""6 jezgara / 12 niti""}]","[{""start"": 422, ""end"": 460, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5500 (6 jezgara / 12 niti)""}]"
+stara,S0020,23,body,SPAJANJE,"rce RTX 3060 12GB – moćna grafička karta sa 12GB memorije, podrška za Ray Tracing i DLSS tehnologiju
+- RAM: 16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel)","[{""start"": 650, ""end"": 661, ""label"": ""GPU"", ""text"": ""Ray Tracing""}, {""start"": 664, ""end"": 668, ""label"": ""GPU"", ""text"": ""DLSS""}]","[{""start"": 650, ""end"": 668, ""label"": ""GPU"", ""text"": ""Ray Tracing i DLSS""}]"
+stara,S0021,23,body,SPAJANJE,"ta sa 12GB memorije, podrška za Ray Tracing i DLSS tehnologiju
+- RAM: 16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel) – brz i pouzdan gejmerski RAM
+- SSD: SKHynix 512GB NVMe SSD – veoma b","[{""start"": 688, ""end"": 717, ""label"": ""RAM"", ""text"": ""16GB DDR4 HyperX Fury 3200MHz""}, {""start"": 719, ""end"": 737, ""label"": ""RAM"", ""text"": ""2x8GB Dual Channel""}]","[{""start"": 688, ""end"": 738, ""label"": ""RAM"", ""text"": ""16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel)""}]"
+stara,S0022,23,body,GRANICA_SIRA,"ury 3200MHz (2x8GB Dual Channel) – brz i pouzdan gejmerski RAM
+- SSD: SKHynix 512GB NVMe SSD – veoma brz SSD za brzo podizanje sistema i brzo učitavanje igara
+- P","[{""start"": 776, ""end"": 794, ""label"": ""SKLADISTE"", ""text"": ""SKHynix 512GB NVMe""}]","[{""start"": 776, ""end"": 798, ""label"": ""SKLADISTE"", ""text"": ""SKHynix 512GB NVMe SSD""}]"
+stara,S0023,23,body,PROPUSTENO," ASUS PRIME A520M-A II – nova kvalitetna matična ploča sa podrškom za Ryzen procesore
+- Kućište: NOVO IG-MAX N1903 REFLEX 4F Gaming kućište – nov","[{""start"": 948, ""end"": 953, ""label"": ""CPU"", ""text"": ""Ryzen""}]",[]
+stara,S0024,24,body,FRAGMENTACIJA,"termalna pasta MX-4, pre toga je imala stiker na šrafu
+Memorija: nova Crucial Ballistix 16GB DDR4, dual channel, CL16 3200mhz, sa hladnjakom
+SSD: nov Kingston NV1 500GB NVME (brzi)
+Matična ploča:","[{""start"": 940, ""end"": 995, ""label"": ""RAM"", ""text"": ""Crucial Ballistix 16GB DDR4, dual channel, CL16 3200mhz""}]","[{""start"": 958, ""end"": 967, ""label"": ""RAM"", ""text"": ""16GB DDR4""}, {""start"": 969, ""end"": 981, ""label"": ""RAM"", ""text"": ""dual channel""}, {""start"": 983, ""end"": 995, ""label"": ""RAM"", ""text"": ""CL16 3200mhz""}]"
+stara,S0025,24,title,SUVISNO,Fenomenalan gaming računar i3 10100f/RX 580 4gb/NV,[],"[{""start"": 27, ""end"": 36, ""label"": ""CPU"", ""text"": ""i3 10100f""}]"
+stara,S0026,25,body,SPAJANJE,"Prodajem odličan Gaming PC – spreman za sve nove igre!
+CPU: AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)
+GPU: Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)
+RAM: 16GB DDR4
+","[{""start"": 60, ""end"": 77, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5600X""}, {""start"": 79, ""end"": 120, ""label"": ""CPU"", ""text"": ""6 jezgara / 12 threadova, boost do 4.6GHz""}]","[{""start"": 60, ""end"": 121, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)""}]"
+stara,S0027,25,body,SPAJANJE,"U: AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)
+GPU: Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)
+RAM: 16GB DDR4
+SSD: 1TB Kingston NVMe (brzo paljenje sistema i igara)","[{""start"": 127, ""end"": 155, ""label"": ""GPU"", ""text"": ""Zotac RTX 4060 8GB Twin Edge""}, {""start"": 157, ""end"": 168, ""label"": ""GPU"", ""text"": ""ray tracing""}, {""start"": 170, ""end"": 174, ""label"": ""GPU"", ""text"": ""DLSS""}]","[{""start"": 127, ""end"": 175, ""label"": ""GPU"", ""text"": ""Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)""}]"
+stara,S0028,26,body,FRAGMENTACIJA,"Intel core i5 3.20 boost clock 3.40
+*16gb rama silicon power
+*2 SSD-a kingstone i silicon power 500gb
+*Ra","[{""start"": 0, ""end"": 35, ""label"": ""CPU"", ""text"": ""Intel core i5 3.20 boost clock 3.40""}]","[{""start"": 0, ""end"": 18, ""label"": ""CPU"", ""text"": ""Intel core i5 3.20""}, {""start"": 19, ""end"": 35, ""label"": ""CPU"", ""text"": ""boost clock 3.40""}]"
+stara,S0029,26,body,PROPUSTENO,"Intel core i5 3.20 boost clock 3.40
+*16gb rama silicon power
+*2 SSD-a kingstone i silicon power 500gb
+*Radeon RX 580 4gb (nova ter","[{""start"": 47, ""end"": 60, ""label"": ""RAM"", ""text"": ""silicon power""}]",[]
+stara,S0030,26,body,GRANICA_SIRA,"Intel core i5 3.20 boost clock 3.40
+*16gb rama silicon power
+*2 SSD-a kingstone i silicon power 500gb
+*Radeon RX 580 4gb (nova termalna pasta)
+*Napaj","[{""start"": 70, ""end"": 79, ""label"": ""SKLADISTE"", ""text"": ""kingstone""}]","[{""start"": 62, ""end"": 79, ""label"": ""SKLADISTE"", ""text"": ""2 SSD-a kingstone""}]"
+stara,S0031,26,body,FRAGMENTACIJA,"40
+*16gb rama silicon power
+*2 SSD-a kingstone i silicon power 500gb
+*Radeon RX 580 4gb (nova termalna pasta)
+*Napajanje novo 500w original ATX","[{""start"": 103, ""end"": 120, ""label"": ""GPU"", ""text"": ""Radeon RX 580 4gb""}]","[{""start"": 103, ""end"": 116, ""label"": ""GPU"", ""text"": ""Radeon RX 580""}, {""start"": 117, ""end"": 120, ""label"": ""GPU"", ""text"": ""4gb""}]"
+stara,S0032,26,body,SUVISNO,"on power
+*2 SSD-a kingstone i silicon power 500gb
+*Radeon RX 580 4gb (nova termalna pasta)
+*Napajanje novo 500w original ATX",[],"[{""start"": 122, ""end"": 141, ""label"": ""GPU"", ""text"": ""nova termalna pasta""}]"
+stara,S0033,26,title,SUVISNO,Hp racunar 16/4gb,[],"[{""start"": 11, ""end"": 13, ""label"": ""RAM"", ""text"": ""16""}]"
+stara,S0034,26,title,SUVISNO,Hp racunar 16/4gb,[],"[{""start"": 14, ""end"": 17, ""label"": ""GPU"", ""text"": ""4gb""}]"
+stara,S0035,29,body,GRANICA_SIRA," 1060 6gb/16gb ddr3/250gb ssd, obicno kuciste 180€
+i5-4570/rx 580 8gb/16gb ddr3/250gb ssd, rgb kuciste novo 195€
+i7-4770/rx 580 8gb/16gb ddr3/250gb s","[{""start"": 459, ""end"": 467, ""label"": ""RAM"", ""text"": ""6gb ddr3""}]","[{""start"": 458, ""end"": 467, ""label"": ""RAM"", ""text"": ""16gb ddr3""}]"
+stara,S0036,29,body,GRANICA_SIRA,"AF/GTX 2060 6GB/16GB 3200MHz/1TB SSD/Kuciste sa staklom 340€
+i5-9400f/z390/RTX 2060 6GB/16GB 3200MHz/1tb ssd nov, RGB kuciste novo 350€
+Ryzen 5 3600/Intel Ar","[{""start"": 710, ""end"": 722, ""label"": ""GPU"", ""text"": ""RTX 2060 6GB""}]","[{""start"": 705, ""end"": 722, ""label"": ""GPU"", ""text"": ""z390/RTX 2060 6GB""}]"
+stara,S0037,31,body,FRAGMENTACIJA,"a priključi na spoljni monitor.
+
+Ugradjen je sistem Windows 10.
+
+CPU: Intel(R) Core(TM)2 Duo CPU 2.10 GHz (T6500 / T6570)
+
+RAM: 4 GB, DDR2
+
+HDD: 465 GB (Performance 70% Health","[{""start"": 205, ""end"": 240, ""label"": ""CPU"", ""text"": ""Intel(R) Core(TM)2 Duo CPU 2.10 GHz""}]","[{""start"": 205, ""end"": 227, ""label"": ""CPU"", ""text"": ""Intel(R) Core(TM)2 Duo""}, {""start"": 232, ""end"": 240, ""label"": ""CPU"", ""text"": ""2.10 GHz""}]"
+stara,S0038,31,body,FRAGMENTACIJA,"(TM)2 Duo CPU 2.10 GHz (T6500 / T6570)
+
+RAM: 4 GB, DDR2
+
+HDD: 465 GB (Performance 70% Health 50%)
+
+Ekran: 17,3""
+
+Baterija: Slaba
+
+Laptop dolazi bez punjača.
+
+Za više ","[{""start"": 288, ""end"": 314, ""label"": ""SKLADISTE"", ""text"": ""Performance 70% Health 50%""}]","[{""start"": 300, ""end"": 303, ""label"": ""SKLADISTE"", ""text"": ""70%""}, {""start"": 311, ""end"": 314, ""label"": ""SKLADISTE"", ""text"": ""50%""}]"
+stara,S0039,32,body,FRAGMENTACIJA,"- Business Hybrid (2-in-1) Convertible (Fold-back screen) Black
+- AMD E E1-6010 1.35 GHz
+- Touchscreen 39.6 cm (15.6"") 1366 x 768 pixels LED backlight 16:9
+- ","[{""start"": 66, ""end"": 88, ""label"": ""CPU"", ""text"": ""AMD E E1-6010 1.35 GHz""}]","[{""start"": 66, ""end"": 79, ""label"": ""CPU"", ""text"": ""AMD E E1-6010""}, {""start"": 80, ""end"": 88, ""label"": ""CPU"", ""text"": ""1.35 GHz""}]"
+stara,S0040,32,body,FRAGMENTACIJA,"
+- Touchscreen 39.6 cm (15.6"") 1366 x 768 pixels LED backlight 16:9
+- 4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB
+- 500 GB HDD DVD± RW
+- AMD Radeon AMD Radeon R2
+- Wi-Fi 4 (802.11n) E","[{""start"": 158, ""end"": 192, ""label"": ""RAM"", ""text"": ""4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB""}]","[{""start"": 158, ""end"": 174, ""label"": ""RAM"", ""text"": ""4 GB DDR3L-SDRAM""}, {""start"": 175, ""end"": 183, ""label"": ""RAM"", ""text"": ""1333 MHz""}, {""start"": 184, ""end"": 192, ""label"": ""RAM"", ""text"": ""1 x 4 GB""}]"
+stara,S0041,32,body,SPAJANJE,"ight 16:9
+- 4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB
+- 500 GB HDD DVD± RW
+- AMD Radeon AMD Radeon R2
+- Wi-Fi 4 (802.11n) Ethernet LAN 10,100,1000 Mbit/s Bluetooth 4.0
+- L","[{""start"": 216, ""end"": 226, ""label"": ""GPU"", ""text"": ""AMD Radeon""}, {""start"": 227, ""end"": 240, ""label"": ""GPU"", ""text"": ""AMD Radeon R2""}]","[{""start"": 216, ""end"": 240, ""label"": ""GPU"", ""text"": ""AMD Radeon AMD Radeon R2""}]"
+stara,S0042,32,title,POGRESNA_OZNAKA,Lenovo IdeaPad Flex 2 15D E1-6010 touchscreen,"[{""start"": 26, ""end"": 33, ""label"": ""CPU"", ""text"": ""E1-6010""}]","[{""start"": 26, ""end"": 33, ""label"": ""GPU"", ""text"": ""E1-6010""}]"
+stara,S0043,34,body,SPAJANJE,"20x1080) IPS, Anti-glare (odlične boje i uglovi gledanja)
+• Procesor: Intel Core i7-1255U (10 jezgara, 12 niti)
+• RAM: 16 GB DDR4 3200MHz
+• Skladište: 512 GB PCIe NVMe M.2 SSD (brz ","[{""start"": 768, ""end"": 787, ""label"": ""CPU"", ""text"": ""Intel Core i7-1255U""}, {""start"": 789, ""end"": 808, ""label"": ""CPU"", ""text"": ""10 jezgara, 12 niti""}]","[{""start"": 768, ""end"": 809, ""label"": ""CPU"", ""text"": ""Intel Core i7-1255U (10 jezgara, 12 niti)""}]"
+stara,S0044,34,body,SPAJANJE,"
+
+prodaje se ispravan racunar, instaliran je windows 11 pro, procesor i7 12. generacije
+
+instaliran je microsoft office 2024 paket word excel . ..
+
+zadnji po","[{""start"": 1032, ""end"": 1034, ""label"": ""CPU"", ""text"": ""i7""}, {""start"": 1035, ""end"": 1049, ""label"": ""CPU"", ""text"": ""12. generacije""}]","[{""start"": 1032, ""end"": 1049, ""label"": ""CPU"", ""text"": ""i7 12. generacije""}]"
+stara,S0045,34,body,SUVISNO," sa plavim vrhom). Nova baterija i punjač vas na oglasima koštaju oko 50-60 evra ukupno, nakon čega imate vrhunski laptop koji inače vredi preko 500 e",[],"[{""start"": 550, ""end"": 560, ""label"": ""CENA"", ""text"": ""50-60 evra""}]"
+stara,S0046,34,body,SUVISNO," evra ukupno, nakon čega imate vrhunski laptop koji inače vredi preko 500 evra u kompletnom stanju.
+
+Specifikacije:
+
+• Ekran: 17.3"" Full HD (1920x10",[],"[{""start"": 625, ""end"": 633, ""label"": ""CENA"", ""text"": ""500 evra""}]"
+stara,S0047,35,body,SPAJANJE,"Proizvođač: Asus
+Model: VivoBook S510U
+Procesor: Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)
+Grafika: Intel(R) UHD Graphics 620
+Grafika nVidia geForce MX150 2gb D","[{""start"": 49, ""end"": 90, ""label"": ""CPU"", ""text"": ""Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz""}, {""start"": 93, ""end"": 130, ""label"": ""CPU"", ""text"": ""4 Cores, Max Turbo 3.40GHz, 6MB Cache""}]","[{""start"": 49, ""end"": 131, ""label"": ""CPU"", ""text"": ""Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)""}]"
+stara,S0048,35,title,GRANICA_SIRA,Asus VivoBook S510U core i5-8250U 8/256gb SSD 15.6,"[{""start"": 25, ""end"": 33, ""label"": ""CPU"", ""text"": ""i5-8250U""}]","[{""start"": 20, ""end"": 33, ""label"": ""CPU"", ""text"": ""core i5-8250U""}]"
+stara,S0049,36,body,SUVISNO,"op dolazi i orginalni punjac.
+
+U pitanju je gejmerski laptop poseduje dve graficke sve ima na slikama.",[],"[{""start"": 171, ""end"": 183, ""label"": ""GPU"", ""text"": ""dve graficke""}]"
+stara,S0050,37,body,SPAJANJE,"-----------------------------------------------------------
+Procesor:
+INTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)
+Maticna:
+INTEL 1700 B760M D5
+Memorija:
+DIMM DDR5 32GB
+SSD:
+1TB M.2 PC","[{""start"": 289, ""end"": 324, ""label"": ""CPU"", ""text"": ""INTEL Core i7-12700 12-Core 2.10GHz""}, {""start"": 326, ""end"": 333, ""label"": ""CPU"", ""text"": ""4.90GHz""}]","[{""start"": 289, ""end"": 334, ""label"": ""CPU"", ""text"": ""INTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)""}]"
+stara,S0051,37,body,FRAGMENTACIJA,"TEL 1700 B760M D5
+Memorija:
+DIMM DDR5 32GB
+SSD:
+1TB M.2 PCIe
+Grafika:
+nVidia GeForce RTX 5060 8GB 128-bit
+Kuciste:
+Tower Gaming sa 3x12cm cooler
+Napajanje:
+CHIEFTEC 700W
+Kuler","[{""start"": 416, ""end"": 451, ""label"": ""GPU"", ""text"": ""nVidia GeForce RTX 5060 8GB 128-bit""}]","[{""start"": 416, ""end"": 439, ""label"": ""GPU"", ""text"": ""nVidia GeForce RTX 5060""}, {""start"": 440, ""end"": 443, ""label"": ""GPU"", ""text"": ""8GB""}, {""start"": 444, ""end"": 451, ""label"": ""GPU"", ""text"": ""128-bit""}]"
+stara,S0052,37,title,PROPUSTENO,DDR5 Quadon RTX 5060 8GB/i7-12700 12c/32GB/1TB,"[{""start"": 0, ""end"": 4, ""label"": ""RAM"", ""text"": ""DDR5""}]",[]
+stara,S0053,37,title,GRANICA_UZA,DDR5 Quadon RTX 5060 8GB/i7-12700 12c/32GB/1TB,"[{""start"": 12, ""end"": 24, ""label"": ""GPU"", ""text"": ""RTX 5060 8GB""}]","[{""start"": 21, ""end"": 24, ""label"": ""GPU"", ""text"": ""8GB""}]"
+stara,S0054,38,body,SPAJANJE,"aster HYPER 212 Black X Duo RR
+Matična ploča: ASUS Prime B650M-R
+RAM: Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36
+Grafička: MSI Ventus 2X GeForce RTX 4070 12G OC
+SSD: Kingston NV2 1TB","[{""start"": 322, ""end"": 351, ""label"": ""RAM"", ""text"": ""Kingston Fury Beast 32GB DDR5""}, {""start"": 353, ""end"": 363, ""label"": ""RAM"", ""text"": ""2x16GB kit""}, {""start"": 365, ""end"": 378, ""label"": ""RAM"", ""text"": ""5600 Mhz CL36""}]","[{""start"": 322, ""end"": 378, ""label"": ""RAM"", ""text"": ""Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36""}]"
+stara,S0055,38,body,PROPUSTENO," štetu nanetu u transportu.
+
+Razlog prodaje je prelazak na jači PC sa x3d procesorom.
+
+Kontakt preko KP poruka.","[{""start"": 930, ""end"": 933, ""label"": ""CPU"", ""text"": ""x3d""}]",[]
+stara,S0056,39,body,POGRESNA_OZNAKA,"Apple Mac Mini Late 2012 A1347 / i5 /16gb ddr3/ SSD 500 GB / WIN10
+
+Uz racunar se dobija original naponski kabal. . Racunar ispr","[{""start"": 52, ""end"": 58, ""label"": ""SKLADISTE"", ""text"": ""500 GB""}]","[{""start"": 52, ""end"": 58, ""label"": ""GPU"", ""text"": ""500 GB""}]"
+stara,S0057,40,body,SUVISNO,"0TB
+Broj obrtaja: 7200 o/min (RPM)
+Bafer memorija: 512MB
+Format: 3.5""
+SMR tehnologija: Ne
+Težina: 750g",[],"[{""start"": 748, ""end"": 763, ""label"": ""SKLADISTE"", ""text"": ""SMR tehnologija""}]"
+stara,S0058,40,body,SUVISNO," (RPM)
+Bafer memorija: 512MB
+Format: 3.5""
+SMR tehnologija: Ne
+Težina: 750g",[],"[{""start"": 776, ""end"": 780, ""label"": ""SKLADISTE"", ""text"": ""750g""}]"
+stara,S0059,41,body,SPAJANJE,"tecture
+Proces izrade 5nm
+Broj unificiranih procesora 6144
+Radni takt 2.510MHz (2.680MHz boost clock)
+Memorija
+Količina memorije 24GB
+Tip memorije GDDR6
+Širina memorijske ","[{""start"": 551, ""end"": 559, ""label"": ""GPU"", ""text"": ""2.510MHz""}, {""start"": 561, ""end"": 581, ""label"": ""GPU"", ""text"": ""2.680MHz boost clock""}]","[{""start"": 551, ""end"": 582, ""label"": ""GPU"", ""text"": ""2.510MHz (2.680MHz boost clock)""}]"
+stara,S0060,41,body,GRANICA_SIRA,"80MHz boost clock)
+Memorija
+Količina memorije 24GB
+Tip memorije GDDR6
+Širina memorijske magistrale 384bit
+Napomena Izlaz za 4 monitora
+Priključci
+Ukupno Display port priključa","[{""start"": 663, ""end"": 669, ""label"": ""GPU"", ""text"": ""384bit""}]","[{""start"": 634, ""end"": 669, ""label"": ""GPU"", ""text"": ""Širina memorijske magistrale 384bit""}]"
+stara,S0061,41,body,GRANICA_SIRA,"učci 2x HDMI
+Dodatni naponski priključci 3x8pin
+Ostale karakteristike
+Slot PCI-Express 4.0 x 16
+Sistem hlađenja 3x Fan
+Podržane tehnologije AMD FreeSync™ , AMD Fidel","[{""start"": 898, ""end"": 918, ""label"": ""GPU"", ""text"": ""PCI-Express 4.0 x 16""}]","[{""start"": 893, ""end"": 918, ""label"": ""GPU"", ""text"": ""Slot PCI-Express 4.0 x 16""}]"
+stara,S0062,41,body,SUVISNO,"jske magistrale 384bit
+Napomena Izlaz za 4 monitora
+Priključci
+Ukupno Display port priključaka 2
+DisplayPort priključci 2x DisplayPort 2.1
+Ukupno HDMI priključaka 2
+H",[],"[{""start"": 717, ""end"": 743, ""label"": ""GPU"", ""text"": ""Display port priključaka 2""}]"
+stara,S0063,41,body,SUVISNO,"a
+Priključci
+Ukupno Display port priključaka 2
+DisplayPort priključci 2x DisplayPort 2.1
+Ukupno HDMI priključaka 2
+HDMI priključci 2x HDMI
+Dodatni naponski pr",[],"[{""start"": 767, ""end"": 785, ""label"": ""GPU"", ""text"": ""2x DisplayPort 2.1""}]"
+stara,S0064,41,body,SUVISNO,"y port priključaka 2
+DisplayPort priključci 2x DisplayPort 2.1
+Ukupno HDMI priključaka 2
+HDMI priključci 2x HDMI
+Dodatni naponski priključci 3x8pin
+Ostale kar",[],"[{""start"": 793, ""end"": 811, ""label"": ""GPU"", ""text"": ""HDMI priključaka 2""}]"
+stara,S0065,41,body,SUVISNO,"iključci 2x DisplayPort 2.1
+Ukupno HDMI priključaka 2
+HDMI priključci 2x HDMI
+Dodatni naponski priključci 3x8pin
+Ostale karakteristike
+Slot PCI-Exp",[],"[{""start"": 828, ""end"": 835, ""label"": ""GPU"", ""text"": ""2x HDMI""}]"
+stara,S0066,41,body,SUVISNO,"DMI priključaka 2
+HDMI priključci 2x HDMI
+Dodatni naponski priključci 3x8pin
+Ostale karakteristike
+Slot PCI-Express 4.0 x 16
+Sistem hlađenja 3x Fa",[],"[{""start"": 864, ""end"": 870, ""label"": ""GPU"", ""text"": ""3x8pin""}]"
+stara,S0067,41,body,SUVISNO,"ty Cache, Microsoft DirectStorage
+Maksimalna rezolucija 7.680 x 4.320
+Multi-view 4 monitora
+Fizičke karakteristike
+Dimenzije 320mm x 135.75mm 71.6mm
+Format ATX
+P",[],"[{""start"": 1193, ""end"": 1214, ""label"": ""GPU"", ""text"": ""Multi-view 4 monitora""}]"
+stara,S0068,41,body,SUVISNO," 7.680 x 4.320
+Multi-view 4 monitora
+Fizičke karakteristike
+Dimenzije 320mm x 135.75mm 71.6mm
+Format ATX
+Pakovanje Full box retail
+Reklamacioni period
+Reklamacioni",[],"[{""start"": 1248, ""end"": 1271, ""label"": ""GPU"", ""text"": ""320mm x 135.75mm 71.6mm""}]"
+stara,S0069,41,body,SUVISNO,"w 4 monitora
+Fizičke karakteristike
+Dimenzije 320mm x 135.75mm 71.6mm
+Format ATX
+Pakovanje Full box retail
+Reklamacioni period
+Reklamacioni period 36 ",[],"[{""start"": 1272, ""end"": 1282, ""label"": ""GPU"", ""text"": ""Format ATX""}]"
+stara,S0070,42,body,GRANICA_SIRA," s: Yes
+Memory size: 64GB
+Memory type: DDR5/CUDIMM
+Frequency: 6000MHz
+Latency CL: 30
+Cooling block: Yes
+Pieces: 2pcs
+Manufacturer specific: No
+iPon Gamer:","[{""start"": 181, ""end"": 183, ""label"": ""RAM"", ""text"": ""30""}]","[{""start"": 169, ""end"": 183, ""label"": ""RAM"", ""text"": ""Latency CL: 30""}]"
+stara,S0071,42,body,PROPUSTENO,"s
+Manufacturer specific: No
+iPon Gamer: Yes
+Weight: 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.","[{""start"": 284, ""end"": 292, ""label"": ""RAM"", ""text"": ""G. SKILL""}]",[]
+stara,S0072,42,body,FRAGMENTACIJA,"ic: No
+iPon Gamer: Yes
+Weight: 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.","[{""start"": 305, ""end"": 322, ""label"": ""RAM"", ""text"": ""64GB DDR5 6000Mhz""}]","[{""start"": 305, ""end"": 314, ""label"": ""RAM"", ""text"": ""64GB DDR5""}, {""start"": 315, ""end"": 322, ""label"": ""RAM"", ""text"": ""6000Mhz""}]"
+stara,S0073,42,body,GRANICA_SIRA," 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.","[{""start"": 335, ""end"": 339, ""label"": ""RAM"", ""text"": ""CL30""}]","[{""start"": 335, ""end"": 345, ""label"": ""RAM"", ""text"": ""CL30 delay""}]"
+stara,S0074,42,body,SUVISNO,"size: 64GB
+Memory type: DDR5/CUDIMM
+Frequency: 6000MHz
+Latency CL: 30
+Cooling block: Yes
+Pieces: 2pcs
+Manufacturer specific: No
+iPon Gamer: Yes
+Weight: 1",[],"[{""start"": 184, ""end"": 197, ""label"": ""RAM"", ""text"": ""Cooling block""}]"
+stara,S0075,42,body,SUVISNO,"k: Yes
+Pieces: 2pcs
+Manufacturer specific: No
+iPon Gamer: Yes
+Weight: 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 ",[],"[{""start"": 266, ""end"": 270, ""label"": ""RAM"", ""text"": ""130g""}]"
+stara,S0076,43,body,SUVISNO," racunara
+
+- Rok isporuke 3 do 8 radnih dana
+
+- Za porudžbine veće od 100e potreban je depozit od 20%
+
+- Za poručivanje ostaviti sledeće podatke",[],"[{""start"": 676, ""end"": 680, ""label"": ""CENA"", ""text"": ""100e""}]"
+stara,S0077,44,body,GRANICA_POMERENA,"ftver
+Operativni sistem Android 14
+Čipset
+Procesor Snapdragon 8 Gen 3
+Broj jezgara 8 (1+ 3 + 2 + 2)
+Radni takt procesora 3.3Ghz + 3.2Ghz + 3.0Ghz + 2.3Ghz
+RAM memorija 1","[{""start"": 888, ""end"": 904, ""label"": ""CPU"", ""text"": ""8 (1+ 3 + 2 + 2)""}]","[{""start"": 875, ""end"": 889, ""label"": ""CPU"", ""text"": ""Broj jezgara 8""}]"
+stara,S0078,44,body,FRAGMENTACIJA,"Snapdragon 8 Gen 3
+Broj jezgara 8 (1+ 3 + 2 + 2)
+Radni takt procesora 3.3Ghz + 3.2Ghz + 3.0Ghz + 2.3Ghz
+RAM memorija 16GB
+Grafički procesor Adreno 750
+Memorija
+Unutrašnja me","[{""start"": 926, ""end"": 959, ""label"": ""CPU"", ""text"": ""3.3Ghz + 3.2Ghz + 3.0Ghz + 2.3Ghz""}]","[{""start"": 926, ""end"": 932, ""label"": ""CPU"", ""text"": ""3.3Ghz""}, {""start"": 935, ""end"": 941, ""label"": ""CPU"", ""text"": ""3.2Ghz""}, {""start"": 944, ""end"": 950, ""label"": ""CPU"", ""text"": ""3.0Ghz""}, {""start"": 953, ""end"": 959, ""label"": ""CPU"", ""text"": ""2.3Ghz""}]"
+stara,S0079,46,body,GRANICA_SIRA,", izuzetno tiho hlađenje, modularni dizajn bez alata)
+Procesor (CPU): 2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3","[{""start"": 594, ""end"": 615, ""label"": ""CPU"", ""text"": ""Intel Xeon E5-2696 v2""}]","[{""start"": 591, ""end"": 615, ""label"": ""CPU"", ""text"": ""2x Intel Xeon E5-2696 v2""}]"
+stara,S0080,46,body,SPAJANJE,"ni dizajn bez alata)
+Procesor (CPU): 2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru) – prava procesorska zver za najteže poslove!
+RAM memorija: 64 GB DDR","[{""start"": 624, ""end"": 652, ""label"": ""CPU"", ""text"": ""24 fizička jezgra / 48 treda""}, {""start"": 665, ""end"": 673, ""label"": ""CPU"", ""text"": ""2.50 GHz""}, {""start"": 675, ""end"": 692, ""label"": ""CPU"", ""text"": ""Turbo do 3.50 GHz""}, {""start"": 694, ""end"": 709, ""label"": ""CPU"", ""text"": ""30MB SmartCache""}]","[{""start"": 624, ""end"": 722, ""label"": ""CPU"", ""text"": ""24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru""}]"
+stara,S0081,46,body,SUVISNO,"U): ATI FirePro W7100 sa 8GB GDDR5 memorije (profesionalna grafika sa 4x DisplayPort izlaza, podržava više 4K monitora, sertifikovana za CAD/CAM i render ",[],"[{""start"": 997, ""end"": 1011, ""label"": ""GPU"", ""text"": ""4x DisplayPort""}]"
+stara,S0082,46,body,SUVISNO,") - NOV
+1 TB HDD (prostrani hard disk za arhivu i podatke)
+Kontroler: LSI SAS-RAID kontroler
+Napajanje: Originalno fabričko HP napajanje od 1125W (izuzetno kvalit",[],"[{""start"": 1260, ""end"": 1282, ""label"": ""SKLADISTE"", ""text"": ""LSI SAS-RAID kontroler""}]"
+stara,S0083,46,title,SPAJANJE,HP Z820 / Dual XEON / 64GB RAM / SSD / GPU W7100 - 8GB,"[{""start"": 43, ""end"": 48, ""label"": ""GPU"", ""text"": ""W7100""}, {""start"": 51, ""end"": 54, ""label"": ""GPU"", ""text"": ""8GB""}]","[{""start"": 43, ""end"": 54, ""label"": ""GPU"", ""text"": ""W7100 - 8GB""}]"
+stara,S0084,47,body,GRANICA_UZA,"m
+Android, Android 15, HyperOS 2
+
+Tip panela
+IPS
+
+Proširenje memorije
+microSD (TransFlash) do 2TB
+
+Kamera
+Prednja/Zadnja
+
+Internet konekcija
+WiFi
+
+Mobilni internet
+Ne
+","[{""start"": 286, ""end"": 313, ""label"": ""SKLADISTE"", ""text"": ""microSD (TransFlash) do 2TB""}]","[{""start"": 307, ""end"": 313, ""label"": ""SKLADISTE"", ""text"": ""do 2TB""}]"
+stara,S0085,48,body,SUVISNO,"e-A / Micro-USB B
+Verzija USB-a 2.0/3.2 Gen 1 (3.1 Gen 1)
+Tehnologija Thunderbolt Ne
+Wi-Fi Ne
+Brzina prenosa podataka USB-a 5000 Mbit/s
+
+Karakteristike",[],"[{""start"": 282, ""end"": 293, ""label"": ""SKLADISTE"", ""text"": ""Thunderbolt""}]"
+stara,S0086,48,body,SUVISNO," B
+Verzija USB-a 2.0/3.2 Gen 1 (3.1 Gen 1)
+Tehnologija Thunderbolt Ne
+Wi-Fi Ne
+Brzina prenosa podataka USB-a 5000 Mbit/s
+
+Karakteristike
+
+Boja pr",[],"[{""start"": 297, ""end"": 302, ""label"": ""SKLADISTE"", ""text"": ""Wi-Fi""}]"
+stara,S0087,48,body,SUVISNO,"lastika
+LED indikatori Statusi
+Podržani su Windows operativni sistemi Windows 10, Windows 11, Windows 8.1
+Podržani su Mac operativni sistemi Da
+
+Menadžment potrošnje
+
+Način na",[],"[{""start"": 474, ""end"": 509, ""label"": ""SKLADISTE"", ""text"": ""Windows 10, Windows 11, Windows 8.1""}]"
+stara,S0088,48,body,SUVISNO,"ws operativni sistemi Windows 10, Windows 11, Windows 8.1
+Podržani su Mac operativni sistemi Da
+
+Menadžment potrošnje
+
+Način napajanja magistra",[],"[{""start"": 522, ""end"": 525, ""label"": ""SKLADISTE"", ""text"": ""Mac""}]"
+stara,S0089,48,body,SUVISNO," magistrale USB
+Trajanje baterije 900 mAh
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 656, ""end"": 661, ""label"": ""SKLADISTE"", ""text"": ""149 g""}]"
+stara,S0090,48,body,SUVISNO,"SB
+Trajanje baterije 900 mAh
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 669, ""end"": 674, ""label"": ""SKLADISTE"", ""text"": ""78 mm""}]"
+stara,S0091,48,body,SUVISNO,"aterije 900 mAh
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 682, ""end"": 688, ""label"": ""SKLADISTE"", ""text"": ""109 mm""}]"
+stara,S0092,48,body,SUVISNO,"h
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 696, ""end"": 701, ""label"": ""SKLADISTE"", ""text"": ""14 mm""}]"
+nova,N0001,5,body,SPAJANJE,"Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)
+16 GB DDR4-2","[{""start"": 0, ""end"": 21, ""label"": ""CPU"", ""text"": ""Intel® Core™ i3-8130U""}, {""start"": 23, ""end"": 30, ""label"": ""CPU"", ""text"": ""2.2 GHz""}, {""start"": 47, ""end"": 58, ""label"": ""CPU"", ""text"": ""up to 4 GHz""}]","[{""start"": 0, ""end"": 58, ""label"": ""CPU"", ""text"": ""Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz""}]"
+nova,N0002,5,body,SPAJANJE,"Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)
+16 GB DDR4-2400 SDRAM (2 x 8 GB)
+Intel® UHD Graphics 620
+256 GB PCIe","[{""start"": 64, ""end"": 93, ""label"": ""CPU"", ""text"": ""Intel® Turbo Boost Technology""}, {""start"": 95, ""end"": 105, ""label"": ""CPU"", ""text"": ""4 MB cache""}, {""start"": 107, ""end"": 114, ""label"": ""CPU"", ""text"": ""2 cores""}]","[{""start"": 64, ""end"": 114, ""label"": ""CPU"", ""text"": ""Intel® Turbo Boost Technology, 4 MB cache, 2 cores""}]"
+nova,N0003,5,body,SPAJANJE," up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)
+16 GB DDR4-2400 SDRAM (2 x 8 GB)
+Intel® UHD Graphics 620
+256 GB PCIe® NVMe™ M.2 SSD perfektan 100/100 ","[{""start"": 116, ""end"": 137, ""label"": ""RAM"", ""text"": ""16 GB DDR4-2400 SDRAM""}, {""start"": 139, ""end"": 147, ""label"": ""RAM"", ""text"": ""2 x 8 GB""}]","[{""start"": 116, ""end"": 148, ""label"": ""RAM"", ""text"": ""16 GB DDR4-2400 SDRAM (2 x 8 GB)""}]"
+nova,N0004,9,body,SPAJANJE,"Na prodaju: Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 1333MHz)
+2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+1x Ramaxel 4GB ","[{""start"": 41, ""end"": 45, ""label"": ""RAM"", ""text"": ""12GB""}, {""start"": 47, ""end"": 57, ""label"": ""RAM"", ""text"": ""3x4GB DDR3""}, {""start"": 59, ""end"": 66, ""label"": ""RAM"", ""text"": ""1333MHz""}]","[{""start"": 34, ""end"": 67, ""label"": ""RAM"", ""text"": ""ukupno 12GB (3x4GB DDR3, 1333MHz)""}]"
+nova,N0005,9,body,SPAJANJE,"Na prodaju: Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 1333MHz)
+2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+Sve memorije s","[{""start"": 68, ""end"": 94, ""label"": ""RAM"", ""text"": ""2x Elixir 4GB DDR3 SO-DIMM""}, {""start"": 96, ""end"": 120, ""label"": ""RAM"", ""text"": ""PC3-10600S, 1333MHz, CL9""}]","[{""start"": 68, ""end"": 121, ""label"": ""RAM"", ""text"": ""2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)""}]"
+nova,N0006,9,body,SPAJANJE," DDR3, 1333MHz)
+2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)
+Sve memorije su testirane i ispravne
+Odgovaraju većini laptopova sa D","[{""start"": 122, ""end"": 149, ""label"": ""RAM"", ""text"": ""1x Ramaxel 4GB DDR3 SO-DIMM""}, {""start"": 151, ""end"": 175, ""label"": ""RAM"", ""text"": ""PC3-10600S, 1333MHz, CL9""}]","[{""start"": 122, ""end"": 176, ""label"": ""RAM"", ""text"": ""1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)""}]"
+nova,N0007,9,body,GRANICA_UZA,"varaju većini laptopova sa DDR3 slotovima (Intel Core i3/i5/i7 prve i druge generacije – Sandy Bridge i slično)
+Idealno za nadogradnju starijeg laptopa – uk","[{""start"": 288, ""end"": 304, ""label"": ""CPU"", ""text"": ""druge generacije""}]","[{""start"": 288, ""end"": 293, ""label"": ""CPU"", ""text"": ""druge""}]"
+nova,N0008,9,body,GRANICA_SIRA,"je – Sandy Bridge i slično)
+Idealno za nadogradnju starijeg laptopa – ukupno 12GB RAM-a!
+Cena: 1499 rsd
+Slanje ili lično preuzimanje.","[{""start"": 379, ""end"": 383, ""label"": ""RAM"", ""text"": ""12GB""}]","[{""start"": 372, ""end"": 383, ""label"": ""RAM"", ""text"": ""ukupno 12GB""}]"
+nova,N0009,9,title,SPAJANJE,"Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 133","[{""start"": 29, ""end"": 33, ""label"": ""RAM"", ""text"": ""12GB""}, {""start"": 35, ""end"": 45, ""label"": ""RAM"", ""text"": ""3x4GB DDR3""}]","[{""start"": 22, ""end"": 50, ""label"": ""RAM"", ""text"": ""ukupno 12GB (3x4GB DDR3, 133""}]"
+nova,N0010,14,body,GRANICA_SIRA,"C General Features: Intel PXA270520 MHz processor.
+128MB total memory(64 MB ROM and 64 MB SDRAM)
+Microsoft Windows Mobile 2003 Second Edition for Poc","[{""start"": 196, ""end"": 201, ""label"": ""SKLADISTE"", ""text"": ""64 MB""}]","[{""start"": 196, ""end"": 205, ""label"": ""SKLADISTE"", ""text"": ""64 MB ROM""}]"
+nova,N0011,14,body,GRANICA_SIRA,"ures: Intel PXA270520 MHz processor.
+128MB total memory(64 MB ROM and 64 MB SDRAM)
+Microsoft Windows Mobile 2003 Second Edition for Pocket PC.
+3.5 Tran","[{""start"": 210, ""end"": 215, ""label"": ""RAM"", ""text"": ""64 MB""}]","[{""start"": 210, ""end"": 221, ""label"": ""RAM"", ""text"": ""64 MB SDRAM""}]"
+nova,N0012,23,body,SPAJANJE," računar dolazi gratis naponski kabl.
+SPECIFIKACIJA:
+- Procesor: NOVO AMD Ryzen 5 5500 (6 jezgara / 12 niti) – odličan gejmerski procesor sa jakim performansama u svim modernim i","[{""start"": 422, ""end"": 438, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5500""}, {""start"": 440, ""end"": 459, ""label"": ""CPU"", ""text"": ""6 jezgara / 12 niti""}]","[{""start"": 422, ""end"": 460, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5500 (6 jezgara / 12 niti)""}]"
+nova,N0013,23,body,SPAJANJE,"ta sa 12GB memorije, podrška za Ray Tracing i DLSS tehnologiju
+- RAM: 16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel) – brz i pouzdan gejmerski RAM
+- SSD: SKHynix 512GB NVMe SSD – veoma b","[{""start"": 688, ""end"": 717, ""label"": ""RAM"", ""text"": ""16GB DDR4 HyperX Fury 3200MHz""}, {""start"": 719, ""end"": 737, ""label"": ""RAM"", ""text"": ""2x8GB Dual Channel""}]","[{""start"": 688, ""end"": 738, ""label"": ""RAM"", ""text"": ""16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel)""}]"
+nova,N0014,24,body,SUVISNO,"ka kartica: Sapphire Nitro+ RX 580 4GB, u mint stanju, najbolji model 580-ice, tiha i hladna, stavljena je kvalitetna termalna pasta MX-4, pre toga",[],"[{""start"": 822, ""end"": 829, ""label"": ""GPU"", ""text"": ""580-ice""}]"
+nova,N0015,25,body,SPAJANJE,"Prodajem odličan Gaming PC – spreman za sve nove igre!
+CPU: AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)
+GPU: Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)
+RAM: 16GB DDR4
+","[{""start"": 60, ""end"": 77, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5600X""}, {""start"": 79, ""end"": 120, ""label"": ""CPU"", ""text"": ""6 jezgara / 12 threadova, boost do 4.6GHz""}]","[{""start"": 60, ""end"": 121, ""label"": ""CPU"", ""text"": ""AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)""}]"
+nova,N0016,25,body,SPAJANJE,"U: AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)
+GPU: Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)
+RAM: 16GB DDR4
+SSD: 1TB Kingston NVMe (brzo paljenje sistema i igara)","[{""start"": 127, ""end"": 155, ""label"": ""GPU"", ""text"": ""Zotac RTX 4060 8GB Twin Edge""}, {""start"": 157, ""end"": 168, ""label"": ""GPU"", ""text"": ""ray tracing""}, {""start"": 170, ""end"": 174, ""label"": ""GPU"", ""text"": ""DLSS""}]","[{""start"": 127, ""end"": 175, ""label"": ""GPU"", ""text"": ""Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)""}]"
+nova,N0017,26,body,SUVISNO,"Intel core i5 3.20 boost clock 3.40
+*16gb rama silicon power
+*2 SSD-a kingstone i silicon power 500gb
+*Radeon RX 580 4gb (nova ter",[],"[{""start"": 47, ""end"": 60, ""label"": ""RAM"", ""text"": ""silicon power""}]"
+nova,N0018,26,body,SUVISNO,"Intel core i5 3.20 boost clock 3.40
+*16gb rama silicon power
+*2 SSD-a kingstone i silicon power 500gb
+*Radeon RX 580 4gb (nova termal",[],"[{""start"": 62, ""end"": 63, ""label"": ""SKLADISTE"", ""text"": ""2""}]"
+nova,N0019,31,body,SPAJANJE,"(R) Core(TM)2 Duo CPU 2.10 GHz (T6500 / T6570)
+
+RAM: 4 GB, DDR2
+
+HDD: 465 GB (Performance 70% Health 50%)
+
+Ekran: 17,3""
+
+Baterija: Slaba
+
+Laptop dolazi bez punjača.
+
+Za više i","[{""start"": 280, ""end"": 286, ""label"": ""SKLADISTE"", ""text"": ""465 GB""}, {""start"": 300, ""end"": 303, ""label"": ""SKLADISTE"", ""text"": ""70%""}, {""start"": 311, ""end"": 314, ""label"": ""SKLADISTE"", ""text"": ""50%""}]","[{""start"": 280, ""end"": 315, ""label"": ""SKLADISTE"", ""text"": ""465 GB (Performance 70% Health 50%)""}]"
+nova,N0020,32,body,SPAJANJE,"ight 16:9
+- 4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB
+- 500 GB HDD DVD± RW
+- AMD Radeon AMD Radeon R2
+- Wi-Fi 4 (802.11n) Ethernet LAN 10,100,1000 Mbit/s Bluetooth 4.0
+- L","[{""start"": 216, ""end"": 226, ""label"": ""GPU"", ""text"": ""AMD Radeon""}, {""start"": 227, ""end"": 240, ""label"": ""GPU"", ""text"": ""AMD Radeon R2""}]","[{""start"": 216, ""end"": 240, ""label"": ""GPU"", ""text"": ""AMD Radeon AMD Radeon R2""}]"
+nova,N0021,32,body,SUVISNO," LED backlight 16:9
+- 4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB
+- 500 GB HDD DVD± RW
+- AMD Radeon AMD Radeon R2
+- Wi-Fi 4 (802.11n) Ethernet LAN 10,100,10",[],"[{""start"": 206, ""end"": 213, ""label"": ""SKLADISTE"", ""text"": ""DVD± RW""}]"
+nova,N0022,34,body,SPAJANJE,"20x1080) IPS, Anti-glare (odlične boje i uglovi gledanja)
+• Procesor: Intel Core i7-1255U (10 jezgara, 12 niti)
+• RAM: 16 GB DDR4 3200MHz
+• Skladište: 512 GB PCIe NVMe M.2 SSD (brz ","[{""start"": 768, ""end"": 787, ""label"": ""CPU"", ""text"": ""Intel Core i7-1255U""}, {""start"": 789, ""end"": 808, ""label"": ""CPU"", ""text"": ""10 jezgara, 12 niti""}]","[{""start"": 768, ""end"": 809, ""label"": ""CPU"", ""text"": ""Intel Core i7-1255U (10 jezgara, 12 niti)""}]"
+nova,N0023,34,body,SPAJANJE,"
+
+prodaje se ispravan racunar, instaliran je windows 11 pro, procesor i7 12. generacije
+
+instaliran je microsoft office 2024 paket word excel . ..
+
+zadnji po","[{""start"": 1032, ""end"": 1034, ""label"": ""CPU"", ""text"": ""i7""}, {""start"": 1035, ""end"": 1049, ""label"": ""CPU"", ""text"": ""12. generacije""}]","[{""start"": 1032, ""end"": 1049, ""label"": ""CPU"", ""text"": ""i7 12. generacije""}]"
+nova,N0024,34,body,SUVISNO,"ačem sa plavim vrhom). Nova baterija i punjač vas na oglasima koštaju oko 50-60 evra ukupno, nakon čega imate vrhunski laptop koji inače vredi preko 500 e",[],"[{""start"": 546, ""end"": 560, ""label"": ""CENA"", ""text"": ""oko 50-60 evra""}]"
+nova,N0025,35,body,SPAJANJE,"Proizvođač: Asus
+Model: VivoBook S510U
+Procesor: Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)
+Grafika: Intel(R) UHD Graphics 620
+Grafika nVidia geForce MX150 2gb D","[{""start"": 49, ""end"": 90, ""label"": ""CPU"", ""text"": ""Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz""}, {""start"": 93, ""end"": 130, ""label"": ""CPU"", ""text"": ""4 Cores, Max Turbo 3.40GHz, 6MB Cache""}]","[{""start"": 49, ""end"": 131, ""label"": ""CPU"", ""text"": ""Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)""}]"
+nova,N0026,35,title,GRANICA_SIRA,Asus VivoBook S510U core i5-8250U 8/256gb SSD 15.6,"[{""start"": 25, ""end"": 33, ""label"": ""CPU"", ""text"": ""i5-8250U""}]","[{""start"": 20, ""end"": 33, ""label"": ""CPU"", ""text"": ""core i5-8250U""}]"
+nova,N0027,37,body,SPAJANJE,"-----------------------------------------------------------
+Procesor:
+INTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)
+Maticna:
+INTEL 1700 B760M D5
+Memorija:
+DIMM DDR5 32GB
+SSD:
+1TB M.2 PC","[{""start"": 289, ""end"": 324, ""label"": ""CPU"", ""text"": ""INTEL Core i7-12700 12-Core 2.10GHz""}, {""start"": 326, ""end"": 333, ""label"": ""CPU"", ""text"": ""4.90GHz""}]","[{""start"": 289, ""end"": 334, ""label"": ""CPU"", ""text"": ""INTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)""}]"
+nova,N0028,37,body,GRANICA_SIRA,"2700 12-Core 2.10GHz (4.90GHz)
+Maticna:
+INTEL 1700 B760M D5
+Memorija:
+DIMM DDR5 32GB
+SSD:
+1TB M.2 PCIe
+Grafika:
+nVidia GeForce RTX 5060 8GB 128-bit
+Kucist","[{""start"": 379, ""end"": 388, ""label"": ""RAM"", ""text"": ""DDR5 32GB""}]","[{""start"": 374, ""end"": 388, ""label"": ""RAM"", ""text"": ""DIMM DDR5 32GB""}]"
+nova,N0029,38,body,SPAJANJE,"aster HYPER 212 Black X Duo RR
+Matična ploča: ASUS Prime B650M-R
+RAM: Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36
+Grafička: MSI Ventus 2X GeForce RTX 4070 12G OC
+SSD: Kingston NV2 1TB","[{""start"": 322, ""end"": 351, ""label"": ""RAM"", ""text"": ""Kingston Fury Beast 32GB DDR5""}, {""start"": 353, ""end"": 363, ""label"": ""RAM"", ""text"": ""2x16GB kit""}, {""start"": 365, ""end"": 378, ""label"": ""RAM"", ""text"": ""5600 Mhz CL36""}]","[{""start"": 322, ""end"": 378, ""label"": ""RAM"", ""text"": ""Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36""}]"
+nova,N0030,38,body,PROPUSTENO," štetu nanetu u transportu.
+
+Razlog prodaje je prelazak na jači PC sa x3d procesorom.
+
+Kontakt preko KP poruka.","[{""start"": 930, ""end"": 933, ""label"": ""CPU"", ""text"": ""x3d""}]",[]
+nova,N0031,40,body,SUVISNO,"0TB
+Broj obrtaja: 7200 o/min (RPM)
+Bafer memorija: 512MB
+Format: 3.5""
+SMR tehnologija: Ne
+Težina: 750g",[],"[{""start"": 748, ""end"": 763, ""label"": ""SKLADISTE"", ""text"": ""SMR tehnologija""}]"
+nova,N0032,40,body,SUVISNO," 7200 o/min (RPM)
+Bafer memorija: 512MB
+Format: 3.5""
+SMR tehnologija: Ne
+Težina: 750g",[],"[{""start"": 765, ""end"": 767, ""label"": ""SKLADISTE"", ""text"": ""Ne""}]"
+nova,N0033,40,body,SUVISNO," (RPM)
+Bafer memorija: 512MB
+Format: 3.5""
+SMR tehnologija: Ne
+Težina: 750g",[],"[{""start"": 776, ""end"": 780, ""label"": ""SKLADISTE"", ""text"": ""750g""}]"
+nova,N0034,41,body,SPAJANJE,"tecture
+Proces izrade 5nm
+Broj unificiranih procesora 6144
+Radni takt 2.510MHz (2.680MHz boost clock)
+Memorija
+Količina memorije 24GB
+Tip memorije GDDR6
+Širina memorijske ","[{""start"": 551, ""end"": 559, ""label"": ""GPU"", ""text"": ""2.510MHz""}, {""start"": 561, ""end"": 581, ""label"": ""GPU"", ""text"": ""2.680MHz boost clock""}]","[{""start"": 551, ""end"": 582, ""label"": ""GPU"", ""text"": ""2.510MHz (2.680MHz boost clock)""}]"
+nova,N0035,41,body,SPAJANJE,"Slot PCI-Express 4.0 x 16
+Sistem hlađenja 3x Fan
+Podržane tehnologije AMD FreeSync™ , AMD FidelityFX, AMD Radeon™ Boost, Vulkan™ , Microsoft® DirectX® 12 Ultimate, AMD Link, AMD Privacy View, AMD Noise Suppression, 96MB AMD Infinity Cache, Microsoft DirectStorage
+Maksimalna rezolucija 7.680 x 4.320
+Multi-view 4 monitora
+Fizičke kar","[{""start"": 963, ""end"": 976, ""label"": ""GPU"", ""text"": ""AMD FreeSync™""}, {""start"": 979, ""end"": 993, ""label"": ""GPU"", ""text"": ""AMD FidelityFX""}, {""start"": 995, ""end"": 1012, ""label"": ""GPU"", ""text"": ""AMD Radeon™ Boost""}, {""start"": 1014, ""end"": 1021, ""label"": ""GPU"", ""text"": ""Vulkan™""}, {""start"": 1024, ""end"": 1055, ""label"": ""GPU"", ""text"": ""Microsoft® DirectX® 12 Ultimate""}, {""start"": 1057, ""end"": 1065, ""label"": ""GPU"", ""text"": ""AMD Link""}, {""start"": 1067, ""end"": 1083, ""label"": ""GPU"", ""text"": ""AMD Privacy View""}, {""start"": 1085, ""end"": 1106, ""label"": ""GPU"", ""text"": ""AMD Noise Suppression""}, {""start"": 1108, ""end"": 1131, ""label"": ""GPU"", ""text"": ""96MB AMD Infinity Cache""}, {""start"": 1133, ""end"": 1156, ""label"": ""GPU"", ""text"": ""Microsoft DirectStorage""}]","[{""start"": 963, ""end"": 1156, ""label"": ""GPU"", ""text"": ""AMD FreeSync™ , AMD FidelityFX, AMD Radeon™ Boost, Vulkan™ , Microsoft® DirectX® 12 Ultimate, AMD Link, AMD Privacy View, AMD Noise Suppression, 96MB AMD Infinity Cache, Microsoft DirectStorage""}]"
+nova,N0036,41,body,SUVISNO," memorije GDDR6
+Širina memorijske magistrale 384bit
+Napomena Izlaz za 4 monitora
+Priključci
+Ukupno Display port priključaka 2
+DisplayPort priključci 2",[],"[{""start"": 688, ""end"": 698, ""label"": ""GPU"", ""text"": ""4 monitora""}]"
+nova,N0037,41,body,SUVISNO,"pomena Izlaz za 4 monitora
+Priključci
+Ukupno Display port priključaka 2
+DisplayPort priključci 2x DisplayPort 2.1
+Ukupno HDMI priključaka 2
+H",[],"[{""start"": 742, ""end"": 743, ""label"": ""GPU"", ""text"": ""2""}]"
+nova,N0038,41,body,SUVISNO,"a 2
+DisplayPort priključci 2x DisplayPort 2.1
+Ukupno HDMI priključaka 2
+HDMI priključci 2x HDMI
+Dodatni naponski priključci 3x8pin
+Ostale kar",[],"[{""start"": 810, ""end"": 811, ""label"": ""GPU"", ""text"": ""2""}]"
+nova,N0039,41,body,SUVISNO,"icrosoft DirectStorage
+Maksimalna rezolucija 7.680 x 4.320
+Multi-view 4 monitora
+Fizičke karakteristike
+Dimenzije 320mm x 135.75mm 71.6mm
+Format ATX
+P",[],"[{""start"": 1204, ""end"": 1214, ""label"": ""GPU"", ""text"": ""4 monitora""}]"
+nova,N0040,41,body,SUVISNO,"itora
+Fizičke karakteristike
+Dimenzije 320mm x 135.75mm 71.6mm
+Format ATX
+Pakovanje Full box retail
+Reklamacioni period
+Reklamacioni period 36 ",[],"[{""start"": 1279, ""end"": 1282, ""label"": ""GPU"", ""text"": ""ATX""}]"
+nova,N0041,42,body,SUVISNO,"k: Yes
+Pieces: 2pcs
+Manufacturer specific: No
+iPon Gamer: Yes
+Weight: 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 ",[],"[{""start"": 266, ""end"": 270, ""label"": ""RAM"", ""text"": ""130g""}]"
+nova,N0042,42,body,SUVISNO,"
+Pieces: 2pcs
+Manufacturer specific: No
+iPon Gamer: Yes
+Weight: 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.",[],"[{""start"": 272, ""end"": 280, ""label"": ""RAM"", ""text"": ""2 pieces""}]"
+nova,N0043,42,body,SUVISNO,"s
+Manufacturer specific: No
+iPon Gamer: Yes
+Weight: 130g
+
+2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.",[],"[{""start"": 284, ""end"": 292, ""label"": ""RAM"", ""text"": ""G. SKILL""}]"
+nova,N0044,46,body,SPAJANJE,", izuzetno tiho hlađenje, modularni dizajn bez alata)
+Procesor (CPU): 2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru) – prava procesorska zver za najteže poslove!
+RAM memorija: 64 GB DDR3","[{""start"": 591, ""end"": 615, ""label"": ""CPU"", ""text"": ""2x Intel Xeon E5-2696 v2""}, {""start"": 624, ""end"": 652, ""label"": ""CPU"", ""text"": ""24 fizička jezgra / 48 treda""}, {""start"": 665, ""end"": 673, ""label"": ""CPU"", ""text"": ""2.50 GHz""}, {""start"": 681, ""end"": 692, ""label"": ""CPU"", ""text"": ""do 3.50 GHz""}, {""start"": 694, ""end"": 709, ""label"": ""CPU"", ""text"": ""30MB SmartCache""}]","[{""start"": 591, ""end"": 723, ""label"": ""CPU"", ""text"": ""2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru)""}]"
+nova,N0045,46,body,SUVISNO,"je, virtuelizacija, ali i odličan za opušteni gejming).
+
+Zahvaljujući duplim procesorima i gigantskoj snazi, ovaj sistem nudi neverovatan multitas",[],"[{""start"": 320, ""end"": 326, ""label"": ""CPU"", ""text"": ""duplim""}]"
+nova,N0046,46,body,SUVISNO,"R5 memorije (profesionalna grafika sa 4x DisplayPort izlaza, podržava više 4K monitora, sertifikovana za CAD/CAM i render softvere). Adapter DP na HDMI ide ",[],"[{""start"": 1029, ""end"": 1045, ""label"": ""GPU"", ""text"": ""više 4K monitora""}]"
+nova,N0047,46,body,SUVISNO,") - NOV
+1 TB HDD (prostrani hard disk za arhivu i podatke)
+Kontroler: LSI SAS-RAID kontroler
+Napajanje: Originalno fabričko HP napajanje od 1125W (izuzetno kvalit",[],"[{""start"": 1260, ""end"": 1282, ""label"": ""SKLADISTE"", ""text"": ""LSI SAS-RAID kontroler""}]"
+nova,N0048,46,title,SPAJANJE,HP Z820 / Dual XEON / 64GB RAM / SSD / GPU W7100 - 8GB,"[{""start"": 43, ""end"": 48, ""label"": ""GPU"", ""text"": ""W7100""}, {""start"": 51, ""end"": 54, ""label"": ""GPU"", ""text"": ""8GB""}]","[{""start"": 43, ""end"": 54, ""label"": ""GPU"", ""text"": ""W7100 - 8GB""}]"
+nova,N0049,47,body,GRANICA_UZA,"m
+Android, Android 15, HyperOS 2
+
+Tip panela
+IPS
+
+Proširenje memorije
+microSD (TransFlash) do 2TB
+
+Kamera
+Prednja/Zadnja
+
+Internet konekcija
+WiFi
+
+Mobilni internet
+Ne
+","[{""start"": 286, ""end"": 313, ""label"": ""SKLADISTE"", ""text"": ""microSD (TransFlash) do 2TB""}]","[{""start"": 307, ""end"": 313, ""label"": ""SKLADISTE"", ""text"": ""do 2TB""}]"
+nova,N0050,48,body,SUVISNO,"lastika
+LED indikatori Statusi
+Podržani su Windows operativni sistemi Windows 10, Windows 11, Windows 8.1
+Podržani su Mac operativni sistemi Da
+
+Menadžment potrošnje
+
+Način na",[],"[{""start"": 474, ""end"": 509, ""label"": ""SKLADISTE"", ""text"": ""Windows 10, Windows 11, Windows 8.1""}]"
+nova,N0051,48,body,SUVISNO," magistrale USB
+Trajanje baterije 900 mAh
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 656, ""end"": 661, ""label"": ""SKLADISTE"", ""text"": ""149 g""}]"
+nova,N0052,48,body,SUVISNO,"SB
+Trajanje baterije 900 mAh
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 669, ""end"": 674, ""label"": ""SKLADISTE"", ""text"": ""78 mm""}]"
+nova,N0053,48,body,SUVISNO,"aterije 900 mAh
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 682, ""end"": 688, ""label"": ""SKLADISTE"", ""text"": ""109 mm""}]"
+nova,N0054,48,body,SUVISNO,"h
+
+Težina i dimenzije
+
+Težina 149 g
+Širina 78 mm
+Dubina 109 mm
+Visina 14 mm",[],"[{""start"": 696, ""end"": 701, ""label"": ""SKLADISTE"", ""text"": ""14 mm""}]"

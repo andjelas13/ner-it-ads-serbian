@@ -1,0 +1,25 @@
+TITLE:
+Monitor (72) Dell E207WFPc 1
+
+BODY:
+NEISPRAVAN LCD monitor
+
+- Proizvodjac Dell
+
+- Tip E207WFPc 1
+
+- DVI ulaz
+
+- VGA ulaz
+
+- Dijagonala 20 inch
+
+- odziv 8 ms
+
+- dinamic Contrast
+
+- ulazni napon 100-240 V AC
+
+- problem sa display-om
+
+- bez podnozja

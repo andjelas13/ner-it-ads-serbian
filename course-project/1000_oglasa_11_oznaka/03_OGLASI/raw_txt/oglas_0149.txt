@@ -1,0 +1,16 @@
+TITLE:
+Računar za multimediju SSD
+
+BODY:
+Ploča: Asus P5KC (6 slotova za RAM)
+PODRŽAVA DDR2 I DDR3
+Procesor: Intel 4600 2,4Ghz RAM: 2Gb DDR3
+HDD: Kingston SSD 240Gb
+Grafička: Nvidia 9300 512Mb
+Mrežna
+Zvučna
+Kućište CODEGEN
+
+Računar radi odlično iako ima premalo RAM-a (valjalo bi bar 4Gb).
+Odličan za multimediju i manje zahtevne korisnike (internet, office, itd). Uz nadogradnju rama (DDR2 ili Ddr3) odličan u tom cenovnom rangu.
+4 slota za ddr2 i 2 slota za dd3.

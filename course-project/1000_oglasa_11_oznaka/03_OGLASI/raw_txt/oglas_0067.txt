@@ -1,0 +1,25 @@
+TITLE:
+Procesor (66) Intel Celeron 2200 MHz-400-128
+
+BODY:
+Ispravan procesor za Desktop racunar
+
+- Proizvodjac Intel
+
+- Tip Celeron
+
+- tehnologija 0.13 mm
+
+- podnozje 478
+
+- brzina 2200 MHz
+
+- magistrala 400 MHz
+
+- memorija 128 kb
+
+- broj jezgra 1
+
+- u mogucnosti sam da nabavim
+
+ventilator za procesor a on se doplacuje odvojeno

@@ -1,0 +1,43 @@
+TITLE:
+Palit GeForce GTX 560 Ti 1GB 256bit - VGA,DVI,HDMI
+
+BODY:
+Na prodaju odlična grafička karta Palit GeForce GTX 560 Ti sa 1GB GDDR5 memorije na 256bit-a, sa izlazima 1x VGA, 2x Dual-DVI i 1x HDMI. Inače Palit je čuveni i jedan od najvećih brendova u elektronskoj industriji što se tiče izrade grafičkih karti. Grafička karta je neotvarana, testirana i ispravna! Jedino na jednom DVI izlazu ne daje sliku, na drugom DVI, VGA i HDMI izlazu daje sliku i radi normalno. Potreban je 2x6pin priključak, ako nemate na napajanju, može i preko 2x6pin adaptera, troši 170W u punom opterećenju, tako da je potrebno brand napajanje bar od 450W prave snage! Dodatni priključak adapter 1x6pin je 250 din.
+
+Karakteristike:
+
+Proizvođač : Palit
+
+Model : GeForce GTX 560 1GB GDDR5 256bit
+
+Procesor
+
+GPU : Geforce GTX560
+
+Brzina GPU : 822 MHz
+
+DirectX podrška : DirectX 11
+
+Memorija
+
+Kapacitet : 1024 MB
+
+Interfejs : 256 bit
+
+Tip : GDDR5
+
+Takt : 4008 MHz
+
+Povezivanje
+
+RAMDAC : 400 MHz
+
+Maksimalna rezolucija : 2560x1600
+
+Slot : PCI Express 2. 0
+
+Priključci : Dual-DVI, HDMI, VGA
+
+Ostalo : S
+
+Totalno sniženje ! ! !

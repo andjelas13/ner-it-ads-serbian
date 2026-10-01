@@ -1,0 +1,76 @@
+TITLE:
+Gigabyte GA-946GM-S2 775 DDR2
+
+BODY:
+U ponudi ispravna i testirana matična ploča
+
+Naziv
+
+Proizvođač : Gigabyte
+
+Model : GA-946GM-S2
+
+Forma
+
+Dimenzije : microATX
+
+Procesor
+
+Procesor : Intel Core 2 Duo, Intel Core 2 Duo Extreme, Intel Core 2 Quad, , ,
+
+Podnožje : Socket 775,
+
+Magistrala : 533 MHz, 800 MHz, 1066 MHz,
+
+Čipset
+
+Čipset : Intel 946GZ
+
+Integrisano : SB, LAN,
+
+Memorija
+
+Brzina (DDR2) : 533 MHz, 667 MHz,
+
+Broj slotova (DDR2) : 4 kom.
+
+Maksimalno : 4 GB
+
+Ekspanzija
+
+Slotovi
+
+PCI : 2 kom.
+
+PCI Express x1 : 1 kom.
+
+PCI Express x16 : 1 kom.
+
+Kontroleri
+
+Podržano : ATA100, SATA300,
+
+ATA100 : 1 kom.
+
+SATA300 : 4 kom.
+
+Ulaz/Izlaz
+
+Interni
+
+USB 2.0 : 4 kom.
+
+Eksterni
+
+VGA : D-Sub,
+
+USB 2.0 : 4 kom.
+
+COM : 1 kom.
+
+LPT : 1 kom.
+
+LAN : 1 kom.
+
+Audio portovi : 2.1
+Pogledajte ostale nase oglase hvala,poziv sms,vats up,viber.

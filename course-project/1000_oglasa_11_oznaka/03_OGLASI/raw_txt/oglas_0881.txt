@@ -1,0 +1,17 @@
+TITLE:
+RAM memorija, PATRIOT PSD38G16002 DDR3 8GB 1600Mhz
+
+BODY:
+Brend: Patriot
+
+Model: PSD38G16002
+
+Karakteristike
+Patriot Memori Signature Line DDR3 ne-ECC nebaferovana memorija pruža kvalitet, pouzdanost i performanse koje se očekuju za današnje potrebe računara. Napravljena korišćenjem specifičnih materijala (BOM), osiguravamo da svaki modul ispunjava i prevazilazi industrijske standarde: nudeći vam nadogradnju bez problema. Sertifikujemo svaku komponentu koja ulazi u naše module, uključujući i same module, koji moraju da prođu stroge standarde kako bi se osigurala kompatibilnost, kvalitet i pouzdanost.
+Sa besplatnom korisničkom uslugom i doživotnom garancijom, Patriot Memori Signature Line memorijski moduli su savršena opcija za nadogradnju sistema.
+Specifikacije
+
+  * Kapacitet: 8 GB
+  * Frekvencija: 1600 MHz
+  * Tip Memorije: DDR3
+  * RGB: Ne

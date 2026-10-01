@@ -1,0 +1,21 @@
+TITLE:
+INTEL Core CPU Procesor s1200 i9-11900K 8 Core 3.5GHz 5.3GH
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+Model    i9 11900K
+Podnožje    1200 (11. generacija)
+Radni takt    Base 3.5 GHz Turbo 5.3 GHz
+Broj fizičkih jezgra    8
+Broj logičkih jezgra    16
+Keš memorija    L3 : 16MB
+Proizvodni proces    14nm
+TDP    125W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 750
+Maksimalna brzina memorije     DDR4-3200 MHz
+Maksimalna podržana memorija    128GB
+
+24749
+
+Dsc

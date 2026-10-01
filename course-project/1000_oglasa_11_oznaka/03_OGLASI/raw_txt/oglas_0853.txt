@@ -1,0 +1,83 @@
+TITLE:
+GIGABYTE M27UP Monitor
+
+BODY:
+* Najveci izbor sve vrste tehnike.
+  * Sve stvari su NOVE i originalne, u fabrickom pakovanju.
+  * Garancija od 1-5 godina zavisno od modela.
+  * Rok isporuke za robu koju nemamo na stanju je od 3-8 radnih dana.
+  * Slanje pouzdanom kurirskom sluzbom na teritoriji Srbije, ili mogucnost licnog preuzimanja.
+  * Licno preuzimanje u Novom Sadu, Beogradu, Subotici, Somboru.
+  * Cene i dostupnost su promenljive, pa molimo za proveru na dan kupovine.
+Color
+Black
+Panel type
+IPS
+Screen diagonal
+27"
+Resolution
+3840 x 2160 (4K UHD)
+Dual ü zemmó d
+Yes
+Screen ratio
+16:9
+Refresh rate
+160Hz
+response time
+1ms
+Contrast ratio
+1000:1
+Light intensity
+350cd/m²
+10 bites panel
+Yes
+Curved screen
+No
+HDR
+Yes
+VGA/D-SUB
+No
+DVI
+No
+HDMI
+2pcs
+Micro HDMI
+No
+Mini HDMI
+No
+DisplayPort
+1pcs
+Mini DisplayPort
+No
+USB Type C video
+Yes
+Thunderbolt
+No
+Integrated speaker
+Yes
+Integrated webcam
+No
+Built-in KVM
+Yes
+Built-in USB HUB
+USB 3.0
+3 day pixel damage warranty
+No
+Forgatható /Pivot
+No
+Portable
+No
+Touchscreen
+No
+Adaptive sync
+No
+AMD FreeSync
+Yes
+NVIDIA G-SYNC
+Yes
+iPon Gamer
+Yes
+Energy class
+F
+Weight
+9900g

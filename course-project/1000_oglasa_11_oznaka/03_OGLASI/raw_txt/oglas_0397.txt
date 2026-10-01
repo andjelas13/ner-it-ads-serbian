@@ -1,0 +1,33 @@
+TITLE:
+EG-UPS-B650 Gembird 650VA 390W AVR UPS, 2 x Shuko
+
+BODY:
+garancija 1 godine
+
+Obezbeđuje pomocni izvor energije-sprečava gubitak podataka
+
+Štiti vasu osetljivu i vrednu opremu
+
+Kompaktan i pouzdan-idealno rešenje za kucu i manje kancelarije
+
+Neprekidno 650VA napajanje sa automatskom regulacijom izlaznog napona (AVR) stabilizator
+
+LED indikacija statusa
+
+Zaštita od kratkog spoja i prednapona,
+
+Zvučni i vizuelni alarmi prepunjavanja
+
+Ulaz: AC 220V±25%, 50Hz/60Hz±10%
+
+Izlaz: AC 220V±10%, 50Hz/60Hz±0,5% (na bateriji)
+
+Vreme prebacivanja: ne više od 10ms
+
+Backup time: do 20 minuta (zavisi od opterecenja)
+
+Baterija: 151x65x95mm zapečaćena olovna 12V/7Ah x 1kom
+
+Vreme punjenja: do 12 sati
+
+Prikljucak: 2 x Šuko izlaz (, korektora napona AVR

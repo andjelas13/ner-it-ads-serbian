@@ -1,0 +1,7 @@
+TITLE:
+Intel Pentium 4 511 775 2x 2.80Ghz 1mb, perfektan
+
+BODY:
+Intel Pentium 4 511 procesor, socket 775, frekvencija 2x 2.80Ghz, cache 1mb
+
+Proveren, testiran, ispravan

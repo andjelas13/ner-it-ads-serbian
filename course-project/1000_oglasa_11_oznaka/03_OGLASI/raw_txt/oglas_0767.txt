@@ -1,0 +1,36 @@
+TITLE:
+Graficka karta Biostar RX550 4GB GDDR5 128bit DVIDPHDMI
+
+BODY:
+Kupac dobija fiskalni račun i garanciju!
+
+Moguće plaćanje preko računa firme!
+
+Moguće plaćanje na rate od 3 do 12 meseci preko Intesa kreditnih kartica Master Card i American Express!
+
+Nismo u mogućnosti da sve artikle postavimo ovde koje možemo da ponudimo, slobodno pošaljite upit za određeni artikal.
+Uvek proveriti cenu pre porudžbine. Može da se desi da cena nekog proizvoda bude niža nego što trenutno stoji, ali i obrnuto — ili da proizvod trenutno nije dostupan.
+
+-------------------------------------------------------------------------------------------------------------------
+Model:
+Radeon RX550
+Broj CUDA jezgara:
+512
+Frekvencija:
+1100/1183 MHz
+Tip memorije:
+GDDR5
+Količina memorije:
+4 GB
+Memorijska magistrala:
+128-bit
+Interfejs:
+Podržava PCI-e 3.0
+Konektori:
+1x DVI
+1x DisplayPort
+1x HDMI
+Preporučena snaga  napajanja:
+400W
+Prava potrošača:
+Zakonska saobraznost 2 godine

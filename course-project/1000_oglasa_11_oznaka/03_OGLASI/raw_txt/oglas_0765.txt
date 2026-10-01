@@ -1,0 +1,5 @@
+TITLE:
+Serverska grafička Nvidia Tesla M60 DDR5 GPU akcelerator
+
+BODY:
+Ispravna grafička za servere. Radna garancija na ispravnost.

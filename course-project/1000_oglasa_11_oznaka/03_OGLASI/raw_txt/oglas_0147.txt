@@ -1,0 +1,29 @@
+TITLE:
+Retro PC - Sempron 2600+ / Radeon HD 9250 - Radi
+
+BODY:
+Na prodaju ispravna retro konfiguracija iz sredine 2000-ih.
+
+Kompjuter je testiran, prolazi POST.
+
+Specifikacije:
+
+Procesor: AMD Sempron 2600+ (Palermo jezgro, Socket 754)
+
+RAM: 1. 25GB DDR1
+
+Grafika: ATI Radeon HD 9250 (64)
+
+HDD: Western Digital 80GB (WDC WD800BB), 7. 200 RPM, IDE interfejs.
+
+Optika: HL-DT-ST DVD-RAM pisač.
+
+Matična ploča: K8U (Gigabyte).
+
+Stanje i napomene:
+
+VAŽNO: Kućištu fale prednji plastični poklopci (brackets) za 5. 25" ležišta (vidi se na slici). Ako vam estetika smeta, možete ubaciti još neki stari čitač da popunite rupu.
+
+U BIOS nisam ulazio jer nemam PS2 tastaturu.
+
+Kompjuter je sredjen i cist. Slike su pre sredjivanja.

@@ -1,0 +1,41 @@
+TITLE:
+MSI GeForce RTX 5060 Ti 8G VENTUS 3X OC grafička karta
+
+BODY:
+MSI GeForce RTX 5060 Ti 8G VENTUS 3X OC grafička karta
+
+Grafički procesor
+Proizvođač čipa: nVidia
+Grafika: nVidia GeForce
+Model: GeForce RTX 5060 Ti
+Proizvođač kartice: MSI
+Grafički čip: Blackwell
+Broj CUDA jezgara: 4608
+Radni takt: oko 2.407MHz (boost do oko 2.572MHz OC)
+Memorija
+Količina memorije: 8GB
+Magistrala memorije: 128bit
+Tip memorije: GDDR7
+Brzina memorije: 28Gbps
+Propusni opseg memorije: 448GB/s
+
+Priključci
+Ukupno DisplayPort priključaka: 3
+DisplayPort priključci: 3x DisplayPort 2.1b
+Ukupno HDMI priključaka: 1
+HDMI priključci: 1x HDMI 2.1b
+Dodatni naponski priključci: 1x8pin
+Ostale karakteristike
+Slot: PCI-Express 5.0 x8
+Broj ventilatora: 3x ventilatora
+Sistem hlađenja: VENTUS Triple Fan Cooling
+Podržane tehnologije: OpenGL 4.6, Microsoft DirectX 12 Ultimate, nVidia DLSS 4, Ray Tracing, nVidia Reflex, CUDA, MSI Center, Afterburner
+Maksimalna rezolucija: 7.680 x 4.320
+Podrška za monitore: do 4 monitora
+Zero Frozr režim: Da
+
+Fizičke karakteristike
+Dimenzije: oko 303mm x 121mm x 49mm
+Format: Pun format
+Boja: Crna / Srebrna
+Garancija 36 meseci

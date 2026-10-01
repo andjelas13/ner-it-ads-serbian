@@ -1,0 +1,27 @@
+TITLE:
+AMD Athlon II X4 Quad-Core 2.80GHz AM2+ AM3 ADX630
+
+BODY:
+Odličan procesor AMD sa hladnjakom i kulerom u kompletu 4 cores, 4 threads
+
+AMD Athlon II X4
+
+Model number 630CPU
+
+part numbers ADX630WFK42GI CPUFrequency 2800 MHz
+
+Bus speed 667 MHz
+
+Memory controller One 2000 MHz 16-bit HyperTransport linkPackage 938-pin
+
+Socket AM2+ Socket AM3 Microarchitecture K10 Processor core Propus Data width64 bit
+
+The number of cores4
+
+The number of threads 4
+
+Level 1 cache size4 x 64 KB
+
+Level 2 cache size4 x 512 KB caches
+
+Level 3 cache size None

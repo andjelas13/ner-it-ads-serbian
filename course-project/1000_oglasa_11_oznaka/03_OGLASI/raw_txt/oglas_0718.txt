@@ -1,0 +1,22 @@
+TITLE:
+AMD Procesor CPU AM4 Ryzen 5 3600 6C/12T 3.60-4.20GHz 31AWOF
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+
+Model    Ryzen 5 3600
+Podnožje    AM4
+Radni takt    Base 3.6 GHz Turbo 4.2 GHz
+Broj fizičkih jezgra    6
+Broj logičkih jezgra    12
+Keš memorija    L3 : 32MB
+Proizvodni proces    7nm
+TDP    65W
+Tip pakovanja     Tray
+Integrisana grafika     Nema
+Maksimalna brzina memorije     DDR4-3200MHz
+Maksimalna podržana memorija    128GB
+
+22597
+
+Dsc

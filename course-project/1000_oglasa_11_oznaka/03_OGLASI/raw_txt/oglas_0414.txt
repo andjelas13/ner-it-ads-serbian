@@ -1,0 +1,15 @@
+TITLE:
+2x8gb IBM DD3 memorija ECC registered
+
+BODY:
+Za Apple Mac Pro & PC Servers
+
+2x8gb IBM DD3 Memorija ECC Registered
+
+(Double Data Rate Three) RAM
+
+Heat spreader attached, ECC Registered
+
+240-pin, PC3-10600R, 1333 MHz
+
+Voltage: 1.5V, CL9, 2Rx4

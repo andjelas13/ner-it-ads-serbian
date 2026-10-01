@@ -1,0 +1,41 @@
+TITLE:
+Gigabyte gb-BER7-5700 BRIX Mini PC AMD Ryzen 7 5700U 1.8 GHz
+
+BODY:
+Kupac dobija fiskalni račun i garanciju!
+
+Moguće plaćanje preko računa firme!
+
+Moguće plaćanje na rate od 3 do 12 meseci preko Intesa kreditnih kartica Master Card i American Express!
+
+Nismo u mogućnosti da sve artikle postavimo ovde koje možemo da ponudimo, slobodno pošaljite upit za određeni artikal.
+Uvek proveriti cenu pre porudžbine. Može da se desi da cena nekog proizvoda bude niža nego što trenutno stoji, ali i obrnuto — ili da proizvod trenutno nije dostupan.
+
+-------------------------------------------------------------------------------------------------------------------
+Popunjeni slotovi: 0
+Grafika: AMD Radeon
+Audio izlaz: 1
+Reklamacioni period: 36 meseci
+Model: 5700U
+Wi-Fi: Wi-Fi
+Video izlazi: 1x Mini DisplayPort, 2x HDMI
+Broj jezgara procesora: 8
+Disk slotovi: 1
+Dimenzije: 139.1mm x 134.2mm x 48.3mm
+Radni takt procesora: 1.8 GHz (4.3 GHz)
+Operativni sistem: Bez operativnog sistema
+Radni takt memorije: 3.200MHz
+Ukupno USB priključaka: 7
+Ostali slotovi: 1x M.2 Socket (Key E)
+Tip memorije: SO-DIMM DDR4
+Ostalo: 12MB L3
+Žična mreža (LAN): 101001.0002.500Mbps (2.5GbE)
+Napomena: 1x RJ-45, Kensington security slot
+Klasa procesora: AMD Ryzen 7
+Maksimalno podržano: 64GB
+Broj logičkih jezgara (niti): 16
+Tip memorije: Deljena
+Ostalo: Realtek ALC897 HD audio
+Snaga napajanja: 135W
+Interfejs raspooživih slotova: 1x M.2 2280 PCIe 3.0 x4
+Broj slotova: 2

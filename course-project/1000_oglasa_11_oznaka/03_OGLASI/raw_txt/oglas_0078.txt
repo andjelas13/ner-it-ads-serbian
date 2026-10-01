@@ -1,0 +1,7 @@
+TITLE:
+Intel Pentium 4 HT 530 775 2x 3.00Ghz 1MB
+
+BODY:
+Intel Pentium 4 HT 530 procesor, socket 775, frekvencija 2x 3.00Ghz, cache 1MB
+
+Proveren, testiran, ispravan

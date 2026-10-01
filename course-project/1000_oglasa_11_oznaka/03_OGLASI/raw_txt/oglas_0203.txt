@@ -1,0 +1,39 @@
+TITLE:
+Grafička (175) Asus GeForce GTS 250
+
+BODY:
+Ispravna PCI-E graficka kartica
+
+- Asus
+
+- GeForce GTS 250
+
+DDR3 - 512 Mb - 256 bit
+
+1 X HDMI izlaz
+
+1 X DVI izlaz
+
+1 X VGA izlaz
+
+1 X ventilator hladjenja
+
+- potrebno kvalitetnije i jace napajanje za ovu karticu
+
+- potreban 1 X 6 - to pinski konektor dodatnog napajanja
+
+- Win index > 6.1/6.0
+
+Ispravnost navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- DELL 840 - OS WIN 7-64 bit
+
+- P5K PRO - Q-6600 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorijama.

@@ -1,0 +1,63 @@
+TITLE:
+Grafička karta Gigabyte AORUS GeForce RTX 5090 AORUS STEALT
+
+BODY:
+Kupac dobija fiskalni račun i garanciju!
+
+Moguće plaćanje preko računa firme!
+
+Moguće plaćanje na rate od 3 do 12 meseci preko Intesa kreditnih kartica Master Card i American Express!
+
+Nismo u mogućnosti da sve artikle postavimo ovde koje možemo da ponudimo, slobodno pošaljite upit za određeni artikal.
+Uvek proveriti cenu pre porudžbine. Može da se desi da cena nekog proizvoda bude niža nego što trenutno stoji, ali i obrnuto — ili da proizvod trenutno nije dostupan.
+
+-------------------------------------------------------------------------------------------------------------------
+Model
+Gigabyte AORUS GeForce RTX 5090 STEALTH ICE 32G GDDR7 Grafička karta
+NVIDIA GPU
+GeForce RTX 50-Series
+GPU Model
+GeForce RTX 5090
+Standard magistrale
+PCI Express 5.0
+Takt procesora
+2655MHz (Reference card: 2407MHz)
+CUDA procesori
+21760
+Količina memorije
+32GB
+Tip memorije
+GDDR7
+Brzina memorije
+28 Gbps
+Memorijska magistrala
+512-bit
+AI GPU
+1676 TOPS
+HDMI Izlaz
+1 x HDMI 2.1b
+DisplayPort Izlaz
+3x DisplayPort 2.1b
+Rezolucija
+7680x4320
+Multi-view 4
+DirectX
+12
+OpenGL
+4.6
+Potrošnja
+575W
+PSU Konektor
+1 x 16-pin
+Hladjenje
+Aktivno
+Dimenzije
+360x150x75mm
+Dodatna oprema
+1. Quick guide
+2. Warranty registration
+3. 1x 12V-2x6 to 4x PCIe 8pin adapter
+4. AORUS identity stickers
+5. AORUS metal sticker
+6. Versatile VGA holder
+7. Versatile VGA holder manual

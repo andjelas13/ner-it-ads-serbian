@@ -1,0 +1,21 @@
+TITLE:
+Lenovo ThinkVision T24d-10 / 24' / 1920x1200
+
+BODY:
+Konfiguracija
+Display: 24-inch In-Plane Switching (IPS) panel with WLED backlight.
+Resolution: 1920x1200
+Aspect Ratio: 16:10.
+Brightness: 300 cd/m² .
+Response Time: 4ms (Extreme mode) to 7ms.
+Refresh Rate: 60 Hz.
+Color Coverage: 99% sRGB.
+Stand: Full-function ergonomic stand (lift, tilt, pivot, swivel).
+Certifications: TUV Eye Comfort, Energy Star 7.0, EPEAT Gold, RoHS.
+
+Ulazi
+
+1x HDMI 1.4
+1x DisplayPort 1.2
+1x VGA
+4x USB 3.0 (1x with BC1.2 quick charge)

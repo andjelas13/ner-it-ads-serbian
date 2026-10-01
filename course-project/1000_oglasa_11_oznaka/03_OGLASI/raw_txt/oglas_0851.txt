@@ -1,0 +1,27 @@
+TITLE:
+Prestigio 17" P1710 LCD monitor
+
+BODY:
+na prodaju monitor u potpunom ispravnom stanju Prestigio 17" P1710 LCD. Podesiv po visini i monitor takodje moze dase rotira. Ne idu kablovi uz monitor.
+Model Name Model P1710
+Type 17.0” TFT Active Matrix LCD Display
+TCO 03
+Antireflective, scratch-proof glass filter
+Pixel Pitch (H x V) 0.264 x 0.264mm
+Contrast ratio (max. )/(typ. ) 450:1
+Brightness (max. ) 300cd/m2
+Response Time (typ. ) typical 12 ms
+Viewing Angle (H/V) 150o/125o
+Display Color 16.7 Million
+Input signal (analog) D-sub 15-pin RGB, 0-0.7Vpp , RGB Analog , (75 ? )
+Max Resolution 1280 x 1024 (SXGA)
+Horizontal &Vertical frequency FH:30 ~ 80 KHz, FV:60 ~ 75 Hz
+Power Supply External - input AC 100 ~ 240V, 50 / 60Hz
+DC Input Voltage 12V 4A Max
+Power Consumption Typical - 48 W Max, stand-by < 5 W
+OSD Languages CZ, D, E, F, I, RUS, UK
+Manual Languages CZ, D, E, F, I, PL, UK
+Speakers 2 SPEAKERS x 2 WATT
+Plug &Play VESA DDC2B
+Approvals/Certification
+CE, FCC, C-UL, CB, TUV, BSMI

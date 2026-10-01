@@ -1,0 +1,41 @@
+TITLE:
+Intel Pentium G3260/G3220 FCLGA1150
+
+BODY:
+Intel® Pentium® Processor G3260 7€
+
+3M Cache, 3. 30 GHz
+
+FCLGA1150
+
+Total Cores 2
+
+Total Threads 2
+
+Processor Base Frequency 3. 00 GHz
+
+3 MB Intel® Smart Cache
+
+Bus Speed 5 GT/s
+
+TDP 53 W
+
+Intel Pentium Processor G3220 700din
+
+Intel® Pentium® Processor G3220
+
+3M Cache, 3. 00 GHz
+
+FCLGA1150
+
+Total Cores 2
+
+Total Threads 2
+
+Processor Base Frequency 3. 00 Ghz
+
+3 MB Intel® Smart Cache
+
+Bus Speed 5 GT/s
+
+TDP 53 W

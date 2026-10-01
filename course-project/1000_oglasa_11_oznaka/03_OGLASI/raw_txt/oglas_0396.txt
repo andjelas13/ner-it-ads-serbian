@@ -1,0 +1,71 @@
+TITLE:
+EG-UPS-033 sa stabilizatorom 1200VA 720W LCD
+
+BODY:
+Garancija 2 godine
+
+UPS sa LCD ekran-om
+
+Obezbeduje rezervnu snagu - sprecava gubitak podataka
+
+Štiti vašu osetljivu i vrednu opremu
+
+Kompaktan i pouzdan - idealan za kucnu upotrebu i kancelariju
+
+Neprekidno napajanje od 1200 VA za racunare
+
+Automatska regulacija izlaznog napona (AVR)
+
+USB interfejs
+
+LCD indikator statusa
+
+Zaštita od kratkog spoja
+
+Zaštita od prenapona, udara i groma
+
+Zvucni i vizuelni alarmi
+
+Zaštita od preopterecenja i prekomernog pražnjenja
+
+Ukljucujuci praktican softver za upravljanje UPS-om
+
+Tip: linijski interaktivni
+
+Oblik talasa: sinusni talas (naizmenicna mreža), modifikovani (kvadratni) sinusni talas (baterija)
+
+Ulaz: 220 V AC ± 25%, 50 / 60 Hz ± 10%
+
+Izlaz: 220 V AC ± 10%, 50 / 60 Hz ± 1% (220 V AC ± 5 % u režimu invertera)
+
+Vreme prebacivanja: manje od 10 ms
+
+Vreme rada: 8. . . 20 min (zavisi od opterecenja)
+
+Baterija: zapecacena olovno-kiselinska 12 V DC / 7 Ah x2 kom
+
+Vreme punjenja: do 12 sati
+
+Izlazne uticnice: 3 kom C13, 2 kom nemacki Shuko
+
+USB kontrolni interfejs: BF uticnica
+
+Radni uslovi: 0° C ~ 40° C, pri vlažnosti 20 ~ 90 % RH bez kondenzacije
+
+Snaga: 1200 VA (720W)
+
+Struja punjenja: do 1, 2 A
+
+Buka: < 45 dB na udaljenosti od 1 m
+
+Dimenzije: 400 x 125 x 220 mm
+
+Neto težina: 10, 4 kg
+
+Funkcija "hladnog starta".
+
+Sistemski zahtevi:
+
+Softver je kompatibilan sa Windows Vista, 7/8, 2008 server
+
+Da bi radio ispravno, prikljuceno opterecenje treba da bude najmanje 5% maksimalnog kapaciteta UPS-a. Na primer, UPS od 700 W treba najmanje povez

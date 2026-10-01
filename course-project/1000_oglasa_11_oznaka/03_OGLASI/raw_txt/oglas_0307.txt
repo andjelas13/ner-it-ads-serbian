@@ -1,0 +1,9 @@
+TITLE:
+Packard Bell Kav60
+
+BODY:
+Ispravan i kompletan laptop sa LED ekranom od 10,1 inča. Procesor Intel Atom CPU N270, grafika Mobile Intel 945 Express, RAM 2 gb.
+
+Ima VGA, USB, WiFi, audio izlaze, čitač SD kartica, kamerica...
+
+Instaliran Windows 7 Lite sa osnovnim programima i nekim igricama. Baterija se puni i drži struju, detaljno nije testirana. Punjač ide uz laptop. Očišćen od prašimne i zamenjena termalna pasta.

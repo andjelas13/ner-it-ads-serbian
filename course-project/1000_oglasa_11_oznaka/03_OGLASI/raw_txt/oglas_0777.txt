@@ -1,0 +1,28 @@
+TITLE:
+Graficka karta GIGABYTE RTX 5090AORUS XTREME WATERFORCE WB 3
+
+BODY:
+Model    Gigabyte AORUS GeForce RTX 5090 XTREME WATERFORCE 32G GDDR7 Grafička karta
+NVIDIA GPU    GeForce RTX 50-Series
+GPU Model    GeForce RTX 5090
+Standard magistrale    PCI Express 5.0
+Takt procesora    2655MHz (Reference card: 2407MHz)
+CUDA procesori    21760
+Količina memorije    32GB
+Tip memorije    GDDR7
+Brzina memorije    28 Gbps
+Memorijska magistrala    512-bit
+HDMI Izlaz    1 x HDMI 2.1
+DisplayPort Izlaz    3x DisplayPort 2.1
+Rezolucija    7680x4320Multi-view 4
+DirectX    12
+OpenGL    4.6
+Potrošnja    575W
+PSU Konektor    1 x 16-pin
+Hladjenje    Aktivno
+Dimenzije    245x146x36mm
+Dodatna oprema
+Quick guide
+Warranty registration
+1x 12V-2x6 to 4x PCIe 8pin adapter
+AORUS identity sticker

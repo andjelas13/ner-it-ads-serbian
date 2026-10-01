@@ -1,0 +1,3160 @@
+{
+  "schema": "it-oglasi-component-ner-v1",
+  "exported_at": "2026-09-15T20:01:05.628490Z",
+  "label_colors": {
+    "CPU": "#F8CBAD",
+    "GPU": "#F4B183",
+    "RAM": "#FFE699",
+    "SKLADISTE": "#A9D18E",
+    "CENA": "#D5A6BD"
+  },
+  "examples": [
+    {
+      "id": 1,
+      "category": "Laptop",
+      "title": "HP 15-bs0xx 15,6″ – 8 GB RAM, SSD 256 GB, Radeon 2",
+      "body": "Prodajem beli HP Laptop 15-bs0xx, dijagonale 15,6 inča sa sledećim karakteristikama:\nIntel Pentium N3710, četiri jezgra, 1,60–2,56 GHz\n8 GB DDR3 RAM-a\nSSD od 256 GB, prikazuje oko 238 GB\nposebna AMD Radeon R5 M330 grafika sa 2 GB\nintegrisana Intel HD grafika\nnema ekran na dodir.\nLaptop je bele boje i vrlo očuvan i u dobrom stanju.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/hp-15-bs0xx-15-6-8-gb-ram-ssd-256-gb-radeon-2/5425647445501?kid=3",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 85,
+          "end": 134,
+          "text": "Intel Pentium N3710, četiri jezgra, 1,60–2,56 GHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 135,
+          "end": 144,
+          "text": "8 GB DDR3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 158,
+          "end": 164,
+          "text": "256 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 176,
+          "end": 186,
+          "text": "oko 238 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 195,
+          "end": 213,
+          "text": "AMD Radeon R5 M330",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 225,
+          "end": 229,
+          "text": "2 GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 242,
+          "end": 250,
+          "text": "Intel HD",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 20,
+          "end": 24,
+          "text": "8 GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 34,
+          "end": 40,
+          "text": "256 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 42,
+          "end": 50,
+          "text": "Radeon 2",
+          "label": "GPU"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Laptop",
+      "title": "Dell Latitude E6530 i5 / 8 GB / SSD 512 GB / osvet",
+      "body": "Prodajem Dell Latitude E6530, ekran 15, 6 inča sa konfiguracijom:\nIntel Core i5-3320M, 2, 60 GHz\n8 GB RAM-a\nSSD približno 512 GB\nosvetljena nemačka tastatura\npokazivač miša u sredini tastature\noriginalni punjač\nbez baterije\nLaptop nema bateriju i radi normalno na punjaču i u ekstra je stanju",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/dell-latitude-e6530-i5-8-gb-ssd-512-gb-osvet/5425647443639?kid=3",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 66,
+          "end": 96,
+          "text": "Intel Core i5-3320M, 2, 60 GHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 97,
+          "end": 101,
+          "text": "8 GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 112,
+          "end": 128,
+          "text": "približno 512 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 20,
+          "end": 22,
+          "text": "i5",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 25,
+          "end": 29,
+          "text": "8 GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 36,
+          "end": 42,
+          "text": "512 GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Laptop",
+      "title": "Lap Top Acer Aspire 3",
+      "body": "Perfektan, odlican, ocuvan laptop.\nSpecifikacija:\nProizvodjac : Acer\nModel : Aspire 3\nGodina proizvodnje : 2019 god\nProcesor : Ryzen 3 2200u\nGraficka : Radeon Vega 3 2GB\nMemorija : 16GB DDR4\nSSD : WD 256GB nvme\nHDD : 500GB 2.5 inca Sata\nSistem : Win10 PRO + Office 2019 + usluzni programi\nEkran: LED 15.6 inca Full HD\nBaterija : oko 3 sata u zavisnosti za sta se okristi\nPunjac : Original\nPoklon : Torba za laptop\nPogledajte ostale nase oglase hvala.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/lap-top-acer-aspire-3/5425642520341?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 127,
+          "end": 140,
+          "text": "Ryzen 3 2200u",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 152,
+          "end": 169,
+          "text": "Radeon Vega 3 2GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 181,
+          "end": 190,
+          "text": "16GB DDR4",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 197,
+          "end": 210,
+          "text": "WD 256GB nvme",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 217,
+          "end": 236,
+          "text": "500GB 2.5 inca Sata",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Laptop",
+      "title": "HP EliteBook 845 G9 16gb/256gb - Nov - Garancija",
+      "body": "Ekran LCD 14''\nProcesor - AMD Ryzen 5 6650U\nRam memorija - 16gb DDR5 4800MHz\nDisk - SSD 256gb\nNa prodaji potpuno NOV HP EliteBook 840 G9 u originalnoj kutiji sa originalnim punjacem i instaliranim Microsoft Windows 11 Professional operativnim sistemom.\nInternacionala HP garancija 36 meseci ! ! !\nLicno preuzimanjeu Beogradu.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/hp-elitebook-845-g9-16gb256gb---nov---garanci/5425643005930?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 26,
+          "end": 43,
+          "text": "AMD Ryzen 5 6650U",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 59,
+          "end": 76,
+          "text": "16gb DDR5 4800MHz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 88,
+          "end": 93,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 20,
+          "end": 24,
+          "text": "16gb",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 25,
+          "end": 30,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Laptop",
+      "title": "HP Pavilion 15 cs0803 i3 16gb/256gb SSD laptop 15",
+      "body": "Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)\n16 GB DDR4-2400 SDRAM (2 x 8 GB)\nIntel® UHD Graphics 620\n256 GB PCIe® NVMe™ M.2 SSD perfektan 100/100 radio samo 8 sati\n39.6 cm (15.6\") diagonal FHD IPS anti-glare micro-edge WLED-backlit (1920 x 1080)\nIntel® 802.11b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 4.2 Combo\n1 USB 3.1 Type-C™ Gen 1 (Data Transfer up to 5 Gb/s, Power Delivery, DisplayPort™ 1.2, HP Sleep and Charge); 2 USB 3.1 Gen 1 (1 HP Sleep and Charge); 1 HDMI 1.4; 1 RJ-45; 1 headphone/microphone combo\nHP Wide Vision HD Camera with integrated dual array digital microphone\nProdajem ispravan gotovo kao nov laptop, procesor 8. generacije, za 199e\nprodaje se sa orginal punjacem hp\nvelicina panela je 15.6 inca full hd led panel, panel jasn i cist, slika odlicna\nbaterija odlicna healt je 100 procenata\ninstaliran je windows 11 licenciran i legalan windows, aktiviran digitalnom licencom, na slikama je sa windows 10 sistemom, danas sam instalirao windows 11 home\ninstalirao sam microsoft office paket word excel . . .\nna slikama imate PRODUCT ID kao i DEVICE ID\nHDMI KONEKTOR\nUSB-C KONEKTOR\nUSB 3.0 KONEKTOR\nkod za kupovinu je LAP01\nLICNO PREUZIMANJE U BEOGRAD NOVI SAD ZRENJANIN KIKINDA SENTA BECEJ SUBOTICA\nBOX0103\nDDD\n. . . NAJPOVOLJNIJA CENA NA OGLASIMA . . .",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/hp-pavilion-15-cs0803-i3-16gb256gb-ssd-laptop/5425647095792?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 0,
+          "end": 58,
+          "text": "Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 64,
+          "end": 114,
+          "text": "Intel® Turbo Boost Technology, 4 MB cache, 2 cores",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 116,
+          "end": 148,
+          "text": "16 GB DDR4-2400 SDRAM (2 x 8 GB)",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 149,
+          "end": 172,
+          "text": "Intel® UHD Graphics 620",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 173,
+          "end": 195,
+          "text": "256 GB PCIe® NVMe™ M.2",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 210,
+          "end": 217,
+          "text": "100/100",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 229,
+          "end": 235,
+          "text": "8 sati",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 699,
+          "end": 712,
+          "text": "8. generacije",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 717,
+          "end": 721,
+          "text": "199e",
+          "label": "CENA"
+        },
+        {
+          "field": "title",
+          "start": 22,
+          "end": 24,
+          "text": "i3",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 25,
+          "end": 29,
+          "text": "16gb",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 30,
+          "end": 35,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Laptop",
+      "title": "HP Compaq 615",
+      "body": "Na prodaju Laptop HP Compaq 615 pogodan za delove, fizički u dobrom stanju izuzev 2 tastera koja fale na tastaturi što se može videti na slikama. Nemam mogućnost da ga ispitam pa zato ide kao neispravan bez prava na reklamaciju, kome treba za delove jeftinije će teško naći.\nPogledajte i ostale moje oglase.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/hp-compaq-615/5425645305380?kid=1",
+      "annotations": []
+    },
+    {
+      "id": 7,
+      "category": "Laptop",
+      "title": "Lenovo ThinkPad T560",
+      "body": "Na prodaju laptop marke Lenovo. Model T560. Biznis racunar. Procesor i5, 6300U, sesta generacija. Ram 8gb. Monitor 15.6 inca, 1920x1080. Baterija oko 4h. Originalni punjac ide uz njega. Unapred placanje postarine na ziro racun, nakon toga slanje ili licno preuzimanje u Novom Sadu.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/lenovo-thinkpad-t560/5425641581303?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 69,
+          "end": 96,
+          "text": "i5, 6300U, sesta generacija",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 102,
+          "end": 105,
+          "text": "8gb",
+          "label": "RAM"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Laptop",
+      "title": "Lenovo Thinkpad L540 i7 4712MQ 8gb 240gb SSD FHD",
+      "body": "prodajem malo koristen thinkpad lenovo L540 sa intel i7 procesorom\nlaptop se prodaje sa orginal punjacem\nNema bateriju\nsarke dobre\ninstaliran windovs 11\ninstaliran microsoft office 2019\nCPU Intel i7-4712MQ quadcore 2.30ghz 6mb cache turbo 3.30ghz\nGPU Intel HD4600\nSSD 240gb perfektan healt radio samo 126 dana\nRAM 2x4GB DDR3\nPanel 15,6\" LED backlight FHD 1920x1080\nWI-FI, DVD, mini Display port, USB 3.0, kamera . . .\nmoze se preuzeti u dole navedene gradove\nBeograd\nZrenjanin\nKikinda\nNovi Sad\nSenta\nBecej\nKanjiza\nBoxgorenje\nBBB\nSho\nNajpovoljnija cena za ovu konfiguraciju laptopa",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/lenovo-thinkpad-l540-i7-4712mq-8gb-240gb-ssd/5425646973798?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 47,
+          "end": 55,
+          "text": "intel i7",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 190,
+          "end": 246,
+          "text": "Intel i7-4712MQ quadcore 2.30ghz 6mb cache turbo 3.30ghz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 251,
+          "end": 263,
+          "text": "Intel HD4600",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 268,
+          "end": 273,
+          "text": "240gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 301,
+          "end": 309,
+          "text": "126 dana",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 314,
+          "end": 324,
+          "text": "2x4GB DDR3",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 21,
+          "end": 30,
+          "text": "i7 4712MQ",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 31,
+          "end": 34,
+          "text": "8gb",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 35,
+          "end": 40,
+          "text": "240gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "RAM komponenta",
+      "title": "Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 133",
+      "body": "Na prodaju: Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 1333MHz)\n2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)\n1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)\nSve memorije su testirane i ispravne\nOdgovaraju većini laptopova sa DDR3 slotovima (Intel Core i3/i5/i7 prve i druge generacije – Sandy Bridge i slično)\nIdealno za nadogradnju starijeg laptopa – ukupno 12GB RAM-a!\nCena: 1499 rsd\nSlanje ili lično preuzimanje.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/laptop-ram-memorija-ukupno-12gb-3x4gb-ddr3-13/5425645993623?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 34,
+          "end": 67,
+          "text": "ukupno 12GB (3x4GB DDR3, 1333MHz)",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 68,
+          "end": 121,
+          "text": "2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 122,
+          "end": 176,
+          "text": "1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 261,
+          "end": 274,
+          "text": "Intel Core i3",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 275,
+          "end": 277,
+          "text": "i5",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 278,
+          "end": 280,
+          "text": "i7",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 281,
+          "end": 285,
+          "text": "prve",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 288,
+          "end": 293,
+          "text": "druge",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 307,
+          "end": 319,
+          "text": "Sandy Bridge",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 372,
+          "end": 383,
+          "text": "ukupno 12GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 397,
+          "end": 405,
+          "text": "1499 rsd",
+          "label": "CENA"
+        },
+        {
+          "field": "title",
+          "start": 22,
+          "end": 50,
+          "text": "ukupno 12GB (3x4GB DDR3, 133",
+          "label": "RAM"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Baterija",
+      "title": "MSI originalna baterija BTY-M6D - MSI GT 683 R",
+      "body": "Na prodaju: MSI originalna baterija BTY-M6D\nModel: BTY-M6D\nKapacitet: 7800 mAh / 87Wh\nNapon: 11.1V\nLitijum-jonska baterija\nKompatibilna sa velikim brojem MSI gaming laptopova, uključujući:\nGT60 / GT70, GT660 / GT663 / GT670, GT680 / GT683 / GT685, GX660 / GX680 i srodne modele (MS-16F1, MS-16F2, MS-1761…).\nBaterija je skinuta sa MSI GT683R, ispravna. (16 do 20+ sati drži)\nCena: 1499\nMogućnost slanja ili ličnog preuzimanja.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/msi-originalna-baterija-bty-m6d---msi-gt-683/5425645993531?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 381,
+          "end": 385,
+          "text": "1499",
+          "label": "CENA"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Tablet",
+      "title": "10 inča 1920 X 1200 Asus ME302C 4 jezgra 2/16GB",
+      "body": "10 inča 1920 X 1200\nAsus ME302C\n4 jezgra\n2/16GB\nStavljen nov tač koji sa fabričkim sistemom radi normalno\nNe treba apdejtovati system jer tač postaje preosetljiv (zato je ova cena)\n10 inča FHD rezolucija 1920 X 1200\nQuad core 4 x 1.6 GHz\nRAM 2 GB\nSSD 16 GB\nDve kamere\nGPS\nCena 60E\nPREUZIMANJE: Lično uz probu ili\nuplata post netom pa slanje post expresom.\nZAMENA: Lično ili prvo vi šaljete.\nMože zamena sa VAŠOM doplatom, za tablet, mobilni telefon ili netbuk.\nZa zamenu navedite tačan model, specifikaciju i stanje uređaja i koliku doplatu nudite.",
+      "source_url": "https://www.halooglasi.com/racunari/tablet-racunari/10-inca-1920-x-1200-asus-me302c-4-jezgra-216g/5425642932058?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 32,
+          "end": 40,
+          "text": "4 jezgra",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 41,
+          "end": 42,
+          "text": "2",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 43,
+          "end": 47,
+          "text": "16GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 216,
+          "end": 237,
+          "text": "Quad core 4 x 1.6 GHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 242,
+          "end": 246,
+          "text": "2 GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 251,
+          "end": 256,
+          "text": "16 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 277,
+          "end": 280,
+          "text": "60E",
+          "label": "CENA"
+        },
+        {
+          "field": "title",
+          "start": 32,
+          "end": 40,
+          "text": "4 jezgra",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 41,
+          "end": 42,
+          "text": "2",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 43,
+          "end": 47,
+          "text": "16GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Tablet",
+      "title": "Samsung Galaxy Tab S9+ S9 Plus 5G 12/512gb X816 +",
+      "body": "Samsung Galaxy Tab S9+ S9 Plus 5G 12/512gb X816b Beige boja. Novo neotpakovano dostupno za preuzimanje odmah! Placanje je moguce i u dinarskoj protiv-vrednosti kurs 118.\nVeliki izbor dodatne opreme:\n- auto punjaci\n- auto drzaci (vakum, ventilacija, magnetni)\n- zastitne maske\n- zastitna stakla\n- microSd kartice\n- usb flash memorije\n- kamere za video nadzor (wifi)\n- auto kamere\n- eksterne baterije (10.000, 20.000 i 30.000mah)\n- fm Bluetooth transmiteri\n- data kablovi\n- Bluetooth slusalice\n- Bluetooth zvucnici",
+      "source_url": "https://www.halooglasi.com/racunari/tablet-racunari/samsung-galaxy-tab-s9-s9-plus-5g-12512gb-x816/5425644628532?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 34,
+          "end": 36,
+          "text": "12",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 37,
+          "end": 42,
+          "text": "512gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 34,
+          "end": 36,
+          "text": "12",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 37,
+          "end": 42,
+          "text": "512gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Tablet",
+      "title": "Xiaomi Mi Pad 6s Pro 8/256gb Wifi Neotpakovan!",
+      "body": "Xiaomi Mi Pad 6s Pro 8/256gb Wifi graphite gray boja. Novo neotpakovano originalno.",
+      "source_url": "https://www.halooglasi.com/racunari/tablet-racunari/xiaomi-mi-pad-6s-pro-8256gb-wifi-neotpakovan/5425644794206?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 21,
+          "end": 22,
+          "text": "8",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 23,
+          "end": 28,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 21,
+          "end": 22,
+          "text": "8",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 23,
+          "end": 28,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "PDA / tablet",
+      "title": "HP Ipaq HX2410",
+      "body": "HP POCKET,u odlicnom stanju,koriscen kao navigacija u kolima.dolazi s punjacem za kola i njegov punjac\nHP iPAQ hx2410 Pocket PC General Features: Intel PXA270520 MHz processor.\n128MB total memory(64 MB ROM and 64 MB SDRAM)\nMicrosoft Windows Mobile 2003 Second Edition for Pocket PC.\n3.5 Transflective type TFT QVGAcolor display w/LED backlight with power save mode.\n65,536, 16-bit colors w/240 x 320 resolution.\n256 Mb card",
+      "source_url": "https://www.halooglasi.com/racunari/tablet-racunari/hp-ipaq-hx2410/5425644709255?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 146,
+          "end": 165,
+          "text": "Intel PXA270520 MHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 196,
+          "end": 205,
+          "text": "64 MB ROM",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 210,
+          "end": 221,
+          "text": "64 MB SDRAM",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 412,
+          "end": 418,
+          "text": "256 Mb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Tablet",
+      "title": "Samsung Galaxy Tab S9 X710 11 12/256gb Beige",
+      "body": "Samsung Galaxy Tab S9 X710 11\" 12/256gb Beige boja. Novo neotpakovano dostupno za preuzimanje odmah!",
+      "source_url": "https://www.halooglasi.com/racunari/tablet-racunari/samsung-galaxy-tab-s9-x710-11-12256gb-beige/5425644629378?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 31,
+          "end": 33,
+          "text": "12",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 34,
+          "end": 39,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 30,
+          "end": 32,
+          "text": "12",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 33,
+          "end": 38,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Telefon",
+      "title": "iPhone 11 Pro 64 GB",
+      "body": "Iphone 11 Pro 64GB Space Grey\nSim free\nBattery Health 80%\nStanje telefona 8/10, zbog ogrebotina na ekranu.\nApsolutno ispravan, Face ID radi, vraćen na fabrička podešavanja.\nPreuzimanje u Beogradu. Kontakt Viber, WhatsApp.",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11-pro-64-gb/5425644266087",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 14,
+          "end": 18,
+          "text": "64GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 14,
+          "end": 19,
+          "text": "64 GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Telefon",
+      "title": "Apple iPhone 11 PRO (64GB) Space Gray",
+      "body": "-Telefon potpuno ispravan, odlicno ocuvan!\n-Ne radi Face ID\n-Memorija 64 GB\n-Sim Free, iCloud Free\n-Battery Health: Ugradjena nova baterija\n-Uz telefon se dobija punjac\n-Kontakt: Poziv, Whats App, Viber\n-Garancija 30 dana\nSifra oglasa: a2203152",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/apple-iphone-11-pro-64gb-space-gray/5425644142942",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 70,
+          "end": 75,
+          "text": "64 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 21,
+          "end": 25,
+          "text": "64GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Telefon",
+      "title": "Iphone 11 pro 64gb 87%",
+      "body": "Telefon u perfektnom stanju, koriscen za poslovne razgovore i slike, nigde nije ostecen niti je ikad otvaran, sve fabricko na njemu i bez ikakvih tragova koriscenja je. Displej perfektan bez i jedne ogrebotinice, ledja telefona takodje, lajsne hrom kao sto se vidi na slikama nigde nemaju peckice, perfektno ocuvan telefon. Baterija fabricka na 87% kapaciteta, sve funkcije na telefonu rade perfektno( face id, true tone, bluetoth, svi modovi kamere, wifi. . . ).",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11-pro-64gb-87/5425644550601",
+      "annotations": [
+        {
+          "field": "title",
+          "start": 14,
+          "end": 18,
+          "text": "64gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Telefon",
+      "title": "iPhone XS Silver/Beli 64gb (očuvan, kao nov)",
+      "body": "iPhone XS kupljen u Emiratima u Apple store.\nPunjac, Slusalice. Zbog mogucnosti placanje carine dolaskom u Srbiju, kutiju nemam.\nStar 19 meseci.\nBattery health 84%. Baterija drzi duže od 24h.\nBez ikakvih znakova ostecenja. Sacuvan pod zastitnim staklom i maskom.\nKontakt: Inbox, Whatsapp, Viber, SMS\nCena je fiksna. Slike verodostojne.",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-X-mobilni-telefoni/iphone-xs-silverbeli-64gb-ocuvan-kao-nov/5425636329116",
+      "annotations": [
+        {
+          "field": "title",
+          "start": 22,
+          "end": 26,
+          "text": "64gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Telefon",
+      "title": "iPhone 11 Pro 64Gb 100% zdravlje baterije",
+      "body": "Original Apple iPhone 11 Pro od 64gb space gray boje u ekstra stanju kao nov\nRadi na sve mreze (sim free)\n100% zdravlje baterije\nIspravan. Na fotografijama se vidi da je slobodan iCloud, da je konektovan na WIFI. Slisalica i mikrofon se odlicno cuju\nFACE ID NE RADI (otkljucavanje telefona putem lica) Sifra ekrana moze normalno da se stavi\nVracen na fabricka podesavanja, nema nikakve sifre\nOriginal 100% Ispravan 100%\nCena je fiksna. Licno preuzimanja najbolje da se sve na licu mesta pogleda i proba\nU vezi svih informacija pozovite ili pisite na telefon",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11-pro-64gb-100-zdravlje-baterije/5425647427262?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 32,
+          "end": 36,
+          "text": "64gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 14,
+          "end": 18,
+          "text": "64Gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Telefon",
+      "title": "Iphone 11",
+      "body": "Na prodaju iPhone 11, memorije 64GB, u beloj boji. Telefon je u odličnom stanju, maksimalno očuvan i bez skrivenih mana.\nOprema: Od prvog dana nošen sa zaštitnim staklom i maskom (ekran i leda su bez ogrebotina).\nBattery Health: 84% (fabrička baterija, bez problema izdrži ceo dan normalnog korišćenja).\nSim Free: Radi na svim mrežama.\nCloud: Odjavljen i spreman za novog vlasnika.\nIspravnost: Svako dugme, Face ID i True Tone rade savršeno. Nikada otvaran niti servisiran.\nUz telefon ide:\nOriginalna kutija, kabl, punjač, zaštitna maska na poklon.\nMoguće lično preuzimanje u Zrenjaninu ili\nili slanje proverenim kurirskim službama, bez zamena.",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11/5425647156884",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 31,
+          "end": 35,
+          "text": "64GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Telefon",
+      "title": "Apple iPhone 11 Pro (64GB) Gold",
+      "body": "-Telefon je odlicno ocuvan, kao nov\n-Ne radi face id\n-Memorija 64GB\n-Sim Free, iCloud Free\n-Battery health 80%\n-Uz telefon se dobija punjac\n-Kontakt: Poziv, Whats App, Viber\n-Garancija 30 dana\nA2202109",
+      "source_url": "https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/apple-iphone-11-pro-64gb-gold/5425644142662",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 63,
+          "end": 67,
+          "text": "64GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 21,
+          "end": 25,
+          "text": "64GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Desktop računar",
+      "title": "GAMER RYZEN 5 5500 RTX 3060 12GB 16GB RAM 512GB",
+      "body": "Prodaje se izuzetno brz i odlično sklopljen gejmerski računar, spreman za igranje najnovijih naslova na visokim i ultra podešavanjima. Računar je čist, tih u radu, sa odličnim protokom vazduha zahvaljujući novom kućištu sa 4 RGB ventilatora.\n*Na računaru je sveže instaliran Windows 11 Pro operativni sistem sa svim pratećim programima i driverima. *Uz računar dolazi gratis naponski kabl.\nSPECIFIKACIJA:\n- Procesor: NOVO AMD Ryzen 5 5500 (6 jezgara / 12 niti) – odličan gejmerski procesor sa jakim performansama u svim modernim igrama sa RGB Tower coolerom\n- Grafička: Palit GeForce RTX 3060 12GB – moćna grafička karta sa 12GB memorije, podrška za Ray Tracing i DLSS tehnologiju\n- RAM: 16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel) – brz i pouzdan gejmerski RAM\n- SSD: SKHynix 512GB NVMe SSD – veoma brz SSD za brzo podizanje sistema i brzo učitavanje igara\n- Ploča: NOVO ASUS PRIME A520M-A II – nova kvalitetna matična ploča sa podrškom za Ryzen procesore\n- Kućište: NOVO IG-MAX N1903 REFLEX 4F Gaming kućište – novo moderno kućište sa kaljenim staklom i 4 RGB ventilatora\n- Napajanje: NOVO Deepcool 750W napajanje – novo kvalitetno napajanje sa stabilnim radom\nMoguć svaki test kod nas, može i proba u igrama po želji. Moguće je i lično preuzimanje i slanje poštom računara na vašu adresu.",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/gamer-ryzen-5-5500-rtx-3060-12gb-16gb-ram-512/5425647445487",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 422,
+          "end": 460,
+          "text": "AMD Ryzen 5 5500 (6 jezgara / 12 niti)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 570,
+          "end": 597,
+          "text": "Palit GeForce RTX 3060 12GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 624,
+          "end": 628,
+          "text": "12GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 650,
+          "end": 661,
+          "text": "Ray Tracing",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 664,
+          "end": 668,
+          "text": "DLSS",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 688,
+          "end": 738,
+          "text": "16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel)",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 776,
+          "end": 794,
+          "text": "SKHynix 512GB NVMe",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 6,
+          "end": 18,
+          "text": "RYZEN 5 5500",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 19,
+          "end": 32,
+          "text": "RTX 3060 12GB",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 33,
+          "end": 37,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 42,
+          "end": 47,
+          "text": "512GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Desktop računar",
+      "title": "Fenomenalan gaming računar i3 10100f/RX 580 4gb/NV",
+      "body": "Sve nabrojane igrice su instalirane, tebi ostaje samo da upališ racunar i da se igraš:\nGrand Theft Auto V (epic games)\nCS GO\nFortnite\nPUBG\nLeague of Legends\nRocket League\nMinecraft\nStardew Valley\nStumble Guys\nFall Guys\nEuro Truck Simulator 2\neFootball PES 2021\nFarming Simulator 22\nMoguća instalacija još igrica po tvojoj želi\nRačunar podržava svaku igricu koju možeš da zamisliš!\nRadi odlično, bez skrivenih mana, esteskti besprekoran, ultra brz.\nFolija je i dalje na staklu, dolazi u originalnoj kutiji, isto iskustvo kao kada kupuješ nov računar.\nNajbolji odnos cene i FPS-a, ubedljivo najbolji u ovom cenovnom rangu!\nSpecifikacije:\nProcesor: nov i3 10100f, 4 jezgra 8 threadova, u igricama jači od i7 7700, veći fps u kanteru od Ryzen 5 2600\nGrafička kartica: Sapphire Nitro+ RX 580 4GB, u mint stanju, najbolji model 580-ice, tiha i hladna, stavljena je kvalitetna termalna pasta MX-4, pre toga je imala stiker na šrafu\nMemorija: nova Crucial Ballistix 16GB DDR4, dual channel, CL16 3200mhz, sa hladnjakom\nSSD: nov Kingston NV1 500GB NVME (brzi)\nMatična ploča: nova Gigabyte H410M H V3, idealna za nadogradnju u budućnosti, podržava i5 i i7 procesore, 2 godine domaće garancije\nNapajanje: 400W, 80+\nKućište: novo MS Armor V305, RGB, boje mogu da se menjaju klikom na dugme na prednjoj stranici kućišta, ima razne kul modove svetala\nBesplatna dostava na teritoriji cele Srbije!\nDostava istog dana na teritoriji Beograda uz besplatnu montažu.",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/fenomenalan-gaming-racunar-i3-10100frx-580-4g/5425642420814",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 650,
+          "end": 681,
+          "text": "i3 10100f, 4 jezgra 8 threadova",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 702,
+          "end": 709,
+          "text": "i7 7700",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 733,
+          "end": 745,
+          "text": "Ryzen 5 2600",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 764,
+          "end": 790,
+          "text": "Sapphire Nitro+ RX 580 4GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 822,
+          "end": 829,
+          "text": "580-ice",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 940,
+          "end": 995,
+          "text": "Crucial Ballistix 16GB DDR4, dual channel, CL16 3200mhz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 1020,
+          "end": 1043,
+          "text": "Kingston NV1 500GB NVME",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 1138,
+          "end": 1140,
+          "text": "i5",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 1143,
+          "end": 1145,
+          "text": "i7",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 27,
+          "end": 36,
+          "text": "i3 10100f",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 37,
+          "end": 47,
+          "text": "RX 580 4gb",
+          "label": "GPU"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Desktop računar",
+      "title": "Gaming PC RTX 4060 8GB / Ryzen 5 5600X / 16GB RAM",
+      "body": "Prodajem odličan Gaming PC – spreman za sve nove igre!\nCPU: AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)\nGPU: Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)\nRAM: 16GB DDR4\nSSD: 1TB Kingston NVMe (brzo paljenje sistema i igara)\nMatična: B450M\nNapajanje: UGD G650 650W\nKućište: UGD Tower Nexus 3517\nPC je odličan za 1080p/1440p gaming, radi sve najnovije igre bez problema.\nBrz, tih i pouzdan, idealan i za posao, školu, streaming.\nSve radi perfektno, spreman odmah za korišćenje.\nPoželjno lično preuzimanje u Subotici – možeš doći, testirati sve na licu mesta\nAko insistiraš na slanju – šaljem isključivo Post Expressom , ali ne snosim odgovornost za eventualna oštećenja u transportu.",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/gaming-pc-rtx-4060-8gb-ryzen-5-5600x-16gb-ram/5425646750585",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 60,
+          "end": 121,
+          "text": "AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 127,
+          "end": 175,
+          "text": "Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 181,
+          "end": 190,
+          "text": "16GB DDR4",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 196,
+          "end": 213,
+          "text": "1TB Kingston NVMe",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 10,
+          "end": 22,
+          "text": "RTX 4060 8GB",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 25,
+          "end": 38,
+          "text": "Ryzen 5 5600X",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 41,
+          "end": 45,
+          "text": "16GB",
+          "label": "RAM"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Desktop računar",
+      "title": "Hp racunar 16/4gb",
+      "body": "Intel core i5 3.20 boost clock 3.40\n*16gb rama silicon power\n*2 SSD-a kingstone i silicon power 500gb\n*Radeon RX 580 4gb (nova termalna pasta)\n*Napajanje novo 500w original ATX",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/hp-racunar-164gb/5425643966428",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 0,
+          "end": 35,
+          "text": "Intel core i5 3.20 boost clock 3.40",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 37,
+          "end": 41,
+          "text": "16gb",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 47,
+          "end": 60,
+          "text": "silicon power",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 62,
+          "end": 63,
+          "text": "2",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 70,
+          "end": 79,
+          "text": "kingstone",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 82,
+          "end": 101,
+          "text": "silicon power 500gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 103,
+          "end": 120,
+          "text": "Radeon RX 580 4gb",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 11,
+          "end": 13,
+          "text": "16",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 14,
+          "end": 17,
+          "text": "4gb",
+          "label": "GPU"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Desktop + oprema",
+      "title": "Gaming PC + 2x 27 Monitor + Logitech Oprema",
+      "body": "Srpski\nGaming PC + 2x 27\" Monitor + Logitech Oprema – Odlično stanje\nProdajem komplet zbog viška opreme. Sve je u odličnom stanju i radi 100% bez ikakvih problema. Monitori nemaju ogrebotine niti mrtve piksele.\nSpecifikacije:\nAMD Ryzen 5 5600\nNVIDIA GeForce RTX 3060 12GB\n16GB RAM\n512GB SSD\nOriginal Windows 11 Pro\nU paketu:\nAOC Q27G2E/BK 27\" monitor\nPhilips 273V7QJAB/00 27\" monitor\nLogitech G203 miš\nLogitech G213 tastatura\nNapomena: Kamera i mikrofon sa slika nisu uključeni u prodaju.\nCena: 1100 €\nKontakt putem WhatsApp-a: 69 225 6610\n-----\nEnglish\nGaming PC + 2x 27\" Monitors + Logitech Accessories – Excellent Condition\nSelling due to no longer needing the equipment. Everything is in excellent condition and works perfectly at full performance. Both monitors are scratch-free with no dead pixels.\nSpecifications:\nAMD Ryzen 5 5600\nNVIDIA GeForce RTX 3060 12GB\n16GB RAM\n512GB SSD\nGenuine Windows 11 Pro\nIncluded:\nAOC Q27G2E/BK 27\" Monitor\nPhilips 273V7QJAB/00 27\" Monitor\nLogitech G203 Mouse\nLogitech G213 Keyboard\nNote: The camera and microphone shown in the photos are not included.\nPrice: €1100\nWhatsApp: 69 225 6610",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/gaming-pc-2x-27-monitor-logitech-oprema/5425647400945?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 226,
+          "end": 242,
+          "text": "AMD Ryzen 5 5600",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 243,
+          "end": 271,
+          "text": "NVIDIA GeForce RTX 3060 12GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 272,
+          "end": 276,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 281,
+          "end": 286,
+          "text": "512GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 495,
+          "end": 501,
+          "text": "1100 €",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 821,
+          "end": 837,
+          "text": "AMD Ryzen 5 5600",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 838,
+          "end": 866,
+          "text": "NVIDIA GeForce RTX 3060 12GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 867,
+          "end": 871,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 876,
+          "end": 881,
+          "text": "512GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 1098,
+          "end": 1103,
+          "text": "€1100",
+          "label": "CENA"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Desktop računar",
+      "title": "Gaming Kompjuter Gtx 1060 I3 8300",
+      "body": "GTX 1060 3GB\nI3 8300\n16GB RAM\n1TB HDD\n120GB SSD\nRazlog prodaje je kupovina jaceg tako da moze zamena i za rtx 2060 super/rtx 3060 ryzen 5 5500/5600 uz doplatu",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/gaming-kompjuter-gtx-1060-i3-8300/5425644914784",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 0,
+          "end": 12,
+          "text": "GTX 1060 3GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 13,
+          "end": 20,
+          "text": "I3 8300",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 21,
+          "end": 25,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 30,
+          "end": 33,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 38,
+          "end": 43,
+          "text": "120GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 106,
+          "end": 120,
+          "text": "rtx 2060 super",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 121,
+          "end": 129,
+          "text": "rtx 3060",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 130,
+          "end": 142,
+          "text": "ryzen 5 5500",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 143,
+          "end": 147,
+          "text": "5600",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 17,
+          "end": 25,
+          "text": "Gtx 1060",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 26,
+          "end": 33,
+          "text": "I3 8300",
+          "label": "CPU"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Više desktop računara",
+      "title": "Gaming desktop računari jeftino",
+      "body": "U ponudi gaming kompjuteri od 140 do 1000€. Svi su u ispravnom stanju i imaju instaliran windows 10. Moguce su izmene. Garantujem ispravnost 60 dana.\ni5-3470/r9 380 4gb/16gb/250gb ssd\n140€\ni5-4570/rx570 4gb/16gb ddr3/250gb ssd, obicno kuciste\n150€\ni5-6500T/rx480 4gb/16gb 3200mhz/128gb ssd, fujitsu prebuilt 150€\nRyzen 3 1200/gtx 1050ti/16gb ram/250gb ssd, obicno kuciste 170€\ni7-3770/gtx 1060 6gb/16gb ddr3/250gb ssd, obicno kuciste 180€\ni5-4570/rx 580 8gb/16gb ddr3/250gb ssd, rgb kuciste novo 195€\ni7-4770/rx 580 8gb/16gb ddr3/250gb ssd, rgb kuciste novo 240€\ni7-4770/rx 580 8gb/16gb ddr3/1TB ssd, rgb kuciste novo 260€\nRyzen 5 1600AF/GTX 2060 6GB/16GB 3200MHz/1TB SSD/Kuciste sa staklom 340€\ni5-9400f/z390/RTX 2060 6GB/16GB 3200MHz/1tb ssd nov, RGB kuciste novo 350€\nRyzen 5 3600/Intel Arc A750 8GB/16GB 3200 Mhz/1TB ssd nov, RGB kuciste novo 410€\nRyzen 5 5600/RTX 3060 Ti 8GB/16GB 3200 Mhz/1TB ssd nov, RGB kuciste novo 520€\nIntel i5-13500T/Intel Arc A750 8GB/32GB DDR5/1TB SSD nov, Corsair 4000D Airflow/Corsair RM1000X 790€\nIntel i5-13500T/RTX 3060 Ti/32GB DDR5/1TB SSD nov, Corsair 4000D Airflow/Corsair RM1000X 840€",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/gaming-desktop-racunari-jeftino/5425645447466",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 27,
+          "end": 42,
+          "text": "od 140 do 1000€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 150,
+          "end": 157,
+          "text": "i5-3470",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 158,
+          "end": 168,
+          "text": "r9 380 4gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 169,
+          "end": 173,
+          "text": "16gb",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 174,
+          "end": 179,
+          "text": "250gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 184,
+          "end": 188,
+          "text": "140€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 189,
+          "end": 196,
+          "text": "i5-4570",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 197,
+          "end": 206,
+          "text": "rx570 4gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 207,
+          "end": 216,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 217,
+          "end": 222,
+          "text": "250gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 243,
+          "end": 247,
+          "text": "150€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 248,
+          "end": 256,
+          "text": "i5-6500T",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 257,
+          "end": 266,
+          "text": "rx480 4gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 267,
+          "end": 279,
+          "text": "16gb 3200mhz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 280,
+          "end": 285,
+          "text": "128gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 308,
+          "end": 312,
+          "text": "150€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 313,
+          "end": 325,
+          "text": "Ryzen 3 1200",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 326,
+          "end": 336,
+          "text": "gtx 1050ti",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 337,
+          "end": 341,
+          "text": "16gb",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 346,
+          "end": 351,
+          "text": "250gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 372,
+          "end": 376,
+          "text": "170€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 377,
+          "end": 384,
+          "text": "i7-3770",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 385,
+          "end": 397,
+          "text": "gtx 1060 6gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 398,
+          "end": 407,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 408,
+          "end": 413,
+          "text": "250gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 434,
+          "end": 438,
+          "text": "180€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 439,
+          "end": 446,
+          "text": "i5-4570",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 447,
+          "end": 457,
+          "text": "rx 580 8gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 458,
+          "end": 467,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 468,
+          "end": 473,
+          "text": "250gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 496,
+          "end": 500,
+          "text": "195€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 501,
+          "end": 508,
+          "text": "i7-4770",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 509,
+          "end": 519,
+          "text": "rx 580 8gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 520,
+          "end": 529,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 530,
+          "end": 535,
+          "text": "250gb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 558,
+          "end": 562,
+          "text": "240€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 563,
+          "end": 570,
+          "text": "i7-4770",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 571,
+          "end": 581,
+          "text": "rx 580 8gb",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 582,
+          "end": 591,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 592,
+          "end": 595,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 618,
+          "end": 622,
+          "text": "260€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 623,
+          "end": 637,
+          "text": "Ryzen 5 1600AF",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 638,
+          "end": 650,
+          "text": "GTX 2060 6GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 651,
+          "end": 663,
+          "text": "16GB 3200MHz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 664,
+          "end": 667,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 691,
+          "end": 695,
+          "text": "340€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 696,
+          "end": 704,
+          "text": "i5-9400f",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 710,
+          "end": 722,
+          "text": "RTX 2060 6GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 723,
+          "end": 735,
+          "text": "16GB 3200MHz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 736,
+          "end": 739,
+          "text": "1tb",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 766,
+          "end": 770,
+          "text": "350€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 771,
+          "end": 783,
+          "text": "Ryzen 5 3600",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 784,
+          "end": 802,
+          "text": "Intel Arc A750 8GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 803,
+          "end": 816,
+          "text": "16GB 3200 Mhz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 817,
+          "end": 820,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 847,
+          "end": 851,
+          "text": "410€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 852,
+          "end": 864,
+          "text": "Ryzen 5 5600",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 865,
+          "end": 880,
+          "text": "RTX 3060 Ti 8GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 881,
+          "end": 894,
+          "text": "16GB 3200 Mhz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 895,
+          "end": 898,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 925,
+          "end": 929,
+          "text": "520€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 930,
+          "end": 945,
+          "text": "Intel i5-13500T",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 946,
+          "end": 964,
+          "text": "Intel Arc A750 8GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 965,
+          "end": 974,
+          "text": "32GB DDR5",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 975,
+          "end": 978,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 1026,
+          "end": 1030,
+          "text": "790€",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 1031,
+          "end": 1046,
+          "text": "Intel i5-13500T",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 1047,
+          "end": 1058,
+          "text": "RTX 3060 Ti",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1059,
+          "end": 1068,
+          "text": "32GB DDR5",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 1069,
+          "end": 1072,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 1120,
+          "end": 1124,
+          "text": "840€",
+          "label": "CENA"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Desktop računar",
+      "title": "RGB kompjuter",
+      "body": "Gaming računar i5 / RX 580 / 16GB RAM / SSD + HDD / RGB kućište\nProdajem veoma dobar i brz gaming računar, idealan za igranje popularnih igara kao što su GTA V, CS2, Fortnite, Warzone, Valorant i mnoge druge. Računar radi odlično, tih je i stabilan, bez ikakvih problema.\nSpecifikacije:\nProcesor: Intel i5 4570 (4 jezgra, veoma brz i pouzdan)\nGrafička: RX 580 4GB XFX (odlična za gaming)\nRAM: 16GB DDR3\nSSD: 240GB Kingston (brzo paljenje sistema)\nHDD: 1TB za igre i podatke\nKućište: RGB gejmersko kućište sa više modova osvetljenja, novo\nNapajanje: Thermaltake 450w\nRGB ventilatori\nRačunar je spreman za korišćenje, instaliran sistem i osnovni programi. Pokreće sve popularne igre uz dobre FPS-ove.\nVizuelno izgleda odlično zahvaljujući RGB osvetljenju i modernom kućištu sa staklom.\nMoguće testiranje računara prilikom kupovine.\nZa više informacija obavezno poziv nikakve poruke.",
+      "source_url": "https://www.halooglasi.com/racunari/desktop-racunari/rgb-kompjuter/5425646926762",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 15,
+          "end": 17,
+          "text": "i5",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 20,
+          "end": 26,
+          "text": "RX 580",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 29,
+          "end": 33,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 297,
+          "end": 310,
+          "text": "Intel i5 4570",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 312,
+          "end": 320,
+          "text": "4 jezgra",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 353,
+          "end": 367,
+          "text": "RX 580 4GB XFX",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 393,
+          "end": 402,
+          "text": "16GB DDR3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 408,
+          "end": 422,
+          "text": "240GB Kingston",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 452,
+          "end": 455,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Laptop",
+      "title": "Samsung R720 laptop",
+      "body": "Na prodaju laptop Samsung R720 (NP-R720-FSO2NL)\n\nLaptopu ne radi pozadinsko osvetljenje.\n\nNe daje sliku kada se preko VGA ili HDMI kabla priključi na spoljni monitor.\n\nUgradjen je sistem Windows 10.\n\nCPU: Intel(R) Core(TM)2 Duo CPU 2.10 GHz (T6500 / T6570)\n\nRAM: 4 GB, DDR2\n\nHDD: 465 GB (Performance 70% Health 50%)\n\nEkran: 17,3\"\n\nBaterija: Slaba\n\nLaptop dolazi bez punjača.\n\nZa više infomracija pozvati na broj\n\nMoguće je lično preuzimanje u Velikoj Plani.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/samsung-r720-laptop/5425647096082",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 205,
+          "end": 227,
+          "text": "Intel(R) Core(TM)2 Duo",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 232,
+          "end": 240,
+          "text": "2.10 GHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 242,
+          "end": 247,
+          "text": "T6500",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 250,
+          "end": 255,
+          "text": "T6570",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 263,
+          "end": 273,
+          "text": "4 GB, DDR2",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 280,
+          "end": 315,
+          "text": "465 GB (Performance 70% Health 50%)",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Laptop",
+      "title": "Lenovo IdeaPad Flex 2 15D E1-6010 touchscreen",
+      "body": "- Business Hybrid (2-in-1) Convertible (Fold-back screen) Black\n- AMD E E1-6010 1.35 GHz\n- Touchscreen 39.6 cm (15.6\") 1366 x 768 pixels LED backlight 16:9\n- 4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB\n- 500 GB HDD DVD± RW\n- AMD Radeon AMD Radeon R2\n- Wi-Fi 4 (802.11n) Ethernet LAN 10,100,1000 Mbit/s Bluetooth 4.0\n- Lithium-Ion (Li-Ion) 32 Wh 6 h 45 W\n- Windows 10 64-bit\n\nprodajem ispravan laptop sa touch panelom velicine 15 inca\n\nprodaje se sa punjacem\n\nbaterija dobra drzi oko 2.5 sata\n\nsve radi i sve ispravno\n\nbez zamene za razno\n\nPREUZIMANJE U BEOGRAD ZRENJANIN KIKINDA SENTA NOVI SAD SUBOTICA KANJIZA SENTA\n\nBOX221222\n\nSHO",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/lenovo-ideapad-flex-2-15d-e1-6010-touchscreen/5425646477984",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 66,
+          "end": 88,
+          "text": "AMD E E1-6010 1.35 GHz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 158,
+          "end": 192,
+          "text": "4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 195,
+          "end": 201,
+          "text": "500 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 206,
+          "end": 213,
+          "text": "DVD± RW",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 216,
+          "end": 240,
+          "text": "AMD Radeon AMD Radeon R2",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 26,
+          "end": 33,
+          "text": "E1-6010",
+          "label": "CPU"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Laptop",
+      "title": "Toshiba Tecra R950 / i7-3610QM 2.30Ghz/ 12 GB DDR3",
+      "body": "Toshiba Tecra R950 / i7-3610QM 2.30Ghz/ 12 GB DDR3\n\nNa prodaju Toshiba Tecra R950 ili zamena za grafičku karticu u istom ili sličnom cenovnom rangu.\n\nSpecifikacije:\n\nProcesor: Intel(R)Core(TM) i7-3610QM 2.30Ghz\n\nRam memorija: 12 GB DDR3\n\nGrafička kartica: AMD Radeon HD 7570M\n\nSkladište: 118 GB SSD\n\nEkran: HD nereflektujući ekran visoke osvetljenosti sa odnosom širine i visine 16:9 i LED pozadinskim osvetljenjem.\n\nMogućnost slanja brzom poštom ili lična provera i preuzimanje u Novom Sadu.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/toshiba-tecra-r950-i7-3610qm-2-30ghz-12-gb-dd/5425641875237?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 21,
+          "end": 38,
+          "text": "i7-3610QM 2.30Ghz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 40,
+          "end": 50,
+          "text": "12 GB DDR3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 176,
+          "end": 210,
+          "text": "Intel(R)Core(TM) i7-3610QM 2.30Ghz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 226,
+          "end": 236,
+          "text": "12 GB DDR3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 256,
+          "end": 275,
+          "text": "AMD Radeon HD 7570M",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 288,
+          "end": 294,
+          "text": "118 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 21,
+          "end": 38,
+          "text": "i7-3610QM 2.30Ghz",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 40,
+          "end": 50,
+          "text": "12 GB DDR3",
+          "label": "RAM"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Laptop",
+      "title": "HP 470 G9 / i7-1255U / 16GB / 512GB SSD / 17.3",
+      "body": "Na prodaju moćan poslovni laptop HP 470 G9 velike dijagonale (17.3 inča). Mašina je izuzetno brza, pokreće je odličan Core i7 procesor 12. generacije i idealna je za kancelarijski rad, programiranje, studente ili kućnu upotrebu kao zamena za desktop računar.\n\nVAŽNA NAPOMENA (Zato je ova cena): Laptop se prodaje BEZ baterije i BEZ punjača. Izvađena je stara baterija jer je oslabila. Laptop je potpuno ispravan i radi normalno na punjaču (testiran sa pozajmljenim HP 65W punjačem sa plavim vrhom). Nova baterija i punjač vas na oglasima koštaju oko 50-60 evra ukupno, nakon čega imate vrhunski laptop koji inače vredi preko 500 evra u kompletnom stanju.\n\nSpecifikacije:\n\n• Ekran: 17.3\" Full HD (1920x1080) IPS, Anti-glare (odlične boje i uglovi gledanja)\n• Procesor: Intel Core i7-1255U (10 jezgara, 12 niti)\n• RAM: 16 GB DDR4 3200MHz\n• Skladište: 512 GB PCIe NVMe M.2 SSD (brz start sistema i rad)\n• Grafika: Intel Iris Xe Graphics\n• Kućište: Elegantno srebrno\n\nprodaje se ispravan racunar, instaliran je windows 11 pro, procesor i7 12. generacije\n\ninstaliran je microsoft office 2024 paket word excel . ..\n\nzadnji poklopac napukao, prikazano na slikama, ne utice na rad racunara\n\nlicno preuzimanje u dole navedene gradove\n\nBEOGRAD\nZRENJANIN\nKIKINDA\nNOVI SAD\nSUBOTICA",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/hp-470-g9-i7-1255u-16gb-512gb-ssd-17-3/5425647501596?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 118,
+          "end": 125,
+          "text": "Core i7",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 135,
+          "end": 149,
+          "text": "12. generacije",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 546,
+          "end": 560,
+          "text": "oko 50-60 evra",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 619,
+          "end": 633,
+          "text": "preko 500 evra",
+          "label": "CENA"
+        },
+        {
+          "field": "body",
+          "start": 768,
+          "end": 809,
+          "text": "Intel Core i7-1255U (10 jezgara, 12 niti)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 817,
+          "end": 835,
+          "text": "16 GB DDR4 3200MHz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 849,
+          "end": 869,
+          "text": "512 GB PCIe NVMe M.2",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 911,
+          "end": 933,
+          "text": "Intel Iris Xe Graphics",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1032,
+          "end": 1049,
+          "text": "i7 12. generacije",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 12,
+          "end": 20,
+          "text": "i7-1255U",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 23,
+          "end": 27,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 30,
+          "end": 35,
+          "text": "512GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Laptop",
+      "title": "Asus VivoBook S510U core i5-8250U 8/256gb SSD 15.6",
+      "body": "Proizvođač: Asus\nModel: VivoBook S510U\nProcesor: Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)\nGrafika: Intel(R) UHD Graphics 620\nGrafika nVidia geForce MX150 2gb DDR5\nRam memorija: 8GB DDR4\nSSD: 256GB perfektan\nEkran: 15,6\" Full HD\nRezolucija: 1920 x 1080\nBaterija: Drži preko 2.5 sata Healt 57 procenata\nSistem windows 11 pro 64-bit\n\nProdaje se ispravan racunar, na donjem poklopcu prisutna ogrebotina\nprocesor 8. generacije\ngrafika sposobna da potera igrice\ninstaliran je windows 11 i microsoft office 2024 paket word excel . . .\nprodaje se sa punjacem\nLicno preuzimanje u Beograd Zrenjanin Kikinda Novi Sad Becej Kanjiza Subotica\nbez zamene\nBoxletnjastrec4\nSH0\nAsus broj 2.\nNajbolja cena za ovu konfiguraciju na oglasima...",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/asus-vivobook-s510u-core-i5-8250u-8256gb-ssd/5425646873482?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 49,
+          "end": 131,
+          "text": "Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 141,
+          "end": 166,
+          "text": "Intel(R) UHD Graphics 620",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 175,
+          "end": 204,
+          "text": "nVidia geForce MX150 2gb DDR5",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 219,
+          "end": 227,
+          "text": "8GB DDR4",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 233,
+          "end": 238,
+          "text": "256GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 450,
+          "end": 463,
+          "text": "8. generacije",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 20,
+          "end": 33,
+          "text": "core i5-8250U",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 34,
+          "end": 35,
+          "text": "8",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 36,
+          "end": 41,
+          "text": "256gb",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Laptop",
+      "title": "Na prodaju Laptop Lenovo Legion Y520",
+      "body": "Laptop \"Lenovo Legion Y520\" za sve vrste delatnosti, video igre, programiranje, i dosta toga, uz laptop dolazi i orginalni punjac.\n\nU pitanju je gejmerski laptop poseduje dve graficke sve ima na slikama.",
+      "source_url": "https://www.halooglasi.com/racunari/laptop-racunari/na-prodaju-laptop-lenovo-legion-y520/5425645696548?kid=1",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 171,
+          "end": 174,
+          "text": "dve",
+          "label": "GPU"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Desktop računar",
+      "title": "DDR5 Quadon RTX 5060 8GB/i7-12700 12c/32GB/1TB",
+      "body": "NAJPOVOLjNIJE CENE RACUNARA I RACUNARSKIH KOMPONETI\n\nMogucnost sastavljanja racunara po vasoj zelji\nMogucnost menjanja komponenti u samoj konfiguraciji\nMogucnost placanja preko racuna firme\n----------------------------------------------------------------------------------------\nProcesor:\nINTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)\nMaticna:\nINTEL 1700 B760M D5\nMemorija:\nDIMM DDR5 32GB\nSSD:\n1TB M.2 PCIe\nGrafika:\nnVidia GeForce RTX 5060 8GB 128-bit\nKuciste:\nTower Gaming sa 3x12cm cooler\nNapajanje:\nCHIEFTEC 700W\nKuler:\nLC Power Cosmo Cool LC-CC-120\n----------------------------------------------------------------------------------------\n\nKonfiguracija dolazi sa instaliranim OS WINDOWS 10, kao i paketom programa (Office, Adobe, Zip, K-lite codec pack. . . ).\n\nGarancija: 24 meseca (domaca)",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/kompjuteri/ddr5-quadon-rtx-5060-8gb-i7-12700-12c-32gb-1tb/oglas/168288475",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 289,
+          "end": 334,
+          "text": "INTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 374,
+          "end": 388,
+          "text": "DIMM DDR5 32GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 394,
+          "end": 406,
+          "text": "1TB M.2 PCIe",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 416,
+          "end": 451,
+          "text": "nVidia GeForce RTX 5060 8GB 128-bit",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 0,
+          "end": 4,
+          "text": "DDR5",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 12,
+          "end": 24,
+          "text": "RTX 5060 8GB",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 25,
+          "end": 37,
+          "text": "i7-12700 12c",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 38,
+          "end": 42,
+          "text": "32GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 43,
+          "end": 46,
+          "text": "1TB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Desktop računar",
+      "title": "R5 7600x / RTX 4070 / 32GB DDR5 / B650 u domaćoj garanciji",
+      "body": "Na prodaju PC kupljen nov u Gigatronu, još uvek u garanciji, model: GTR Prime Pro Boom\nSve je ispravno i funkcioniše bez ikakvih problema, zaštitna folija još uvek na staklu kućišta.\nKorišćen samo za gaming.\n\nProcesor: AMD Ryzen 5 7600X\nKuler: Cooler Master HYPER 212 Black X Duo RR\nMatična ploča: ASUS Prime B650M-R\nRAM: Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36\nGrafička: MSI Ventus 2X GeForce RTX 4070 12G OC\nSSD: Kingston NV2 1TB NVMe M.2\nNapajanje: Cooler Master Elite Nex 700W 80 Plus\nKućište: Cooler Master Masterbox MB311L\n\nKutiju od njega sam bacio pa prednost ima lično preuzimanje - utorkom i četvrtkom od 9-17h na Novom Beogradu (YUBC, ali po dogovoru i druga lokacija), svim ostalim danima u Pančevu - gde ga je moguće i testirati.\nU slučaju dostave paket bi maksimalno bio zaštićen, označen kao lomljivo, ali ne odgovaram za moguću štetu nanetu u transportu.\n\nRazlog prodaje je prelazak na jači PC sa x3d procesorom.\n\nKontakt preko KP poruka.",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/polovni-kompjuteri/r5-7600x-rtx-4070-32gb-ddr5-b650-u-domacoj-garanciji/oglas/194119070",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 219,
+          "end": 236,
+          "text": "AMD Ryzen 5 7600X",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 322,
+          "end": 378,
+          "text": "Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 389,
+          "end": 426,
+          "text": "MSI Ventus 2X GeForce RTX 4070 12G OC",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 432,
+          "end": 457,
+          "text": "Kingston NV2 1TB NVMe M.2",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 0,
+          "end": 8,
+          "text": "R5 7600x",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 11,
+          "end": 19,
+          "text": "RTX 4070",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 22,
+          "end": 31,
+          "text": "32GB DDR5",
+          "label": "RAM"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Mini računar",
+      "title": "Apple Mac Mini Late 2012 / i5 /16gb ddr3/ SSD 500 GB / WIN10",
+      "body": "Apple Mac Mini Late 2012 A1347 / i5 /16gb ddr3/ SSD 500 GB / WIN10\n\nUz racunar se dobija original naponski kabal. . Racunar ispravan, testiran, zamenjena termalna pasta. Instaliran Windows 10.\n\nCena je fiksna, ne radim zamene!",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/apple-desktop/apple-mac-mini-late-2012-i5-16gb-ddr3-ssd-500-gb-win10/oglas/193529969",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 33,
+          "end": 35,
+          "text": "i5",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 37,
+          "end": 46,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 52,
+          "end": 58,
+          "text": "500 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 27,
+          "end": 29,
+          "text": "i5",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 31,
+          "end": 40,
+          "text": "16gb ddr3",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 46,
+          "end": 52,
+          "text": "500 GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "category": "HDD",
+      "title": "WD Gold 10TB 3.5\" 7200rpm 512MB SATA WD103KRYZ",
+      "body": "▶️ Digital_World_Subotica Vam nudi širok spektar asortimana računarske tehnike, malih kućnih aparata, kao i mnoštvo raznih stvari za hobi, sport i rekreaciju.\n\n▶️ Roba stiže iz Evropske Unije.\n\n▶️ Proizvode šaljemo kurirskom službom, a postoji mogućnost ličnog preuzimanja u Subotici i Novom Sadu uz prethodni dogovor.\n\n▶️ Garancija na proizvode je od 6 meseci do 5 godina.\n\n▶️ Za poručivanje ostaviti sledeće podatke:\n\n⭕️Ime i prezime\n⭕️Adresu\n⭕️Grad i poštanski broj\n⭕️Kontakt telefon primaoca paketa\n\n▶️ Za sve dodatne informacije možete da nas kontaktirate putem KP-a.\n\nUživajte u Vašoj Online kupovini, uz Digital_World_Subotica!\n\nOpis proizvoda:\n\nKapacitet skladištenja: 10TB\nBroj obrtaja: 7200 o/min (RPM)\nBafer memorija: 512MB\nFormat: 3.5\"\nSMR tehnologija: Ne\nTežina: 750g",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/hard-diskovi/wd-gold-10tb-3-5-7200rpm-512mb-sata-wd103kryz/oglas/193531327",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 677,
+          "end": 681,
+          "text": "10TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 696,
+          "end": 712,
+          "text": "7200 o/min (RPM)",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 729,
+          "end": 734,
+          "text": "512MB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 743,
+          "end": 747,
+          "text": "3.5\"",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 748,
+          "end": 763,
+          "text": "SMR tehnologija",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 765,
+          "end": 767,
+          "text": "Ne",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 776,
+          "end": 780,
+          "text": "750g",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 0,
+          "end": 46,
+          "text": "WD Gold 10TB 3.5\" 7200rpm 512MB SATA WD103KRYZ",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "category": "GPU",
+      "title": "SAPPHIRE RX 7900 XTX 24GB 384bit NITRO+ Vapor-X",
+      "body": "PRODAVNICA računarske opreme\n\n⟹ ⟹ Pogledajte pun asortiman računarske opreme kliknite na kp izlog ⇧ ⇧ ⇧ ⇧\n\nHarold Computers Pr.\nSubotica, Cara Dušana 6 lokal 7.\n02*******\n06********\n\nRadno vreme: 9h - 17h\nRadno vreme subotom: 9h - 13h\n\nRoba je nova. Dobija se fiskalni račun i reklamacioni list.\nGarancija: Zagarantovana sva prava kupaca po osnovu zakona o zaštiti potrošača.\n\nGrafički procesor\nProizvođač čipa AMD\nGrafika AMD Radeon\nModel RX 7900 XTX\nGrafički čip AMD RDNA 3 Architecture\nProces izrade 5nm\nBroj unificiranih procesora 6144\nRadni takt 2.510MHz (2.680MHz boost clock)\nMemorija\nKoličina memorije 24GB\nTip memorije GDDR6\nŠirina memorijske magistrale 384bit\nNapomena Izlaz za 4 monitora\nPriključci\nUkupno Display port priključaka 2\nDisplayPort priključci 2x DisplayPort 2.1\nUkupno HDMI priključaka 2\nHDMI priključci 2x HDMI\nDodatni naponski priključci 3x8pin\nOstale karakteristike\nSlot PCI-Express 4.0 x 16\nSistem hlađenja 3x Fan\nPodržane tehnologije AMD FreeSync™ , AMD FidelityFX, AMD Radeon™ Boost, Vulkan™ , Microsoft® DirectX® 12 Ultimate, AMD Link, AMD Privacy View, AMD Noise Suppression, 96MB AMD Infinity Cache, Microsoft DirectStorage\nMaksimalna rezolucija 7.680 x 4.320\nMulti-view 4 monitora\nFizičke karakteristike\nDimenzije 320mm x 135.75mm 71.6mm\nFormat ATX\nPakovanje Full box retail\nReklamacioni period\nReklamacioni period 36 meseci",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/graficke-kartice/sapphire-rx-7900-xtx-24gb-384bit-nitro-vapor-x/oglas/151666250",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 411,
+          "end": 414,
+          "text": "AMD",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 423,
+          "end": 433,
+          "text": "AMD Radeon",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 440,
+          "end": 451,
+          "text": "RX 7900 XTX",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 465,
+          "end": 488,
+          "text": "AMD RDNA 3 Architecture",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 503,
+          "end": 506,
+          "text": "5nm",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 535,
+          "end": 539,
+          "text": "6144",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 551,
+          "end": 582,
+          "text": "2.510MHz (2.680MHz boost clock)",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 610,
+          "end": 614,
+          "text": "24GB",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 628,
+          "end": 633,
+          "text": "GDDR6",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 663,
+          "end": 669,
+          "text": "384bit",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 688,
+          "end": 698,
+          "text": "4 monitora",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 742,
+          "end": 743,
+          "text": "2",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 767,
+          "end": 785,
+          "text": "2x DisplayPort 2.1",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 810,
+          "end": 811,
+          "text": "2",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 828,
+          "end": 835,
+          "text": "2x HDMI",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 864,
+          "end": 870,
+          "text": "3x8pin",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 898,
+          "end": 918,
+          "text": "PCI-Express 4.0 x 16",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 935,
+          "end": 941,
+          "text": "3x Fan",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 963,
+          "end": 1156,
+          "text": "AMD FreeSync™ , AMD FidelityFX, AMD Radeon™ Boost, Vulkan™ , Microsoft® DirectX® 12 Ultimate, AMD Link, AMD Privacy View, AMD Noise Suppression, 96MB AMD Infinity Cache, Microsoft DirectStorage",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1179,
+          "end": 1192,
+          "text": "7.680 x 4.320",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1204,
+          "end": 1214,
+          "text": "4 monitora",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1248,
+          "end": 1271,
+          "text": "320mm x 135.75mm 71.6mm",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1279,
+          "end": 1282,
+          "text": "ATX",
+          "label": "GPU"
+        },
+        {
+          "field": "title",
+          "start": 0,
+          "end": 47,
+          "text": "SAPPHIRE RX 7900 XTX 24GB 384bit NITRO+ Vapor-X",
+          "label": "GPU"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "category": "RAM",
+      "title": "G.SKILL 64GB Trident Z5 RGB DDR5 6000MHz CL30 KIT F5-6000J30",
+      "body": "G. SKILL 64GB Trident Z5 RGB DDR5 6000MHz CL30 KIT F5-6000J3040G32GX2-TZ5RK\nColor: Black\nVilá gí tá s: Yes\nMemory size: 64GB\nMemory type: DDR5/CUDIMM\nFrequency: 6000MHz\nLatency CL: 30\nCooling block: Yes\nPieces: 2pcs\nManufacturer specific: No\niPon Gamer: Yes\nWeight: 130g\n\n2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/ram-memorije/g-skill-64gb-trident-z5-rgb-ddr5-6000mhz-cl30-kit-f5-6000j30/oglas/185851037",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 0,
+          "end": 75,
+          "text": "G. SKILL 64GB Trident Z5 RGB DDR5 6000MHz CL30 KIT F5-6000J3040G32GX2-TZ5RK",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 120,
+          "end": 124,
+          "text": "64GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 138,
+          "end": 149,
+          "text": "DDR5/CUDIMM",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 161,
+          "end": 168,
+          "text": "6000MHz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 181,
+          "end": 183,
+          "text": "30",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 211,
+          "end": 215,
+          "text": "2pcs",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 266,
+          "end": 270,
+          "text": "130g",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 272,
+          "end": 280,
+          "text": "2 pieces",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 284,
+          "end": 292,
+          "text": "G. SKILL",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 305,
+          "end": 322,
+          "text": "64GB DDR5 6000Mhz",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 335,
+          "end": 339,
+          "text": "CL30",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 0,
+          "end": 60,
+          "text": "G.SKILL 64GB Trident Z5 RGB DDR5 6000MHz CL30 KIT F5-6000J30",
+          "label": "RAM"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "category": "Monitor",
+      "title": "SAMSUNG Odyssey Neo G95NC S57CG954NU",
+      "body": "SAMSUNG Odyssey Neo G95NC S57CG954NU\n\nViewable image: 145 cm (57 inches)\nResolution: 7680 x 2160 pixels\nResponse time: 1 ms (GtG)\nFormat: 32:9\n\nPicture format 32:9 Curved Radius: 1,000R Technology QLED Panel technology VA Functions HDR Ready brightness 420 cd/m² refresh rate 240 Hz Viewing angle (10:1) Horizontal 178 ° Vertical 178 ° Pixel defect class type 2 Colors 1,000 million Reaction time GtG 1 ms contrast Static 2,500:1\n\n-Kontaktirajte nas za sve potrebne informacije na 38**********\n\nZa proizvode koje nemamo na oglasima nam slobodno pošaljite upit\nPostoji mogučnost sklapanja cele konfiguracije racunara\n\n- Rok isporuke 3 do 8 radnih dana\n\n- Za porudžbine veće od 100e potreban je depozit od 20%\n\n- Za poručivanje ostaviti sledeće podatke:\n\nIme i prezime\nAdresu\nGrad i poštanski broj\nKontakt telefon primaoca paketa\n\n- SVI PROIZVODI SU POTPUNO NOVI I NEOTPAKOVANI\n- ŠALJEMO POUZDANOM KURIRSKOM SLUŽBO\n- GARANCIJA NA SVE PROIZVODE\n\nalt7a",
+      "source_url": "https://www.kupujemprodajem.com/kompjuteri-desktop/monitori/samsung-odyssey-neo-g95nc-s57cg954nu/oglas/181827213",
+      "annotations": []
+    },
+    {
+      "id": 44,
+      "category": "Telefon",
+      "title": "ASUS ROG Phone 8 Pro 16GB/512GB Android 14 Phantom Black (AI",
+      "body": "PRODAVNICA računarske opreme\n\n⟹ ⟹ Pogledajte pun asortiman računarske opreme kliknite na kp izlog ⇧ ⇧ ⇧ ⇧\n\nHarold Computers Pr.\nSubotica, Cara Dušana 6 lokal 7.\n02*******\n06********\n\nRadno vreme: 9h - 17h\nRadno vreme subotom: 9h - 13h\n\nRoba je nova. Dobija se fiskalni račun i reklamacioni list.\nGarancija: Zagarantovana sva prava kupaca po osnovu zakona o zaštiti potrošača.\n\nOsnovne karakteristike\nTip Smartfon (pametni telefon)\nSIM kartice 2 (Dual SIM)\nFormat SIM kartice Nano-SIM\nOblik Monoblok\nMobilna mreža\nGSM mreža 1.900MHz\nHSDPA mreža 2.100MHz\nProtokoli 5G\nEkran\nVeličina ekrana 6.78 inča\nRezolucija ekrana 2.400x 1.080\nFormat rezolucije Full HD +\nTip ekrana AMOLED\nOdnos stranica 20:9\nGustina piksela 388ppi\nPaleta boja 1 bilion\nZaštita Corning Gorilla Glass Victus 2\nOstalo 2.500 nits (peak)\nSoftver\nOperativni sistem Android 14\nČipset\nProcesor Snapdragon 8 Gen 3\nBroj jezgara 8 (1+ 3 + 2 + 2)\nRadni takt procesora 3.3Ghz + 3.2Ghz + 3.0Ghz + 2.3Ghz\nRAM memorija 16GB\nGrafički procesor Adreno 750\nMemorija\nUnutrašnja memorija 512GB\nKamera\nRezolucija zadnje kamere 50MP + 32MP + 13MP\nVideo rezolucija zadnje kamere 4K@30/60fps, 8K@24fps, 1080p@30/60/120/240fps, 720p@480fps\nOstale osobine zadnje kamere gyro-EIS, HDR10+\nPrednja kamera\nRezolucija prednje kamere 32MP\nVideo rezolucija prednje kamere 1080p@30fps\nPovezivost\nWi-Fi standard IEEE 802.11 7\nBluetooth verzija 5.3\nNFC (Near Field Communication) Da\nPriključci 3.5mm audio, 2x USB-C\nAudio\nZvučnici Stereo\nOstale karakteristike\nGPS navigacija GLONASS, GPS, BDS, GALILEO, QZSS, NavIC\nSenzori Akcelerometar, Žiroskop, Kompas, Senzor blizine, Senzor otisaka prstiju\nBaterija\nKapacitet 5.500mAh\nOstalo Brzo punjenje baterije 65W\nFizičke karakteristike\nDimenzije 163.8mm x 76.8mm x 8.9mm\nMasa 225g\nBoja Crna\nOpis boje Phantom Black\nReklamacioni period\nReklamacioni period 24 meseca",
+      "source_url": "https://www.kupujemprodajem.com/mobilni-telefoni/asus/asus-rog-phone-8-pro-16gb-512gb-android-14-phantom-black-ai/oglas/169333398",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 856,
+          "end": 874,
+          "text": "Snapdragon 8 Gen 3",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 888,
+          "end": 904,
+          "text": "8 (1+ 3 + 2 + 2)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 926,
+          "end": 959,
+          "text": "3.3Ghz + 3.2Ghz + 3.0Ghz + 2.3Ghz",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 973,
+          "end": 977,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 996,
+          "end": 1006,
+          "text": "Adreno 750",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1036,
+          "end": 1041,
+          "text": "512GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 21,
+          "end": 25,
+          "text": "16GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 26,
+          "end": 31,
+          "text": "512GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "category": "Telefon",
+      "title": "Nokia 7280",
+      "body": "Telefon u odlicnom stanju kao sto se i vidi na slikama ali nece da pali. Punjen je na punjacu vise sati ali ne daje nikakav signal da radi. Mislim da je do baterije jer im je to mana a jos veci problem da se nadje ispravna tako da ide kao neispitano",
+      "source_url": "https://www.kupujemprodajem.com/mobilni-telefoni/nokia/nokia-7280/oglas/192797429",
+      "annotations": []
+    },
+    {
+      "id": 46,
+      "category": "Desktop računar",
+      "title": "HP Z820 / Dual XEON / 64GB RAM / SSD / GPU W7100 - 8GB",
+      "body": "Na prodaju vrhunska, masivna i izuzetno pouzdana profesionalna radna stanica HP Z820.\n\nRaunar je u besprekornom tehničkom stanju, pažljivo održavan, testiran i spreman za najteže radne zadatke (renderovanje, 3D modelovanje, video montaža, programiranje, virtuelizacija, ali i odličan za opušteni gejming).\n\nZahvaljujući duplim procesorima i gigantskoj snazi, ovaj sistem nudi neverovatan multitasking i performanse za uložen novac.\n\n⚙️ Detaljne specifikacije:\n\nKućište: HP Z820 Workstation (masivno, vrhunska vojna izrada, izuzetno tiho hlađenje, modularni dizajn bez alata)\nProcesor (CPU): 2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru) – prava procesorska zver za najteže poslove!\nRAM memorija: 64 GB DDR3 ECC Registered (pouzdana server memorija sa korekcijom grešaka, radi u stabilnom režimu) * moguće dodavanje RAM-a*\nGrafička karta (GPU): ATI FirePro W7100 sa 8GB GDDR5 memorije (profesionalna grafika sa 4x DisplayPort izlaza, podržava više 4K monitora, sertifikovana za CAD/CAM i render softvere). Adapter DP na HDMI ide na poklon.\n\nSkladištenje:\n256 GB SSD (za brz podizanje sistema i aplikacija) - NOV\n1 TB HDD (prostrani hard disk za arhivu i podatke)\nKontroler: LSI SAS-RAID kontroler\nNapajanje: Originalno fabričko HP napajanje od 1125W (izuzetno kvalitetno, visoka energetska efikasnost, sa pregršt snage i konektora za nadogradnju)\n\nDodatne napomene:\n\nRaunar radi stabilno pod maksimalnim opterećenjem, temperature su niske zahvaljujući vrhunskom fabričkom hlađenju sa usmerenim tunelima i novom termalnom pastom.\nInstaliran legalan operativni sistem WIN10 x64 sa osnovnim drajverima – spreman za rad odmah.\nMana nedostatak zadnje ručke i plastičnog poklopca ( estetika i ukras samo )\nMoguća svaka vrsta provere, testiranja i ličnog preuzimanja.\n\nRobu šaljem nakon uplate na moj tekući račun.",
+      "source_url": "https://www.kupindo.com/Desktop-racunari/84866147_HP-Z820-Dual-XEON-64GB-RAM-SSD-GPU-W7100-8GB",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 320,
+          "end": 326,
+          "text": "duplim",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 591,
+          "end": 723,
+          "text": "2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru)",
+          "label": "CPU"
+        },
+        {
+          "field": "body",
+          "start": 783,
+          "end": 808,
+          "text": "64 GB DDR3 ECC Registered",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 931,
+          "end": 948,
+          "text": "ATI FirePro W7100",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 952,
+          "end": 961,
+          "text": "8GB GDDR5",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 997,
+          "end": 1011,
+          "text": "4x DisplayPort",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1029,
+          "end": 1045,
+          "text": "više 4K monitora",
+          "label": "GPU"
+        },
+        {
+          "field": "body",
+          "start": 1141,
+          "end": 1147,
+          "text": "256 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 1198,
+          "end": 1202,
+          "text": "1 TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 1260,
+          "end": 1282,
+          "text": "LSI SAS-RAID kontroler",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 10,
+          "end": 19,
+          "text": "Dual XEON",
+          "label": "CPU"
+        },
+        {
+          "field": "title",
+          "start": 22,
+          "end": 26,
+          "text": "64GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 43,
+          "end": 54,
+          "text": "W7100 - 8GB",
+          "label": "GPU"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Tablet",
+      "title": "XIAOMI REDMI PAD 2 8GB/256GB ZELENI Tablet",
+      "body": "Dijagonala ekrana - opseg\n9.0` - 11`\n\nRezolucija\n2560 x 1600\n\nDijagonala ekrana\n11`\n\nKapacitet baterije\n9000 mAh\n\nBoja\nZelena\n\nRAM (memorija)\n8 GB\n\nInterna memorija\n256 GB\n\nMikrofon\nDa\n\nBluetooth\nDa\n\nOperativni sistem\nAndroid, Android 15, HyperOS 2\n\nTip panela\nIPS\n\nProširenje memorije\nmicroSD (TransFlash) do 2TB\n\nKamera\nPrednja/Zadnja\n\nInternet konekcija\nWiFi\n\nMobilni internet\nNe\n\nInterfejs za punjenje\nUSB-C\n\nČitač otiska prsta\nNe\n\nZvučnici\nDa\n\nFM radio\nNe\n\nBaterija\nOd 8000 do 9000 mAh\n\nGPS\nNe\n\nNFC\nNe\n\nIzlaz za slušalice\nNe\n\nSnaga punjenja\n18 W\n\nThunderbolt port\nNe\n\nSIM slot\nNe\n\neSIM\nNe\n\nSenzor",
+      "source_url": "https://www.kupindo.com/Tableti/84884419_XIAOMI-REDMI-PAD-2-8GB-256GB-ZELENI-Tablet",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 142,
+          "end": 146,
+          "text": "8 GB",
+          "label": "RAM"
+        },
+        {
+          "field": "body",
+          "start": 165,
+          "end": 171,
+          "text": "256 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 307,
+          "end": 313,
+          "text": "do 2TB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 19,
+          "end": 22,
+          "text": "8GB",
+          "label": "RAM"
+        },
+        {
+          "field": "title",
+          "start": 23,
+          "end": 28,
+          "text": "256GB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "category": "HDD",
+      "title": "TOSHIBA CANVIO BASIC HDTB510EK3AA 1TB Eksterni hard disk",
+      "body": "Hard disk\n\nVeličina čvrstog diska 2.5\"\nKapacitet hard diska 1000 GB\nInterfejs USB 3.0/2.0\nSistem formata datoteke NTFS\n\nPortovi i interfejsi\n\nMaksimalna brzina prenosa podataka 5000 Mbit/s\nKonektor za USB USB Type-A / Micro-USB B\nVerzija USB-a 2.0/3.2 Gen 1 (3.1 Gen 1)\nTehnologija Thunderbolt Ne\nWi-Fi Ne\nBrzina prenosa podataka USB-a 5000 Mbit/s\n\nKarakteristike\n\nBoja proizvoda Crno\nMaterijal kućišta Plastika\nLED indikatori Statusi\nPodržani su Windows operativni sistemi Windows 10, Windows 11, Windows 8.1\nPodržani su Mac operativni sistemi Da\n\nMenadžment potrošnje\n\nNačin napajanja magistrale USB\nTrajanje baterije 900 mAh\n\nTežina i dimenzije\n\nTežina 149 g\nŠirina 78 mm\nDubina 109 mm\nVisina 14 mm",
+      "source_url": "https://www.kupindo.com/Hard-diskovi-i-SSD/82686071_TOSHIBA-CANVIO-BASIC-HDTB510EK3AA-1TB-Eksterni-hard-disk",
+      "annotations": [
+        {
+          "field": "body",
+          "start": 34,
+          "end": 38,
+          "text": "2.5\"",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 60,
+          "end": 67,
+          "text": "1000 GB",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 78,
+          "end": 89,
+          "text": "USB 3.0/2.0",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 114,
+          "end": 118,
+          "text": "NTFS",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 177,
+          "end": 188,
+          "text": "5000 Mbit/s",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 205,
+          "end": 229,
+          "text": "USB Type-A / Micro-USB B",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 244,
+          "end": 269,
+          "text": "2.0/3.2 Gen 1 (3.1 Gen 1)",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 336,
+          "end": 347,
+          "text": "5000 Mbit/s",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 474,
+          "end": 509,
+          "text": "Windows 10, Windows 11, Windows 8.1",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 656,
+          "end": 661,
+          "text": "149 g",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 669,
+          "end": 674,
+          "text": "78 mm",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 682,
+          "end": 688,
+          "text": "109 mm",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "body",
+          "start": 696,
+          "end": 701,
+          "text": "14 mm",
+          "label": "SKLADISTE"
+        },
+        {
+          "field": "title",
+          "start": 0,
+          "end": 37,
+          "text": "TOSHIBA CANVIO BASIC HDTB510EK3AA 1TB",
+          "label": "SKLADISTE"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "category": "Napajanje",
+      "title": "Napajanje za racunar iGMAX model 500C jacine 500W",
+      "body": "EAN/UPC: Ostalo\nSnaga: 500-600 W\nProizvođač: IGMAX\nTip: Standardno\n\nNapajanje za racunar iGMAX model 500C jacine 500W\nTestirano i 100% ispravno\n\nSvaki predmet je opisan tako da se svaka njegova mana navede, opiše i ako je moguće slika.\n\nRobu šaljem PostExpressom ili kao CC paket po pouzeću ili nakon uplate na tekući račun osim ako nije drugačije dogovoreno ili navedeno u samom oglasu. Po dogovoru šaljem predmete drugim kurirskim službama.\n\nImajte na umu da je poštarina znatno jeftinija ukoliko se predmet plati pre slanja!\n\nRobu pakujem što je bolje moguće tako da postoje minimalne šanse da dodje do oštećenja u transportu. Svaki predmet slikam i snimim pre slanja a zatim šaljem kupcu na Viber kako bi kupac mogao da tereti kurirsku službu u slučaju bilo kakve štete u toku transporta. Nakon slanja paketa kupcu, putem Vibera, šaljem broj pošiljke da kupac može da prati paket online.\n\nMolim za korektnu saradnju i pravovremeno odgovaranje na kupindo poruke i pozive kako bi što brže i efikasnije izvršili kupoprodaju i ocenjivanje.\n\nLično preuzimanje kao i testiranje predmeta je uvek moguće uz prethodni dogovor.\n\nHvala na saradnji!",
+      "source_url": "https://www.kupindo.com/Napajanja/84891335_Napajanje-za-racunar-iGMAX-model-500C-jacine-500W",
+      "annotations": []
+    },
+    {
+      "id": 50,
+      "category": "Tastatura",
+      "title": "Emachines PS/2 Desktop Keyboard- KB-0108",
+      "body": "EAN/UPC: Ostalo\nProizvođač: emachines\nPovezivanje: PS/2\nTip: Regularna\nVrsta: Žična\n\nodlican kao nov\nvelika multimedija retro tastatura iz 2001\n\nNapomenem da samo nudim opcija slanja Postekspressom pouzecem za clanovi koj imaju `ispravan Profil` . Ili unapred Post-Netom. Ili licno-naravno. SAMO POSTA\n\nMolim bez reklamacija ili garancija . Roba je tacno kao opis i kao na slike.\n\nI",
+      "source_url": "https://www.kupindo.com/Tastature/84888755_Emachines-PS-2-Desktop-Keyboard-KB-0108",
+      "annotations": []
+    }
+  ]
+}

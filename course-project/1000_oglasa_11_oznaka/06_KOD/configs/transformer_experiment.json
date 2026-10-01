@@ -1,0 +1,34 @@
+{
+  "purpose": "reference_experiment_config",
+  "seed": 42,
+  "outer_folds": 10,
+  "inner_folds": null,
+  "split_unit": "whole_ad",
+  "primary_metric": "strict_exact_span_entity_micro_f1",
+  "transformer": {
+    "epochs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "per_device_train_batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 16,
+    "max_grad_norm": 1.0,
+    "chunk_stride": 32,
+    "results_directory": "results/{bertic,mbert}",
+    "checkpoint_policy": "none",
+    "execution": "google_colab_single_t4"
+  },
+  "models": {
+    "bertic": "classla/bcms-bertic",
+    "mbert": "google-bert/bert-base-multilingual-cased"
+  }
+}

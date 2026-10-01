@@ -1,0 +1,946 @@
+{
+  "metadata": {
+    "ads": 50,
+    "labels": [
+      "CPU",
+      "GPU",
+      "RAM",
+      "SKLADISTE",
+      "CENA"
+    ],
+    "andjela_old_letter": "D",
+    "nikola_old_letter": "C",
+    "old_andjela_file": "01_STARA_KALIBRACIJA/izvedeno_5_oznaka/anotator_D_5_oznaka.tsv",
+    "old_nikola_file": "01_STARA_KALIBRACIJA/izvedeno_5_oznaka/anotator_C_5_oznaka.tsv",
+    "new_andjela_file": "03_NOVA_KALIBRACIJA/Andjela/nova_kalibracija_Andjela_50_oglasa_5_oznaka.json",
+    "new_nikola_file": "03_NOVA_KALIBRACIJA/Nikola/nova_kalibracija_Nikola_50_oglasa_5_oznaka.json"
+  },
+  "comparisons": {
+    "old_pair": {
+      "left_spans": 383,
+      "right_spans": 388,
+      "exact_matches": 292,
+      "strict": {
+        "tp": 292,
+        "fp": 96,
+        "fn": 91,
+        "precision": 0.7525773195876289,
+        "recall": 0.762402088772846,
+        "f1": 0.7574578469520103
+      },
+      "relaxed": {
+        "tp": 340,
+        "fp": 48,
+        "fn": 43,
+        "precision": 0.8762886597938144,
+        "recall": 0.8877284595300261,
+        "f1": 0.8819714656290533
+      },
+      "semantic_token": {
+        "tp": 1553,
+        "fp": 173,
+        "fn": 62,
+        "precision": 0.8997682502896871,
+        "recall": 0.961609907120743,
+        "f1": 0.9296617779108051,
+        "per_label": {
+          "CPU": {
+            "tp": 520,
+            "fp": 34,
+            "fn": 24,
+            "precision": 0.9386281588447654,
+            "recall": 0.9558823529411765,
+            "f1": 0.9471766848816029
+          },
+          "GPU": {
+            "tp": 298,
+            "fp": 70,
+            "fn": 2,
+            "precision": 0.8097826086956522,
+            "recall": 0.9933333333333333,
+            "f1": 0.8922155688622755
+          },
+          "RAM": {
+            "tp": 391,
+            "fp": 22,
+            "fn": 15,
+            "precision": 0.9467312348668281,
+            "recall": 0.9630541871921182,
+            "f1": 0.9548229548229549
+          },
+          "SKLADISTE": {
+            "tp": 300,
+            "fp": 39,
+            "fn": 21,
+            "precision": 0.8849557522123894,
+            "recall": 0.9345794392523364,
+            "f1": 0.9090909090909091
+          },
+          "CENA": {
+            "tp": 44,
+            "fp": 8,
+            "fn": 0,
+            "precision": 0.8461538461538461,
+            "recall": 1.0,
+            "f1": 0.9166666666666666
+          }
+        },
+        "token_count": 7938,
+        "accuracy_with_O": 0.9711514235323759
+      },
+      "cohen_kappa": 0.9211119548065477,
+      "per_label": [
+        {
+          "label": "CPU",
+          "left_spans": 99,
+          "right_spans": 88,
+          "strict": {
+            "tp": 64,
+            "fp": 24,
+            "fn": 35,
+            "precision": 0.7272727272727273,
+            "recall": 0.6464646464646465,
+            "f1": 0.6844919786096257
+          },
+          "relaxed": {
+            "tp": 80,
+            "fp": 8,
+            "fn": 19,
+            "precision": 0.9090909090909091,
+            "recall": 0.8080808080808081,
+            "f1": 0.8556149732620321
+          },
+          "semantic_token": {
+            "tp": 520,
+            "fp": 34,
+            "fn": 24,
+            "precision": 0.9386281588447654,
+            "recall": 0.9558823529411765,
+            "f1": 0.9471766848816029
+          }
+        },
+        {
+          "label": "GPU",
+          "left_spans": 71,
+          "right_spans": 82,
+          "strict": {
+            "tp": 54,
+            "fp": 28,
+            "fn": 17,
+            "precision": 0.6585365853658537,
+            "recall": 0.7605633802816901,
+            "f1": 0.7058823529411764
+          },
+          "relaxed": {
+            "tp": 65,
+            "fp": 17,
+            "fn": 6,
+            "precision": 0.7926829268292683,
+            "recall": 0.9154929577464789,
+            "f1": 0.8496732026143791
+          },
+          "semantic_token": {
+            "tp": 298,
+            "fp": 70,
+            "fn": 2,
+            "precision": 0.8097826086956522,
+            "recall": 0.9933333333333333,
+            "f1": 0.8922155688622755
+          }
+        },
+        {
+          "label": "RAM",
+          "left_spans": 94,
+          "right_spans": 90,
+          "strict": {
+            "tp": 68,
+            "fp": 22,
+            "fn": 26,
+            "precision": 0.7555555555555555,
+            "recall": 0.723404255319149,
+            "f1": 0.7391304347826088
+          },
+          "relaxed": {
+            "tp": 82,
+            "fp": 8,
+            "fn": 12,
+            "precision": 0.9111111111111111,
+            "recall": 0.8723404255319149,
+            "f1": 0.891304347826087
+          },
+          "semantic_token": {
+            "tp": 391,
+            "fp": 22,
+            "fn": 15,
+            "precision": 0.9467312348668281,
+            "recall": 0.9630541871921182,
+            "f1": 0.9548229548229549
+          }
+        },
+        {
+          "label": "SKLADISTE",
+          "left_spans": 98,
+          "right_spans": 104,
+          "strict": {
+            "tp": 85,
+            "fp": 19,
+            "fn": 13,
+            "precision": 0.8173076923076923,
+            "recall": 0.8673469387755102,
+            "f1": 0.8415841584158416
+          },
+          "relaxed": {
+            "tp": 92,
+            "fp": 12,
+            "fn": 6,
+            "precision": 0.8846153846153846,
+            "recall": 0.9387755102040817,
+            "f1": 0.9108910891089108
+          },
+          "semantic_token": {
+            "tp": 300,
+            "fp": 39,
+            "fn": 21,
+            "precision": 0.8849557522123894,
+            "recall": 0.9345794392523364,
+            "f1": 0.9090909090909091
+          }
+        },
+        {
+          "label": "CENA",
+          "left_spans": 21,
+          "right_spans": 24,
+          "strict": {
+            "tp": 21,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.875,
+            "recall": 1.0,
+            "f1": 0.9333333333333333
+          },
+          "relaxed": {
+            "tp": 21,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.875,
+            "recall": 1.0,
+            "f1": 0.9333333333333333
+          },
+          "semantic_token": {
+            "tp": 44,
+            "fp": 8,
+            "fn": 0,
+            "precision": 0.8461538461538461,
+            "recall": 1.0,
+            "f1": 0.9166666666666666
+          }
+        }
+      ],
+      "difference_cases": 92,
+      "ads_with_differences": 28,
+      "difference_categories": {
+        "SUVISNO": 30,
+        "SPAJANJE": 20,
+        "PROPUSTENO": 12,
+        "FRAGMENTACIJA": 11,
+        "GRANICA_SIRA": 10,
+        "GRANICA_UZA": 6,
+        "POGRESNA_OZNAKA": 2,
+        "GRANICA_POMERENA": 1
+      }
+    },
+    "new_pair": {
+      "left_spans": 402,
+      "right_spans": 386,
+      "exact_matches": 333,
+      "strict": {
+        "tp": 333,
+        "fp": 53,
+        "fn": 69,
+        "precision": 0.8626943005181347,
+        "recall": 0.8283582089552238,
+        "f1": 0.8451776649746192
+      },
+      "relaxed": {
+        "tp": 362,
+        "fp": 24,
+        "fn": 40,
+        "precision": 0.9378238341968912,
+        "recall": 0.900497512437811,
+        "f1": 0.9187817258883249
+      },
+      "semantic_token": {
+        "tp": 1671,
+        "fp": 130,
+        "fn": 10,
+        "precision": 0.9278178789561354,
+        "recall": 0.9940511600237953,
+        "f1": 0.9597932222860425,
+        "per_label": {
+          "CPU": {
+            "tp": 543,
+            "fp": 29,
+            "fn": 4,
+            "precision": 0.9493006993006993,
+            "recall": 0.9926873857404022,
+            "f1": 0.970509383378016
+          },
+          "GPU": {
+            "tp": 368,
+            "fp": 29,
+            "fn": 0,
+            "precision": 0.9269521410579346,
+            "recall": 1.0,
+            "f1": 0.9620915032679739
+          },
+          "RAM": {
+            "tp": 401,
+            "fp": 30,
+            "fn": 0,
+            "precision": 0.9303944315545244,
+            "recall": 1.0,
+            "f1": 0.9639423076923077
+          },
+          "SKLADISTE": {
+            "tp": 312,
+            "fp": 37,
+            "fn": 6,
+            "precision": 0.8939828080229226,
+            "recall": 0.9811320754716981,
+            "f1": 0.9355322338830585
+          },
+          "CENA": {
+            "tp": 47,
+            "fp": 5,
+            "fn": 0,
+            "precision": 0.9038461538461539,
+            "recall": 1.0,
+            "f1": 0.9494949494949495
+          }
+        },
+        "token_count": 7938,
+        "accuracy_with_O": 0.982363315696649
+      },
+      "cohen_kappa": 0.9534377396312744,
+      "per_label": [
+        {
+          "label": "CPU",
+          "left_spans": 100,
+          "right_spans": 86,
+          "strict": {
+            "tp": 74,
+            "fp": 12,
+            "fn": 26,
+            "precision": 0.8604651162790697,
+            "recall": 0.74,
+            "f1": 0.7956989247311828
+          },
+          "relaxed": {
+            "tp": 85,
+            "fp": 1,
+            "fn": 15,
+            "precision": 0.9883720930232558,
+            "recall": 0.85,
+            "f1": 0.9139784946236558
+          },
+          "semantic_token": {
+            "tp": 543,
+            "fp": 29,
+            "fn": 4,
+            "precision": 0.9493006993006993,
+            "recall": 0.9926873857404022,
+            "f1": 0.970509383378016
+          }
+        },
+        {
+          "label": "GPU",
+          "left_spans": 88,
+          "right_spans": 81,
+          "strict": {
+            "tp": 69,
+            "fp": 12,
+            "fn": 19,
+            "precision": 0.8518518518518519,
+            "recall": 0.7840909090909091,
+            "f1": 0.8165680473372782
+          },
+          "relaxed": {
+            "tp": 74,
+            "fp": 7,
+            "fn": 14,
+            "precision": 0.9135802469135802,
+            "recall": 0.8409090909090909,
+            "f1": 0.8757396449704142
+          },
+          "semantic_token": {
+            "tp": 368,
+            "fp": 29,
+            "fn": 0,
+            "precision": 0.9269521410579346,
+            "recall": 1.0,
+            "f1": 0.9620915032679739
+          }
+        },
+        {
+          "label": "RAM",
+          "left_spans": 93,
+          "right_spans": 88,
+          "strict": {
+            "tp": 74,
+            "fp": 14,
+            "fn": 19,
+            "precision": 0.8409090909090909,
+            "recall": 0.7956989247311828,
+            "f1": 0.8176795580110496
+          },
+          "relaxed": {
+            "tp": 84,
+            "fp": 4,
+            "fn": 9,
+            "precision": 0.9545454545454546,
+            "recall": 0.9032258064516129,
+            "f1": 0.9281767955801105
+          },
+          "semantic_token": {
+            "tp": 401,
+            "fp": 30,
+            "fn": 0,
+            "precision": 0.9303944315545244,
+            "recall": 1.0,
+            "f1": 0.9639423076923077
+          }
+        },
+        {
+          "label": "SKLADISTE",
+          "left_spans": 99,
+          "right_spans": 108,
+          "strict": {
+            "tp": 94,
+            "fp": 14,
+            "fn": 5,
+            "precision": 0.8703703703703703,
+            "recall": 0.9494949494949495,
+            "f1": 0.9082125603864735
+          },
+          "relaxed": {
+            "tp": 97,
+            "fp": 11,
+            "fn": 2,
+            "precision": 0.8981481481481481,
+            "recall": 0.9797979797979798,
+            "f1": 0.9371980676328502
+          },
+          "semantic_token": {
+            "tp": 312,
+            "fp": 37,
+            "fn": 6,
+            "precision": 0.8939828080229226,
+            "recall": 0.9811320754716981,
+            "f1": 0.9355322338830585
+          }
+        },
+        {
+          "label": "CENA",
+          "left_spans": 22,
+          "right_spans": 23,
+          "strict": {
+            "tp": 22,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          },
+          "relaxed": {
+            "tp": 22,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.9565217391304348,
+            "recall": 1.0,
+            "f1": 0.9777777777777777
+          },
+          "semantic_token": {
+            "tp": 47,
+            "fp": 5,
+            "fn": 0,
+            "precision": 0.9038461538461539,
+            "recall": 1.0,
+            "f1": 0.9494949494949495
+          }
+        }
+      ],
+      "difference_cases": 54,
+      "ads_with_differences": 19,
+      "difference_categories": {
+        "SUVISNO": 24,
+        "SPAJANJE": 22,
+        "GRANICA_SIRA": 5,
+        "GRANICA_UZA": 2,
+        "PROPUSTENO": 1
+      }
+    },
+    "andjela_stability": {
+      "left_spans": 383,
+      "right_spans": 402,
+      "exact_matches": 373,
+      "strict": {
+        "tp": 373,
+        "fp": 29,
+        "fn": 10,
+        "precision": 0.927860696517413,
+        "recall": 0.9738903394255874,
+        "f1": 0.9503184713375796
+      },
+      "relaxed": {
+        "tp": 380,
+        "fp": 22,
+        "fn": 3,
+        "precision": 0.945273631840796,
+        "recall": 0.9921671018276762,
+        "f1": 0.9681528662420382
+      },
+      "semantic_token": {
+        "tp": 1603,
+        "fp": 78,
+        "fn": 12,
+        "precision": 0.9535990481856038,
+        "recall": 0.9925696594427245,
+        "f1": 0.9726941747572816,
+        "per_label": {
+          "CPU": {
+            "tp": 541,
+            "fp": 6,
+            "fn": 3,
+            "precision": 0.9890310786106032,
+            "recall": 0.9944852941176471,
+            "f1": 0.9917506874427131
+          },
+          "GPU": {
+            "tp": 300,
+            "fp": 68,
+            "fn": 0,
+            "precision": 0.8152173913043478,
+            "recall": 1.0,
+            "f1": 0.8982035928143712
+          },
+          "RAM": {
+            "tp": 400,
+            "fp": 1,
+            "fn": 6,
+            "precision": 0.9975062344139651,
+            "recall": 0.9852216748768473,
+            "f1": 0.9913258983890955
+          },
+          "SKLADISTE": {
+            "tp": 318,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.9906542056074766,
+            "f1": 0.9953051643192489
+          },
+          "CENA": {
+            "tp": 44,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.9361702127659575,
+            "recall": 1.0,
+            "f1": 0.967032967032967
+          }
+        },
+        "token_count": 7938,
+        "accuracy_with_O": 0.9886621315192744
+      },
+      "cohen_kappa": 0.9686298968473271,
+      "per_label": [
+        {
+          "label": "CPU",
+          "left_spans": 99,
+          "right_spans": 100,
+          "strict": {
+            "tp": 95,
+            "fp": 5,
+            "fn": 4,
+            "precision": 0.95,
+            "recall": 0.9595959595959596,
+            "f1": 0.9547738693467336
+          },
+          "relaxed": {
+            "tp": 98,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.98,
+            "recall": 0.98989898989899,
+            "f1": 0.9849246231155778
+          },
+          "semantic_token": {
+            "tp": 541,
+            "fp": 6,
+            "fn": 3,
+            "precision": 0.9890310786106032,
+            "recall": 0.9944852941176471,
+            "f1": 0.9917506874427131
+          }
+        },
+        {
+          "label": "GPU",
+          "left_spans": 71,
+          "right_spans": 88,
+          "strict": {
+            "tp": 71,
+            "fp": 17,
+            "fn": 0,
+            "precision": 0.8068181818181818,
+            "recall": 1.0,
+            "f1": 0.8930817610062893
+          },
+          "relaxed": {
+            "tp": 71,
+            "fp": 17,
+            "fn": 0,
+            "precision": 0.8068181818181818,
+            "recall": 1.0,
+            "f1": 0.8930817610062893
+          },
+          "semantic_token": {
+            "tp": 300,
+            "fp": 68,
+            "fn": 0,
+            "precision": 0.8152173913043478,
+            "recall": 1.0,
+            "f1": 0.8982035928143712
+          }
+        },
+        {
+          "label": "RAM",
+          "left_spans": 94,
+          "right_spans": 93,
+          "strict": {
+            "tp": 90,
+            "fp": 3,
+            "fn": 4,
+            "precision": 0.967741935483871,
+            "recall": 0.9574468085106383,
+            "f1": 0.9625668449197862
+          },
+          "relaxed": {
+            "tp": 92,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.989247311827957,
+            "recall": 0.9787234042553191,
+            "f1": 0.983957219251337
+          },
+          "semantic_token": {
+            "tp": 400,
+            "fp": 1,
+            "fn": 6,
+            "precision": 0.9975062344139651,
+            "recall": 0.9852216748768473,
+            "f1": 0.9913258983890955
+          }
+        },
+        {
+          "label": "SKLADISTE",
+          "left_spans": 98,
+          "right_spans": 99,
+          "strict": {
+            "tp": 96,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9696969696969697,
+            "recall": 0.9795918367346939,
+            "f1": 0.9746192893401016
+          },
+          "relaxed": {
+            "tp": 98,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.98989898989899,
+            "recall": 1.0,
+            "f1": 0.9949238578680203
+          },
+          "semantic_token": {
+            "tp": 318,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.9906542056074766,
+            "f1": 0.9953051643192489
+          }
+        },
+        {
+          "label": "CENA",
+          "left_spans": 21,
+          "right_spans": 22,
+          "strict": {
+            "tp": 21,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.9545454545454546,
+            "recall": 1.0,
+            "f1": 0.9767441860465117
+          },
+          "relaxed": {
+            "tp": 21,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.9545454545454546,
+            "recall": 1.0,
+            "f1": 0.9767441860465117
+          },
+          "semantic_token": {
+            "tp": 44,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.9361702127659575,
+            "recall": 1.0,
+            "f1": 0.967032967032967
+          }
+        }
+      ],
+      "difference_cases": 30,
+      "ads_with_differences": 11,
+      "difference_categories": {
+        "SUVISNO": 20,
+        "GRANICA_UZA": 3,
+        "PROPUSTENO": 3,
+        "GRANICA_SIRA": 2,
+        "FRAGMENTACIJA": 2
+      }
+    },
+    "nikola_stability": {
+      "left_spans": 388,
+      "right_spans": 386,
+      "exact_matches": 324,
+      "strict": {
+        "tp": 324,
+        "fp": 62,
+        "fn": 64,
+        "precision": 0.8393782383419689,
+        "recall": 0.8350515463917526,
+        "f1": 0.8372093023255814
+      },
+      "relaxed": {
+        "tp": 362,
+        "fp": 24,
+        "fn": 26,
+        "precision": 0.9378238341968912,
+        "recall": 0.9329896907216495,
+        "f1": 0.9354005167958656
+      },
+      "semantic_token": {
+        "tp": 1676,
+        "fp": 125,
+        "fn": 50,
+        "precision": 0.9305941143808995,
+        "recall": 0.9710312862108922,
+        "f1": 0.9503827615537284,
+        "per_label": {
+          "CPU": {
+            "tp": 550,
+            "fp": 22,
+            "fn": 4,
+            "precision": 0.9615384615384616,
+            "recall": 0.9927797833935018,
+            "f1": 0.9769094138543517
+          },
+          "GPU": {
+            "tp": 341,
+            "fp": 56,
+            "fn": 27,
+            "precision": 0.8589420654911839,
+            "recall": 0.9266304347826086,
+            "f1": 0.8915032679738562
+          },
+          "RAM": {
+            "tp": 407,
+            "fp": 24,
+            "fn": 6,
+            "precision": 0.9443155452436195,
+            "recall": 0.9854721549636803,
+            "f1": 0.9644549763033174
+          },
+          "SKLADISTE": {
+            "tp": 328,
+            "fp": 21,
+            "fn": 11,
+            "precision": 0.9398280802292264,
+            "recall": 0.967551622418879,
+            "f1": 0.9534883720930233
+          },
+          "CENA": {
+            "tp": 50,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.9615384615384616,
+            "recall": 0.9615384615384616,
+            "f1": 0.9615384615384616
+          }
+        },
+        "token_count": 7938,
+        "accuracy_with_O": 0.9787100025195263
+      },
+      "cohen_kappa": 0.9443970144732841,
+      "per_label": [
+        {
+          "label": "CPU",
+          "left_spans": 88,
+          "right_spans": 86,
+          "strict": {
+            "tp": 74,
+            "fp": 12,
+            "fn": 14,
+            "precision": 0.8604651162790697,
+            "recall": 0.8409090909090909,
+            "f1": 0.8505747126436781
+          },
+          "relaxed": {
+            "tp": 81,
+            "fp": 5,
+            "fn": 7,
+            "precision": 0.9418604651162791,
+            "recall": 0.9204545454545454,
+            "f1": 0.9310344827586208
+          },
+          "semantic_token": {
+            "tp": 550,
+            "fp": 22,
+            "fn": 4,
+            "precision": 0.9615384615384616,
+            "recall": 0.9927797833935018,
+            "f1": 0.9769094138543517
+          }
+        },
+        {
+          "label": "GPU",
+          "left_spans": 82,
+          "right_spans": 81,
+          "strict": {
+            "tp": 64,
+            "fp": 17,
+            "fn": 18,
+            "precision": 0.7901234567901234,
+            "recall": 0.7804878048780488,
+            "f1": 0.7852760736196319
+          },
+          "relaxed": {
+            "tp": 76,
+            "fp": 5,
+            "fn": 6,
+            "precision": 0.9382716049382716,
+            "recall": 0.926829268292683,
+            "f1": 0.9325153374233128
+          },
+          "semantic_token": {
+            "tp": 341,
+            "fp": 56,
+            "fn": 27,
+            "precision": 0.8589420654911839,
+            "recall": 0.9266304347826086,
+            "f1": 0.8915032679738562
+          }
+        },
+        {
+          "label": "RAM",
+          "left_spans": 90,
+          "right_spans": 88,
+          "strict": {
+            "tp": 72,
+            "fp": 16,
+            "fn": 18,
+            "precision": 0.8181818181818182,
+            "recall": 0.8,
+            "f1": 0.8089887640449439
+          },
+          "relaxed": {
+            "tp": 83,
+            "fp": 5,
+            "fn": 7,
+            "precision": 0.9431818181818182,
+            "recall": 0.9222222222222223,
+            "f1": 0.9325842696629215
+          },
+          "semantic_token": {
+            "tp": 407,
+            "fp": 24,
+            "fn": 6,
+            "precision": 0.9443155452436195,
+            "recall": 0.9854721549636803,
+            "f1": 0.9644549763033174
+          }
+        },
+        {
+          "label": "SKLADISTE",
+          "left_spans": 104,
+          "right_spans": 108,
+          "strict": {
+            "tp": 93,
+            "fp": 15,
+            "fn": 11,
+            "precision": 0.8611111111111112,
+            "recall": 0.8942307692307693,
+            "f1": 0.8773584905660378
+          },
+          "relaxed": {
+            "tp": 99,
+            "fp": 9,
+            "fn": 5,
+            "precision": 0.9166666666666666,
+            "recall": 0.9519230769230769,
+            "f1": 0.9339622641509433
+          },
+          "semantic_token": {
+            "tp": 328,
+            "fp": 21,
+            "fn": 11,
+            "precision": 0.9398280802292264,
+            "recall": 0.967551622418879,
+            "f1": 0.9534883720930233
+          }
+        },
+        {
+          "label": "CENA",
+          "left_spans": 24,
+          "right_spans": 23,
+          "strict": {
+            "tp": 21,
+            "fp": 2,
+            "fn": 3,
+            "precision": 0.9130434782608695,
+            "recall": 0.875,
+            "f1": 0.8936170212765957
+          },
+          "relaxed": {
+            "tp": 23,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9583333333333334,
+            "f1": 0.9787234042553191
+          },
+          "semantic_token": {
+            "tp": 50,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.9615384615384616,
+            "recall": 0.9615384615384616,
+            "f1": 0.9615384615384616
+          }
+        }
+      ],
+      "difference_cases": 64,
+      "ads_with_differences": 24,
+      "difference_categories": {
+        "SUVISNO": 18,
+        "SPAJANJE": 12,
+        "GRANICA_UZA": 11,
+        "GRANICA_SIRA": 10,
+        "PROPUSTENO": 6,
+        "FRAGMENTACIJA": 4,
+        "POGRESNA_OZNAKA": 2,
+        "GRANICA_POMERENA": 1
+      }
+    }
+  }
+}

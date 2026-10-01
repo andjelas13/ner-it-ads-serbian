@@ -1,0 +1,9 @@
+# Local CPU environment: preparation, split checks, NB, SVM and CRF.
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+iterative-stratification==0.1.9
+sklearn-crfsuite==0.5.0
+matplotlib>=3.8,<4
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5

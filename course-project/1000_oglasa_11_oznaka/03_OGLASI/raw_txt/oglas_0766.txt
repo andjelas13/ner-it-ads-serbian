@@ -1,0 +1,48 @@
+TITLE:
+Graficka karta Gigabyte GeForce RTX 5050 WINDFORCE GV-N5050W
+
+BODY:
+Kupac dobija fiskalni račun i garanciju!
+
+Moguće plaćanje preko računa firme!
+
+Moguće plaćanje na rate od 3 do 12 meseci preko Intesa kreditnih kartica Master Card i American Express!
+
+Nismo u mogućnosti da sve artikle postavimo ovde koje možemo da ponudimo, slobodno pošaljite upit za određeni artikal.
+Uvek proveriti cenu pre porudžbine. Može da se desi da cena nekog proizvoda bude niža nego što trenutno stoji, ali i obrnuto — ili da proizvod trenutno nije dostupan.
+
+-------------------------------------------------------------------------------------------------------------------
+Grafički procesor
+GeForce RTX™ 5050
+Radni takt jezgra
+2587 MHz (Referentna kartica: 2572 MHz)
+CUDA® jezgra
+2560
+Takt memorije
+20 Gbps
+Veličina memorije
+8 GB
+Tip memorije
+GDDR6
+Širina magistrale memorije
+128 bit
+Magistrala kartice
+PCI-E 5.0
+Maksimalna digitalna rezolucija
+7680 × 4320
+Broj prikaza (Multi-view)
+4
+Dimenzije kartice
+D=199 mm, Š=116 mm, V=40 mm
+PCB format
+ATX
+DirectX
+DirectX 12 API
+OpenGL
+4.6
+Preporučeno napajanje
+550W
+Konektor za napajanje
+8 Pin × 1
+Izlazi
+DisplayPort 2.1b × 2, HDMI 2.1b × 2

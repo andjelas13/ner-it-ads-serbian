@@ -1,0 +1,15 @@
+TITLE:
+Intel i7 6700
+
+BODY:
+Ploča: Asus Z170A
+
+GPU: /
+HDD: SSD Samsung 850 Pro 256 GB
+CPU: Intel i7 6700 3.4 Ghz (Skylake)
+RAM: 2 x 4GB DDR4 Hyper Fury
+Video capture card
+ODD:/
+Napajanje: Thermaltake 630W Modular (without cables)
+Case Cooler Master
+Video Capture Card

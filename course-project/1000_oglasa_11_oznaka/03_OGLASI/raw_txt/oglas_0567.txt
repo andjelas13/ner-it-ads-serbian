@@ -1,0 +1,13 @@
+TITLE:
+Medion Lifetab S10334 16GB 10.1
+
+BODY:
+- model: S10334
+- reaguje na punjac, puni, pali, daje zvuk
+- ekran je vidno razbijen u gornjem desno uglu, takodje postoji uocljiva linija preko sredine ekrana. Slika je regularna na celom ekranu ali tac sa leve strane linije ne reaguje.
+- zadnja strana tableta je odlicno ocuvana
+- 16GB / 2GB (DDR3), android 4.4.2, srpski meni
+- podrska za SD karticu (do 128GB), ima HDMI slot
+- 10.1 inca, 4 jezgra, 2 kamere, usb prikljucak
+- baterije nije testirana detaljno
+- prodaje se bez punjaca i dodatne opreme a po dogovoru se moze videti uzivo u Novom Sadu.

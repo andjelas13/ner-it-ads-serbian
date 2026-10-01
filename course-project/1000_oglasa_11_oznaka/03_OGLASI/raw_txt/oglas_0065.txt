@@ -1,0 +1,23 @@
+TITLE:
+Procesor (05) AMD Sempron SI-40 2 GHz -800 MHz -51
+
+BODY:
+Ispravan procesor za laptop
+
+- Proizvodjac AMD
+
+- Tip Sempron SI-40
+
+- podnozje S1
+
+- broj jezgra 1
+
+- tehnologija 0.065 mm
+
+- brzina 2 GHz
+
+- magistrala 800 MHz
+
+- memorija 512 kb
+
+- demontiran iz HP laptopa 6735S

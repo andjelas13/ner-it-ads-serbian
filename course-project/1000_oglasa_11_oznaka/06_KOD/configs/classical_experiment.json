@@ -1,0 +1,70 @@
+{
+  "purpose": "reference_experiment_config",
+  "seed": 42,
+  "outer_folds": 10,
+  "inner_folds_by_model": {
+    "nb": 10,
+    "svm": 5,
+    "xgb": 10,
+    "crf": 5
+  },
+  "classical_feature_backend": "direct_csr_train_only_vocabulary",
+  "classical_min_df": 1,
+  "split_unit": "whole_ad",
+  "primary_metric": "strict_exact_span_entity_micro_f1",
+  "hyperparameter_grids": {
+    "nb": {
+      "alpha": [
+        0.01,
+        0.1,
+        0.5,
+        1.0
+      ],
+      "fit_prior": [
+        true,
+        false
+      ]
+    },
+    "svm": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "class_weight": [
+        null,
+        "balanced"
+      ]
+    },
+    "xgb": {
+      "n_estimators": [
+        100,
+        300
+      ],
+      "max_depth": [
+        3,
+        6
+      ],
+      "learning_rate": [
+        0.05,
+        0.1
+      ]
+    },
+    "crf": {
+      "c1": [
+        0.0,
+        0.1,
+        0.5
+      ],
+      "c2": [
+        0.01,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  "execution": {
+    "nb_svm_crf": "local_cpu",
+    "xgb": "google_colab_single_t4"
+  }
+}

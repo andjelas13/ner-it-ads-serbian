@@ -1,0 +1,25 @@
+TITLE:
+Procesor (62) Intel Pentium 4 2800 MHz-533-512
+
+BODY:
+Ispravan procesor za Desktop racunar
+
+- Proizvodjac Intel
+
+- Tip Pentium 4
+
+- tehnologija 0.13 mm
+
+- podnozje 478
+
+- brzina 2800 MHz
+
+- magistrala 533 MHz
+
+- memorija 512 kb
+
+- broj jezgra 1
+
+- u mogucnosti sam da nabavim
+
+ventilator za procesor a on se doplacuje odvojeno

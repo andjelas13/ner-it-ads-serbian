@@ -1,0 +1,803 @@
+﻿sample_order,case_id,ad_id,field,part,structural_category,primary_label,context
+1,K0001,8,body,4,GRANICA_SIRA,CENA,"isu iste za sve baterije)
+
+Imamo original i zamenske baterije za navedene modele
+
+Cene su od 700 din. ++
+
+Galaxy J2 (2017)
+
+Galaxy J2 (2017)
+
+Galaxy C8
+
+Galaxy J7+
+
+Galaxy J7+
+
+SM-G9298
+
+Galaxy "
+2,K0002,38,body,3,SPAJANJE,CPU,"Procesor: Intel celeron 1.7GHz (socket 478), testiran i ispravan.
+
+Stabilan je u radu i dobro očuvan (svi pinovi su ispravni).
+
+Šalje"
+3,K0020,57,body,3,GRANICA_SIRA,CPU,"AMD Sempron-2kom 2x2600mghz
+
+-1 kom 2x2800mghz
+
+-1 kom 2x2200mghz
+
+DDR2
+
+1 DDR3 2700mghz(jedno jezgro)
+
+i ram memorije,2 samsung isto po"
+4,K0024,57,body,3,SPAJANJE,RAM,"m 2x2200mghz
+
+DDR2
+
+1 DDR3 2700mghz(jedno jezgro)
+
+i ram memorije,2 samsung isto po 1gb i 2 kinhston isto po 1gb i 1 holandske proizvodnje
+
+Sve je testirano i ispravno
+
+Cena je i više nego povoljna.Prod"
+5,K0036,68,body,2,GRANICA_I_OZNAKA,RAM,"r Base Frequency - 2.40 GHz
+Cache - 2 MB Intel® Smart Cache
+Bus Speed - 5 GT/s
+TDP - 35 W
+Max Memory Size (dependent on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 2"
+6,K0037,68,body,2,POGRESNA_OZNAKA,RAM,"eed - 5 GT/s
+TDP - 35 W
+Max Memory Size (dependent on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 25.6 GB/s
+GPU Name‡ - Intel® HD Graph"
+7,K0038,68,body,2,GRANICA_I_OZNAKA,RAM," W
+Max Memory Size (dependent on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 25.6 GB/s
+GPU Name‡ - Intel® HD Graphics for 3rd Generation Intel®"
+8,K0039,68,body,2,GRANICA_I_OZNAKA,RAM," on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 25.6 GB/s
+GPU Name‡ - Intel® HD Graphics for 3rd Generation Intel® Processors
+Graphics Base Frequen"
+9,K0042,68,body,2,GRANICA_SIRA,GPU,"Intel® HD Graphics for 3rd Generation Intel® Processors
+Graphics Base Frequency - 650 MHz
+Graphics Max Dynamic Frequency - 1.10 GHz
+Graphics Output - eDP/DP/HDMI/SDVO/CRT
+PCI Express Revision - 2.0
+PCI Express Configurati"
+10,K0049,68,body,2,SUVISNO,CPU,"CI Express Lanes - 16
+Sockets Supported - FCPGA988 – G1
+Intel® 64 - Yes
+Instruction Set - 64-bit
+Instruction Set Extensions - Intel® SSE4.1, Intel® SSE4.2
+Intel® My WiFi Technology - Yes"
+11,K0073,88,body,3,POGRESNA_OZNAKA,RAM,"66 sdram
+
+hard disk: samsung 256gb nvme ssd (čitanje 3000 mb/s, upis 1300 mb/s)
+
+grafika: intel® uhd graphics 630
+
+portovi (napred):
+
+2x usb 3.0
+
+1x usb type-c gen 2
+
+2 x audio jack
+
+portovi (pozadi):
+
+1"
+12,K0074,88,body,3,SUVISNO,GPU,".0
+
+1x usb type-c gen 2
+
+2 x audio jack
+
+portovi (pozadi):
+
+1x power connector
+
+1x rj-45
+
+2x displayport 1.2
+
+2x usb 3.1 gen 1
+
+2x usb 3.1 gen 2
+
+1x usb 3.1 type-c gen 2 (dodat naknakno po zahtevu)
+"
+13,K0125,132,body,2,FRAGMENTACIJA,CPU,"DELL OptiPlex 990 SFF
+
+-Kuciste: Dell
+
+-Model: OptiPlex 990 SFF
+
+-Procesor: Intel® Core™ i3-2100 Processor 3M Cache, 3. 10 GHz
+
+-Socket: FCLGA1155
+
+-Chipset: Intel Q67 Express
+
+-Hard disk: 250gb
+
+-Ram memorija: 4GB D"
+14,K0139,140,body,3,POGRESNA_OZNAKA,GPU,"20 10M Cache, 3.60 GHz, 0.0 GT/s Intel® QPI
+
+HP Grafička kartica NVIDIA NVS 315 1GB DDR3
+
+4gb ddr3 memorija
+
+500 gb hard
+
+napajanje 635w sa dva 6 pinska konektora
+
+instaliran je win 10
+
+pr"
+15,K0146,146,body,4,SUVISNO,GPU," paket 2021 word excel . . .
+
+sve radi i sve je ispravno
+
+konekcija sa monitorom je preko Displej porta, ukoliko kupac zeli da se poveze sa HDMI konektorom doplata za adapter DP na HDMI je 5e
+
+"
+16,K0152,149,body,3,FRAGMENTACIJA,SKLADISTE,"KC (6 slotova za RAM)
+PODRŽAVA DDR2 I DDR3
+Procesor: Intel 4600 2,4Ghz RAM: 2Gb DDR3
+HDD: Kingston SSD 240Gb
+Grafička: Nvidia 9300 512Mb
+Mrežna
+Zvučna
+Kućište CODEGEN
+
+Računar radi odlično iako ima "
+17,K0157,152,body,4,SPAJANJE,CPU,"i3-7100-sedma generacija mn.2 disk
+
+Procesor : Intel i3-7100 dual core windows ga vidi 4x 3900mhz. soket 1151
+
+Maticna : Biostar btc 250 ima mogucnosta za 6x minringa(graficki kartica)
+
+Ram : 8gb ddr"
+18,K0167,159,body,4,POGRESNA_OZNAKA,CPU,"avnosti !
+3. Procesor Vrhunski INTEL PENTIUM GOLD 6405 4 x 4.1GHz
+najbrži jak integrisana UHD 610 + stavljena nova najbolja termalna Noctua NT-H1
+4. Kuler DEEP COOL THETA /velik fun 12cm
+"
+19,K0213,185,body,3,FRAGMENTACIJA,GPU,"bps
+
+Brzina GPU: OC Mode: do 2340 MHz (Boost Clock) / 2105 MHz (Game Clock)
+
+Gaming mode: do 2310 MHz (Boost Clock) / 2075 MHz (Game Clock)
+
+Stream procesori: 5120
+
+Hladjenje: Aktivno
+
+HDMI: 1
+
+DisplayPort: 3
+
+Konektor za napajan"
+20,K0223,199,body,2,PROPUSTENO,GPU,"Ispravna PCI-E graficka kartica
+
+- Ati
+
+- Radeon HD 2400 Pro (Ati -102-B27602(B))
+
+2 X VGA izlaz
+
+TV izl"
+21,K0231,200,body,4,GRANICA_POMERENA,GPU,"ficka kartica
+
+- Asus
+
+- EN9800-HTDP-512M-A
+
+- 2 X DVI izlaz
+
+- 1 X TV izlaz
+
+- 512 Mb
+
+- aktivno hladjenje za ogromnim hladnjakom
+
+- aktivno hladjenje sa velikom turbinom
+
+- potrebno kvalitetnije i jace napajanje za ovu"
+22,K0232,200,body,4,GRANICA_POMERENA,GPU,"
+- 2 X DVI izlaz
+
+- 1 X TV izlaz
+
+- 512 Mb
+
+- aktivno hladjenje za ogromnim hladnjakom
+
+- aktivno hladjenje sa velikom turbinom
+
+- potrebno kvalitetnije i jace napajanje za ovu karticu
+
+- potreban 6 - to pinski konekt"
+23,K0234,200,body,4,SUVISNO,CPU,"st navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- Siemens - OS WIN 7-32 bit
+
+- P5Q - E-5300 - OS WIN 10-64 bin
+
+Proverite da l"
+24,K0236,200,body,4,GRANICA_I_OZNAKA,GPU,"iji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- Siemens - OS WIN 7-32 bit
+
+- P5Q - E-5300 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorij"
+25,K0237,201,body,1,GRANICA_SIRA,GPU,"Ispravna PCI-E graficka kartica
+
+- Asus
+
+- Radeon X1650PRO 512M
+
+- 2 X DVI izlaz
+
+- 1 x TV izlaz
+
+- 512 Mb
+
+- hladnjak sa ispravnom turbinom
+
+Vrlo vazno
+
+Ispravnost naved"
+26,K0244,202,title,3,POGRESNA_OZNAKA,RAM,Grafička (162) Gigabyte GV-R4350C-512I
+27,K0251,209,body,3,FRAGMENTACIJA,GPU,"Na prodaju odlična grafička karta Palit GeForce GTX 560 Ti sa 1GB GDDR5 memorije na 256bit-a, sa izlazima 1x VGA, 2x Dual-DVI i 1x HDMI. Inače Palit je čuveni i "
+28,K0252,209,body,3,PROPUSTENO,GPU,"60 Ti sa 1GB GDDR5 memorije na 256bit-a, sa izlazima 1x VGA, 2x Dual-DVI i 1x HDMI. Inače Palit je čuveni i jedan od najvećih brendova u elektronskoj industriji što se tiče izrade grafi"
+29,K0271,220,body,4,PROPUSTENO,GPU,"bita. . . Dx 12.2
+
+Stanje 10/10, kao nova, tiha, hladna, stabilna! Kupljena nova sredinom 2021. god. (van garancije). Graficka u original antistatik zastitnoj kesi, gumiranom stiroporu, kut"
+30,K0273,220,body,4,SPAJANJE,CENA,"o nov i savrseno ocuvan predmet,kako ne bi doslo do eventualnih nesuglasica.
+
+Fiksna cena 35400 dinara / 300 eura, bez ostalih predloga, molim."
+31,K0298,250,body,4,POGRESNA_OZNAKA,RAM," je sledeca:
+
+Procesor - Intel Core i5, 2430 M 2.60 GHz
+
+Ram memorija - 8 GB
+
+Hard disk - 500 GB
+
+Graficka kartica - Intel HD 3000
+
+- AMD Radeon HD 7470m
+
+Instaliran WIN 10, sa svim draj"
+32,K0299,263,body,1,SPAJANJE,GPU,"ena termalna pasta. Spreman za aktivno koriscnje.
+
+Procesor: AMD Phenom II P960
+
+Grafika: AMD Mobility Radeon HD 5450/5470
+
+RAM: 4GB DDR3
+
+Harddisk: 320HDD
+
+Monitor: 15.6”, HD (1366 x 768), TN
+
+Webcam: Da
+
+Bateri"
+33,K0306,278,body,2,SPAJANJE,GPU,"orija 2 Gb DDR2
+
+- HDD 160 Gb - 100/100%
+
+- Integrisana graficka kartica Mobile Intel(R)
+
+965GM Expres Chipset - 128 Mb
+
+- LCD displej ocuvan dijagonele 15.4 inc
+
+- Wifi
+
+- bluetooth
+
+- Cardreader
+
+- DVR RW
+
+-"
+34,K0327,288,body,1,SUVISNO,SKLADISTE,"
+
+Procesor: AMD E1 2100 Processor 1.00ghz
+
+Memorija: 4GB DDR3
+
+Hard disk: 500gb perfektan 100/100
+
+Graficka karta: AMD RADEON HD 8210
+
+Operativni sistem: Windows 10
+
+Optički uređaj: DVD
+
+"
+35,K0349,305,title,3,POGRESNA_OZNAKA,SKLADISTE,Dell Precision M4800 intel i7-4700MQ 16gb Quadcore
+36,K0355,311,body,2,SLOZENO,CPU," koji ima punjivu bateriju.
+Karakteristike: Laptop marke Asus K53E, RAM4GB DDR3, Procesor Intel(R) Pentujum® CPU B950 @ 2,1 GHZ, Grafička karta Intel(R) HD 192 MB, Hard disk 500 GB
+Za više informacija pozvati."
+37,K0371,332,title,2,PROPUSTENO,CPU,Gigabyte GA-946GM-S2 775 DDR2
+38,K0373,334,body,3,POGRESNA_OZNAKA,SKLADISTE,"Ispravna, testirana polukonfiguracija.
+
+Ploca : Asus P5KPL-CM Socket 775.
+
+Memorija : GEIL 2GB DDR2 (kuca casti).
+
+Procesor : Dual Core E5200 2.50 Ghz (kuca casti).
+
+Kuler : Intel (kuca cas"
+39,K0382,405,body,4,SUVISNO,CPU,"sionalni izbor za najjače gejming i radne PC-je!
+1200 W snage – dovoljno za RTX 5090 + i9/Ryzen 9 + overklok
+80 PLUS Platinum sertifikat – do 94 % efikasnosti
+Potpuno modularni kablovi – "
+40,K0396,424,body,1,PROPUSTENO,CPU," external graphics (by overclocking)
+
+- fsb 800/533 mhz for internal graphics
+
+- supports hyper-threading technology
+
+- supports untied overclocking technology
+
+- supports em64t cpu
+
+*fsb1066-cpu"
+41,K0421,438,title,3,SUVISNO,RAM,Adata Memory Expert 2GB (2x1GB) DDR2 667MHz CL5
+42,K0423,442,body,3,SUVISNO,RAM,"Prodajem dva keksa Memorija DDR3 1600MHz 2GB Kingston HyperX, KHX1600C9D3/2G"
+43,K0425,443,body,3,POGRESNA_OZNAKA,CPU,"Infineon 512Mb / 400Mhz DDR1 SDRAM / set 4 kom
+Saljem kao CC paket ( 200,00 rsd ) uz prethodnu uplatu.
+Licno preuzimanje u Beogradu na K"
+44,K0427,447,title,1,GRANICA_SIRA,RAM,Hynix 2GB / 400Mhz DDR1 SDRAM / set 4 kom
+45,K0436,456,body,1,PROPUSTENO,RAM,"predloga molim.
+
+Na prodaju odlicne ram memorije
+
+DDR 1
+
+2 X 256 MB :
+
+INFINEON na stanju dva identicna modula 2x 256 Mb @400 Mhz / CL3
+
+Memorije su iz mog racunara, rade odlicno.
+
+Bl"
+46,K0447,462,body,1,GRANICA_UZA,RAM,"Ispravna serverska DDR3 memorija
+
+- Micron
+
+- 4Gb 2RX4 PC3-10600R-9-10-JP
+
+- brzina 1333 MHz
+
+- 4096 Mb/1333 MHz
+"
+47,K0464,488,body,1,SPAJANJE,SKLADISTE,Na prodaju sata 2.5' hard disk za laptopove. U hd sentinelu pokazuje 100% health i 100% performance. Prodaje se kao polovan. za sva pitanja vam stojim na raspolaganju.
+48,K0481,499,body,3,GRANICA_SIRA,SKLADISTE,"Nove Kingston USB memorije 32-256GB, u originalnom pakovanju sa garancijom 5 godina, visok kvalitet i brzin"
+49,K0487,510,body,1,FRAGMENTACIJA,SKLADISTE," Proliant servere Generacije G1/G2/G3/G4/G5/G6/G7/G8 /G9 i G10 koji koriste 2.5 /3.5 inča SAS/SATA diskove.
+
+Oznake:
+HP2.5` SFF 371593-001 - HP G1/G2/G3/G4/G5/G6/G7 ,
+2.5` SFF 651687-001 -"
+50,K0492,519,body,1,SUVISNO,SKLADISTE,"USB 64GB 3u1 TYPE C/android/racunar
+
+Text me Usb flash drives
+
+OTG pen drive
+
+3 IN 1
+
+To android
+
+Type C
+
+PC, laptop
+
+pendrive usb stick 6"
+51,K0497,527,title,1,SPAJANJE,SKLADISTE,Lenovo USB Flash 2TB
+52,K0553,668,body,3,GRANICA_UZA,RAM,"Apple iPhone 6s (baterija crkla), odlično očuvan, sistem je iOS 15.7.9, ima 2Gb RAM i 32Gb interne flash memorije. Baterija je crkla, treba da se zameni, neće da uključi tel"
+53,K0599,709,body,4,GRANICA_SIRA,CPU,"ion Technology ‡ Yes
+Intel® Stable Image Platform Program (SIPP) No
+Security &Reliability
+Intel® AES New Instructions Yes
+Secure Key Yes
+Intel® Software Guard Extensions (Intel® SGX) Yes with Intel® ME
+Intel® Me"
+54,K0610,713,body,3,POGRESNA_OZNAKA,CPU," : 16MB
+Proizvodni proces    14nm
+TDP    125W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 750
+Maksimalna brzina memorije     DDR4-3200 MHz
+Maksimalna podržana memorija    128 GB
+
+2390"
+55,K0611,713,body,3,SUVISNO,CENA," 750
+Maksimalna brzina memorije     DDR4-3200 MHz
+Maksimalna podržana memorija    128 GB
+
+23900
+
+Dsc"
+56,K0615,715,body,4,POGRESNA_OZNAKA,CPU," : 25MB
+Proizvodni proces    14nm
+TDP    190W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 770
+Maksimalna brzina memorije     DDR4-3200 MHz / DDR5-4800 MHz
+Maksimalna podržana memorija"
+57,K0616,715,body,4,FRAGMENTACIJA,CPU,"anja    BOX
+Integrisana grafika    Intel® UHD Graphics 770
+Maksimalna brzina memorije     DDR4-3200 MHz / DDR5-4800 MHz
+Maksimalna podržana memorija    128 GB
+
+26662
+
+Dsc"
+58,K0620,716,body,3,POGRESNA_OZNAKA,CPU," : 16MB
+Proizvodni proces    14nm
+TDP    125W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 750
+Maksimalna brzina memorije     DDR4-3200 MHz
+Maksimalna podržana memorija    128GB
+
+24749"
+59,K0624,719,body,4,POGRESNA_OZNAKA,CPU,"    4.2 GHz
+Način izrade    7 nm
+Maks. Potrošnja u W    65
+Grafičko jezgro u procesoru    AMD Radeon Graphics
+Preporučeno za    Igrače
+Pakovanje    Sa kulerom
+Boja    Siva
+
+27439
+
+Dsc"
+60,K0626,720,body,4,POGRESNA_OZNAKA,CPU,"5.1GHz
+L2 keš memorija:    6MB
+L3 keš memorija:    32MB
+Integrisani grafički procesor:    Radeon Graphics
+
+33312
+
+Dsc"
+61,K0634,735,body,4,GRANICA_UZA,SKLADISTE,".60GHz LGA-1200 BOX Intel
+  * GIGABYTE H410M ( vise modela)
+  * RAM : 16GB DDR4
+  * SSD : 512GB SSD
+  * Grafička kartica: Gtx 1060  (Više modela na stanju! )
+  *  Napajanje: 650 80+ (BeQuie"
+62,K0651,752,body,1,GRANICA_UZA,CPU,"Imamo na stanju preko 50 racunara Fujitsu Esprimo d556 za sestu generaciju Intel procesora. Svi racunari imaju win10 pro licence, koja ce biti iskazana na fakturi, kao i "
+63,K0663,753,body,2,PROPUSTENO,CENA,"pter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . (slika 6) cena 170e PRODATO
+5. NUC 8i7BEH
+    procesor: i7-8559 2.70Ghz up to 4.50Ghz 8MB
+    memorija: 16gb "
+64,K0692,768,body,1,SUVISNO,GPU,"rijske magistrale
+256-bitna
+Radni takt (eng. Engine Clock)
+2617 MHz
+Takt memorije
+30 Gbps
+AI TOPS
+1801
+PCI Express
+PCI Express 5.0 x16
+Video izlazi
+3 x DisplayPort 2.1b sa UHBR20 (do 4K 4"
+65,K0710,772,body,2,GRANICA_UZA,GPU,"I 2.1b
+DisplayPort Izlaz
+3x DisplayPort 2.1b
+Rezolucija
+7680x4320
+Multi-view 4
+DirectX
+12
+OpenGL
+4.6
+Potrošnja
+575W
+PSU Konektor
+1 x 16-pin
+Hladjenje
+Aktivno
+Dimenzije
+360x150x75mm
+Dodatna o"
+66,K0713,773,body,1,GRANICA_SIRA,GPU,"a grafičke: 12 GB
+  * Memorijska magistrala: 192-bit
+  * Interface: Support PCI-E 4.0
+  * Broj HDMI portova: 1
+  * Broj DisplayPortova: 3
+  * Dimenzije: 242*130*44 mm
+  * Prava potrošača: : Zakonska s"
+67,K0724,786,body,2,GRANICA_UZA,GPU,", CUDA, MSI Center, Afterburner
+Maksimalna rezolucija: 7.680 x 4.320
+Podrška za monitore: do 4 monitora
+Zero Frozr režim: Da
+SFF Ready: Da
+
+Fizičke karakteristike
+Dimenzije: oko 288mm x 112mm x"
+68,K0740,789,body,3,POGRESNA_OZNAKA,GPU,"NIH OPCIJA, PREBRZI &OGROMNI NVMe DISK - BRŽI NA TRŽIŠTU - KAPACITETA 512GB, FENOMANALNIH 8GB DDR5- NAJBRŽE RADNE MEMORIJE NA TRŽIŠTU, ODLIČNA GRAFIKA KOJA ĆE POTERATI MNOŠTVO IGRICA, izuz"
+69,K0751,793,body,4,FRAGMENTACIJA,SKLADISTE,"0 GHz
+Memorija
+16GB DDR4
+Intel®
+UHD Graphics 630
++ nVidia mx150 2GB DDR5
+(GTX1050 mobile)
+Micron
+512GB NVMe
+Webcam
+HD 720p
+Stereo speakers , microphone, zvucnici
+nadprosecnog kvaliteta
+zvuka
+Intel
+"
+70,K0753,794,body,3,GRANICA_SIRA,SKLADISTE,""" intel i5-10210U 16GB RAM 256GB SSD
+-300 €
+#51-
+Lenovo thinkpad L15 15.6"" i5-10310u 16GB 256GB nvme
+-300 €
+#52-
+Pouzdan laptop za posao +12 meseci garanc i7-1165G7 32GB
+-400 €
+#54-
+Lenovo t"
+71,K0761,799,body,4,SUVISNO,GPU,"a za skladištenje svih vaših podataka.
+Grafika:
+Intel UHD Graphics 630
+– Grafička kartica integrisana u procesor pruža odlične performanse za svakodnevne multimedijalne i poslovne zadatke.
+NV"
+72,K0764,800,body,3,GRANICA_UZA,CENA," namene. Preko 500 racunara prodatih do sada. Garancija na ispravnost. Cene povoljne, vec od 60-80 EUR
+Milan (Najbolje upit za slike, modele i cene). Viber/Sms
+063 77 55 725
+Takodje vršim uslu"
+73,K0771,804,body,3,POGRESNA_OZNAKA,SKLADISTE,"TET BEZ KOMPROMISA ! ! ! ! !
+Profesionalni DELL Latitude 5401 , Intel i7-9850H procesor , 32
+GB DDR4 memorije
+, brzi
+SSD M2 NVME
+od
+512
+GB
+i najnovijim
+Windows 11 25H2
++ Office paket"
+74,K0772,804,body,3,GRANICA_I_OZNAKA,SKLADISTE," BEZ KOMPROMISA ! ! ! ! !
+Profesionalni DELL Latitude 5401 , Intel i7-9850H procesor , 32
+GB DDR4 memorije
+, brzi
+SSD M2 NVME
+od
+512
+GB
+i najnovijim
+Windows 11 25H2
++ Office paket i dosta kvalitet"
+75,K0774,804,body,3,POGRESNA_OZNAKA,SKLADISTE,"sta kvalitetnih programa za rad !
+Procesor:
+Intel Core i7-9850H (Intel CPU 9th)
+Memorija:
+32 GB DDR4
+Hard disk:
+512
+GB
+- SSD M2 Nvme
+Grafika:
+INTEL UHD Graphics 630
+Ekran
+: IPS
+Slim LED FHD "
+76,K0776,808,body,1,SUVISNO,RAM,"mart cache
+Ostalo 14nm
+Memorija (RAM) 32GB DDR4
+Radni takt memorije 2.933MHz
+Broj slotova 4
+Popunjeni slotovi 2
+Maksimalno podržano 128GB
+Grafika nVidia® Quadro® T1000
+Količina graf"
+77,K0781,810,body,2,FRAGMENTACIJA,CENA,"u ponudi kvalitetni laptopovi iz uvoza svih generacija.
+cene idu od 100e pa do 800e.
+ima raznih brendova, uglavnom HP DELL LENOVO
+svi dolaze sa ssd diskovima!
+najbolje doci "
+78,K0792,830,body,2,SUVISNO,CENA," za bateriju potpuno prazno. Nova zamenska baterija za ovaj model u Srbiji trenutno košta između 4.000 i 5.000 dinara, što će potencijalni kupci sigurno iskoristiti kao argument za spuštanje cene.
+Plus (Snaž"
+79,K0798,834,body,4,GRANICA_UZA,CPU,"na ploca je ispravna i testirana.
+Garancijaaa! ! !
+Potpuno ispravna i 100% proverena
+CPU: AMD E-350 Processor
+
+Prodaje se sa hladnjakom, bez kulera i wi fi kartice!
+NIKADA SERVISIRANA ILI RADJENA!
+Mo"
+80,K0805,838,body,1,PROPUSTENO,RAM,"d Socket AM5
+
+  * Chipset: AMD B650E
+  * Processor socket: Socket AM5
+  * Memory support: 4x DDR5
+  * Form factor: ATX
+
+- Kontaktirajte nas za sve potrebne informacije na 38**********
+
+- "
+81,K0835,840,body,3,PROPUSTENO,CPU,"e 3.0 x1
+  * Skladište:             Količina 1 x M.2 slotova i 4 x SATA 6Gb/s portova
+  * AMD Ryzen 5000 Series / 4000 G-Series / 3000 Series Desktop Procesori:
+  * 1 x M.2 Socket 3, sa M Key, Type 224"
+82,K0857,874,body,2,FRAGMENTACIJA,RAM,"Na prodaju 4gb, 8gb, 16gb, 32gb ddr3 ddr4 ddr5 za racunare i laptopove raznih prozivodjaca i raznih jacina.
+
+Memorije su testr"
+83,K0866,880,body,2,SUVISNO,RAM,aziran na šesnaest 1G x 8-bitnih FBGA komponenti po modulu. Svaki komplet modula podržava Intel® Extreme Memory Profile (Intel® XMP) 2.0. Ukupan kapacitet kompleta je 32GB. Svaki modul je testiran da radi na DDR4-3200 sa malim
+84,K0870,880,body,2,SPAJANJE,RAM,"DR4-2400 CL17-17-17 @ 1.2V
+-XMP Profile #1: DDR4-3200 CL16-18-18 @ 1.35V
+-XMP Profile #2: DDR4-3000 CL15-17-17 @ 1.35V
+-Power Supply: VDD = 1.2V Typical
+-VDDQ = 1.2V Typical
+-VPP = 2.5V Typical
+-VDDSPD = 2.2V"
+85,K0873,880,body,2,GRANICA_SIRA,RAM," #2: DDR4-3000 CL15-17-17 @ 1.35V
+-Power Supply: VDD = 1.2V Typical
+-VDDQ = 1.2V Typical
+-VPP = 2.5V Typical
+-VDDSPD = 2.2V to 3.6V
+-On-Die termination (ODT)
+-16 internal banks; 4 groups of 4 banks "
+86,K0892,883,body,4,FRAGMENTACIJA,RAM,"Brend: Kingston
+
+Model: KF552C40BB-8
+
+Karakteristike
+Kingston FURY KF552C40BB-8 is a 1G x 64-bit (8GB) DDR5-5200
+CL40 SDRAM (Synchronous DRAM) 1Rx16, memory module,
+based on four 1G x 16-bit FBGA components per module. The
+module supports"
+87,K0911,883,body,4,GRANICA_SIRA,RAM,"Active/Refresh: 295ns(min. )
+Command Time (tRFCmin)
+Row Active Time (tRASmin):32ns(min. )
+UL Rating: 94 V - 0
+Operating Temperature: 0o
+ C to +85o
+ C
+Storage Temperature: -55o
+ C to +100o"
+88,K0921,887,body,2,GRANICA_SIRA,CENA," desktop
+4Gb - 1000din/kom  4 na stanju
+8Gb - 2000din/kom  6 na stanju
+DDR4 desktop
+4Gb - 1500din/kom nema na stanju
+8Gb-3500din/kom  8 na stanju
+4Gb sa hladnjacima 2000din/kom nema na stanju"
+89,K0939,897,body,3,PROPUSTENO,SKLADISTE,"0 kompatibilan
+-SuperSpeed USB 3.0 HDD pristup - 10 puta brži od USB 2.0
+-Kompatibilan sa USB 2.0
+-Podržava SATA 2.5 '' diskove bilo kog kapaciteta i 9.5mm debljine
+Interfejs: do 5 Gbps U"
+90,K0950,898,body,4,PROPUSTENO,SKLADISTE,"ANCIJA 2 GODINE!
+
+Proizvodjac: Seagate
+Model: ST3320311CS
+Tip: Interni hard disk harddisk HDD
+Povezivanje: Sata
+Kapacitet: 320GB
+Bafer: 8MB
+Broj obrtaja u minuti: 5900rpm
+Format: 3.5"""
+91,K0977,903,body,2,SUVISNO,SKLADISTE,"tivni sistemi
+
+Mac OS X 10.10 Yosemite, Mac OS X 10.11 El Capitan, Mac OS X 10.12 Sierra, Mac OS X 10.13 High Sierra, Mac OS X 10.14 Mojave, Mac OS X 10.4 Tiger, Mac OS X 10.5 Leopard, Mac OS X 10.6 Snow Le"
+92,K0991,910,body,1,PROPUSTENO,SKLADISTE,"eni od 3. 249 din
+
+512GB po ceni od 4. 349 din
+
+1TB po ceni od 6. 949 din
+
+  * pogodni za NAS uređaje, za skladištenje podataka. . .
+
+Na više komada imate popust!
+
+Šifra proizvoda: VH"
+93,K1007,914,body,4,SUVISNO,SKLADISTE,"0din
+
+Vise modela SSD diskova 2.5"" sa dobrim heltom i malo radnih dana.
+
+Samsung, Micron, San Disk, A Data, Kingston
+
+Cene se krecu od 2500din do 3000din
+M.2 sata 256gb 2500 do 3000"
+94,K1030,917,body,4,GRANICA_SIRA,CENA,"ez kutija!
+Kingston 1TB NV3 Gen4 sa heatsinkom - 13500 din.
+Kingston 1TB NV2 bez kutije - 12000 din.
+SK Hynix 1TB Gen4 - kao nov - 14500 din.
+Micron Pyrite 1TB Gen4 2242 format - kao nov - 1"
+95,K1072,936,body,1,GRANICA_SIRA,CPU,"inicije (HD)WUXGA
+Procesor
+Proizvođač procesoraUnisoc
+ProcesorT610
+Takt procesora1,82 GHz
+Jezgra procesora8
+Memorija
+Interna memorija4 GB
+Vrsta interne memorijeLPDDR4x-SDRAM
+Maksimalna veličina int"
+96,K1077,937,body,2,GRANICA_SIRA,SKLADISTE,"ora: Unisoc T610
+  * Radni takt procesora: 2.00 GHz
+  * Naziv grafike: Mali
+  * micro SD: do 512 godineB
+  * Mikrofon: Da
+  * Zvučnici: Stereo
+  * Bluetooth: Da
+  * Mogucnost poziva: Ne
+  * OTG "
+97,K1083,949,body,4,PROPUSTENO,CENA,"efon
+
+           e-mail
+
+Cena po težini:
+
+do 2 300 rsd
+do 5 590 rsd
+
+do 10 780 rsd
+
+do 15 1000 rsd
+
+do 20 1150 rsd
+
+do 30 1300 rsd
+
+do 50 1900 rsd
+
+Povrat novca:
+
+do 20000 - 70 rsd
+
+od 200"
+98,K1090,951,body,2,SUVISNO,CENA,"500rsd ili 40w po ceni od 2200rsd.
+2) Zastita za ekran: Ultimativno plastificirano staklo 2200rsd ili UV Ultimate zastita 1600rsd ili Armor protection zastita 1200rsd
+✚ Nacin dostave:   P"
+99,K1098,978,body,2,PROPUSTENO,RAM,"GINALNI PUNJAČ 65W  45€❌
+SAMSUNG Z FOLD  8 256GB -graphite (crna)  1399€✅
+SAMSUNG Z FOLD  8 256GB ULTRA graphite 1550€✅
+SAMSUNG Z FLIP 7 FE 256 BLACK 560 €✅
+SAMSUNG A57 8/256 ICEBLU"
+100,K1103,993,body,4,PROPUSTENO,CENA,"
+
+─────────────────────────────
+⭐ HONOR 600 Lite
+
+  * 256GB — 30.760 din (ili na 24 rate: 1.410 din/mes)
+Izgleda i deluje skuplje nego što košta. 108MP kamera, AMOLED ekran i 6.520 mAh baterija"

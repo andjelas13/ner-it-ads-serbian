@@ -1,0 +1,24 @@
+OPJ NER — tehnički format anotacija
+
+Primarni span format je tab-separated UTF-8 TXT sa kolonama:
+ad_id, field, start, end, label, text
+
+- ad_id: jedinstveni identifikator oglasa u projektu.
+- field: title ili body.
+- start: početni indeks u odgovarajućem polju, 0-based.
+- end: krajnji indeks, exclusive; span je field[start:end].
+- label: jedna od 11 semantičkih klasa.
+- text: kontrolni prikaz spana. Novi red, tab i backslash su escaped kao \n, \t i \\; offseti se uvek odnose na originalni title/body.
+
+Anotiraju se i naslov i telo. Ako se isti relevantan podatak pojavljuje na oba mesta, anotira se oba puta.
+Preklapanje spanova nije dozvoljeno (flat NER).
+
+Dodatni BIO/CoNLL format:
+- jedna sekvenca po (ad_id, field);
+- komentarska linija određuje ad_id i field;
+- kolone su token, start, end, BIO;
+- blank line razdvaja sekvence;
+- tokenizacija je deterministička i nezavisna od anotacija.
+
+Kompletna semantička i boundary pravila nalaze se u Uputstvo_za_anotaciju.txt.
+HTML alat je priložen kao tehnička demonstracija ručnog označavanja i učitavanja/izvoza podataka.

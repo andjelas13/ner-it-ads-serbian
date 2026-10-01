@@ -1,0 +1,21 @@
+TITLE:
+INTEL Core Procesor CPU s1200 i7-11700K 8-Core 3.60GHz 5.00G
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+Model    i7 11700K
+Podnožje    1200 (11. generacija)
+Radni takt    Base 3.6 GHz Turbo 5.0 GHz
+Broj fizičkih jezgra    8
+Broj logičkih jezgra    16
+Keš memorija    L3 : 16MB
+Proizvodni proces    14nm
+TDP    125W
+Tip pakovanja    BOX
+Integrisana grafika    Intel® UHD Graphics 750
+Maksimalna brzina memorije     DDR4-3200 MHz
+Maksimalna podržana memorija    128 GB
+
+23900
+
+Dsc

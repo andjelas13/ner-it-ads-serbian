@@ -1,0 +1,3383 @@
+[
+  {
+    "ad_id": "111",
+    "field": "body",
+    "start": 0,
+    "end": 23,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "111",
+    "field": "body",
+    "start": 27,
+    "end": 39,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "111",
+    "field": "body",
+    "start": 40,
+    "end": 46,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "111",
+    "field": "body",
+    "start": 71,
+    "end": 77,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "111",
+    "field": "body",
+    "start": 150,
+    "end": 157,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "111",
+    "field": "title",
+    "start": 7,
+    "end": 31,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 0,
+    "end": 11,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 30,
+    "end": 68,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 81,
+    "end": 89,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 100,
+    "end": 135,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 137,
+    "end": 194,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 425,
+    "end": 445,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 456,
+    "end": 464,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 487,
+    "end": 490,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 501,
+    "end": 508,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 520,
+    "end": 526,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "139",
+    "field": "body",
+    "start": 528,
+    "end": 554,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "139",
+    "field": "title",
+    "start": 8,
+    "end": 33,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 101,
+    "end": 160,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 166,
+    "end": 175,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 181,
+    "end": 186,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 197,
+    "end": 204,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 216,
+    "end": 223,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 245,
+    "end": 267,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "146",
+    "field": "body",
+    "start": 792,
+    "end": 794,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "146",
+    "field": "title",
+    "start": 24,
+    "end": 31,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "146",
+    "field": "title",
+    "start": 32,
+    "end": 40,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "146",
+    "field": "title",
+    "start": 41,
+    "end": 46,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 87,
+    "end": 135,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 146,
+    "end": 166,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 193,
+    "end": 201,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 211,
+    "end": 216,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 225,
+    "end": 236,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 242,
+    "end": 262,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 263,
+    "end": 285,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 323,
+    "end": 350,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "158",
+    "field": "body",
+    "start": 361,
+    "end": 368,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "158",
+    "field": "title",
+    "start": 6,
+    "end": 14,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "158",
+    "field": "title",
+    "start": 15,
+    "end": 25,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "158",
+    "field": "title",
+    "start": 26,
+    "end": 30,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "158",
+    "field": "title",
+    "start": 31,
+    "end": 41,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "158",
+    "field": "title",
+    "start": 46,
+    "end": 49,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 60,
+    "end": 64,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 77,
+    "end": 102,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 265,
+    "end": 269,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 281,
+    "end": 285,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 297,
+    "end": 301,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 363,
+    "end": 397,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 410,
+    "end": 429,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 531,
+    "end": 563,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 661,
+    "end": 673,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "159",
+    "field": "body",
+    "start": 720,
+    "end": 739,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "159",
+    "field": "title",
+    "start": 8,
+    "end": 12,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "159",
+    "field": "title",
+    "start": 25,
+    "end": 44,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "164",
+    "field": "body",
+    "start": 51,
+    "end": 65,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "164",
+    "field": "body",
+    "start": 69,
+    "end": 77,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "164",
+    "field": "title",
+    "start": 0,
+    "end": 23,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "168",
+    "field": "body",
+    "start": 9,
+    "end": 38,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "168",
+    "field": "body",
+    "start": 43,
+    "end": 60,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "168",
+    "field": "body",
+    "start": 65,
+    "end": 74,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "168",
+    "field": "body",
+    "start": 78,
+    "end": 88,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "168",
+    "field": "body",
+    "start": 118,
+    "end": 123,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "170",
+    "field": "title",
+    "start": 0,
+    "end": 13,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "176",
+    "field": "body",
+    "start": 0,
+    "end": 64,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "176",
+    "field": "title",
+    "start": 0,
+    "end": 47,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "178",
+    "field": "body",
+    "start": 0,
+    "end": 31,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "178",
+    "field": "body",
+    "start": 32,
+    "end": 42,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "178",
+    "field": "title",
+    "start": 0,
+    "end": 43,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "197",
+    "field": "body",
+    "start": 0,
+    "end": 56,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "197",
+    "field": "body",
+    "start": 74,
+    "end": 91,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "197",
+    "field": "title",
+    "start": 0,
+    "end": 25,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 69,
+    "end": 88,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 99,
+    "end": 144,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 152,
+    "end": 160,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 171,
+    "end": 211,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 226,
+    "end": 243,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 343,
+    "end": 358,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 443,
+    "end": 448,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "body",
+    "start": 674,
+    "end": 685,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "211",
+    "field": "title",
+    "start": 0,
+    "end": 12,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "211",
+    "field": "title",
+    "start": 13,
+    "end": 37,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 14,
+    "end": 50,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 137,
+    "end": 159,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 184,
+    "end": 189,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 325,
+    "end": 340,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 359,
+    "end": 388,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 407,
+    "end": 440,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 469,
+    "end": 476,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 544,
+    "end": 549,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 744,
+    "end": 759,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 926,
+    "end": 943,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "body",
+    "start": 982,
+    "end": 1003,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "title",
+    "start": 14,
+    "end": 25,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "221",
+    "field": "title",
+    "start": 43,
+    "end": 49,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "240",
+    "field": "body",
+    "start": 143,
+    "end": 147,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "240",
+    "field": "body",
+    "start": 169,
+    "end": 175,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "240",
+    "field": "body",
+    "start": 192,
+    "end": 205,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "240",
+    "field": "body",
+    "start": 220,
+    "end": 225,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "270",
+    "field": "body",
+    "start": 20,
+    "end": 25,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "270",
+    "field": "body",
+    "start": 34,
+    "end": 48,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "270",
+    "field": "title",
+    "start": 19,
+    "end": 24,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 12,
+    "end": 53,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 64,
+    "end": 73,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 155,
+    "end": 160,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 266,
+    "end": 286,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 290,
+    "end": 293,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 746,
+    "end": 748,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 750,
+    "end": 755,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 765,
+    "end": 769,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "305",
+    "field": "body",
+    "start": 771,
+    "end": 777,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "305",
+    "field": "title",
+    "start": 21,
+    "end": 36,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "305",
+    "field": "title",
+    "start": 37,
+    "end": 41,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "311",
+    "field": "body",
+    "start": 126,
+    "end": 135,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "311",
+    "field": "body",
+    "start": 140,
+    "end": 148,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "311",
+    "field": "body",
+    "start": 159,
+    "end": 167,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "311",
+    "field": "body",
+    "start": 189,
+    "end": 196,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "311",
+    "field": "body",
+    "start": 213,
+    "end": 231,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "311",
+    "field": "body",
+    "start": 243,
+    "end": 249,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "320",
+    "field": "body",
+    "start": 468,
+    "end": 485,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "320",
+    "field": "body",
+    "start": 503,
+    "end": 514,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "320",
+    "field": "body",
+    "start": 538,
+    "end": 547,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "320",
+    "field": "body",
+    "start": 570,
+    "end": 582,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "351",
+    "field": "body",
+    "start": 43,
+    "end": 45,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "353",
+    "field": "body",
+    "start": 95,
+    "end": 105,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "430",
+    "field": "body",
+    "start": 54,
+    "end": 62,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "430",
+    "field": "body",
+    "start": 156,
+    "end": 164,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "430",
+    "field": "body",
+    "start": 193,
+    "end": 201,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "430",
+    "field": "title",
+    "start": 0,
+    "end": 16,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "456",
+    "field": "body",
+    "start": 12,
+    "end": 22,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "456",
+    "field": "body",
+    "start": 128,
+    "end": 142,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "456",
+    "field": "body",
+    "start": 189,
+    "end": 213,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "456",
+    "field": "title",
+    "start": 13,
+    "end": 17,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "456",
+    "field": "title",
+    "start": 18,
+    "end": 37,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "485",
+    "field": "body",
+    "start": 4,
+    "end": 26,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "485",
+    "field": "title",
+    "start": 4,
+    "end": 26,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "487",
+    "field": "body",
+    "start": 8,
+    "end": 29,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "487",
+    "field": "title",
+    "start": 0,
+    "end": 23,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "494",
+    "field": "body",
+    "start": 88,
+    "end": 96,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "494",
+    "field": "title",
+    "start": 10,
+    "end": 44,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "536",
+    "field": "body",
+    "start": 47,
+    "end": 53,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "536",
+    "field": "body",
+    "start": 91,
+    "end": 123,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "536",
+    "field": "body",
+    "start": 124,
+    "end": 186,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "536",
+    "field": "body",
+    "start": 194,
+    "end": 205,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "536",
+    "field": "body",
+    "start": 231,
+    "end": 242,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "536",
+    "field": "body",
+    "start": 554,
+    "end": 565,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "536",
+    "field": "title",
+    "start": 26,
+    "end": 32,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "538",
+    "field": "title",
+    "start": 12,
+    "end": 17,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "543",
+    "field": "body",
+    "start": 105,
+    "end": 116,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "543",
+    "field": "body",
+    "start": 199,
+    "end": 230,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "543",
+    "field": "body",
+    "start": 243,
+    "end": 272,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "543",
+    "field": "body",
+    "start": 285,
+    "end": 318,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "543",
+    "field": "body",
+    "start": 330,
+    "end": 340,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "543",
+    "field": "body",
+    "start": 375,
+    "end": 406,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "543",
+    "field": "title",
+    "start": 14,
+    "end": 47,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "587",
+    "field": "body",
+    "start": 41,
+    "end": 46,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "587",
+    "field": "title",
+    "start": 39,
+    "end": 44,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "615",
+    "field": "body",
+    "start": 25,
+    "end": 29,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "615",
+    "field": "title",
+    "start": 14,
+    "end": 18,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "617",
+    "field": "body",
+    "start": 79,
+    "end": 83,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "617",
+    "field": "body",
+    "start": 84,
+    "end": 90,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "623",
+    "field": "body",
+    "start": 899,
+    "end": 906,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "623",
+    "field": "body",
+    "start": 1069,
+    "end": 1073,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "623",
+    "field": "body",
+    "start": 1081,
+    "end": 1085,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "64",
+    "field": "body",
+    "start": 43,
+    "end": 46,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "64",
+    "field": "body",
+    "start": 104,
+    "end": 112,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "64",
+    "field": "body",
+    "start": 138,
+    "end": 143,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "64",
+    "field": "body",
+    "start": 158,
+    "end": 165,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "64",
+    "field": "body",
+    "start": 178,
+    "end": 182,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "64",
+    "field": "title",
+    "start": 14,
+    "end": 50,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "644",
+    "field": "body",
+    "start": 21,
+    "end": 22,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "644",
+    "field": "body",
+    "start": 23,
+    "end": 28,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "644",
+    "field": "title",
+    "start": 23,
+    "end": 28,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "647",
+    "field": "body",
+    "start": 14,
+    "end": 19,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "647",
+    "field": "title",
+    "start": 13,
+    "end": 18,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "666",
+    "field": "body",
+    "start": 253,
+    "end": 262,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "666",
+    "field": "body",
+    "start": 402,
+    "end": 406,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "666",
+    "field": "body",
+    "start": 426,
+    "end": 431,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "666",
+    "field": "body",
+    "start": 462,
+    "end": 469,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "666",
+    "field": "body",
+    "start": 471,
+    "end": 479,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "666",
+    "field": "body",
+    "start": 536,
+    "end": 543,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "667",
+    "field": "body",
+    "start": 50,
+    "end": 51,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "667",
+    "field": "body",
+    "start": 52,
+    "end": 57,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "667",
+    "field": "body",
+    "start": 288,
+    "end": 289,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "667",
+    "field": "body",
+    "start": 290,
+    "end": 295,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "667",
+    "field": "body",
+    "start": 311,
+    "end": 315,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "667",
+    "field": "title",
+    "start": 19,
+    "end": 20,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "667",
+    "field": "title",
+    "start": 21,
+    "end": 24,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "682",
+    "field": "title",
+    "start": 14,
+    "end": 20,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "688",
+    "field": "body",
+    "start": 41,
+    "end": 42,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "688",
+    "field": "body",
+    "start": 43,
+    "end": 48,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "707",
+    "field": "body",
+    "start": 109,
+    "end": 131,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "710",
+    "field": "body",
+    "start": 33,
+    "end": 47,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "710",
+    "field": "title",
+    "start": 13,
+    "end": 23,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "760",
+    "field": "body",
+    "start": 149,
+    "end": 159,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "760",
+    "field": "body",
+    "start": 188,
+    "end": 198,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "760",
+    "field": "body",
+    "start": 228,
+    "end": 239,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 5,
+    "end": 28,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 51,
+    "end": 57,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 79,
+    "end": 83,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 100,
+    "end": 105,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 117,
+    "end": 132,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 153,
+    "end": 159,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 177,
+    "end": 186,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 199,
+    "end": 207,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 227,
+    "end": 241,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 254,
+    "end": 258,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 272,
+    "end": 279,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 422,
+    "end": 430,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 439,
+    "end": 458,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 459,
+    "end": 469,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "762",
+    "field": "body",
+    "start": 867,
+    "end": 876,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "762",
+    "field": "title",
+    "start": 15,
+    "end": 59,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 594,
+    "end": 647,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 663,
+    "end": 669,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 674,
+    "end": 695,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 706,
+    "end": 722,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 743,
+    "end": 758,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 774,
+    "end": 781,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 799,
+    "end": 807,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 808,
+    "end": 812,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 823,
+    "end": 828,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 847,
+    "end": 851,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 865,
+    "end": 870,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 887,
+    "end": 894,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 917,
+    "end": 927,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 953,
+    "end": 966,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 985,
+    "end": 1004,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1016,
+    "end": 1025,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1026,
+    "end": 1049,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1050,
+    "end": 1060,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1071,
+    "end": 1075,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1089,
+    "end": 1099,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1110,
+    "end": 1117,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "body",
+    "start": 1206,
+    "end": 1225,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "772",
+    "field": "title",
+    "start": 15,
+    "end": 46,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 42,
+    "end": 56,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 763,
+    "end": 775,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1243,
+    "end": 1254,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1289,
+    "end": 1306,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1310,
+    "end": 1322,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1330,
+    "end": 1337,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1351,
+    "end": 1355,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1466,
+    "end": 1470,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1508,
+    "end": 1513,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1549,
+    "end": 1554,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 1591,
+    "end": 1602,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 2418,
+    "end": 2429,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 2984,
+    "end": 2989,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 2996,
+    "end": 3001,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3299,
+    "end": 3381,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3392,
+    "end": 3424,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3438,
+    "end": 3443,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3455,
+    "end": 3466,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3471,
+    "end": 3480,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3493,
+    "end": 3515,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3608,
+    "end": 3621,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "body",
+    "start": 3631,
+    "end": 3637,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "title",
+    "start": 17,
+    "end": 26,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "790",
+    "field": "title",
+    "start": 27,
+    "end": 36,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "790",
+    "field": "title",
+    "start": 37,
+    "end": 47,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "790",
+    "field": "title",
+    "start": 48,
+    "end": 53,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "80",
+    "field": "body",
+    "start": 0,
+    "end": 19,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "80",
+    "field": "body",
+    "start": 37,
+    "end": 40,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "80",
+    "field": "body",
+    "start": 54,
+    "end": 64,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "80",
+    "field": "body",
+    "start": 72,
+    "end": 75,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "80",
+    "field": "title",
+    "start": 0,
+    "end": 38,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "802",
+    "field": "body",
+    "start": 588,
+    "end": 591,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "802",
+    "field": "body",
+    "start": 593,
+    "end": 603,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 63,
+    "end": 68,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 71,
+    "end": 75,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 278,
+    "end": 291,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 309,
+    "end": 318,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 401,
+    "end": 418,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 443,
+    "end": 450,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 459,
+    "end": 463,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 490,
+    "end": 494,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 509,
+    "end": 515,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 560,
+    "end": 563,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 579,
+    "end": 592,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 609,
+    "end": 631,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "813",
+    "field": "body",
+    "start": 765,
+    "end": 776,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "834",
+    "field": "body",
+    "start": 119,
+    "end": 123,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "834",
+    "field": "body",
+    "start": 270,
+    "end": 279,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "837",
+    "field": "body",
+    "start": 39,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "837",
+    "field": "body",
+    "start": 57,
+    "end": 65,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "837",
+    "field": "body",
+    "start": 95,
+    "end": 98,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "837",
+    "field": "body",
+    "start": 119,
+    "end": 126,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "837",
+    "field": "title",
+    "start": 39,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "839",
+    "field": "body",
+    "start": 39,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "839",
+    "field": "body",
+    "start": 57,
+    "end": 66,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "839",
+    "field": "body",
+    "start": 96,
+    "end": 99,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "839",
+    "field": "body",
+    "start": 120,
+    "end": 127,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "839",
+    "field": "title",
+    "start": 39,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 9,
+    "end": 13,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 23,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 43,
+    "end": 61,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 103,
+    "end": 122,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 136,
+    "end": 137,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 163,
+    "end": 205,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "body",
+    "start": 210,
+    "end": 214,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "title",
+    "start": 0,
+    "end": 19,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "84",
+    "field": "title",
+    "start": 20,
+    "end": 38,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 389,
+    "end": 397,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 436,
+    "end": 445,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 525,
+    "end": 529,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 616,
+    "end": 624,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 631,
+    "end": 635,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 637,
+    "end": 641,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 816,
+    "end": 820,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 831,
+    "end": 861,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 896,
+    "end": 903,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 914,
+    "end": 965,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1014,
+    "end": 1065,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1238,
+    "end": 1289,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1334,
+    "end": 1339,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1346,
+    "end": 1350,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1351,
+    "end": 1355,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1356,
+    "end": 1360,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1687,
+    "end": 1693,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 1776,
+    "end": 1784,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 2629,
+    "end": 2634,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 2641,
+    "end": 2645,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 2646,
+    "end": 2650,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 2651,
+    "end": 2655,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 2700,
+    "end": 2724,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 2852,
+    "end": 2870,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 3064,
+    "end": 3080,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 3213,
+    "end": 3231,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 3238,
+    "end": 3242,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "840",
+    "field": "body",
+    "start": 3354,
+    "end": 3378,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "840",
+    "field": "title",
+    "start": 46,
+    "end": 49,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "854",
+    "field": "body",
+    "start": 953,
+    "end": 970,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "854",
+    "field": "body",
+    "start": 982,
+    "end": 989,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "854",
+    "field": "body",
+    "start": 1679,
+    "end": 1687,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "854",
+    "field": "body",
+    "start": 1689,
+    "end": 1705,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "87",
+    "field": "body",
+    "start": 35,
+    "end": 57,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "87",
+    "field": "body",
+    "start": 63,
+    "end": 84,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "87",
+    "field": "body",
+    "start": 100,
+    "end": 123,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "87",
+    "field": "title",
+    "start": 0,
+    "end": 13,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "872",
+    "field": "title",
+    "start": 13,
+    "end": 44,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 11,
+    "end": 14,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 16,
+    "end": 19,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 21,
+    "end": 25,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 27,
+    "end": 46,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 306,
+    "end": 352,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 354,
+    "end": 371,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 392,
+    "end": 398,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 415,
+    "end": 426,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 428,
+    "end": 435,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 437,
+    "end": 443,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 445,
+    "end": 448,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 450,
+    "end": 458,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 460,
+    "end": 467,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 469,
+    "end": 476,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 501,
+    "end": 508,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 525,
+    "end": 536,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 538,
+    "end": 545,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 546,
+    "end": 553,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 555,
+    "end": 573,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 574,
+    "end": 582,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 584,
+    "end": 597,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 599,
+    "end": 607,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 609,
+    "end": 633,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 635,
+    "end": 639,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 641,
+    "end": 648,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 650,
+    "end": 654,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 667,
+    "end": 695,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 697,
+    "end": 704,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 729,
+    "end": 735,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 737,
+    "end": 740,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 742,
+    "end": 750,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 752,
+    "end": 759,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 761,
+    "end": 768,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 793,
+    "end": 800,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 801,
+    "end": 805,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 813,
+    "end": 816,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 817,
+    "end": 824,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 830,
+    "end": 833,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 834,
+    "end": 841,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 843,
+    "end": 877,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 885,
+    "end": 889,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 890,
+    "end": 897,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 899,
+    "end": 934,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 936,
+    "end": 959,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 980,
+    "end": 983,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 985,
+    "end": 992,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 994,
+    "end": 998,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "body",
+    "start": 999,
+    "end": 1007,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "874",
+    "field": "title",
+    "start": 0,
+    "end": 3,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "title",
+    "start": 5,
+    "end": 8,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "874",
+    "field": "title",
+    "start": 10,
+    "end": 35,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 9,
+    "end": 40,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 54,
+    "end": 57,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 208,
+    "end": 215,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 248,
+    "end": 252,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 274,
+    "end": 278,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 294,
+    "end": 297,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 317,
+    "end": 324,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 344,
+    "end": 351,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "body",
+    "start": 369,
+    "end": 393,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "title",
+    "start": 0,
+    "end": 12,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "876",
+    "field": "title",
+    "start": 26,
+    "end": 59,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 0,
+    "end": 16,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 19,
+    "end": 26,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 44,
+    "end": 47,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 50,
+    "end": 57,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 75,
+    "end": 91,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 94,
+    "end": 101,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 121,
+    "end": 124,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 125,
+    "end": 132,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 150,
+    "end": 153,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 169,
+    "end": 176,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 196,
+    "end": 199,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 215,
+    "end": 222,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 242,
+    "end": 254,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 257,
+    "end": 264,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 285,
+    "end": 333,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 334,
+    "end": 341,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 378,
+    "end": 385,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "887",
+    "field": "body",
+    "start": 533,
+    "end": 555,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "887",
+    "field": "title",
+    "start": 0,
+    "end": 12,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "89",
+    "field": "body",
+    "start": 5,
+    "end": 19,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "89",
+    "field": "body",
+    "start": 26,
+    "end": 43,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "89",
+    "field": "body",
+    "start": 87,
+    "end": 96,
+    "label": "GPU"
+  },
+  {
+    "ad_id": "89",
+    "field": "body",
+    "start": 109,
+    "end": 112,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "89",
+    "field": "title",
+    "start": 0,
+    "end": 7,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "89",
+    "field": "title",
+    "start": 8,
+    "end": 22,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "89",
+    "field": "title",
+    "start": 23,
+    "end": 26,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "899",
+    "field": "body",
+    "start": 119,
+    "end": 123,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "899",
+    "field": "title",
+    "start": 4,
+    "end": 33,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "body",
+    "start": 53,
+    "end": 78,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "body",
+    "start": 194,
+    "end": 203,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "body",
+    "start": 219,
+    "end": 224,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "body",
+    "start": 255,
+    "end": 270,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "body",
+    "start": 334,
+    "end": 342,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "body",
+    "start": 361,
+    "end": 369,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "title",
+    "start": 4,
+    "end": 9,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "902",
+    "field": "title",
+    "start": 20,
+    "end": 36,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 63,
+    "end": 68,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 70,
+    "end": 75,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 77,
+    "end": 92,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 217,
+    "end": 225,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 268,
+    "end": 283,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 298,
+    "end": 313,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 339,
+    "end": 353,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 378,
+    "end": 423,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 463,
+    "end": 469,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 471,
+    "end": 498,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "body",
+    "start": 550,
+    "end": 556,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "907",
+    "field": "title",
+    "start": 12,
+    "end": 55,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 444,
+    "end": 447,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 467,
+    "end": 472,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 491,
+    "end": 496,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 516,
+    "end": 521,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 537,
+    "end": 542,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 564,
+    "end": 567,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 574,
+    "end": 579,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 593,
+    "end": 594,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 595,
+    "end": 598,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 608,
+    "end": 612,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 626,
+    "end": 627,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 629,
+    "end": 632,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 639,
+    "end": 643,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 657,
+    "end": 658,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 659,
+    "end": 662,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 677,
+    "end": 681,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 701,
+    "end": 703,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 704,
+    "end": 707,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 742,
+    "end": 744,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 745,
+    "end": 748,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 788,
+    "end": 790,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 790,
+    "end": 800,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 820,
+    "end": 822,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 824,
+    "end": 827,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 835,
+    "end": 840,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 860,
+    "end": 862,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 864,
+    "end": 867,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 877,
+    "end": 881,
+    "label": "CENA"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 901,
+    "end": 903,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 905,
+    "end": 908,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 942,
+    "end": 944,
+    "label": "RAM"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 946,
+    "end": 949,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "978",
+    "field": "body",
+    "start": 961,
+    "end": 965,
+    "label": "CENA"
+  }
+]

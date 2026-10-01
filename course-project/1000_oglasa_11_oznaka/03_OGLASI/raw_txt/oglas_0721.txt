@@ -1,0 +1,8 @@
+TITLE:
+Procesor CPU Intel i5-3210M
+
+BODY:
+Korisceno, testirano, ispravno.
+
+Model: Intel i5-3210M
+#869

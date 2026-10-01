@@ -1,0 +1,26 @@
+TITLE:
+Mini pc dell OptiPlex 3046, i5 6500t,8gb ddr4,240ssd isprava
+
+BODY:
+Mini pc dell OptiPlex 3046, i5 6500t,8gb ddr4,240ssd
+
+ima svoj adapter 19v
+
+ispravan i testiran
+
+win 10 na njemu
+
+ploca, ,, ,dell optiplex 3046 , ,socet 1151, ,cipset intel
+
+procesor, ,, , i5 6500t 2500mhz
+
+kuler, ,, ,, brend
+
+memorija, ,, ,, ddr4 8gb
+
+ssd, ,, ,240gb sataIII kingston
+
+adapter, ,, svoj dell 19v
+kuciste, ,, mini dell optiplex 3046  18x18x3,5cm
+
+6usb audio, video, lan, ,, hdmi dp

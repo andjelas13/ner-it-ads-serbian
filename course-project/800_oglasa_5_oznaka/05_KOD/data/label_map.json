@@ -1,0 +1,22 @@
+{
+  "entity_labels": [
+    "CPU",
+    "GPU",
+    "RAM",
+    "SKLADISTE",
+    "CENA"
+  ],
+  "bio_labels": [
+    "O",
+    "B-CPU",
+    "I-CPU",
+    "B-GPU",
+    "I-GPU",
+    "B-RAM",
+    "I-RAM",
+    "B-SKLADISTE",
+    "I-SKLADISTE",
+    "B-CENA",
+    "I-CENA"
+  ]
+}

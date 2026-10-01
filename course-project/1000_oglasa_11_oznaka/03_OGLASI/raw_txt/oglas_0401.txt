@@ -1,0 +1,15 @@
+TITLE:
+Napajanje 500w power supply
+
+BODY:
+Napajanja: RPC
+
+1x 20+4pin
+
+1x 4
+
+2x SATA
+
+2x ATA
+
+1x FDD

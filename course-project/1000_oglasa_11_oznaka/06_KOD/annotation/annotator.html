@@ -1,0 +1,1824 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NER anotator — IT oglasi</title>
+  <style>
+    :root {
+      --ink: #14202b;
+      --muted: #64707c;
+      --line: #d9dee4;
+      --soft: #f4f6f8;
+      --panel: #ffffff;
+      --accent: #135f8c;
+      --accent-dark: #0d4566;
+      --focus: #ffbf47;
+      --danger: #a62d2d;
+      --shadow: 0 10px 28px rgba(20, 32, 43, .09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(19, 95, 140, .08), transparent 34rem),
+        #eef1f4;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    button, input, select { font: inherit; }
+
+    button, select, input[type="color"] { cursor: pointer; }
+
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    summary:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .app-shell {
+      width: min(1440px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 18px;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .kicker::before {
+      content: "";
+      width: 22px;
+      height: 3px;
+      border-radius: 99px;
+      background: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      color: #102d40;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.08;
+      letter-spacing: -.035em;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .save-status {
+      flex: 0 0 auto;
+      margin-top: 4px;
+      padding: 8px 12px;
+      border: 1px solid #b9d3c1;
+      border-radius: 999px;
+      color: #245c35;
+      background: #edf8f0;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .instructions {
+      margin-bottom: 16px;
+      border: 1px solid #c9d4dd;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, .84);
+      box-shadow: 0 5px 18px rgba(20, 32, 43, .05);
+      overflow: hidden;
+    }
+
+    .instructions summary {
+      padding: 13px 16px;
+      color: #17394f;
+      background: #e9f1f6;
+      font-weight: 800;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .instructions-body {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 22px;
+      padding: 16px 18px 18px;
+    }
+
+    .instructions h2 {
+      margin: 0 0 8px;
+      font-size: 15px;
+    }
+
+    .instructions ol,
+    .instructions ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    .instructions li + li { margin-top: 5px; }
+
+    .do-dont {
+      display: grid;
+      gap: 8px;
+    }
+
+    .rule-box {
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 13px;
+    }
+
+    .rule-box strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .rule-box.do {
+      border: 1px solid #b9d3c1;
+      background: #eff8f1;
+    }
+
+    .rule-box.dont {
+      border: 1px solid #e2c9c9;
+      background: #fbf1f1;
+    }
+
+    .rule-box.priority {
+      border: 1px solid #d8c88d;
+      background: #fff9e8;
+    }
+
+    .guide-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 8px 11px;
+      border: 1px solid #8eb5cc;
+      border-radius: 9px;
+      color: #075f9a;
+      background: #eef6fa;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .guide-link:hover { background: #e1f0f7; }
+
+    .navigator {
+      display: grid;
+      grid-template-columns: auto minmax(220px, 1fr) auto auto;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: var(--panel);
+      box-shadow: 0 4px 14px rgba(20, 32, 43, .04);
+    }
+
+    .btn,
+    select {
+      min-height: 40px;
+      border: 1px solid #bdc7cf;
+      border-radius: 9px;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 8px 13px;
+      font-weight: 700;
+    }
+
+    .btn:hover:not(:disabled) { background: #f0f4f7; }
+
+    .btn:disabled {
+      color: #9aa3aa;
+      cursor: not-allowed;
+    }
+
+    .btn.primary {
+      border-color: var(--accent);
+      color: #fff;
+      background: var(--accent);
+    }
+
+    .btn.primary:hover:not(:disabled) { background: var(--accent-dark); }
+
+    .btn.danger {
+      border-color: #ddbaba;
+      color: var(--danger);
+      background: #fff8f8;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px 38px 8px 11px;
+    }
+
+    .progress {
+      min-width: 138px;
+      padding: 0 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      align-items: start;
+      gap: 18px;
+    }
+
+    .ad-card,
+    .side-panel {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .ad-card { overflow: hidden; }
+
+    .example-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 11px 16px;
+      border-bottom: 1px solid var(--line);
+      color: #5b6570;
+      background: #f1f3f5;
+      font-size: 13px;
+      font-weight: 800;
+      user-select: none;
+    }
+
+    .not-annotation {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #7c4b4b;
+      font-size: 11px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .field { border-bottom: 1px solid var(--line); }
+
+    .field-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 15px;
+      color: white;
+      background: #343a40;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .055em;
+      text-transform: uppercase;
+      user-select: none;
+    }
+
+    .field-label .hint {
+      color: #cdd4da;
+      font-size: 10px;
+      font-weight: 650;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .annotatable {
+      min-height: 62px;
+      padding: 16px 18px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      cursor: text;
+      font-size: 15px;
+      line-height: 1.58;
+    }
+
+    .title-text {
+      min-height: auto;
+      font-size: 19px;
+      font-weight: 760;
+      line-height: 1.35;
+    }
+
+    .annotatable::selection,
+    .annotatable *::selection {
+      color: #101820;
+      background: #ffd36b;
+    }
+
+    .entity-mark {
+      padding: 1px 2px;
+      border-radius: 4px;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+      cursor: pointer;
+      transition: box-shadow .12s ease, filter .12s ease;
+    }
+
+    .entity-mark:hover { filter: saturate(1.15) brightness(.97); }
+
+    .entity-mark.selected {
+      box-shadow: 0 0 0 3px #111, 0 0 0 5px #fff;
+    }
+
+    .source {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 11px 16px;
+      color: #5f6973;
+      background: #f7f8f9;
+      font-size: 13px;
+      user-select: none;
+    }
+
+    .source a {
+      color: #075f9a;
+      font-weight: 700;
+    }
+
+    .doubts {
+      padding: 14px 16px 18px;
+      color: #4f5a64;
+      background: #fcfcfd;
+      font-size: 13px;
+      user-select: none;
+    }
+
+    .doubt-line {
+      display: inline-block;
+      width: min(520px, 60%);
+      margin-left: 8px;
+      border-bottom: 1px solid #7c858d;
+      transform: translateY(-3px);
+    }
+
+    .side-panel {
+      position: sticky;
+      top: 12px;
+      overflow: visible;
+    }
+
+    .panel-section {
+      padding: 15px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-section:last-child { border-bottom: 0; }
+
+    .panel-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+
+    .selection-card {
+      min-height: 70px;
+      margin-bottom: 11px;
+      padding: 10px 11px;
+      border: 1px dashed #aeb8c1;
+      border-radius: 10px;
+      color: var(--muted);
+      background: #f7f9fa;
+      font-size: 13px;
+    }
+
+    .selection-card.ready {
+      border-style: solid;
+      border-color: #8eb5cc;
+      color: var(--ink);
+      background: #eef6fa;
+    }
+
+    .selection-label {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+
+    .selection-text {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      font-weight: 650;
+    }
+
+    .tag-picker {
+      position: relative;
+    }
+
+    .tag-search {
+      width: 100%;
+      min-height: 43px;
+      padding: 9px 11px;
+      border: 1px solid #aeb9c2;
+      border-radius: 9px;
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .suggestions {
+      position: absolute;
+      z-index: 20;
+      top: calc(100% + 5px);
+      right: 0;
+      left: 0;
+      max-height: 280px;
+      margin: 0;
+      padding: 5px;
+      border: 1px solid #b8c2ca;
+      border-radius: 10px;
+      list-style: none;
+      background: #fff;
+      box-shadow: 0 14px 30px rgba(20, 32, 43, .18);
+      overflow-y: auto;
+    }
+
+    .suggestions[hidden] { display: none; }
+
+    .suggestion {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      width: 100%;
+      padding: 8px 9px;
+      border: 0;
+      border-radius: 7px;
+      color: var(--ink);
+      background: transparent;
+      text-align: left;
+      font-weight: 750;
+    }
+
+    .suggestion:hover,
+    .suggestion.active { background: #edf3f6; }
+
+    .suggestion-copy {
+      min-width: 0;
+    }
+
+    .suggestion-copy strong {
+      display: block;
+      font-size: 12px;
+    }
+
+    .suggestion-copy small {
+      display: block;
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 500;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .swatch {
+      flex: 0 0 auto;
+      width: 17px;
+      height: 17px;
+      border: 1px solid rgba(0, 0, 0, .2);
+      border-radius: 5px;
+    }
+
+    .picker-help {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .selected-annotation {
+      display: none;
+      margin-top: 11px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fafbfc;
+      font-size: 12px;
+    }
+
+    .selected-annotation.visible { display: block; }
+
+    .selected-annotation-row {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 8px;
+    }
+
+    .annotation-list {
+      display: grid;
+      gap: 7px;
+      max-height: 230px;
+      overflow-y: auto;
+    }
+
+    .annotation-item {
+      display: grid;
+      grid-template-columns: 14px minmax(0, 1fr);
+      gap: 8px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--ink);
+      background: #fff;
+      text-align: left;
+    }
+
+    .annotation-item:hover { background: #f5f8fa; }
+
+    .annotation-item strong {
+      display: block;
+      font-size: 11px;
+    }
+
+    .annotation-item span:last-child {
+      display: block;
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 11px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .colors summary {
+      color: #2d3e49;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .color-grid {
+      display: grid;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .color-row {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 750;
+    }
+
+    .color-row input[type="color"] {
+      width: 34px;
+      height: 28px;
+      padding: 1px;
+      border: 1px solid #b9c1c8;
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .hex-value {
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      font-size: 10px;
+    }
+
+    .button-stack {
+      display: grid;
+      gap: 8px;
+    }
+
+    .toast {
+      position: fixed;
+      z-index: 100;
+      right: 20px;
+      bottom: 20px;
+      max-width: min(420px, calc(100% - 40px));
+      padding: 11px 14px;
+      border-radius: 10px;
+      color: white;
+      background: #23313b;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, .2);
+      opacity: 0;
+      transform: translateY(12px);
+      pointer-events: none;
+      transition: opacity .18s ease, transform .18s ease;
+    }
+
+    .toast.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .footer-note {
+      margin-top: 17px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .workspace { grid-template-columns: 1fr; }
+      .side-panel { position: static; }
+      .instructions-body { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 650px) {
+      .app-shell {
+        width: min(100% - 20px, 1440px);
+        padding-top: 16px;
+      }
+      .topbar { display: block; }
+      .save-status {
+        display: inline-block;
+        margin-top: 12px;
+      }
+      .navigator {
+        grid-template-columns: 1fr 1fr;
+      }
+      .navigator select,
+      .progress {
+        grid-column: 1 / -1;
+      }
+      .progress { text-align: left; }
+      .example-meta {
+        display: block;
+      }
+      .not-annotation {
+        display: flex;
+        margin-top: 3px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <div class="kicker">Lokalni NER alat</div>
+        <h1>IT oglasi — anotator</h1>
+        <p class="subtitle">
+          U alatu je učitano 50 oglasa bez početnih anotacija.
+          Označi span i izaberi tag; promene ostaju lokalno do JSON izvoza.
+        </p>
+      </div>
+      <div class="save-status" id="saveStatus">Sačuvano lokalno</div>
+    </header>
+
+    <details class="instructions" open>
+      <summary>Uputstvo — kako se koristi</summary>
+      <div class="instructions-body">
+        <div>
+          <h2>Postupak anotiranja</h2>
+          <ol>
+            <li>Izaberi primer pomoću padajuće liste ili dugmadi Prethodni/Sledeći.</li>
+            <li>
+              Prevuci mišem preko izraza koji želiš da označiš. Za jednu reč možeš
+              samo da uradiš <strong>dupli klik</strong>.
+            </li>
+            <li>
+              Kursor automatski prelazi u polje „Oznaka“. Kada je polje prazno vidi
+              se cela lista; dok kucaš, lista se sužava.
+            </li>
+            <li>Klikni na željenu oznaku ili je izaberi strelicama i pritiskom na Enter.</li>
+            <li>
+              Obeleženi segment dobija boju oznake. Klikni na obojeni segment ako
+              želiš da ga ukloniš.
+            </li>
+            <li>
+              Boje možeš menjati u odeljku „Boje oznaka“. Na kraju klikni
+              „Izvezi anotacije (.json)“.
+            </li>
+            <li>
+              Za pregled već urađenih anotacija klikni „Učitaj anotacije (.json)“ i
+              izaberi JSON izvezen iz ovog alata. Uvoz menja samo lokalno stanje u browseru.
+            </li>
+          </ol>
+        </div>
+        <div class="do-dont">
+          <div class="rule-box do">
+            <strong>ANOTIRATI</strong>
+            Prvo odredi značenje u rečenici. Označi formalne podatke šest osnovnih komponenti,
+            BRAND/MODEL za ostalo i sve vrednosti GARANCIJE, CENE i MESTA prema uputstvu.
+          </div>
+          <div class="rule-box dont">
+            <strong>NE ANOTIRATI</strong>
+            Generičke nazive proizvoda, stanje, reklamne prideve i specifikacije komponenti bez
+            posebnog taga. Ne popravljaj tekst i ne dopisuj izostavljene jedinice.
+          </div>
+          <div class="rule-box priority">
+            <strong>SEMANTIKA PRE GRANICA</strong>
+            Najpre odluči šta span znači i kojoj instanci pripada. Tek zatim proveri granice;
+            susedni delovi istog taga spajaju se samo kada opisuju istu instancu.
+          </div>
+          <a class="guide-link"
+             href="Uputstvo_za_anotaciju.txt"
+             target="_blank" rel="noopener noreferrer">
+            Otvori uputstvo za anotiranje ↗
+          </a>
+        </div>
+      </div>
+    </details>
+
+    <nav class="navigator" aria-label="Navigacija kroz primere">
+      <button class="btn" id="prevButton" type="button">← Prethodni</button>
+      <select id="exampleSelect" aria-label="Izaberi primer"></select>
+      <button class="btn" id="nextButton" type="button">Sledeći →</button>
+      <div class="progress" id="progressText"></div>
+    </nav>
+
+    <div class="workspace">
+      <main class="ad-card">
+        <div class="example-meta">
+          <span id="exampleMeta"></span>
+          <span class="not-annotation">⊘ Ne anotirati ovaj red</span>
+        </div>
+
+        <section class="field">
+          <div class="field-label">
+            <span>Naslov oglasa — anotirati</span>
+            <span class="hint">selektuj izraz ili uradi dupli klik</span>
+          </div>
+          <div class="annotatable title-text" id="titleField" data-field="title"></div>
+        </section>
+
+        <section class="field">
+          <div class="field-label">
+            <span>Telo oglasa — anotirati</span>
+            <span class="hint">selektuj proizvoljan raspon teksta</span>
+          </div>
+          <div class="annotatable" id="bodyField" data-field="body"></div>
+        </section>
+
+        <div class="source">
+          <strong>Izvorni link — ne anotirati</strong>
+          <a id="sourceLink" href="#" target="_blank" rel="noopener noreferrer">
+            Otvori originalni oglas ↗
+          </a>
+        </div>
+        <div class="doubts">
+          <strong>Nedoumice / odluka tima:</strong><span class="doubt-line"></span>
+        </div>
+      </main>
+
+      <aside class="side-panel" id="sidePanel">
+        <section class="panel-section">
+          <h2 class="panel-title">1. Selektovani tekst</h2>
+          <div class="selection-card" id="selectionCard">
+            Selektuj deo naslova ili tela oglasa.
+          </div>
+
+          <h2 class="panel-title">2. Oznaka</h2>
+          <div class="tag-picker">
+            <input
+              class="tag-search"
+              id="tagSearch"
+              type="text"
+              placeholder="Počni da kucaš, npr. RAM"
+              autocomplete="off"
+              aria-label="Pretraži oznake"
+              aria-controls="tagSuggestions"
+              aria-expanded="false"
+            >
+            <ul class="suggestions" id="tagSuggestions" role="listbox" hidden></ul>
+          </div>
+          <p class="picker-help">Fokus na praznom polju prikazuje celu listu oznaka.</p>
+
+          <div class="selected-annotation" id="selectedAnnotation">
+            <span class="selection-label">Izabrana postojeća oznaka</span>
+            <div class="selected-annotation-row" id="selectedAnnotationInfo"></div>
+            <button class="btn danger" id="removeAnnotationButton" type="button">
+              Ukloni oznaku
+            </button>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <h2 class="panel-title">
+            <span>Oznake u ovom primeru</span>
+            <span id="currentCount">0</span>
+          </h2>
+          <div class="annotation-list" id="annotationList"></div>
+        </section>
+
+        <section class="panel-section">
+          <details class="colors">
+            <summary>Boje 11 oznaka</summary>
+            <div class="color-grid" id="colorGrid"></div>
+            <button class="btn" id="resetColorsButton" type="button" style="margin-top:10px;width:100%">
+              Vrati početne boje
+            </button>
+          </details>
+        </section>
+
+        <section class="panel-section button-stack">
+          <button class="btn" id="importButton" type="button">
+            Učitaj anotacije (.json)
+          </button>
+          <input
+            id="importFile"
+            type="file"
+            accept=".json,application/json"
+            hidden
+          >
+          <button class="btn primary" id="exportButton" type="button">
+            Izvezi anotacije (.json)
+          </button>
+          <button class="btn danger" id="clearCurrentButton" type="button">
+            Obriši oznake ovog primera
+          </button>
+          <button class="btn danger" id="clearAllButton" type="button">
+            Obriši sve anotacije
+          </button>
+        </section>
+      </aside>
+    </div>
+
+    <p class="footer-note">
+      Aplikacija radi bez interneta. Anotacije se automatski čuvaju u lokalnoj
+      memoriji browsera; JSON izvoz je datoteka za predaju ili dalju obradu.
+    </p>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const ADS = [{"id":1,"category":"Laptop","title":"HP 15-bs0xx 15,6″ – 8 GB RAM, SSD 256 GB, Radeon 2","body":"Prodajem beli HP Laptop 15-bs0xx, dijagonale 15,6 inča sa sledećim karakteristikama:\nIntel Pentium N3710, četiri jezgra, 1,60–2,56 GHz\n8 GB DDR3 RAM-a\nSSD od 256 GB, prikazuje oko 238 GB\nposebna AMD Radeon R5 M330 grafika sa 2 GB\nintegrisana Intel HD grafika\nnema ekran na dodir.\nLaptop je bele boje i vrlo očuvan i u dobrom stanju.","url":"https://www.halooglasi.com/racunari/laptop-racunari/hp-15-bs0xx-15-6-8-gb-ram-ssd-256-gb-radeon-2/5425647445501?kid=3"},{"id":2,"category":"Laptop","title":"Dell Latitude E6530 i5 / 8 GB / SSD 512 GB / osvet","body":"Prodajem Dell Latitude E6530, ekran 15, 6 inča sa konfiguracijom:\nIntel Core i5-3320M, 2, 60 GHz\n8 GB RAM-a\nSSD približno 512 GB\nosvetljena nemačka tastatura\npokazivač miša u sredini tastature\noriginalni punjač\nbez baterije\nLaptop nema bateriju i radi normalno na punjaču i u ekstra je stanju","url":"https://www.halooglasi.com/racunari/laptop-racunari/dell-latitude-e6530-i5-8-gb-ssd-512-gb-osvet/5425647443639?kid=3"},{"id":3,"category":"Laptop","title":"Lap Top Acer Aspire 3","body":"Perfektan, odlican, ocuvan laptop.\nSpecifikacija:\nProizvodjac : Acer\nModel : Aspire 3\nGodina proizvodnje : 2019 god\nProcesor : Ryzen 3 2200u\nGraficka : Radeon Vega 3 2GB\nMemorija : 16GB DDR4\nSSD : WD 256GB nvme\nHDD : 500GB 2.5 inca Sata\nSistem : Win10 PRO + Office 2019 + usluzni programi\nEkran: LED 15.6 inca Full HD\nBaterija : oko 3 sata u zavisnosti za sta se okristi\nPunjac : Original\nPoklon : Torba za laptop\nPogledajte ostale nase oglase hvala.","url":"https://www.halooglasi.com/racunari/laptop-racunari/lap-top-acer-aspire-3/5425642520341?kid=1"},{"id":4,"category":"Laptop","title":"HP EliteBook 845 G9 16gb/256gb - Nov - Garancija","body":"Ekran LCD 14''\nProcesor - AMD Ryzen 5 6650U\nRam memorija - 16gb DDR5 4800MHz\nDisk - SSD 256gb\nNa prodaji potpuno NOV HP EliteBook 840 G9 u originalnoj kutiji sa originalnim punjacem i instaliranim Microsoft Windows 11 Professional operativnim sistemom.\nInternacionala HP garancija 36 meseci ! ! !\nLicno preuzimanjeu Beogradu.","url":"https://www.halooglasi.com/racunari/laptop-racunari/hp-elitebook-845-g9-16gb256gb---nov---garanci/5425643005930?kid=1"},{"id":5,"category":"Laptop","title":"HP Pavilion 15 cs0803 i3 16gb/256gb SSD laptop 15","body":"Intel® Core™ i3-8130U (2.2 GHz base frequency, up to 4 GHz with Intel® Turbo Boost Technology, 4 MB cache, 2 cores)\n16 GB DDR4-2400 SDRAM (2 x 8 GB)\nIntel® UHD Graphics 620\n256 GB PCIe® NVMe™ M.2 SSD perfektan 100/100 radio samo 8 sati\n39.6 cm (15.6\") diagonal FHD IPS anti-glare micro-edge WLED-backlit (1920 x 1080)\nIntel® 802.11b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 4.2 Combo\n1 USB 3.1 Type-C™ Gen 1 (Data Transfer up to 5 Gb/s, Power Delivery, DisplayPort™ 1.2, HP Sleep and Charge); 2 USB 3.1 Gen 1 (1 HP Sleep and Charge); 1 HDMI 1.4; 1 RJ-45; 1 headphone/microphone combo\nHP Wide Vision HD Camera with integrated dual array digital microphone\nProdajem ispravan gotovo kao nov laptop, procesor 8. generacije, za 199e\nprodaje se sa orginal punjacem hp\nvelicina panela je 15.6 inca full hd led panel, panel jasn i cist, slika odlicna\nbaterija odlicna healt je 100 procenata\ninstaliran je windows 11 licenciran i legalan windows, aktiviran digitalnom licencom, na slikama je sa windows 10 sistemom, danas sam instalirao windows 11 home\ninstalirao sam microsoft office paket word excel . . .\nna slikama imate PRODUCT ID kao i DEVICE ID\nHDMI KONEKTOR\nUSB-C KONEKTOR\nUSB 3.0 KONEKTOR\nkod za kupovinu je LAP01\nLICNO PREUZIMANJE U BEOGRAD NOVI SAD ZRENJANIN KIKINDA SENTA BECEJ SUBOTICA\nBOX0103\nDDD\n. . . NAJPOVOLJNIJA CENA NA OGLASIMA . . .","url":"https://www.halooglasi.com/racunari/laptop-racunari/hp-pavilion-15-cs0803-i3-16gb256gb-ssd-laptop/5425647095792?kid=1"},{"id":6,"category":"Laptop","title":"HP Compaq 615","body":"Na prodaju Laptop HP Compaq 615 pogodan za delove, fizički u dobrom stanju izuzev 2 tastera koja fale na tastaturi što se može videti na slikama. Nemam mogućnost da ga ispitam pa zato ide kao neispravan bez prava na reklamaciju, kome treba za delove jeftinije će teško naći.\nPogledajte i ostale moje oglase.","url":"https://www.halooglasi.com/racunari/laptop-racunari/hp-compaq-615/5425645305380?kid=1"},{"id":7,"category":"Laptop","title":"Lenovo ThinkPad T560","body":"Na prodaju laptop marke Lenovo. Model T560. Biznis racunar. Procesor i5, 6300U, sesta generacija. Ram 8gb. Monitor 15.6 inca, 1920x1080. Baterija oko 4h. Originalni punjac ide uz njega. Unapred placanje postarine na ziro racun, nakon toga slanje ili licno preuzimanje u Novom Sadu.","url":"https://www.halooglasi.com/racunari/laptop-racunari/lenovo-thinkpad-t560/5425641581303?kid=1"},{"id":8,"category":"Laptop","title":"Lenovo Thinkpad L540 i7 4712MQ 8gb 240gb SSD FHD","body":"prodajem malo koristen thinkpad lenovo L540 sa intel i7 procesorom\nlaptop se prodaje sa orginal punjacem\nNema bateriju\nsarke dobre\ninstaliran windovs 11\ninstaliran microsoft office 2019\nCPU Intel i7-4712MQ quadcore 2.30ghz 6mb cache turbo 3.30ghz\nGPU Intel HD4600\nSSD 240gb perfektan healt radio samo 126 dana\nRAM 2x4GB DDR3\nPanel 15,6\" LED backlight FHD 1920x1080\nWI-FI, DVD, mini Display port, USB 3.0, kamera . . .\nmoze se preuzeti u dole navedene gradove\nBeograd\nZrenjanin\nKikinda\nNovi Sad\nSenta\nBecej\nKanjiza\nBoxgorenje\nBBB\nSho\nNajpovoljnija cena za ovu konfiguraciju laptopa","url":"https://www.halooglasi.com/racunari/laptop-racunari/lenovo-thinkpad-l540-i7-4712mq-8gb-240gb-ssd/5425646973798?kid=1"},{"id":9,"category":"RAM komponenta","title":"Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 133","body":"Na prodaju: Laptop RAM memorija – ukupno 12GB (3x4GB DDR3, 1333MHz)\n2x Elixir 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)\n1x Ramaxel 4GB DDR3 SO-DIMM (PC3-10600S, 1333MHz, CL9)\nSve memorije su testirane i ispravne\nOdgovaraju većini laptopova sa DDR3 slotovima (Intel Core i3/i5/i7 prve i druge generacije – Sandy Bridge i slično)\nIdealno za nadogradnju starijeg laptopa – ukupno 12GB RAM-a!\nCena: 1499 rsd\nSlanje ili lično preuzimanje.","url":"https://www.halooglasi.com/racunari/laptop-racunari/laptop-ram-memorija-ukupno-12gb-3x4gb-ddr3-13/5425645993623?kid=1"},{"id":10,"category":"Baterija","title":"MSI originalna baterija BTY-M6D - MSI GT 683 R","body":"Na prodaju: MSI originalna baterija BTY-M6D\nModel: BTY-M6D\nKapacitet: 7800 mAh / 87Wh\nNapon: 11.1V\nLitijum-jonska baterija\nKompatibilna sa velikim brojem MSI gaming laptopova, uključujući:\nGT60 / GT70, GT660 / GT663 / GT670, GT680 / GT683 / GT685, GX660 / GX680 i srodne modele (MS-16F1, MS-16F2, MS-1761…).\nBaterija je skinuta sa MSI GT683R, ispravna. (16 do 20+ sati drži)\nCena: 1499\nMogućnost slanja ili ličnog preuzimanja.","url":"https://www.halooglasi.com/racunari/laptop-racunari/msi-originalna-baterija-bty-m6d---msi-gt-683/5425645993531?kid=1"},{"id":11,"category":"Tablet","title":"10 inča 1920 X 1200 Asus ME302C 4 jezgra 2/16GB","body":"10 inča 1920 X 1200\nAsus ME302C\n4 jezgra\n2/16GB\nStavljen nov tač koji sa fabričkim sistemom radi normalno\nNe treba apdejtovati system jer tač postaje preosetljiv (zato je ova cena)\n10 inča FHD rezolucija 1920 X 1200\nQuad core 4 x 1.6 GHz\nRAM 2 GB\nSSD 16 GB\nDve kamere\nGPS\nCena 60E\nPREUZIMANJE: Lično uz probu ili\nuplata post netom pa slanje post expresom.\nZAMENA: Lično ili prvo vi šaljete.\nMože zamena sa VAŠOM doplatom, za tablet, mobilni telefon ili netbuk.\nZa zamenu navedite tačan model, specifikaciju i stanje uređaja i koliku doplatu nudite.","url":"https://www.halooglasi.com/racunari/tablet-racunari/10-inca-1920-x-1200-asus-me302c-4-jezgra-216g/5425642932058?kid=1"},{"id":12,"category":"Tablet","title":"Samsung Galaxy Tab S9+ S9 Plus 5G 12/512gb X816 +","body":"Samsung Galaxy Tab S9+ S9 Plus 5G 12/512gb X816b Beige boja. Novo neotpakovano dostupno za preuzimanje odmah! Placanje je moguce i u dinarskoj protiv-vrednosti kurs 118.\nVeliki izbor dodatne opreme:\n- auto punjaci\n- auto drzaci (vakum, ventilacija, magnetni)\n- zastitne maske\n- zastitna stakla\n- microSd kartice\n- usb flash memorije\n- kamere za video nadzor (wifi)\n- auto kamere\n- eksterne baterije (10.000, 20.000 i 30.000mah)\n- fm Bluetooth transmiteri\n- data kablovi\n- Bluetooth slusalice\n- Bluetooth zvucnici","url":"https://www.halooglasi.com/racunari/tablet-racunari/samsung-galaxy-tab-s9-s9-plus-5g-12512gb-x816/5425644628532?kid=1"},{"id":13,"category":"Tablet","title":"Xiaomi Mi Pad 6s Pro 8/256gb Wifi Neotpakovan!","body":"Xiaomi Mi Pad 6s Pro 8/256gb Wifi graphite gray boja. Novo neotpakovano originalno.","url":"https://www.halooglasi.com/racunari/tablet-racunari/xiaomi-mi-pad-6s-pro-8256gb-wifi-neotpakovan/5425644794206?kid=1"},{"id":14,"category":"PDA / tablet","title":"HP Ipaq HX2410","body":"HP POCKET,u odlicnom stanju,koriscen kao navigacija u kolima.dolazi s punjacem za kola i njegov punjac\nHP iPAQ hx2410 Pocket PC General Features: Intel PXA270520 MHz processor.\n128MB total memory(64 MB ROM and 64 MB SDRAM)\nMicrosoft Windows Mobile 2003 Second Edition for Pocket PC.\n3.5 Transflective type TFT QVGAcolor display w/LED backlight with power save mode.\n65,536, 16-bit colors w/240 x 320 resolution.\n256 Mb card","url":"https://www.halooglasi.com/racunari/tablet-racunari/hp-ipaq-hx2410/5425644709255?kid=1"},{"id":15,"category":"Tablet","title":"Samsung Galaxy Tab S9 X710 11 12/256gb Beige","body":"Samsung Galaxy Tab S9 X710 11\" 12/256gb Beige boja. Novo neotpakovano dostupno za preuzimanje odmah!","url":"https://www.halooglasi.com/racunari/tablet-racunari/samsung-galaxy-tab-s9-x710-11-12256gb-beige/5425644629378?kid=1"},{"id":16,"category":"Telefon","title":"iPhone 11 Pro 64 GB","body":"Iphone 11 Pro 64GB Space Grey\nSim free\nBattery Health 80%\nStanje telefona 8/10, zbog ogrebotina na ekranu.\nApsolutno ispravan, Face ID radi, vraćen na fabrička podešavanja.\nPreuzimanje u Beogradu. Kontakt Viber, WhatsApp.","url":"https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11-pro-64-gb/5425644266087"},{"id":17,"category":"Telefon","title":"Apple iPhone 11 PRO (64GB) Space Gray","body":"-Telefon potpuno ispravan, odlicno ocuvan!\n-Ne radi Face ID\n-Memorija 64 GB\n-Sim Free, iCloud Free\n-Battery Health: Ugradjena nova baterija\n-Uz telefon se dobija punjac\n-Kontakt: Poziv, Whats App, Viber\n-Garancija 30 dana\nSifra oglasa: a2203152","url":"https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/apple-iphone-11-pro-64gb-space-gray/5425644142942"},{"id":18,"category":"Telefon","title":"Iphone 11 pro 64gb 87%","body":"Telefon u perfektnom stanju, koriscen za poslovne razgovore i slike, nigde nije ostecen niti je ikad otvaran, sve fabricko na njemu i bez ikakvih tragova koriscenja je. Displej perfektan bez i jedne ogrebotinice, ledja telefona takodje, lajsne hrom kao sto se vidi na slikama nigde nemaju peckice, perfektno ocuvan telefon. Baterija fabricka na 87% kapaciteta, sve funkcije na telefonu rade perfektno( face id, true tone, bluetoth, svi modovi kamere, wifi. . . ).","url":"https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11-pro-64gb-87/5425644550601"},{"id":19,"category":"Telefon","title":"iPhone XS Silver/Beli 64gb (očuvan, kao nov)","body":"iPhone XS kupljen u Emiratima u Apple store.\nPunjac, Slusalice. Zbog mogucnosti placanje carine dolaskom u Srbiju, kutiju nemam.\nStar 19 meseci.\nBattery health 84%. Baterija drzi duže od 24h.\nBez ikakvih znakova ostecenja. Sacuvan pod zastitnim staklom i maskom.\nKontakt: Inbox, Whatsapp, Viber, SMS\nCena je fiksna. Slike verodostojne.","url":"https://www.halooglasi.com/telefoni/apple-iphone-X-mobilni-telefoni/iphone-xs-silverbeli-64gb-ocuvan-kao-nov/5425636329116"},{"id":20,"category":"Telefon","title":"iPhone 11 Pro 64Gb 100% zdravlje baterije","body":"Original Apple iPhone 11 Pro od 64gb space gray boje u ekstra stanju kao nov\nRadi na sve mreze (sim free)\n100% zdravlje baterije\nIspravan. Na fotografijama se vidi da je slobodan iCloud, da je konektovan na WIFI. Slisalica i mikrofon se odlicno cuju\nFACE ID NE RADI (otkljucavanje telefona putem lica) Sifra ekrana moze normalno da se stavi\nVracen na fabricka podesavanja, nema nikakve sifre\nOriginal 100% Ispravan 100%\nCena je fiksna. Licno preuzimanja najbolje da se sve na licu mesta pogleda i proba\nU vezi svih informacija pozovite ili pisite na telefon","url":"https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11-pro-64gb-100-zdravlje-baterije/5425647427262?kid=1"},{"id":21,"category":"Telefon","title":"Iphone 11","body":"Na prodaju iPhone 11, memorije 64GB, u beloj boji. Telefon je u odličnom stanju, maksimalno očuvan i bez skrivenih mana.\nOprema: Od prvog dana nošen sa zaštitnim staklom i maskom (ekran i leda su bez ogrebotina).\nBattery Health: 84% (fabrička baterija, bez problema izdrži ceo dan normalnog korišćenja).\nSim Free: Radi na svim mrežama.\nCloud: Odjavljen i spreman za novog vlasnika.\nIspravnost: Svako dugme, Face ID i True Tone rade savršeno. Nikada otvaran niti servisiran.\nUz telefon ide:\nOriginalna kutija, kabl, punjač, zaštitna maska na poklon.\nMoguće lično preuzimanje u Zrenjaninu ili\nili slanje proverenim kurirskim službama, bez zamena.","url":"https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/iphone-11/5425647156884"},{"id":22,"category":"Telefon","title":"Apple iPhone 11 Pro (64GB) Gold","body":"-Telefon je odlicno ocuvan, kao nov\n-Ne radi face id\n-Memorija 64GB\n-Sim Free, iCloud Free\n-Battery health 80%\n-Uz telefon se dobija punjac\n-Kontakt: Poziv, Whats App, Viber\n-Garancija 30 dana\nA2202109","url":"https://www.halooglasi.com/telefoni/apple-iphone-11-mobilni-telefoni/apple-iphone-11-pro-64gb-gold/5425644142662"},{"id":23,"category":"Desktop računar","title":"GAMER RYZEN 5 5500 RTX 3060 12GB 16GB RAM 512GB","body":"Prodaje se izuzetno brz i odlično sklopljen gejmerski računar, spreman za igranje najnovijih naslova na visokim i ultra podešavanjima. Računar je čist, tih u radu, sa odličnim protokom vazduha zahvaljujući novom kućištu sa 4 RGB ventilatora.\n*Na računaru je sveže instaliran Windows 11 Pro operativni sistem sa svim pratećim programima i driverima. *Uz računar dolazi gratis naponski kabl.\nSPECIFIKACIJA:\n- Procesor: NOVO AMD Ryzen 5 5500 (6 jezgara / 12 niti) – odličan gejmerski procesor sa jakim performansama u svim modernim igrama sa RGB Tower coolerom\n- Grafička: Palit GeForce RTX 3060 12GB – moćna grafička karta sa 12GB memorije, podrška za Ray Tracing i DLSS tehnologiju\n- RAM: 16GB DDR4 HyperX Fury 3200MHz (2x8GB Dual Channel) – brz i pouzdan gejmerski RAM\n- SSD: SKHynix 512GB NVMe SSD – veoma brz SSD za brzo podizanje sistema i brzo učitavanje igara\n- Ploča: NOVO ASUS PRIME A520M-A II – nova kvalitetna matična ploča sa podrškom za Ryzen procesore\n- Kućište: NOVO IG-MAX N1903 REFLEX 4F Gaming kućište – novo moderno kućište sa kaljenim staklom i 4 RGB ventilatora\n- Napajanje: NOVO Deepcool 750W napajanje – novo kvalitetno napajanje sa stabilnim radom\nMoguć svaki test kod nas, može i proba u igrama po želji. Moguće je i lično preuzimanje i slanje poštom računara na vašu adresu.","url":"https://www.halooglasi.com/racunari/desktop-racunari/gamer-ryzen-5-5500-rtx-3060-12gb-16gb-ram-512/5425647445487"},{"id":24,"category":"Desktop računar","title":"Fenomenalan gaming računar i3 10100f/RX 580 4gb/NV","body":"Sve nabrojane igrice su instalirane, tebi ostaje samo da upališ racunar i da se igraš:\nGrand Theft Auto V (epic games)\nCS GO\nFortnite\nPUBG\nLeague of Legends\nRocket League\nMinecraft\nStardew Valley\nStumble Guys\nFall Guys\nEuro Truck Simulator 2\neFootball PES 2021\nFarming Simulator 22\nMoguća instalacija još igrica po tvojoj želi\nRačunar podržava svaku igricu koju možeš da zamisliš!\nRadi odlično, bez skrivenih mana, esteskti besprekoran, ultra brz.\nFolija je i dalje na staklu, dolazi u originalnoj kutiji, isto iskustvo kao kada kupuješ nov računar.\nNajbolji odnos cene i FPS-a, ubedljivo najbolji u ovom cenovnom rangu!\nSpecifikacije:\nProcesor: nov i3 10100f, 4 jezgra 8 threadova, u igricama jači od i7 7700, veći fps u kanteru od Ryzen 5 2600\nGrafička kartica: Sapphire Nitro+ RX 580 4GB, u mint stanju, najbolji model 580-ice, tiha i hladna, stavljena je kvalitetna termalna pasta MX-4, pre toga je imala stiker na šrafu\nMemorija: nova Crucial Ballistix 16GB DDR4, dual channel, CL16 3200mhz, sa hladnjakom\nSSD: nov Kingston NV1 500GB NVME (brzi)\nMatična ploča: nova Gigabyte H410M H V3, idealna za nadogradnju u budućnosti, podržava i5 i i7 procesore, 2 godine domaće garancije\nNapajanje: 400W, 80+\nKućište: novo MS Armor V305, RGB, boje mogu da se menjaju klikom na dugme na prednjoj stranici kućišta, ima razne kul modove svetala\nBesplatna dostava na teritoriji cele Srbije!\nDostava istog dana na teritoriji Beograda uz besplatnu montažu.","url":"https://www.halooglasi.com/racunari/desktop-racunari/fenomenalan-gaming-racunar-i3-10100frx-580-4g/5425642420814"},{"id":25,"category":"Desktop računar","title":"Gaming PC RTX 4060 8GB / Ryzen 5 5600X / 16GB RAM","body":"Prodajem odličan Gaming PC – spreman za sve nove igre!\nCPU: AMD Ryzen 5 5600X (6 jezgara / 12 threadova, boost do 4.6GHz)\nGPU: Zotac RTX 4060 8GB Twin Edge (ray tracing, DLSS)\nRAM: 16GB DDR4\nSSD: 1TB Kingston NVMe (brzo paljenje sistema i igara)\nMatična: B450M\nNapajanje: UGD G650 650W\nKućište: UGD Tower Nexus 3517\nPC je odličan za 1080p/1440p gaming, radi sve najnovije igre bez problema.\nBrz, tih i pouzdan, idealan i za posao, školu, streaming.\nSve radi perfektno, spreman odmah za korišćenje.\nPoželjno lično preuzimanje u Subotici – možeš doći, testirati sve na licu mesta\nAko insistiraš na slanju – šaljem isključivo Post Expressom , ali ne snosim odgovornost za eventualna oštećenja u transportu.","url":"https://www.halooglasi.com/racunari/desktop-racunari/gaming-pc-rtx-4060-8gb-ryzen-5-5600x-16gb-ram/5425646750585"},{"id":26,"category":"Desktop računar","title":"Hp racunar 16/4gb","body":"Intel core i5 3.20 boost clock 3.40\n*16gb rama silicon power\n*2 SSD-a kingstone i silicon power 500gb\n*Radeon RX 580 4gb (nova termalna pasta)\n*Napajanje novo 500w original ATX","url":"https://www.halooglasi.com/racunari/desktop-racunari/hp-racunar-164gb/5425643966428"},{"id":27,"category":"Desktop + oprema","title":"Gaming PC + 2x 27 Monitor + Logitech Oprema","body":"Srpski\nGaming PC + 2x 27\" Monitor + Logitech Oprema – Odlično stanje\nProdajem komplet zbog viška opreme. Sve je u odličnom stanju i radi 100% bez ikakvih problema. Monitori nemaju ogrebotine niti mrtve piksele.\nSpecifikacije:\nAMD Ryzen 5 5600\nNVIDIA GeForce RTX 3060 12GB\n16GB RAM\n512GB SSD\nOriginal Windows 11 Pro\nU paketu:\nAOC Q27G2E/BK 27\" monitor\nPhilips 273V7QJAB/00 27\" monitor\nLogitech G203 miš\nLogitech G213 tastatura\nNapomena: Kamera i mikrofon sa slika nisu uključeni u prodaju.\nCena: 1100 €\nKontakt putem WhatsApp-a: 69 225 6610\n-----\nEnglish\nGaming PC + 2x 27\" Monitors + Logitech Accessories – Excellent Condition\nSelling due to no longer needing the equipment. Everything is in excellent condition and works perfectly at full performance. Both monitors are scratch-free with no dead pixels.\nSpecifications:\nAMD Ryzen 5 5600\nNVIDIA GeForce RTX 3060 12GB\n16GB RAM\n512GB SSD\nGenuine Windows 11 Pro\nIncluded:\nAOC Q27G2E/BK 27\" Monitor\nPhilips 273V7QJAB/00 27\" Monitor\nLogitech G203 Mouse\nLogitech G213 Keyboard\nNote: The camera and microphone shown in the photos are not included.\nPrice: €1100\nWhatsApp: 69 225 6610","url":"https://www.halooglasi.com/racunari/desktop-racunari/gaming-pc-2x-27-monitor-logitech-oprema/5425647400945?kid=1"},{"id":28,"category":"Desktop računar","title":"Gaming Kompjuter Gtx 1060 I3 8300","body":"GTX 1060 3GB\nI3 8300\n16GB RAM\n1TB HDD\n120GB SSD\nRazlog prodaje je kupovina jaceg tako da moze zamena i za rtx 2060 super/rtx 3060 ryzen 5 5500/5600 uz doplatu","url":"https://www.halooglasi.com/racunari/desktop-racunari/gaming-kompjuter-gtx-1060-i3-8300/5425644914784"},{"id":29,"category":"Više desktop računara","title":"Gaming desktop računari jeftino","body":"U ponudi gaming kompjuteri od 140 do 1000€. Svi su u ispravnom stanju i imaju instaliran windows 10. Moguce su izmene. Garantujem ispravnost 60 dana.\ni5-3470/r9 380 4gb/16gb/250gb ssd\n140€\ni5-4570/rx570 4gb/16gb ddr3/250gb ssd, obicno kuciste\n150€\ni5-6500T/rx480 4gb/16gb 3200mhz/128gb ssd, fujitsu prebuilt 150€\nRyzen 3 1200/gtx 1050ti/16gb ram/250gb ssd, obicno kuciste 170€\ni7-3770/gtx 1060 6gb/16gb ddr3/250gb ssd, obicno kuciste 180€\ni5-4570/rx 580 8gb/16gb ddr3/250gb ssd, rgb kuciste novo 195€\ni7-4770/rx 580 8gb/16gb ddr3/250gb ssd, rgb kuciste novo 240€\ni7-4770/rx 580 8gb/16gb ddr3/1TB ssd, rgb kuciste novo 260€\nRyzen 5 1600AF/GTX 2060 6GB/16GB 3200MHz/1TB SSD/Kuciste sa staklom 340€\ni5-9400f/z390/RTX 2060 6GB/16GB 3200MHz/1tb ssd nov, RGB kuciste novo 350€\nRyzen 5 3600/Intel Arc A750 8GB/16GB 3200 Mhz/1TB ssd nov, RGB kuciste novo 410€\nRyzen 5 5600/RTX 3060 Ti 8GB/16GB 3200 Mhz/1TB ssd nov, RGB kuciste novo 520€\nIntel i5-13500T/Intel Arc A750 8GB/32GB DDR5/1TB SSD nov, Corsair 4000D Airflow/Corsair RM1000X 790€\nIntel i5-13500T/RTX 3060 Ti/32GB DDR5/1TB SSD nov, Corsair 4000D Airflow/Corsair RM1000X 840€","url":"https://www.halooglasi.com/racunari/desktop-racunari/gaming-desktop-racunari-jeftino/5425645447466"},{"id":30,"category":"Desktop računar","title":"RGB kompjuter","body":"Gaming računar i5 / RX 580 / 16GB RAM / SSD + HDD / RGB kućište\nProdajem veoma dobar i brz gaming računar, idealan za igranje popularnih igara kao što su GTA V, CS2, Fortnite, Warzone, Valorant i mnoge druge. Računar radi odlično, tih je i stabilan, bez ikakvih problema.\nSpecifikacije:\nProcesor: Intel i5 4570 (4 jezgra, veoma brz i pouzdan)\nGrafička: RX 580 4GB XFX (odlična za gaming)\nRAM: 16GB DDR3\nSSD: 240GB Kingston (brzo paljenje sistema)\nHDD: 1TB za igre i podatke\nKućište: RGB gejmersko kućište sa više modova osvetljenja, novo\nNapajanje: Thermaltake 450w\nRGB ventilatori\nRačunar je spreman za korišćenje, instaliran sistem i osnovni programi. Pokreće sve popularne igre uz dobre FPS-ove.\nVizuelno izgleda odlično zahvaljujući RGB osvetljenju i modernom kućištu sa staklom.\nMoguće testiranje računara prilikom kupovine.\nZa više informacija obavezno poziv nikakve poruke.","url":"https://www.halooglasi.com/racunari/desktop-racunari/rgb-kompjuter/5425646926762"},{"id":31,"category":"Laptop","title":"Samsung R720 laptop","body":"Na prodaju laptop Samsung R720 (NP-R720-FSO2NL)\n\nLaptopu ne radi pozadinsko osvetljenje.\n\nNe daje sliku kada se preko VGA ili HDMI kabla priključi na spoljni monitor.\n\nUgradjen je sistem Windows 10.\n\nCPU: Intel(R) Core(TM)2 Duo CPU 2.10 GHz (T6500 / T6570)\n\nRAM: 4 GB, DDR2\n\nHDD: 465 GB (Performance 70% Health 50%)\n\nEkran: 17,3\"\n\nBaterija: Slaba\n\nLaptop dolazi bez punjača.\n\nZa više infomracija pozvati na broj\n\nMoguće je lično preuzimanje u Velikoj Plani.","url":"https://www.halooglasi.com/racunari/laptop-racunari/samsung-r720-laptop/5425647096082"},{"id":32,"category":"Laptop","title":"Lenovo IdeaPad Flex 2 15D E1-6010 touchscreen","body":"- Business Hybrid (2-in-1) Convertible (Fold-back screen) Black\n- AMD E E1-6010 1.35 GHz\n- Touchscreen 39.6 cm (15.6\") 1366 x 768 pixels LED backlight 16:9\n- 4 GB DDR3L-SDRAM 1333 MHz 1 x 4 GB\n- 500 GB HDD DVD± RW\n- AMD Radeon AMD Radeon R2\n- Wi-Fi 4 (802.11n) Ethernet LAN 10,100,1000 Mbit/s Bluetooth 4.0\n- Lithium-Ion (Li-Ion) 32 Wh 6 h 45 W\n- Windows 10 64-bit\n\nprodajem ispravan laptop sa touch panelom velicine 15 inca\n\nprodaje se sa punjacem\n\nbaterija dobra drzi oko 2.5 sata\n\nsve radi i sve ispravno\n\nbez zamene za razno\n\nPREUZIMANJE U BEOGRAD ZRENJANIN KIKINDA SENTA NOVI SAD SUBOTICA KANJIZA SENTA\n\nBOX221222\n\nSHO","url":"https://www.halooglasi.com/racunari/laptop-racunari/lenovo-ideapad-flex-2-15d-e1-6010-touchscreen/5425646477984"},{"id":33,"category":"Laptop","title":"Toshiba Tecra R950 / i7-3610QM 2.30Ghz/ 12 GB DDR3","body":"Toshiba Tecra R950 / i7-3610QM 2.30Ghz/ 12 GB DDR3\n\nNa prodaju Toshiba Tecra R950 ili zamena za grafičku karticu u istom ili sličnom cenovnom rangu.\n\nSpecifikacije:\n\nProcesor: Intel(R)Core(TM) i7-3610QM 2.30Ghz\n\nRam memorija: 12 GB DDR3\n\nGrafička kartica: AMD Radeon HD 7570M\n\nSkladište: 118 GB SSD\n\nEkran: HD nereflektujući ekran visoke osvetljenosti sa odnosom širine i visine 16:9 i LED pozadinskim osvetljenjem.\n\nMogućnost slanja brzom poštom ili lična provera i preuzimanje u Novom Sadu.","url":"https://www.halooglasi.com/racunari/laptop-racunari/toshiba-tecra-r950-i7-3610qm-2-30ghz-12-gb-dd/5425641875237?kid=1"},{"id":34,"category":"Laptop","title":"HP 470 G9 / i7-1255U / 16GB / 512GB SSD / 17.3","body":"Na prodaju moćan poslovni laptop HP 470 G9 velike dijagonale (17.3 inča). Mašina je izuzetno brza, pokreće je odličan Core i7 procesor 12. generacije i idealna je za kancelarijski rad, programiranje, studente ili kućnu upotrebu kao zamena za desktop računar.\n\nVAŽNA NAPOMENA (Zato je ova cena): Laptop se prodaje BEZ baterije i BEZ punjača. Izvađena je stara baterija jer je oslabila. Laptop je potpuno ispravan i radi normalno na punjaču (testiran sa pozajmljenim HP 65W punjačem sa plavim vrhom). Nova baterija i punjač vas na oglasima koštaju oko 50-60 evra ukupno, nakon čega imate vrhunski laptop koji inače vredi preko 500 evra u kompletnom stanju.\n\nSpecifikacije:\n\n• Ekran: 17.3\" Full HD (1920x1080) IPS, Anti-glare (odlične boje i uglovi gledanja)\n• Procesor: Intel Core i7-1255U (10 jezgara, 12 niti)\n• RAM: 16 GB DDR4 3200MHz\n• Skladište: 512 GB PCIe NVMe M.2 SSD (brz start sistema i rad)\n• Grafika: Intel Iris Xe Graphics\n• Kućište: Elegantno srebrno\n\nprodaje se ispravan racunar, instaliran je windows 11 pro, procesor i7 12. generacije\n\ninstaliran je microsoft office 2024 paket word excel . ..\n\nzadnji poklopac napukao, prikazano na slikama, ne utice na rad racunara\n\nlicno preuzimanje u dole navedene gradove\n\nBEOGRAD\nZRENJANIN\nKIKINDA\nNOVI SAD\nSUBOTICA","url":"https://www.halooglasi.com/racunari/laptop-racunari/hp-470-g9-i7-1255u-16gb-512gb-ssd-17-3/5425647501596?kid=1"},{"id":35,"category":"Laptop","title":"Asus VivoBook S510U core i5-8250U 8/256gb SSD 15.6","body":"Proizvođač: Asus\nModel: VivoBook S510U\nProcesor: Intel(R) Core(TM)i5-8250U 1.60GHz 1.80GHz ( 4 Cores, Max Turbo 3.40GHz, 6MB Cache)\nGrafika: Intel(R) UHD Graphics 620\nGrafika nVidia geForce MX150 2gb DDR5\nRam memorija: 8GB DDR4\nSSD: 256GB perfektan\nEkran: 15,6\" Full HD\nRezolucija: 1920 x 1080\nBaterija: Drži preko 2.5 sata Healt 57 procenata\nSistem windows 11 pro 64-bit\n\nProdaje se ispravan racunar, na donjem poklopcu prisutna ogrebotina\nprocesor 8. generacije\ngrafika sposobna da potera igrice\ninstaliran je windows 11 i microsoft office 2024 paket word excel . . .\nprodaje se sa punjacem\nLicno preuzimanje u Beograd Zrenjanin Kikinda Novi Sad Becej Kanjiza Subotica\nbez zamene\nBoxletnjastrec4\nSH0\nAsus broj 2.\nNajbolja cena za ovu konfiguraciju na oglasima...","url":"https://www.halooglasi.com/racunari/laptop-racunari/asus-vivobook-s510u-core-i5-8250u-8256gb-ssd/5425646873482?kid=1"},{"id":36,"category":"Laptop","title":"Na prodaju Laptop Lenovo Legion Y520","body":"Laptop \"Lenovo Legion Y520\" za sve vrste delatnosti, video igre, programiranje, i dosta toga, uz laptop dolazi i orginalni punjac.\n\nU pitanju je gejmerski laptop poseduje dve graficke sve ima na slikama.","url":"https://www.halooglasi.com/racunari/laptop-racunari/na-prodaju-laptop-lenovo-legion-y520/5425645696548?kid=1"},{"id":37,"category":"Desktop računar","title":"DDR5 Quadon RTX 5060 8GB/i7-12700 12c/32GB/1TB","body":"NAJPOVOLjNIJE CENE RACUNARA I RACUNARSKIH KOMPONETI\n\nMogucnost sastavljanja racunara po vasoj zelji\nMogucnost menjanja komponenti u samoj konfiguraciji\nMogucnost placanja preko racuna firme\n----------------------------------------------------------------------------------------\nProcesor:\nINTEL Core i7-12700 12-Core 2.10GHz (4.90GHz)\nMaticna:\nINTEL 1700 B760M D5\nMemorija:\nDIMM DDR5 32GB\nSSD:\n1TB M.2 PCIe\nGrafika:\nnVidia GeForce RTX 5060 8GB 128-bit\nKuciste:\nTower Gaming sa 3x12cm cooler\nNapajanje:\nCHIEFTEC 700W\nKuler:\nLC Power Cosmo Cool LC-CC-120\n----------------------------------------------------------------------------------------\n\nKonfiguracija dolazi sa instaliranim OS WINDOWS 10, kao i paketom programa (Office, Adobe, Zip, K-lite codec pack. . . ).\n\nGarancija: 24 meseca (domaca)","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/kompjuteri/ddr5-quadon-rtx-5060-8gb-i7-12700-12c-32gb-1tb/oglas/168288475"},{"id":38,"category":"Desktop računar","title":"R5 7600x / RTX 4070 / 32GB DDR5 / B650 u domaćoj garanciji","body":"Na prodaju PC kupljen nov u Gigatronu, još uvek u garanciji, model: GTR Prime Pro Boom\nSve je ispravno i funkcioniše bez ikakvih problema, zaštitna folija još uvek na staklu kućišta.\nKorišćen samo za gaming.\n\nProcesor: AMD Ryzen 5 7600X\nKuler: Cooler Master HYPER 212 Black X Duo RR\nMatična ploča: ASUS Prime B650M-R\nRAM: Kingston Fury Beast 32GB DDR5 (2x16GB kit) 5600 Mhz CL36\nGrafička: MSI Ventus 2X GeForce RTX 4070 12G OC\nSSD: Kingston NV2 1TB NVMe M.2\nNapajanje: Cooler Master Elite Nex 700W 80 Plus\nKućište: Cooler Master Masterbox MB311L\n\nKutiju od njega sam bacio pa prednost ima lično preuzimanje - utorkom i četvrtkom od 9-17h na Novom Beogradu (YUBC, ali po dogovoru i druga lokacija), svim ostalim danima u Pančevu - gde ga je moguće i testirati.\nU slučaju dostave paket bi maksimalno bio zaštićen, označen kao lomljivo, ali ne odgovaram za moguću štetu nanetu u transportu.\n\nRazlog prodaje je prelazak na jači PC sa x3d procesorom.\n\nKontakt preko KP poruka.","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/polovni-kompjuteri/r5-7600x-rtx-4070-32gb-ddr5-b650-u-domacoj-garanciji/oglas/194119070"},{"id":39,"category":"Mini računar","title":"Apple Mac Mini Late 2012 / i5 /16gb ddr3/ SSD 500 GB / WIN10","body":"Apple Mac Mini Late 2012 A1347 / i5 /16gb ddr3/ SSD 500 GB / WIN10\n\nUz racunar se dobija original naponski kabal. . Racunar ispravan, testiran, zamenjena termalna pasta. Instaliran Windows 10.\n\nCena je fiksna, ne radim zamene!","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/apple-desktop/apple-mac-mini-late-2012-i5-16gb-ddr3-ssd-500-gb-win10/oglas/193529969"},{"id":40,"category":"HDD","title":"WD Gold 10TB 3.5\" 7200rpm 512MB SATA WD103KRYZ","body":"▶️ Digital_World_Subotica Vam nudi širok spektar asortimana računarske tehnike, malih kućnih aparata, kao i mnoštvo raznih stvari za hobi, sport i rekreaciju.\n\n▶️ Roba stiže iz Evropske Unije.\n\n▶️ Proizvode šaljemo kurirskom službom, a postoji mogućnost ličnog preuzimanja u Subotici i Novom Sadu uz prethodni dogovor.\n\n▶️ Garancija na proizvode je od 6 meseci do 5 godina.\n\n▶️ Za poručivanje ostaviti sledeće podatke:\n\n⭕️Ime i prezime\n⭕️Adresu\n⭕️Grad i poštanski broj\n⭕️Kontakt telefon primaoca paketa\n\n▶️ Za sve dodatne informacije možete da nas kontaktirate putem KP-a.\n\nUživajte u Vašoj Online kupovini, uz Digital_World_Subotica!\n\nOpis proizvoda:\n\nKapacitet skladištenja: 10TB\nBroj obrtaja: 7200 o/min (RPM)\nBafer memorija: 512MB\nFormat: 3.5\"\nSMR tehnologija: Ne\nTežina: 750g","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/hard-diskovi/wd-gold-10tb-3-5-7200rpm-512mb-sata-wd103kryz/oglas/193531327"},{"id":41,"category":"GPU","title":"SAPPHIRE RX 7900 XTX 24GB 384bit NITRO+ Vapor-X","body":"PRODAVNICA računarske opreme\n\n⟹ ⟹ Pogledajte pun asortiman računarske opreme kliknite na kp izlog ⇧ ⇧ ⇧ ⇧\n\nHarold Computers Pr.\nSubotica, Cara Dušana 6 lokal 7.\n02*******\n06********\n\nRadno vreme: 9h - 17h\nRadno vreme subotom: 9h - 13h\n\nRoba je nova. Dobija se fiskalni račun i reklamacioni list.\nGarancija: Zagarantovana sva prava kupaca po osnovu zakona o zaštiti potrošača.\n\nGrafički procesor\nProizvođač čipa AMD\nGrafika AMD Radeon\nModel RX 7900 XTX\nGrafički čip AMD RDNA 3 Architecture\nProces izrade 5nm\nBroj unificiranih procesora 6144\nRadni takt 2.510MHz (2.680MHz boost clock)\nMemorija\nKoličina memorije 24GB\nTip memorije GDDR6\nŠirina memorijske magistrale 384bit\nNapomena Izlaz za 4 monitora\nPriključci\nUkupno Display port priključaka 2\nDisplayPort priključci 2x DisplayPort 2.1\nUkupno HDMI priključaka 2\nHDMI priključci 2x HDMI\nDodatni naponski priključci 3x8pin\nOstale karakteristike\nSlot PCI-Express 4.0 x 16\nSistem hlađenja 3x Fan\nPodržane tehnologije AMD FreeSync™ , AMD FidelityFX, AMD Radeon™ Boost, Vulkan™ , Microsoft® DirectX® 12 Ultimate, AMD Link, AMD Privacy View, AMD Noise Suppression, 96MB AMD Infinity Cache, Microsoft DirectStorage\nMaksimalna rezolucija 7.680 x 4.320\nMulti-view 4 monitora\nFizičke karakteristike\nDimenzije 320mm x 135.75mm 71.6mm\nFormat ATX\nPakovanje Full box retail\nReklamacioni period\nReklamacioni period 36 meseci","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/graficke-kartice/sapphire-rx-7900-xtx-24gb-384bit-nitro-vapor-x/oglas/151666250"},{"id":42,"category":"RAM","title":"G.SKILL 64GB Trident Z5 RGB DDR5 6000MHz CL30 KIT F5-6000J30","body":"G. SKILL 64GB Trident Z5 RGB DDR5 6000MHz CL30 KIT F5-6000J3040G32GX2-TZ5RK\nColor: Black\nVilá gí tá s: Yes\nMemory size: 64GB\nMemory type: DDR5/CUDIMM\nFrequency: 6000MHz\nLatency CL: 30\nCooling block: Yes\nPieces: 2pcs\nManufacturer specific: No\niPon Gamer: Yes\nWeight: 130g\n\n2 pieces of G. SKILL, a total of 64GB DDR5 6000Mhz memory with CL30 delay.","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/ram-memorije/g-skill-64gb-trident-z5-rgb-ddr5-6000mhz-cl30-kit-f5-6000j30/oglas/185851037"},{"id":43,"category":"Monitor","title":"SAMSUNG Odyssey Neo G95NC S57CG954NU","body":"SAMSUNG Odyssey Neo G95NC S57CG954NU\n\nViewable image: 145 cm (57 inches)\nResolution: 7680 x 2160 pixels\nResponse time: 1 ms (GtG)\nFormat: 32:9\n\nPicture format 32:9 Curved Radius: 1,000R Technology QLED Panel technology VA Functions HDR Ready brightness 420 cd/m² refresh rate 240 Hz Viewing angle (10:1) Horizontal 178 ° Vertical 178 ° Pixel defect class type 2 Colors 1,000 million Reaction time GtG 1 ms contrast Static 2,500:1\n\n-Kontaktirajte nas za sve potrebne informacije na 38**********\n\nZa proizvode koje nemamo na oglasima nam slobodno pošaljite upit\nPostoji mogučnost sklapanja cele konfiguracije racunara\n\n- Rok isporuke 3 do 8 radnih dana\n\n- Za porudžbine veće od 100e potreban je depozit od 20%\n\n- Za poručivanje ostaviti sledeće podatke:\n\nIme i prezime\nAdresu\nGrad i poštanski broj\nKontakt telefon primaoca paketa\n\n- SVI PROIZVODI SU POTPUNO NOVI I NEOTPAKOVANI\n- ŠALJEMO POUZDANOM KURIRSKOM SLUŽBO\n- GARANCIJA NA SVE PROIZVODE\n\nalt7a","url":"https://www.kupujemprodajem.com/kompjuteri-desktop/monitori/samsung-odyssey-neo-g95nc-s57cg954nu/oglas/181827213"},{"id":44,"category":"Telefon","title":"ASUS ROG Phone 8 Pro 16GB/512GB Android 14 Phantom Black (AI","body":"PRODAVNICA računarske opreme\n\n⟹ ⟹ Pogledajte pun asortiman računarske opreme kliknite na kp izlog ⇧ ⇧ ⇧ ⇧\n\nHarold Computers Pr.\nSubotica, Cara Dušana 6 lokal 7.\n02*******\n06********\n\nRadno vreme: 9h - 17h\nRadno vreme subotom: 9h - 13h\n\nRoba je nova. Dobija se fiskalni račun i reklamacioni list.\nGarancija: Zagarantovana sva prava kupaca po osnovu zakona o zaštiti potrošača.\n\nOsnovne karakteristike\nTip Smartfon (pametni telefon)\nSIM kartice 2 (Dual SIM)\nFormat SIM kartice Nano-SIM\nOblik Monoblok\nMobilna mreža\nGSM mreža 1.900MHz\nHSDPA mreža 2.100MHz\nProtokoli 5G\nEkran\nVeličina ekrana 6.78 inča\nRezolucija ekrana 2.400x 1.080\nFormat rezolucije Full HD +\nTip ekrana AMOLED\nOdnos stranica 20:9\nGustina piksela 388ppi\nPaleta boja 1 bilion\nZaštita Corning Gorilla Glass Victus 2\nOstalo 2.500 nits (peak)\nSoftver\nOperativni sistem Android 14\nČipset\nProcesor Snapdragon 8 Gen 3\nBroj jezgara 8 (1+ 3 + 2 + 2)\nRadni takt procesora 3.3Ghz + 3.2Ghz + 3.0Ghz + 2.3Ghz\nRAM memorija 16GB\nGrafički procesor Adreno 750\nMemorija\nUnutrašnja memorija 512GB\nKamera\nRezolucija zadnje kamere 50MP + 32MP + 13MP\nVideo rezolucija zadnje kamere 4K@30/60fps, 8K@24fps, 1080p@30/60/120/240fps, 720p@480fps\nOstale osobine zadnje kamere gyro-EIS, HDR10+\nPrednja kamera\nRezolucija prednje kamere 32MP\nVideo rezolucija prednje kamere 1080p@30fps\nPovezivost\nWi-Fi standard IEEE 802.11 7\nBluetooth verzija 5.3\nNFC (Near Field Communication) Da\nPriključci 3.5mm audio, 2x USB-C\nAudio\nZvučnici Stereo\nOstale karakteristike\nGPS navigacija GLONASS, GPS, BDS, GALILEO, QZSS, NavIC\nSenzori Akcelerometar, Žiroskop, Kompas, Senzor blizine, Senzor otisaka prstiju\nBaterija\nKapacitet 5.500mAh\nOstalo Brzo punjenje baterije 65W\nFizičke karakteristike\nDimenzije 163.8mm x 76.8mm x 8.9mm\nMasa 225g\nBoja Crna\nOpis boje Phantom Black\nReklamacioni period\nReklamacioni period 24 meseca","url":"https://www.kupujemprodajem.com/mobilni-telefoni/asus/asus-rog-phone-8-pro-16gb-512gb-android-14-phantom-black-ai/oglas/169333398"},{"id":45,"category":"Telefon","title":"Nokia 7280","body":"Telefon u odlicnom stanju kao sto se i vidi na slikama ali nece da pali. Punjen je na punjacu vise sati ali ne daje nikakav signal da radi. Mislim da je do baterije jer im je to mana a jos veci problem da se nadje ispravna tako da ide kao neispitano","url":"https://www.kupujemprodajem.com/mobilni-telefoni/nokia/nokia-7280/oglas/192797429"},{"id":46,"category":"Desktop računar","title":"HP Z820 / Dual XEON / 64GB RAM / SSD / GPU W7100 - 8GB","body":"Na prodaju vrhunska, masivna i izuzetno pouzdana profesionalna radna stanica HP Z820.\n\nRaunar je u besprekornom tehničkom stanju, pažljivo održavan, testiran i spreman za najteže radne zadatke (renderovanje, 3D modelovanje, video montaža, programiranje, virtuelizacija, ali i odličan za opušteni gejming).\n\nZahvaljujući duplim procesorima i gigantskoj snazi, ovaj sistem nudi neverovatan multitasking i performanse za uložen novac.\n\n⚙️ Detaljne specifikacije:\n\nKućište: HP Z820 Workstation (masivno, vrhunska vojna izrada, izuzetno tiho hlađenje, modularni dizajn bez alata)\nProcesor (CPU): 2x Intel Xeon E5-2696 v2 (ukupno 24 fizička jezgra / 48 treda, bazni takt 2.50 GHz, Turbo do 3.50 GHz, 30MB SmartCache po procesoru) – prava procesorska zver za najteže poslove!\nRAM memorija: 64 GB DDR3 ECC Registered (pouzdana server memorija sa korekcijom grešaka, radi u stabilnom režimu) * moguće dodavanje RAM-a*\nGrafička karta (GPU): ATI FirePro W7100 sa 8GB GDDR5 memorije (profesionalna grafika sa 4x DisplayPort izlaza, podržava više 4K monitora, sertifikovana za CAD/CAM i render softvere). Adapter DP na HDMI ide na poklon.\n\nSkladištenje:\n256 GB SSD (za brz podizanje sistema i aplikacija) - NOV\n1 TB HDD (prostrani hard disk za arhivu i podatke)\nKontroler: LSI SAS-RAID kontroler\nNapajanje: Originalno fabričko HP napajanje od 1125W (izuzetno kvalitetno, visoka energetska efikasnost, sa pregršt snage i konektora za nadogradnju)\n\nDodatne napomene:\n\nRaunar radi stabilno pod maksimalnim opterećenjem, temperature su niske zahvaljujući vrhunskom fabričkom hlađenju sa usmerenim tunelima i novom termalnom pastom.\nInstaliran legalan operativni sistem WIN10 x64 sa osnovnim drajverima – spreman za rad odmah.\nMana nedostatak zadnje ručke i plastičnog poklopca ( estetika i ukras samo )\nMoguća svaka vrsta provere, testiranja i ličnog preuzimanja.\n\nRobu šaljem nakon uplate na moj tekući račun.","url":"https://www.kupindo.com/Desktop-racunari/84866147_HP-Z820-Dual-XEON-64GB-RAM-SSD-GPU-W7100-8GB"},{"id":47,"category":"Tablet","title":"XIAOMI REDMI PAD 2 8GB/256GB ZELENI Tablet","body":"Dijagonala ekrana - opseg\n9.0` - 11`\n\nRezolucija\n2560 x 1600\n\nDijagonala ekrana\n11`\n\nKapacitet baterije\n9000 mAh\n\nBoja\nZelena\n\nRAM (memorija)\n8 GB\n\nInterna memorija\n256 GB\n\nMikrofon\nDa\n\nBluetooth\nDa\n\nOperativni sistem\nAndroid, Android 15, HyperOS 2\n\nTip panela\nIPS\n\nProširenje memorije\nmicroSD (TransFlash) do 2TB\n\nKamera\nPrednja/Zadnja\n\nInternet konekcija\nWiFi\n\nMobilni internet\nNe\n\nInterfejs za punjenje\nUSB-C\n\nČitač otiska prsta\nNe\n\nZvučnici\nDa\n\nFM radio\nNe\n\nBaterija\nOd 8000 do 9000 mAh\n\nGPS\nNe\n\nNFC\nNe\n\nIzlaz za slušalice\nNe\n\nSnaga punjenja\n18 W\n\nThunderbolt port\nNe\n\nSIM slot\nNe\n\neSIM\nNe\n\nSenzor","url":"https://www.kupindo.com/Tableti/84884419_XIAOMI-REDMI-PAD-2-8GB-256GB-ZELENI-Tablet"},{"id":48,"category":"HDD","title":"TOSHIBA CANVIO BASIC HDTB510EK3AA 1TB Eksterni hard disk","body":"Hard disk\n\nVeličina čvrstog diska 2.5\"\nKapacitet hard diska 1000 GB\nInterfejs USB 3.0/2.0\nSistem formata datoteke NTFS\n\nPortovi i interfejsi\n\nMaksimalna brzina prenosa podataka 5000 Mbit/s\nKonektor za USB USB Type-A / Micro-USB B\nVerzija USB-a 2.0/3.2 Gen 1 (3.1 Gen 1)\nTehnologija Thunderbolt Ne\nWi-Fi Ne\nBrzina prenosa podataka USB-a 5000 Mbit/s\n\nKarakteristike\n\nBoja proizvoda Crno\nMaterijal kućišta Plastika\nLED indikatori Statusi\nPodržani su Windows operativni sistemi Windows 10, Windows 11, Windows 8.1\nPodržani su Mac operativni sistemi Da\n\nMenadžment potrošnje\n\nNačin napajanja magistrale USB\nTrajanje baterije 900 mAh\n\nTežina i dimenzije\n\nTežina 149 g\nŠirina 78 mm\nDubina 109 mm\nVisina 14 mm","url":"https://www.kupindo.com/Hard-diskovi-i-SSD/82686071_TOSHIBA-CANVIO-BASIC-HDTB510EK3AA-1TB-Eksterni-hard-disk"},{"id":49,"category":"Napajanje","title":"Napajanje za racunar iGMAX model 500C jacine 500W","body":"EAN/UPC: Ostalo\nSnaga: 500-600 W\nProizvođač: IGMAX\nTip: Standardno\n\nNapajanje za racunar iGMAX model 500C jacine 500W\nTestirano i 100% ispravno\n\nSvaki predmet je opisan tako da se svaka njegova mana navede, opiše i ako je moguće slika.\n\nRobu šaljem PostExpressom ili kao CC paket po pouzeću ili nakon uplate na tekući račun osim ako nije drugačije dogovoreno ili navedeno u samom oglasu. Po dogovoru šaljem predmete drugim kurirskim službama.\n\nImajte na umu da je poštarina znatno jeftinija ukoliko se predmet plati pre slanja!\n\nRobu pakujem što je bolje moguće tako da postoje minimalne šanse da dodje do oštećenja u transportu. Svaki predmet slikam i snimim pre slanja a zatim šaljem kupcu na Viber kako bi kupac mogao da tereti kurirsku službu u slučaju bilo kakve štete u toku transporta. Nakon slanja paketa kupcu, putem Vibera, šaljem broj pošiljke da kupac može da prati paket online.\n\nMolim za korektnu saradnju i pravovremeno odgovaranje na kupindo poruke i pozive kako bi što brže i efikasnije izvršili kupoprodaju i ocenjivanje.\n\nLično preuzimanje kao i testiranje predmeta je uvek moguće uz prethodni dogovor.\n\nHvala na saradnji!","url":"https://www.kupindo.com/Napajanja/84891335_Napajanje-za-racunar-iGMAX-model-500C-jacine-500W"},{"id":50,"category":"Tastatura","title":"Emachines PS/2 Desktop Keyboard- KB-0108","body":"EAN/UPC: Ostalo\nProizvođač: emachines\nPovezivanje: PS/2\nTip: Regularna\nVrsta: Žična\n\nodlican kao nov\nvelika multimedija retro tastatura iz 2001\n\nNapomenem da samo nudim opcija slanja Postekspressom pouzecem za clanovi koj imaju `ispravan Profil` . Ili unapred Post-Netom. Ili licno-naravno. SAMO POSTA\n\nMolim bez reklamacija ili garancija . Roba je tacno kao opis i kao na slike.\n\nI","url":"https://www.kupindo.com/Tastature/84888755_Emachines-PS-2-Desktop-Keyboard-KB-0108"}];
+    const TAGS = [{"name":"CPU","color":"#F8CBAD","meaning":"Identitet i formalne specifikacije procesora","example":"Ryzen 5 5600, 6 jezgara, 4.6 GHz"},{"name":"GPU","color":"#F4B183","meaning":"Identitet i formalne specifikacije grafike, uključujući VRAM","example":"RTX 3060 12GB, GDDR6, DLSS"},{"name":"RAM","color":"#FFE699","meaning":"Identitet i formalne specifikacije sistemske radne memorije","example":"16GB DDR4 3200MHz"},{"name":"SKLADISTE","color":"#A9D18E","meaning":"Identitet i formalne specifikacije skladišta podataka","example":"Kingston NV2 1TB NVMe"},{"name":"EKRAN","color":"#F4CCCC","meaning":"Identitet i formalne specifikacije ekrana ili monitora","example":"15.6 inča FHD 144Hz"},{"name":"BATERIJA","color":"#FCE5CD","meaning":"Identitet i formalne ili merljive vrednosti baterije","example":"5000mAh, health 84%, oko 4h"},{"name":"BRAND","color":"#9DC3E6","meaning":"Brand uređaja ili komponente bez posebnog taga","example":"Lenovo, Logitech, Corsair"},{"name":"MODEL","color":"#C6E0B4","meaning":"Model uređaja ili komponente bez posebnog taga","example":"ThinkPad T480, G502, RM750x"},{"name":"GARANCIJA","color":"#A2C4C9","meaning":"Konkretan rok, datum ili opseg garancije","example":"30 dana, 2 godine"},{"name":"CENA","color":"#D5A6BD","meaning":"Trenutna cena ili cenovni opseg pomenute opreme","example":"199e, od 140 do 1000€"},{"name":"MESTO","color":"#76D7C4","meaning":"Mesto na kojem se pomenuta oprema može dobiti","example":"Beograd, Novi Sad, Srbija"}];
+    const DEFAULT_ANNOTATIONS = {};
+
+    const STORAGE_KEY = "it-oglasi-v1-komponentni-prazan-kolege-2026-08";
+    const LEGACY_STORAGE_KEY = "it-oglasi-v1-komponentni-prazan-bez-legacy";
+    const DEFAULT_COLORS = Object.fromEntries(TAGS.map(tag => [tag.name, tag.color]));
+
+    const elements = {
+      saveStatus: document.getElementById("saveStatus"),
+      exampleSelect: document.getElementById("exampleSelect"),
+      prevButton: document.getElementById("prevButton"),
+      nextButton: document.getElementById("nextButton"),
+      progressText: document.getElementById("progressText"),
+      exampleMeta: document.getElementById("exampleMeta"),
+      titleField: document.getElementById("titleField"),
+      bodyField: document.getElementById("bodyField"),
+      sourceLink: document.getElementById("sourceLink"),
+      selectionCard: document.getElementById("selectionCard"),
+      tagSearch: document.getElementById("tagSearch"),
+      tagSuggestions: document.getElementById("tagSuggestions"),
+      selectedAnnotation: document.getElementById("selectedAnnotation"),
+      selectedAnnotationInfo: document.getElementById("selectedAnnotationInfo"),
+      removeAnnotationButton: document.getElementById("removeAnnotationButton"),
+      annotationList: document.getElementById("annotationList"),
+      currentCount: document.getElementById("currentCount"),
+      colorGrid: document.getElementById("colorGrid"),
+      resetColorsButton: document.getElementById("resetColorsButton"),
+      importButton: document.getElementById("importButton"),
+      importFile: document.getElementById("importFile"),
+      exportButton: document.getElementById("exportButton"),
+      clearCurrentButton: document.getElementById("clearCurrentButton"),
+      clearAllButton: document.getElementById("clearAllButton"),
+      toast: document.getElementById("toast")
+    };
+
+    let state = loadState();
+    let pendingSelection = null;
+    let selectedAnnotation = null;
+    let activeSuggestionIndex = -1;
+    let toastTimer = null;
+
+    function emptyState() {
+      return {
+        version: 6,
+        currentIndex: 0,
+        colors: { ...DEFAULT_COLORS },
+        annotations: JSON.parse(JSON.stringify(DEFAULT_ANNOTATIONS))
+      };
+    }
+
+    function migrateLegacyAnnotations(annotations) {
+      const migrated = {};
+      if (!annotations || typeof annotations !== "object") return migrated;
+      for (const [key, items] of Object.entries(annotations)) {
+        if (!Array.isArray(items)) continue;
+        migrated[key] = items.map(item => ({
+          ...item,
+          tag: item.tag === "SKLADIŠTE" ? "SKLADISTE" : item.tag
+        }));
+      }
+      return migrated;
+    }
+
+    function loadState() {
+      const fallback = emptyState();
+      try {
+        const currentRaw = localStorage.getItem(STORAGE_KEY);
+        const legacyRaw = currentRaw ? null : localStorage.getItem(LEGACY_STORAGE_KEY);
+        const raw = currentRaw || legacyRaw;
+        if (!raw) return fallback;
+        const stored = JSON.parse(raw);
+        return {
+          version: 6,
+          currentIndex: Number.isInteger(stored.currentIndex)
+            ? Math.max(0, Math.min(ADS.length - 1, stored.currentIndex))
+            : 0,
+          colors: currentRaw
+            ? { ...DEFAULT_COLORS, ...(stored.colors || {}) }
+            : { ...DEFAULT_COLORS },
+          annotations: legacyRaw
+            ? migrateLegacyAnnotations(stored.annotations)
+            : (stored.annotations && typeof stored.annotations === "object"
+                ? stored.annotations
+                : {})
+        };
+      } catch (error) {
+        console.warn("Lokalno stanje nije moglo da se učita:", error);
+        return fallback;
+      }
+    }
+
+    function saveState() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        elements.saveStatus.textContent = "Sačuvano lokalno";
+      } catch (error) {
+        elements.saveStatus.textContent = "Čuvanje nije dostupno";
+        console.warn("Lokalno čuvanje nije dostupno:", error);
+      }
+    }
+
+    function annotationKey(adId, field) {
+      return `${adId}:${field}`;
+    }
+
+    function annotationsFor(adId, field) {
+      const key = annotationKey(adId, field);
+      if (!Array.isArray(state.annotations[key])) state.annotations[key] = [];
+      return state.annotations[key];
+    }
+
+    function currentAd() {
+      return ADS[state.currentIndex];
+    }
+
+    function fieldText(ad, field) {
+      return field === "title" ? ad.title : ad.body;
+    }
+
+    function normalize(value) {
+      return String(value || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLocaleLowerCase("sr");
+    }
+
+    function contrastText(hex) {
+      const clean = String(hex).replace("#", "");
+      const value = clean.length === 3
+        ? clean.split("").map(char => char + char).join("")
+        : clean.padEnd(6, "0").slice(0, 6);
+      const r = parseInt(value.slice(0, 2), 16);
+      const g = parseInt(value.slice(2, 4), 16);
+      const b = parseInt(value.slice(4, 6), 16);
+      const luminance = (0.299 * r + 0.587 * g + 0.114 * b);
+      return luminance > 155 ? "#111820" : "#ffffff";
+    }
+
+    function makeId() {
+      if (window.crypto && typeof window.crypto.randomUUID === "function") {
+        return window.crypto.randomUUID();
+      }
+      return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    }
+
+    function renderField(root, field) {
+      const ad = currentAd();
+      const text = fieldText(ad, field);
+      const annotations = [...annotationsFor(ad.id, field)]
+        .filter(item =>
+          Number.isInteger(item.start) &&
+          Number.isInteger(item.end) &&
+          item.start >= 0 &&
+          item.end <= text.length &&
+          item.end > item.start
+        )
+        .sort((a, b) => a.start - b.start || a.end - b.end);
+
+      root.replaceChildren();
+      let cursor = 0;
+      for (const annotation of annotations) {
+        if (annotation.start < cursor) continue;
+        if (annotation.start > cursor) {
+          root.append(document.createTextNode(text.slice(cursor, annotation.start)));
+        }
+
+        const mark = document.createElement("span");
+        mark.className = "entity-mark";
+        if (
+          selectedAnnotation &&
+          selectedAnnotation.adId === ad.id &&
+          selectedAnnotation.field === field &&
+          selectedAnnotation.id === annotation.id
+        ) {
+          mark.classList.add("selected");
+        }
+        mark.dataset.annotationId = annotation.id;
+        mark.dataset.field = field;
+        mark.textContent = text.slice(annotation.start, annotation.end);
+        const color = state.colors[annotation.tag] || "#d9e2f3";
+        mark.style.backgroundColor = color;
+        mark.style.color = contrastText(color);
+        mark.title = `${annotation.tag} — klikni za izbor/uklanjanje`;
+        root.append(mark);
+        cursor = annotation.end;
+      }
+      if (cursor < text.length) {
+        root.append(document.createTextNode(text.slice(cursor)));
+      }
+    }
+
+    function renderCurrent() {
+      const ad = currentAd();
+      elements.exampleMeta.textContent =
+        `PRIMER ${ad.id} · VRSTA OGLASA: ${ad.category}`;
+      elements.sourceLink.href = ad.url;
+      renderField(elements.titleField, "title");
+      renderField(elements.bodyField, "body");
+      renderAnnotationList();
+      renderProgress();
+      renderSelectedAnnotation();
+
+      elements.exampleSelect.value = String(state.currentIndex);
+      elements.prevButton.disabled = state.currentIndex === 0;
+      elements.nextButton.disabled = state.currentIndex === ADS.length - 1;
+    }
+
+    function renderProgress() {
+      const annotatedExamples = ADS.filter(ad =>
+        annotationsFor(ad.id, "title").length + annotationsFor(ad.id, "body").length > 0
+      ).length;
+      const currentTotal =
+        annotationsFor(currentAd().id, "title").length +
+        annotationsFor(currentAd().id, "body").length;
+      elements.progressText.textContent =
+        `${annotatedExamples}/${ADS.length} primera započeto · ${currentTotal} oznaka ovde`;
+    }
+
+    function renderAnnotationList() {
+      const ad = currentAd();
+      const items = [];
+      for (const field of ["title", "body"]) {
+        const text = fieldText(ad, field);
+        for (const annotation of annotationsFor(ad.id, field)) {
+          items.push({
+            ...annotation,
+            field,
+            text: text.slice(annotation.start, annotation.end)
+          });
+        }
+      }
+      items.sort((a, b) =>
+        (a.field === b.field ? 0 : a.field === "title" ? -1 : 1) ||
+        a.start - b.start
+      );
+
+      elements.currentCount.textContent = String(items.length);
+      elements.annotationList.replaceChildren();
+      if (!items.length) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = "Još nema oznaka u ovom primeru.";
+        elements.annotationList.append(empty);
+        return;
+      }
+
+      for (const item of items) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "annotation-item";
+        button.dataset.annotationId = item.id;
+        button.dataset.field = item.field;
+
+        const swatch = document.createElement("span");
+        swatch.className = "swatch";
+        swatch.style.backgroundColor = state.colors[item.tag] || "#d9e2f3";
+
+        const content = document.createElement("span");
+        const tag = document.createElement("strong");
+        tag.textContent = `${item.tag} · ${item.field === "title" ? "naslov" : "telo"}`;
+        const excerpt = document.createElement("span");
+        excerpt.textContent = `„${item.text}“`;
+        content.append(tag, excerpt);
+        button.append(swatch, content);
+        elements.annotationList.append(button);
+      }
+    }
+
+    function renderSelectedAnnotation() {
+      const ad = currentAd();
+      if (!selectedAnnotation || selectedAnnotation.adId !== ad.id) {
+        elements.selectedAnnotation.classList.remove("visible");
+        return;
+      }
+      const items = annotationsFor(ad.id, selectedAnnotation.field);
+      const annotation = items.find(item => item.id === selectedAnnotation.id);
+      if (!annotation) {
+        selectedAnnotation = null;
+        elements.selectedAnnotation.classList.remove("visible");
+        return;
+      }
+      const text = fieldText(ad, selectedAnnotation.field)
+        .slice(annotation.start, annotation.end);
+      elements.selectedAnnotationInfo.replaceChildren();
+      const swatch = document.createElement("span");
+      swatch.className = "swatch";
+      swatch.style.backgroundColor = state.colors[annotation.tag] || "#d9e2f3";
+      const label = document.createElement("strong");
+      label.textContent = `${annotation.tag}: „${text}“`;
+      elements.selectedAnnotationInfo.append(swatch, label);
+      elements.selectedAnnotation.classList.add("visible");
+    }
+
+    function updateSelectionCard() {
+      elements.selectionCard.replaceChildren();
+      if (!pendingSelection || pendingSelection.adId !== currentAd().id) {
+        elements.selectionCard.classList.remove("ready");
+        elements.selectionCard.textContent = "Selektuj deo naslova ili tela oglasa.";
+        return;
+      }
+      elements.selectionCard.classList.add("ready");
+      const label = document.createElement("span");
+      label.className = "selection-label";
+      label.textContent =
+        pendingSelection.field === "title" ? "Iz naslova oglasa" : "Iz tela oglasa";
+      const text = document.createElement("span");
+      text.className = "selection-text";
+      text.textContent = `„${pendingSelection.text}“`;
+      elements.selectionCard.append(label, text);
+    }
+
+    function offsetWithin(root, node, offset) {
+      const range = document.createRange();
+      range.selectNodeContents(root);
+      range.setEnd(node, offset);
+      return range.toString().length;
+    }
+
+    function captureSelection() {
+      const selection = window.getSelection();
+      if (!selection || selection.rangeCount === 0 || selection.isCollapsed) return;
+      const range = selection.getRangeAt(0);
+      const startElement = range.startContainer.nodeType === Node.ELEMENT_NODE
+        ? range.startContainer
+        : range.startContainer.parentElement;
+      const endElement = range.endContainer.nodeType === Node.ELEMENT_NODE
+        ? range.endContainer
+        : range.endContainer.parentElement;
+      const startRoot = startElement && startElement.closest(".annotatable");
+      const endRoot = endElement && endElement.closest(".annotatable");
+      if (!startRoot || startRoot !== endRoot) {
+        showToast("Selekcija mora biti unutar jednog polja: naslov ili telo.");
+        return;
+      }
+
+      const field = startRoot.dataset.field;
+      const ad = currentAd();
+      const fullText = fieldText(ad, field);
+      let start = offsetWithin(startRoot, range.startContainer, range.startOffset);
+      let end = offsetWithin(startRoot, range.endContainer, range.endOffset);
+      if (end < start) [start, end] = [end, start];
+
+      while (start < end && /\s/.test(fullText[start])) start += 1;
+      while (end > start && /\s/.test(fullText[end - 1])) end -= 1;
+      if (start === end) return;
+
+      pendingSelection = {
+        adId: ad.id,
+        field,
+        start,
+        end,
+        text: fullText.slice(start, end)
+      };
+      selectedAnnotation = null;
+      updateSelectionCard();
+      renderSelectedAnnotation();
+      elements.tagSearch.value = "";
+      showSuggestions();
+      setTimeout(() => elements.tagSearch.focus({ preventScroll: true }), 0);
+    }
+
+    function matchingTags(query) {
+      const needle = normalize(query);
+      return TAGS.filter(tag => !needle || normalize(tag.name).includes(needle));
+    }
+
+    function showSuggestions() {
+      const matches = matchingTags(elements.tagSearch.value);
+      elements.tagSuggestions.replaceChildren();
+      activeSuggestionIndex = matches.length ? 0 : -1;
+
+      if (!matches.length) {
+        const empty = document.createElement("li");
+        empty.className = "empty";
+        empty.style.padding = "9px";
+        empty.textContent = "Nema oznake koja odgovara unosu.";
+        elements.tagSuggestions.append(empty);
+      } else {
+        matches.forEach((tag, index) => {
+          const item = document.createElement("li");
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = `suggestion${index === activeSuggestionIndex ? " active" : ""}`;
+          button.dataset.tag = tag.name;
+          button.setAttribute("role", "option");
+          button.setAttribute("aria-selected", index === activeSuggestionIndex ? "true" : "false");
+
+          const swatch = document.createElement("span");
+          swatch.className = "swatch";
+          swatch.style.backgroundColor = state.colors[tag.name] || tag.color;
+          const copy = document.createElement("span");
+          copy.className = "suggestion-copy";
+          const name = document.createElement("strong");
+          name.textContent = tag.name;
+          const meaning = document.createElement("small");
+          meaning.textContent = tag.meaning;
+          copy.append(name, meaning);
+          button.append(swatch, copy);
+          item.append(button);
+          elements.tagSuggestions.append(item);
+        });
+      }
+
+      elements.tagSuggestions.hidden = false;
+      elements.tagSearch.setAttribute("aria-expanded", "true");
+    }
+
+    function hideSuggestions() {
+      elements.tagSuggestions.hidden = true;
+      elements.tagSearch.setAttribute("aria-expanded", "false");
+      activeSuggestionIndex = -1;
+    }
+
+    function updateActiveSuggestion(delta) {
+      const buttons = [...elements.tagSuggestions.querySelectorAll(".suggestion")];
+      if (!buttons.length) return;
+      activeSuggestionIndex =
+        (activeSuggestionIndex + delta + buttons.length) % buttons.length;
+      buttons.forEach((button, index) => {
+        const active = index === activeSuggestionIndex;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-selected", active ? "true" : "false");
+        if (active) button.scrollIntoView({ block: "nearest" });
+      });
+    }
+
+    function applyTag(tagName) {
+      const tag = TAGS.find(item => item.name === tagName);
+      if (!tag) return;
+      if (!pendingSelection || pendingSelection.adId !== currentAd().id) {
+        showToast("Prvo selektuj tekst u naslovu ili telu oglasa.");
+        return;
+      }
+
+      const annotations = annotationsFor(
+        pendingSelection.adId,
+        pendingSelection.field
+      );
+      const overlaps = annotations.some(annotation =>
+        pendingSelection.start < annotation.end &&
+        pendingSelection.end > annotation.start
+      );
+      if (overlaps) {
+        showToast("Ovaj raspon se preklapa sa postojećom oznakom. Prvo ukloni staru oznaku.");
+        return;
+      }
+
+      annotations.push({
+        id: makeId(),
+        start: pendingSelection.start,
+        end: pendingSelection.end,
+        tag: tag.name
+      });
+      annotations.sort((a, b) => a.start - b.start || a.end - b.end);
+
+      const selectedText = pendingSelection.text;
+      pendingSelection = null;
+      elements.tagSearch.value = "";
+      hideSuggestions();
+      window.getSelection()?.removeAllRanges();
+      saveState();
+      updateSelectionCard();
+      renderCurrent();
+      showToast(`Primena oznaka ${tag.name}: „${selectedText}“`);
+    }
+
+    function selectExistingAnnotation(field, id) {
+      selectedAnnotation = { adId: currentAd().id, field, id };
+      pendingSelection = null;
+      updateSelectionCard();
+      renderCurrent();
+    }
+
+    function removeSelectedAnnotation() {
+      if (!selectedAnnotation || selectedAnnotation.adId !== currentAd().id) return;
+      const annotations = annotationsFor(
+        selectedAnnotation.adId,
+        selectedAnnotation.field
+      );
+      const index = annotations.findIndex(item => item.id === selectedAnnotation.id);
+      if (index < 0) return;
+      const [removed] = annotations.splice(index, 1);
+      selectedAnnotation = null;
+      saveState();
+      renderCurrent();
+      showToast(`Uklonjena oznaka ${removed.tag}.`);
+    }
+
+    function navigateTo(index) {
+      state.currentIndex = Math.max(0, Math.min(ADS.length - 1, index));
+      pendingSelection = null;
+      selectedAnnotation = null;
+      elements.tagSearch.value = "";
+      hideSuggestions();
+      updateSelectionCard();
+      saveState();
+      renderCurrent();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function buildExampleSelect() {
+      ADS.forEach((ad, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = `${ad.id}. ${ad.category} — ${ad.title}`;
+        elements.exampleSelect.append(option);
+      });
+    }
+
+    function buildColorGrid() {
+      elements.colorGrid.replaceChildren();
+      TAGS.forEach(tag => {
+        const row = document.createElement("label");
+        row.className = "color-row";
+
+        const input = document.createElement("input");
+        input.type = "color";
+        input.value = state.colors[tag.name] || tag.color;
+        input.dataset.tag = tag.name;
+        input.setAttribute("aria-label", `Boja za ${tag.name}`);
+
+        const name = document.createElement("span");
+        name.textContent = tag.name;
+        const hex = document.createElement("span");
+        hex.className = "hex-value";
+        hex.textContent = input.value.toUpperCase();
+
+        input.addEventListener("input", () => {
+          state.colors[tag.name] = input.value;
+          hex.textContent = input.value.toUpperCase();
+          saveState();
+          renderCurrent();
+          if (!elements.tagSuggestions.hidden) showSuggestions();
+        });
+
+        row.append(input, name, hex);
+        elements.colorGrid.append(row);
+      });
+    }
+
+    function exportAnnotations() {
+      const payload = {
+        schema: "it-oglasi-component-ner-v1",
+        exported_at: new Date().toISOString(),
+        label_colors: { ...state.colors },
+        examples: ADS.map(ad => {
+          const annotations = [];
+          for (const field of ["title", "body"]) {
+            const text = fieldText(ad, field);
+            for (const item of annotationsFor(ad.id, field)) {
+              annotations.push({
+                field,
+                start: item.start,
+                end: item.end,
+                text: text.slice(item.start, item.end),
+                label: item.tag
+              });
+            }
+          }
+          annotations.sort((a, b) =>
+            (a.field === b.field ? 0 : a.field === "title" ? -1 : 1) ||
+            a.start - b.start
+          );
+          return {
+            id: ad.id,
+            category: ad.category,
+            title: ad.title,
+            body: ad.body,
+            source_url: ad.url,
+            annotations
+          };
+        })
+      };
+
+      const blob = new Blob(
+        [JSON.stringify(payload, null, 2)],
+        { type: "application/json;charset=utf-8" }
+      );
+      const link = document.createElement("a");
+      const date = new Date().toISOString().slice(0, 10);
+      link.href = URL.createObjectURL(blob);
+      link.download = `IT_oglasi_anotacije_${date}.json`;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+      showToast("JSON sa anotacijama je izvezen.");
+    }
+
+    function prepareImportedAnnotations(payload) {
+      if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
+        throw new Error("JSON nema očekivanu strukturu.");
+      }
+      if (payload.schema !== "it-oglasi-component-ner-v1") {
+        throw new Error("JSON nije izvezen iz ovog anotatora (pogrešna schema vrednost).");
+      }
+      if (!Array.isArray(payload.examples)) {
+        throw new Error("JSON nema listu examples.");
+      }
+
+      const adsById = new Map(ADS.map(ad => [ad.id, ad]));
+      const allowedTags = new Set(TAGS.map(tag => tag.name));
+      const seenIds = new Set();
+      const annotations = {};
+      let total = 0;
+      let firstAnnotatedIndex = -1;
+
+      for (const example of payload.examples) {
+        if (!example || typeof example !== "object" || !Number.isInteger(example.id)) {
+          throw new Error("Jedan primer nema ispravan celobrojni id.");
+        }
+        if (seenIds.has(example.id)) {
+          throw new Error(`Primer ${example.id} se pojavljuje više puta.`);
+        }
+        seenIds.add(example.id);
+
+        const ad = adsById.get(example.id);
+        if (!ad) throw new Error(`Primer ${example.id} ne postoji u ovom alatu.`);
+        if (example.title !== ad.title || example.body !== ad.body) {
+          throw new Error(`Tekst primera ${example.id} se ne poklapa sa tekstom u alatu.`);
+        }
+        if (!Array.isArray(example.annotations)) {
+          throw new Error(`Primer ${example.id} nema ispravnu listu annotations.`);
+        }
+
+        const byField = { title: [], body: [] };
+        for (const item of example.annotations) {
+          if (!item || typeof item !== "object" || !["title", "body"].includes(item.field)) {
+            throw new Error(`Primer ${example.id} sadrži anotaciju sa neispravnim poljem.`);
+          }
+          const label = item.label === "SKLADIŠTE" ? "SKLADISTE" : item.label;
+          if (!allowedTags.has(label)) {
+            throw new Error(`Primer ${example.id} sadrži nepoznat tag: ${String(item.label)}.`);
+          }
+          if (!Number.isInteger(item.start) || !Number.isInteger(item.end)) {
+            throw new Error(`Primer ${example.id} sadrži necelobrojne granice spana.`);
+          }
+
+          const text = fieldText(ad, item.field);
+          if (item.start < 0 || item.end <= item.start || item.end > text.length) {
+            throw new Error(`Primer ${example.id} sadrži span van granica teksta.`);
+          }
+          const actualText = text.slice(item.start, item.end);
+          if (typeof item.text === "string" && item.text !== actualText) {
+            throw new Error(`Tekst anotacije u primeru ${example.id} se ne poklapa sa offsetima.`);
+          }
+
+          byField[item.field].push({
+            id: makeId(),
+            start: item.start,
+            end: item.end,
+            tag: label
+          });
+          total += 1;
+        }
+
+        for (const field of ["title", "body"]) {
+          const items = byField[field];
+          items.sort((a, b) => a.start - b.start || a.end - b.end);
+          for (let index = 1; index < items.length; index += 1) {
+            if (items[index].start < items[index - 1].end) {
+              throw new Error(`Anotacije se preklapaju u primeru ${example.id} (${field}).`);
+            }
+          }
+          if (items.length) annotations[annotationKey(ad.id, field)] = items;
+        }
+
+        if (firstAnnotatedIndex < 0 && example.annotations.length) {
+          firstAnnotatedIndex = ADS.findIndex(item => item.id === example.id);
+        }
+      }
+
+      const colors = { ...DEFAULT_COLORS };
+      if (payload.label_colors && typeof payload.label_colors === "object") {
+        for (const tag of TAGS) {
+          const color = payload.label_colors[tag.name];
+          if (typeof color === "string" && /^#[0-9a-f]{6}$/i.test(color)) {
+            colors[tag.name] = color;
+          }
+        }
+      }
+
+      return { annotations, colors, total, firstAnnotatedIndex };
+    }
+
+    async function importAnnotations(file) {
+      let payload;
+      try {
+        payload = JSON.parse(await file.text());
+      } catch (error) {
+        throw new Error("Fajl nije ispravan JSON.");
+      }
+
+      const imported = prepareImportedAnnotations(payload);
+      const examplesWithAnnotations = new Set(
+        Object.keys(imported.annotations).map(key => Number(key.split(":", 1)[0]))
+      ).size;
+      const confirmed = confirm(
+        `Učitati ${imported.total} anotacija iz ${examplesWithAnnotations} primera? ` +
+        "Time će biti zamenjene anotacije koje su trenutno sačuvane u ovom browseru."
+      );
+      if (!confirmed) return;
+
+      state = {
+        version: 6,
+        currentIndex: imported.firstAnnotatedIndex >= 0 ? imported.firstAnnotatedIndex : 0,
+        colors: imported.colors,
+        annotations: imported.annotations
+      };
+      pendingSelection = null;
+      selectedAnnotation = null;
+      elements.tagSearch.value = "";
+      hideSuggestions();
+      saveState();
+      buildColorGrid();
+      updateSelectionCard();
+      renderCurrent();
+      elements.saveStatus.textContent = `Učitano: ${file.name}`;
+      showToast(`Učitano je ${imported.total} anotacija.`);
+    }
+
+    function clearCurrent() {
+      const ad = currentAd();
+      const count =
+        annotationsFor(ad.id, "title").length +
+        annotationsFor(ad.id, "body").length;
+      if (!count) {
+        showToast("Ovaj primer nema anotacije.");
+        return;
+      }
+      if (!confirm(`Obrisati svih ${count} oznaka iz primera ${ad.id}?`)) return;
+      state.annotations[annotationKey(ad.id, "title")] = [];
+      state.annotations[annotationKey(ad.id, "body")] = [];
+      pendingSelection = null;
+      selectedAnnotation = null;
+      saveState();
+      updateSelectionCard();
+      renderCurrent();
+      showToast("Oznake ovog primera su obrisane.");
+    }
+
+    function clearAll() {
+      const total = Object.values(state.annotations)
+        .reduce((sum, items) => sum + (Array.isArray(items) ? items.length : 0), 0);
+      if (!total) {
+        showToast("Još nema anotacija za brisanje.");
+        return;
+      }
+      if (!confirm(`Obrisati svih ${total} anotacija iz svih primera? Ova radnja se ne može poništiti.`)) {
+        return;
+      }
+      state.annotations = {};
+      pendingSelection = null;
+      selectedAnnotation = null;
+      saveState();
+      updateSelectionCard();
+      renderCurrent();
+      showToast("Sve anotacije su obrisane.");
+    }
+
+    function resetColors() {
+      state.colors = { ...DEFAULT_COLORS };
+      saveState();
+      buildColorGrid();
+      renderCurrent();
+      if (!elements.tagSuggestions.hidden) showSuggestions();
+      showToast("Vraćene su početne boje oznaka.");
+    }
+
+    function showToast(message) {
+      elements.toast.textContent = message;
+      elements.toast.classList.add("visible");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(
+        () => elements.toast.classList.remove("visible"),
+        2600
+      );
+    }
+
+    elements.prevButton.addEventListener("click", () => navigateTo(state.currentIndex - 1));
+    elements.nextButton.addEventListener("click", () => navigateTo(state.currentIndex + 1));
+    elements.exampleSelect.addEventListener("change", event =>
+      navigateTo(Number(event.target.value))
+    );
+
+    document.addEventListener("mouseup", event => {
+      if (event.button !== 0 || event.target.closest("#sidePanel")) return;
+      setTimeout(captureSelection, 0);
+    });
+
+    document.addEventListener("dblclick", event => {
+      if (!event.target.closest(".annotatable")) return;
+      setTimeout(captureSelection, 0);
+    });
+
+    document.addEventListener("click", event => {
+      const mark = event.target.closest(".entity-mark");
+      if (mark) {
+        event.stopPropagation();
+        selectExistingAnnotation(mark.dataset.field, mark.dataset.annotationId);
+        return;
+      }
+      const item = event.target.closest(".annotation-item");
+      if (item) {
+        selectExistingAnnotation(item.dataset.field, item.dataset.annotationId);
+      }
+    });
+
+    elements.tagSearch.addEventListener("focus", showSuggestions);
+    elements.tagSearch.addEventListener("input", showSuggestions);
+    elements.tagSearch.addEventListener("blur", () =>
+      setTimeout(hideSuggestions, 140)
+    );
+    elements.tagSearch.addEventListener("keydown", event => {
+      if (event.key === "ArrowDown") {
+        event.preventDefault();
+        if (elements.tagSuggestions.hidden) showSuggestions();
+        else updateActiveSuggestion(1);
+      } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        if (elements.tagSuggestions.hidden) showSuggestions();
+        else updateActiveSuggestion(-1);
+      } else if (event.key === "Enter") {
+        event.preventDefault();
+        const buttons = [...elements.tagSuggestions.querySelectorAll(".suggestion")];
+        const active = buttons[activeSuggestionIndex] || buttons[0];
+        if (active) applyTag(active.dataset.tag);
+      } else if (event.key === "Escape") {
+        hideSuggestions();
+        pendingSelection = null;
+        updateSelectionCard();
+      }
+    });
+
+    elements.tagSuggestions.addEventListener("mousedown", event => {
+      const suggestion = event.target.closest(".suggestion");
+      if (!suggestion) return;
+      event.preventDefault();
+      applyTag(suggestion.dataset.tag);
+    });
+
+    elements.removeAnnotationButton.addEventListener("click", removeSelectedAnnotation);
+    elements.resetColorsButton.addEventListener("click", resetColors);
+    elements.importButton.addEventListener("click", () => elements.importFile.click());
+    elements.importFile.addEventListener("change", async event => {
+      const file = event.target.files?.[0];
+      event.target.value = "";
+      if (!file) return;
+      try {
+        await importAnnotations(file);
+      } catch (error) {
+        console.error("Uvoz anotacija nije uspeo:", error);
+        showToast(`Uvoz nije uspeo: ${error.message}`);
+      }
+    });
+    elements.exportButton.addEventListener("click", exportAnnotations);
+    elements.clearCurrentButton.addEventListener("click", clearCurrent);
+    elements.clearAllButton.addEventListener("click", clearAll);
+
+    buildExampleSelect();
+    buildColorGrid();
+    updateSelectionCard();
+    renderCurrent();
+    saveState();
+
+    function runSelfTestIfRequested() {
+      if (window.location.hash !== "#self-test") return;
+      const storedBackup = localStorage.getItem(STORAGE_KEY);
+      const stateBackup = state;
+      try {
+        state = { ...emptyState(), annotations: {} };
+        state.currentIndex = 0;
+        pendingSelection = {
+          adId: ADS[0].id,
+          field: "title",
+          start: 0,
+          end: 2,
+          text: ADS[0].title.slice(0, 2)
+        };
+        applyTag("BRAND");
+        const mark = document.querySelector(".entity-mark");
+        const importedProbe = prepareImportedAnnotations({
+          schema: "it-oglasi-component-ner-v1",
+          examples: [{
+            id: ADS[0].id,
+            title: ADS[0].title,
+            body: ADS[0].body,
+            annotations: [{
+              field: "title",
+              start: 0,
+              end: 2,
+              text: ADS[0].title.slice(0, 2),
+              label: "BRAND"
+            }]
+          }]
+        });
+        const passed =
+          Boolean(mark) &&
+          mark.textContent === ADS[0].title.slice(0, 2) &&
+          annotationsFor(ADS[0].id, "title").length === 1 &&
+          Boolean(elements.importButton) &&
+          Boolean(elements.importFile) &&
+          importedProbe.total === 1 &&
+          importedProbe.annotations[annotationKey(ADS[0].id, "title")][0].tag === "BRAND" &&
+          matchingTags("ra").some(tag => tag.name === "RAM") &&
+          elements.exampleSelect.options.length === ADS.length &&
+          elements.colorGrid.querySelectorAll('input[type="color"]').length === TAGS.length;
+        document.documentElement.dataset.selfTest = passed ? "pass" : "fail";
+      } catch (error) {
+        document.documentElement.dataset.selfTest = "error";
+        document.documentElement.dataset.selfTestMessage = error.message;
+      } finally {
+        state = stateBackup;
+        pendingSelection = null;
+        selectedAnnotation = null;
+        if (storedBackup === null) localStorage.removeItem(STORAGE_KEY);
+        else localStorage.setItem(STORAGE_KEY, storedBackup);
+        updateSelectionCard();
+        renderCurrent();
+      }
+    }
+
+    runSelfTestIfRequested();
+  </script>
+</body>
+</html>

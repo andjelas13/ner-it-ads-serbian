@@ -1,0 +1,71 @@
+TITLE:
+Chieftec GPA 500 S8 neispravno
+
+BODY:
+Neispravno napajanje:
+
+Opis
+
+Osnovne karakteristike
+
+Tip Active PFC
+
+ATX standard 12V v2.3
+
+Snaga 500 W
+
+Efikasnost >80%
+
+Faktor snage >0.9
+
+Vrsta kablova Fiksni
+
+Sistemi zaštite OVP (Over Voltage Protection), UVP (Under Voltage Protection), SCP (Short-Circuit Protection), OPP (Over Power (Load) Protection)
+
++12V naponske grane
+
+1 24A
+
+2 21A
+
+Maksimalna kombinovana snaga 396W
+
+Ostale naponske grane
+
++5V 19A
+
++3.3V 22A
+
+Maksimalna kombinovana snaga 130W
+
+Fiksni priključci
+
+ATX 24pin 24(20+4)pin
+
+ATX 4pin (PIV) 1
+
+PCI Express 8pin 1x 8(6+2)pin
+
+SATA 3
+
+Molex 4pin 2
+
+Ostali priključci 1x Floppy
+
+Hlađenje
+
+Tip Aktivno
+
+Broj ventilatora 1
+
+Dimenzije ventilatora 120mm x 120mm
+
+Dodatne funkcije AFC (Automatic Fanspeed Control)
+
+Fizičke karakteristike
+
+Format PS2
+
+Dimenzije 150mm x 140mm x 87mm
+
+Nivo buke 24dB

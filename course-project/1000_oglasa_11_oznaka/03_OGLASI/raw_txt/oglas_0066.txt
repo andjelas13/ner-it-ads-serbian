@@ -1,0 +1,25 @@
+TITLE:
+Procesor (57) Intel Celeron D 420 1600 MHz-800-512
+
+BODY:
+Ispravan procesor za Desktop racunar
+
+- Proizvodjac Intel
+
+- Tip Celeron D 420
+
+- tehnologija 0.065 mm
+
+- podnozje 775
+
+- brzina 1600 MHz
+
+- magistrala 800 MHz
+
+- memorija 512 kb
+
+- broj jezgra 1
+
+- u mogucnosti sam da nabavim
+
+ventilator za procesor a on se doplacuje odvojeno

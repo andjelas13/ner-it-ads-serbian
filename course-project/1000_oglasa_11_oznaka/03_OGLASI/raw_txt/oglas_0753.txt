@@ -1,0 +1,61 @@
+TITLE:
+Mini PC (NUC, Minis Forum) vise modela i komada
+
+BODY:
+ispravni mini PC, vise komada i modela
+
+1. Minis Forum U820
+    procesor: i5-8279U 2.4Ghz up to 4.1Ghz 6MB
+    memorija: 16gb ddr4
+    ssd: Kingston 256gb
+    grafika: Intel Iris Graphic 655
+    ostalo: usbx4, type-C, audio, hdmi, dp, lanx2, wifi
+    adapter type-C. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (slika 3) cena 180e
+2. NUC 10i5FNH
+    procesor: i5-10210U 1.60Ghz up to 4.20Ghz 6MB
+    memorija: 8gb ddr4
+    ssd: Sandisk 256gb
+    grafika: Intel UHD
+    ostalo: usbx3, type-Cx2, audio, hdmi, lan, wifi
+    adapter . . . . . . . . . . . . . . . . . . . . . . . . . (slika 4) cena 180e
+3. NUC 7i7BNH
+    procesor: i7-7567U 3.50Ghz up to 4.00Ghz 4MB
+    memorija: 16gb ddr4
+    ssd: WDC 240gb
+    grafika: Intel Iris Graphics 650
+    ostalo: usbx4, type-C, audio, hdmi, lan, wifi
+    adapter . . . . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . . . . . . (slika 5) cena 180e
+4. NUC 8i7BEH
+    procesor: i7-8559 2.70Ghz up to 4.50Ghz 8MB
+    memorija: 8gb ddr4
+    ssd: SanDisk 240gb
+    grafika: Intel Iris Graphics 655
+    ostalo: usbx4, type-C, audio, hdmi, lan, wifi
+    adapter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . (slika 6) cena 170e PRODATO
+5. NUC 8i7BEH
+    procesor: i7-8559 2.70Ghz up to 4.50Ghz 8MB
+    memorija: 16gb ddr4
+    ssd: Samsung Pro 850 256gb
+    grafika: Intel Iris Graphics 655
+    ostalo: usbx4, type-C, audio, hdmi, lan, wifi
+    adapter . . . . . . . . . . . . . . . . . . . . . . . . . . . (slika 7, 8) cena 200e
+    - na stanju 2 komada PRODATO
+6. NUC 6CAYH
+    procesor: Intel Celelron J3455 1.50Ghz up to 2.30Ghz 2MB
+    memorija: 8gb ddr3
+    ssd: Sandisk 240gb
+    grafika: Intel HD500
+    ostalo: usbx4, audio, hdmi, vga, lan, wifi
+    adapter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (slika 9) cena 100e
+
+7. Terra PC Micro (NUC)
+
+    procesor: i3-7100U 2.40Ghz 3MB
+    memorija: 8gb ddr4
+    ssd: 128gb nvme
+
+    harddisk: 500gb
+
+    grafika: Intel HD 620
+    ostalo: usbx4, type-C, audio, hdmi, lan, wifi
+    adapter. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .(slika 10) cena 110e

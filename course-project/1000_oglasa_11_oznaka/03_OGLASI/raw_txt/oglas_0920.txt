@@ -1,0 +1,30 @@
+TITLE:
+NVMe Corsair 2TB MP600 PRO LP CSSD-F2000GBMP600PLPW
+
+BODY:
+M.2 NVMe Corsair 2TB MP600 PRO LP Gen4x4 6800/7100MB CSSD-F2000GBMP600PLPW
+
+Osnovne karakteristike
+
+Tip SSD
+Format M.2 2280
+Kapacitet diska 2TB
+Interfejs PCI Express 4.0 x4 (NVMe)
+Sekvencionalno čitanje 7.100MB/s
+Sekvencionalan upis 6.800MB/s
+
+Ostale karakteristike
+Serija MP600 PRO LP
+Tip memorije 3D TLC NAND
+Podržane tehnologije NVMe, PCIe 4.0 x4
+Hladnjak Low-profile aluminijumski heatsink
+Kompatibilnost Desktop računari i konzole sa PCIe 4.0 podrškom
+Namena Visoke performanse za igre i zahtevne aplikacije
+
+Fizičke karakteristike
+
+Format M.2 2280
+
+Reklamacioni period
+
+Reklamacioni period 60 meseci

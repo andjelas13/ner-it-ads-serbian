@@ -1,0 +1,22 @@
+TITLE:
+25732 Grafička karta Biostar RTX 3060 GDDR6 12GB 192bit 3XDP
+
+BODY:
+Grafička karta Biostar RTX 3060 GDDR6 12GB 192bit 3XDP / HDMI
+EAN: 4712960686915
+
+  * Model: : Grafička karta Biostar RTX 3060 GDDR6 12GB 192bit 3XDP/HDMI
+  * Robna grupa: : nVidia grafičke karte
+  * Uvoznik: :
+  * Zemlja porekla: :
+  * Prava potrošača: : Zagarantovana sva prava kupaca po osnovu zakona o zaštiti potrošača
+  * Model: GeForce RTX 3060
+  * Tip memorije: GDDR6
+  * Memorija grafičke: 12 GB
+  * Memorijska magistrala: 192-bit
+  * Interface: Support PCI-E 4.0
+  * Broj HDMI portova: 1
+  * Broj DisplayPortova: 3
+  * Dimenzije: 242*130*44 mm
+  * Prava potrošača: : Zakonska saobraznost 2 godine
+  * EAN: : 4712960686915

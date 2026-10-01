@@ -1,0 +1,23 @@
+TITLE:
+NVMe 512GB Patriot P300 1700MBs/1100MBs P300P512GM28
+
+BODY:
+NVMe 512GB Patriot P300 1700MBs/1100MBs P300P512GM28
+
+Osnovne karakteristike
+
+Tip: SSD
+
+Format: M.2 2280
+
+Kapacitet diska:512GB
+
+Interfejs: PCI-e
+
+Sekvencionalno čitanje: do 1.700MB/s
+
+Sekvencionalan upis: do 1.100MB/s
+
+Reklamacioni period
+
+Reklamacioni period:24 meseca

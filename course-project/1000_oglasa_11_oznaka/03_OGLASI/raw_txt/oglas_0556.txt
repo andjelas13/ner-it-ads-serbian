@@ -1,0 +1,13 @@
+TITLE:
+Crucial PCIe 3.0 P3 nvme M.2 2280 SSD 2TB
+
+BODY:
+Novo i nekorisceno.
+
+Kapacitet:2TB
+Format: M.2 2280
+Interfejs: PCIe 3.0
+Brzina čitanja: do 3500 MB/s
+Brzina pisanja: do 3000 MB/s
+Hladnjak: Ne
+NAND flash memorija:3D NAND

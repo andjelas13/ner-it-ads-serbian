@@ -1,0 +1,29 @@
+TITLE:
+Stalak / Drzac / Nosac graficke kartice (GPU)
+
+BODY:
+Stalak za GPU grafičke kartice izrađen od čvrste i izdržljive plastike, namenjen za stabilno i sigurno držanje grafičkih kartica van standardnog kućišta računara. Idealan je za mining rigove, test bench konfiguracije, servisne stolove i sve sisteme gde se koristi više GPU kartica.
+Dizajn omogućava pravilno oslanjanje kartice, sprečava savijanje PCB-a i doprinosi boljoj organizaciji i protoku vazduha oko grafičke kartice.
+
+Karakteristike:
+
+  * Napravljen od čvrste plastike
+  * Stabilna i pouzdana konstrukcija
+  * Pogodan za različite modele i veličine GPU kartica
+  * Može se koristiti pojedinačno ili u kombinaciji više komada
+  * Praktično rešenje za mining i otvorene PC konfiguracije
+  * Jednostavno postavljanje bez dodatnih alata
+
+Primena:
+  * Mining rigovi
+  * Test bench sistemi
+  * Servis i dijagnostika računara
+  * Organizacija GPU kartica van kućišta
+
+Proizvod može biti izrađen u raznim bojama.
+Cena:    1199 ( Cena je za jedan komad! )
+Stanje:  novo
+Dostava:
+
+  * Lično preuzimanje u Beogradu
+  * Slanje poštom

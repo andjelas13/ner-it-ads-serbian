@@ -1,0 +1,23 @@
+TITLE:
+HDD 3.5 500GB WD5000AUDX WD AV-GP Green IntelliPo
+
+BODY:
+Proizvodjac: WD
+
+Model: WD5000AUDX
+
+Tip: Interni hard disk harddisk HDD
+
+Povezivanje: Sata III
+
+Kapacitet: 500GB
+
+Bafer kes: 32MB
+
+Broj obrtaja u minuti: 5400rpm
+
+Format: 3.5" za desktop racunar
+
+hdd rack
+
+Hard disk je u originalnom ne otvaranom pakovanju.

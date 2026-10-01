@@ -1,0 +1,2861 @@
+{
+  "metadata": {
+    "description": "Stratifikovani uzorak za kvalitativnu proveru razlika",
+    "seed": 20260914,
+    "population_size": 1114,
+    "sample_size": 100,
+    "quotas": {
+      "POGRESNA_OZNAKA": 17,
+      "GRANICA_I_OZNAKA": 5,
+      "GRANICA_POMERENA": 2,
+      "SLOZENO": 1,
+      "SUVISNO": 18,
+      "PROPUSTENO": 15,
+      "GRANICA_SIRA": 15,
+      "GRANICA_UZA": 8,
+      "FRAGMENTACIJA": 10,
+      "SPAJANJE": 9
+    },
+    "selection_algorithm": "U svakoj strukturnoj kategoriji prednost imaju novi oglasi, zatim slabije zastupljene oznake i delovi skupa.",
+    "selected_case_ids_sha256": "b8e22edd1fd56dfebe0531bfe22502093473d4a7aa1c41cd74c41dccb7d29856",
+    "source_file_sha256": "fd12fdab99cc621f04804dca4d2735144e282d1e5fa7a81118a75d09919cfddc",
+    "review_table": "06_RUCNA_PROVERA/pregled_uzorka_100.xlsx"
+  },
+  "cases": [
+    {
+      "case_id": "K0001",
+      "ad_id": "8",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "CENA",
+      "context_start": 145,
+      "context_end": 339,
+      "context": "isu iste za sve baterije)\n\nImamo original i zamenske baterije za navedene modele\n\nCene su od 700 din. ++\n\nGalaxy J2 (2017)\n\nGalaxy J2 (2017)\n\nGalaxy C8\n\nGalaxy J7+\n\nGalaxy J7+\n\nSM-G9298\n\nGalaxy ",
+      "human_spans": [
+        {
+          "start": 238,
+          "end": 245,
+          "label": "CENA",
+          "text": "700 din"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 235,
+          "end": 249,
+          "label": "CENA",
+          "text": "od 700 din. ++"
+        }
+      ],
+      "dropped_llm_spans_nearby": [
+        {
+          "start": 251,
+          "end": 267,
+          "label": "MODEL",
+          "text": "Galaxy J2 (2017)"
+        }
+      ],
+      "sample_order": 1
+    },
+    {
+      "case_id": "K0002",
+      "ad_id": "38",
+      "field": "body",
+      "part": 3,
+      "structural_category": "SPAJANJE",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 133,
+      "context": "Procesor: Intel celeron 1.7GHz (socket 478), testiran i ispravan.\n\nStabilan je u radu i dobro očuvan (svi pinovi su ispravni).\n\nŠalje",
+      "human_spans": [
+        {
+          "start": 10,
+          "end": 30,
+          "label": "CPU",
+          "text": "Intel celeron 1.7GHz"
+        },
+        {
+          "start": 39,
+          "end": 42,
+          "label": "CPU",
+          "text": "478"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 10,
+          "end": 43,
+          "label": "CPU",
+          "text": "Intel celeron 1.7GHz (socket 478)"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 2
+    },
+    {
+      "case_id": "K0020",
+      "ad_id": "57",
+      "field": "body",
+      "part": 3,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 136,
+      "context": "AMD Sempron-2kom 2x2600mghz\n\n-1 kom 2x2800mghz\n\n-1 kom 2x2200mghz\n\nDDR2\n\n1 DDR3 2700mghz(jedno jezgro)\n\ni ram memorije,2 samsung isto po",
+      "human_spans": [
+        {
+          "start": 36,
+          "end": 46,
+          "label": "CPU",
+          "text": "2x2800mghz"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 30,
+          "end": 46,
+          "label": "CPU",
+          "text": "1 kom 2x2800mghz"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 3
+    },
+    {
+      "case_id": "K0024",
+      "ad_id": "57",
+      "field": "body",
+      "part": 3,
+      "structural_category": "SPAJANJE",
+      "primary_label": "RAM",
+      "context_start": 53,
+      "context_end": 255,
+      "context": "m 2x2200mghz\n\nDDR2\n\n1 DDR3 2700mghz(jedno jezgro)\n\ni ram memorije,2 samsung isto po 1gb i 2 kinhston isto po 1gb i 1 holandske proizvodnje\n\nSve je testirano i ispravno\n\nCena je i više nego povoljna.Prod",
+      "human_spans": [
+        {
+          "start": 145,
+          "end": 153,
+          "label": "RAM",
+          "text": "kinhston"
+        },
+        {
+          "start": 162,
+          "end": 165,
+          "label": "RAM",
+          "text": "1gb"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 143,
+          "end": 165,
+          "label": "RAM",
+          "text": "2 kinhston isto po 1gb"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 4
+    },
+    {
+      "case_id": "K0036",
+      "ad_id": "68",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_I_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 451,
+      "context_end": 681,
+      "context": "r Base Frequency - 2.40 GHz\nCache - 2 MB Intel® Smart Cache\nBus Speed - 5 GT/s\nTDP - 35 W\nMax Memory Size (dependent on memory type) - 32 GB\nMemory Types - DDR3/L/-RS 1333/1600\nMax # of Memory Channels - 2\nMax Memory Bandwidth - 2",
+      "human_spans": [
+        {
+          "start": 586,
+          "end": 591,
+          "label": "RAM",
+          "text": "32 GB"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 541,
+          "end": 591,
+          "label": "CPU",
+          "text": "Max Memory Size (dependent on memory type) - 32 GB"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 5
+    },
+    {
+      "case_id": "K0037",
+      "ad_id": "68",
+      "field": "body",
+      "part": 2,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 517,
+      "context_end": 717,
+      "context": "eed - 5 GT/s\nTDP - 35 W\nMax Memory Size (dependent on memory type) - 32 GB\nMemory Types - DDR3/L/-RS 1333/1600\nMax # of Memory Channels - 2\nMax Memory Bandwidth - 25.6 GB/s\nGPU Name‡ - Intel® HD Graph",
+      "human_spans": [
+        {
+          "start": 607,
+          "end": 627,
+          "label": "RAM",
+          "text": "DDR3/L/-RS 1333/1600"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 607,
+          "end": 627,
+          "label": "CPU",
+          "text": "DDR3/L/-RS 1333/1600"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 6
+    },
+    {
+      "case_id": "K0038",
+      "ad_id": "68",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_I_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 538,
+      "context_end": 746,
+      "context": " W\nMax Memory Size (dependent on memory type) - 32 GB\nMemory Types - DDR3/L/-RS 1333/1600\nMax # of Memory Channels - 2\nMax Memory Bandwidth - 25.6 GB/s\nGPU Name‡ - Intel® HD Graphics for 3rd Generation Intel®",
+      "human_spans": [
+        {
+          "start": 655,
+          "end": 656,
+          "label": "RAM",
+          "text": "2"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 628,
+          "end": 656,
+          "label": "CPU",
+          "text": "Max # of Memory Channels - 2"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 7
+    },
+    {
+      "case_id": "K0039",
+      "ad_id": "68",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_I_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 567,
+      "context_end": 779,
+      "context": " on memory type) - 32 GB\nMemory Types - DDR3/L/-RS 1333/1600\nMax # of Memory Channels - 2\nMax Memory Bandwidth - 25.6 GB/s\nGPU Name‡ - Intel® HD Graphics for 3rd Generation Intel® Processors\nGraphics Base Frequen",
+      "human_spans": [
+        {
+          "start": 680,
+          "end": 689,
+          "label": "RAM",
+          "text": "25.6 GB/s"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 657,
+          "end": 689,
+          "label": "CPU",
+          "text": "Max Memory Bandwidth - 25.6 GB/s"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 8
+    },
+    {
+      "case_id": "K0042",
+      "ad_id": "68",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "GPU",
+      "context_start": 702,
+      "context_end": 923,
+      "context": "Intel® HD Graphics for 3rd Generation Intel® Processors\nGraphics Base Frequency - 650 MHz\nGraphics Max Dynamic Frequency - 1.10 GHz\nGraphics Output - eDP/DP/HDMI/SDVO/CRT\nPCI Express Revision - 2.0\nPCI Express Configurati",
+      "human_spans": [
+        {
+          "start": 825,
+          "end": 833,
+          "label": "GPU",
+          "text": "1.10 GHz"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 792,
+          "end": 833,
+          "label": "GPU",
+          "text": "Graphics Max Dynamic Frequency - 1.10 GHz"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 9
+    },
+    {
+      "case_id": "K0049",
+      "ad_id": "68",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SUVISNO",
+      "primary_label": "CPU",
+      "context_start": 958,
+      "context_end": 1144,
+      "context": "CI Express Lanes - 16\nSockets Supported - FCPGA988 – G1\nIntel® 64 - Yes\nInstruction Set - 64-bit\nInstruction Set Extensions - Intel® SSE4.1, Intel® SSE4.2\nIntel® My WiFi Technology - Yes",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 1048,
+          "end": 1054,
+          "label": "CPU",
+          "text": "64-bit"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 10
+    },
+    {
+      "case_id": "K0073",
+      "ad_id": "88",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 421,
+      "context_end": 624,
+      "context": "66 sdram\n\nhard disk: samsung 256gb nvme ssd (čitanje 3000 mb/s, upis 1300 mb/s)\n\ngrafika: intel® uhd graphics 630\n\nportovi (napred):\n\n2x usb 3.0\n\n1x usb type-c gen 2\n\n2 x audio jack\n\nportovi (pozadi):\n\n1",
+      "human_spans": [
+        {
+          "start": 511,
+          "end": 534,
+          "label": "RAM",
+          "text": "intel® uhd graphics 630"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 511,
+          "end": 534,
+          "label": "GPU",
+          "text": "intel® uhd graphics 630"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 11
+    },
+    {
+      "case_id": "K0074",
+      "ad_id": "88",
+      "field": "body",
+      "part": 3,
+      "structural_category": "SUVISNO",
+      "primary_label": "GPU",
+      "context_start": 563,
+      "context_end": 761,
+      "context": ".0\n\n1x usb type-c gen 2\n\n2 x audio jack\n\nportovi (pozadi):\n\n1x power connector\n\n1x rj-45\n\n2x displayport 1.2\n\n2x usb 3.1 gen 1\n\n2x usb 3.1 gen 2\n\n1x usb 3.1 type-c gen 2 (dodat naknakno po zahtevu)\n",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 653,
+          "end": 671,
+          "label": "GPU",
+          "text": "2x displayport 1.2"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 12
+    },
+    {
+      "case_id": "K0125",
+      "ad_id": "132",
+      "field": "body",
+      "part": 2,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 216,
+      "context": "DELL OptiPlex 990 SFF\n\n-Kuciste: Dell\n\n-Model: OptiPlex 990 SFF\n\n-Procesor: Intel® Core™ i3-2100 Processor 3M Cache, 3. 10 GHz\n\n-Socket: FCLGA1155\n\n-Chipset: Intel Q67 Express\n\n-Hard disk: 250gb\n\n-Ram memorija: 4GB D",
+      "human_spans": [
+        {
+          "start": 76,
+          "end": 126,
+          "label": "CPU",
+          "text": "Intel® Core™ i3-2100 Processor 3M Cache, 3. 10 GHz"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 76,
+          "end": 96,
+          "label": "CPU",
+          "text": "Intel® Core™ i3-2100"
+        },
+        {
+          "start": 107,
+          "end": 126,
+          "label": "CPU",
+          "text": "3M Cache, 3. 10 GHz"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 13
+    },
+    {
+      "case_id": "K0139",
+      "ad_id": "140",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "GPU",
+      "context_start": 28,
+      "context_end": 216,
+      "context": "20 10M Cache, 3.60 GHz, 0.0 GT/s Intel® QPI\n\nHP Grafička kartica NVIDIA NVS 315 1GB DDR3\n\n4gb ddr3 memorija\n\n500 gb hard\n\nnapajanje 635w sa dva 6 pinska konektora\n\ninstaliran je win 10\n\npr",
+      "human_spans": [
+        {
+          "start": 118,
+          "end": 126,
+          "label": "GPU",
+          "text": "4gb ddr3"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 118,
+          "end": 126,
+          "label": "RAM",
+          "text": "4gb ddr3"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 14
+    },
+    {
+      "case_id": "K0146",
+      "ad_id": "146",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SUVISNO",
+      "primary_label": "GPU",
+      "context_start": 603,
+      "context_end": 796,
+      "context": " paket 2021 word excel . . .\n\nsve radi i sve je ispravno\n\nkonekcija sa monitorom je preko Displej porta, ukoliko kupac zeli da se poveze sa HDMI konektorom doplata za adapter DP na HDMI je 5e\n\n",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 693,
+          "end": 706,
+          "label": "GPU",
+          "text": "Displej porta"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 15
+    },
+    {
+      "case_id": "K0152",
+      "ad_id": "149",
+      "field": "body",
+      "part": 3,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "SKLADISTE",
+      "context_start": 14,
+      "context_end": 212,
+      "context": "KC (6 slotova za RAM)\nPODRŽAVA DDR2 I DDR3\nProcesor: Intel 4600 2,4Ghz RAM: 2Gb DDR3\nHDD: Kingston SSD 240Gb\nGrafička: Nvidia 9300 512Mb\nMrežna\nZvučna\nKućište CODEGEN\n\nRačunar radi odlično iako ima ",
+      "human_spans": [
+        {
+          "start": 104,
+          "end": 122,
+          "label": "SKLADISTE",
+          "text": "Kingston SSD 240Gb"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 104,
+          "end": 112,
+          "label": "SKLADISTE",
+          "text": "Kingston"
+        },
+        {
+          "start": 117,
+          "end": 122,
+          "label": "SKLADISTE",
+          "text": "240Gb"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 16
+    },
+    {
+      "case_id": "K0157",
+      "ad_id": "152",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SPAJANJE",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 199,
+      "context": "i3-7100-sedma generacija mn.2 disk\n\nProcesor : Intel i3-7100 dual core windows ga vidi 4x 3900mhz. soket 1151\n\nMaticna : Biostar btc 250 ima mogucnosta za 6x minringa(graficki kartica)\n\nRam : 8gb ddr",
+      "human_spans": [
+        {
+          "start": 47,
+          "end": 70,
+          "label": "CPU",
+          "text": "Intel i3-7100 dual core"
+        },
+        {
+          "start": 87,
+          "end": 97,
+          "label": "CPU",
+          "text": "4x 3900mhz"
+        },
+        {
+          "start": 99,
+          "end": 109,
+          "label": "CPU",
+          "text": "soket 1151"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 47,
+          "end": 109,
+          "label": "CPU",
+          "text": "Intel i3-7100 dual core windows ga vidi 4x 3900mhz. soket 1151"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 17
+    },
+    {
+      "case_id": "K0167",
+      "ad_id": "159",
+      "field": "body",
+      "part": 4,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 332,
+      "context_end": 519,
+      "context": "avnosti !\n3. Procesor Vrhunski INTEL PENTIUM GOLD 6405 4 x 4.1GHz\nnajbrži jak integrisana UHD 610 + stavljena nova najbolja termalna Noctua NT-H1\n4. Kuler DEEP COOL THETA /velik fun 12cm\n",
+      "human_spans": [
+        {
+          "start": 422,
+          "end": 429,
+          "label": "CPU",
+          "text": "UHD 610"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 422,
+          "end": 429,
+          "label": "GPU",
+          "text": "UHD 610"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 18
+    },
+    {
+      "case_id": "K0213",
+      "ad_id": "185",
+      "field": "body",
+      "part": 3,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "GPU",
+      "context_start": 605,
+      "context_end": 834,
+      "context": "bps\n\nBrzina GPU: OC Mode: do 2340 MHz (Boost Clock) / 2105 MHz (Game Clock)\n\nGaming mode: do 2310 MHz (Boost Clock) / 2075 MHz (Game Clock)\n\nStream procesori: 5120\n\nHladjenje: Aktivno\n\nHDMI: 1\n\nDisplayPort: 3\n\nKonektor za napajan",
+      "human_spans": [
+        {
+          "start": 695,
+          "end": 744,
+          "label": "GPU",
+          "text": "do 2310 MHz (Boost Clock) / 2075 MHz (Game Clock)"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 695,
+          "end": 706,
+          "label": "GPU",
+          "text": "do 2310 MHz"
+        },
+        {
+          "start": 723,
+          "end": 731,
+          "label": "GPU",
+          "text": "2075 MHz"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 19
+    },
+    {
+      "case_id": "K0223",
+      "ad_id": "199",
+      "field": "body",
+      "part": 2,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "GPU",
+      "context_start": 0,
+      "context_end": 104,
+      "context": "Ispravna PCI-E graficka kartica\n\n- Ati\n\n- Radeon HD 2400 Pro (Ati -102-B27602(B))\n\n2 X VGA izlaz\n\nTV izl",
+      "human_spans": [
+        {
+          "start": 9,
+          "end": 14,
+          "label": "GPU",
+          "text": "PCI-E"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 20
+    },
+    {
+      "case_id": "K0231",
+      "ad_id": "200",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_POMERENA",
+      "primary_label": "GPU",
+      "context_start": 18,
+      "context_end": 238,
+      "context": "ficka kartica\n\n- Asus\n\n- EN9800-HTDP-512M-A\n\n- 2 X DVI izlaz\n\n- 1 X TV izlaz\n\n- 512 Mb\n\n- aktivno hladjenje za ogromnim hladnjakom\n\n- aktivno hladjenje sa velikom turbinom\n\n- potrebno kvalitetnije i jace napajanje za ovu",
+      "human_spans": [
+        {
+          "start": 116,
+          "end": 148,
+          "label": "GPU",
+          "text": "hladjenje za ogromnim hladnjakom"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 108,
+          "end": 125,
+          "label": "GPU",
+          "text": "aktivno hladjenje"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 21
+    },
+    {
+      "case_id": "K0232",
+      "ad_id": "200",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_POMERENA",
+      "primary_label": "GPU",
+      "context_start": 62,
+      "context_end": 279,
+      "context": "\n- 2 X DVI izlaz\n\n- 1 X TV izlaz\n\n- 512 Mb\n\n- aktivno hladjenje za ogromnim hladnjakom\n\n- aktivno hladjenje sa velikom turbinom\n\n- potrebno kvalitetnije i jace napajanje za ovu karticu\n\n- potreban 6 - to pinski konekt",
+      "human_spans": [
+        {
+          "start": 160,
+          "end": 189,
+          "label": "GPU",
+          "text": "hladjenje sa velikom turbinom"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 152,
+          "end": 169,
+          "label": "GPU",
+          "text": "aktivno hladjenje"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 22
+    },
+    {
+      "case_id": "K0234",
+      "ad_id": "200",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SUVISNO",
+      "primary_label": "CPU",
+      "context_start": 303,
+      "context_end": 492,
+      "context": "st navedene graficke kartice je poverena\n\nU kombinaciji sa maticnim plocama koje koriste\n\nIntel-ove procesore\n\n- Siemens - OS WIN 7-32 bit\n\n- P5Q - E-5300 - OS WIN 10-64 bin\n\nProverite da l",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 393,
+          "end": 402,
+          "label": "CPU",
+          "text": "Intel-ove"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 23
+    },
+    {
+      "case_id": "K0236",
+      "ad_id": "200",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_I_OZNAKA",
+      "primary_label": "GPU",
+      "context_start": 355,
+      "context_end": 566,
+      "context": "iji sa maticnim plocama koje koriste\n\nIntel-ove procesore\n\n- Siemens - OS WIN 7-32 bit\n\n- P5Q - E-5300 - OS WIN 10-64 bin\n\nProverite da li je ova kartica kompatibilna\n\nsa vasom maticnom plocom i brzinama memorij",
+      "human_spans": [
+        {
+          "start": 445,
+          "end": 476,
+          "label": "GPU",
+          "text": "P5Q - E-5300 - OS WIN 10-64 bin"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 451,
+          "end": 457,
+          "label": "CPU",
+          "text": "E-5300"
+        }
+      ],
+      "dropped_llm_spans_nearby": [
+        {
+          "start": 445,
+          "end": 448,
+          "label": "MODEL",
+          "text": "P5Q"
+        }
+      ],
+      "sample_order": 24
+    },
+    {
+      "case_id": "K0237",
+      "ad_id": "201",
+      "field": "body",
+      "part": 1,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "GPU",
+      "context_start": 0,
+      "context_end": 170,
+      "context": "Ispravna PCI-E graficka kartica\n\n- Asus\n\n- Radeon X1650PRO 512M\n\n- 2 X DVI izlaz\n\n- 1 x TV izlaz\n\n- 512 Mb\n\n- hladnjak sa ispravnom turbinom\n\nVrlo vazno\n\nIspravnost naved",
+      "human_spans": [
+        {
+          "start": 67,
+          "end": 74,
+          "label": "GPU",
+          "text": "2 X DVI"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 67,
+          "end": 80,
+          "label": "GPU",
+          "text": "2 X DVI izlaz"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 25
+    },
+    {
+      "case_id": "K0244",
+      "ad_id": "202",
+      "field": "title",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 38,
+      "context": "Grafička (162) Gigabyte GV-R4350C-512I",
+      "human_spans": [
+        {
+          "start": 15,
+          "end": 38,
+          "label": "RAM",
+          "text": "Gigabyte GV-R4350C-512I"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 15,
+          "end": 38,
+          "label": "GPU",
+          "text": "Gigabyte GV-R4350C-512I"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 26
+    },
+    {
+      "case_id": "K0251",
+      "ad_id": "209",
+      "field": "body",
+      "part": 3,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "GPU",
+      "context_start": 0,
+      "context_end": 161,
+      "context": "Na prodaju odlična grafička karta Palit GeForce GTX 560 Ti sa 1GB GDDR5 memorije na 256bit-a, sa izlazima 1x VGA, 2x Dual-DVI i 1x HDMI. Inače Palit je čuveni i ",
+      "human_spans": [
+        {
+          "start": 34,
+          "end": 71,
+          "label": "GPU",
+          "text": "Palit GeForce GTX 560 Ti sa 1GB GDDR5"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 34,
+          "end": 58,
+          "label": "GPU",
+          "text": "Palit GeForce GTX 560 Ti"
+        },
+        {
+          "start": 62,
+          "end": 71,
+          "label": "GPU",
+          "text": "1GB GDDR5"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 27
+    },
+    {
+      "case_id": "K0252",
+      "ad_id": "209",
+      "field": "body",
+      "part": 3,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "GPU",
+      "context_start": 53,
+      "context_end": 238,
+      "context": "60 Ti sa 1GB GDDR5 memorije na 256bit-a, sa izlazima 1x VGA, 2x Dual-DVI i 1x HDMI. Inače Palit je čuveni i jedan od najvećih brendova u elektronskoj industriji što se tiče izrade grafi",
+      "human_spans": [
+        {
+          "start": 143,
+          "end": 148,
+          "label": "GPU",
+          "text": "Palit"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 28
+    },
+    {
+      "case_id": "K0271",
+      "ad_id": "220",
+      "field": "body",
+      "part": 4,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "GPU",
+      "context_start": 173,
+      "context_end": 362,
+      "context": "bita. . . Dx 12.2\n\nStanje 10/10, kao nova, tiha, hladna, stabilna! Kupljena nova sredinom 2021. god. (van garancije). Graficka u original antistatik zastitnoj kesi, gumiranom stiroporu, kut",
+      "human_spans": [
+        {
+          "start": 263,
+          "end": 272,
+          "label": "GPU",
+          "text": "2021. god"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 29
+    },
+    {
+      "case_id": "K0273",
+      "ad_id": "220",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SPAJANJE",
+      "primary_label": "CENA",
+      "context_start": 1293,
+      "context_end": 1436,
+      "context": "o nov i savrseno ocuvan predmet,kako ne bi doslo do eventualnih nesuglasica.\n\nFiksna cena 35400 dinara / 300 eura, bez ostalih predloga, molim.",
+      "human_spans": [
+        {
+          "start": 1383,
+          "end": 1395,
+          "label": "CENA",
+          "text": "35400 dinara"
+        },
+        {
+          "start": 1398,
+          "end": 1406,
+          "label": "CENA",
+          "text": "300 eura"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1383,
+          "end": 1406,
+          "label": "CENA",
+          "text": "35400 dinara / 300 eura"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 30
+    },
+    {
+      "case_id": "K0298",
+      "ad_id": "250",
+      "field": "body",
+      "part": 4,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "RAM",
+      "context_start": 352,
+      "context_end": 538,
+      "context": " je sledeca:\n\nProcesor - Intel Core i5, 2430 M 2.60 GHz\n\nRam memorija - 8 GB\n\nHard disk - 500 GB\n\nGraficka kartica - Intel HD 3000\n\n- AMD Radeon HD 7470m\n\nInstaliran WIN 10, sa svim draj",
+      "human_spans": [
+        {
+          "start": 442,
+          "end": 448,
+          "label": "RAM",
+          "text": "500 GB"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 442,
+          "end": 448,
+          "label": "SKLADISTE",
+          "text": "500 GB"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 31
+    },
+    {
+      "case_id": "K0299",
+      "ad_id": "263",
+      "field": "body",
+      "part": 1,
+      "structural_category": "SPAJANJE",
+      "primary_label": "GPU",
+      "context_start": 116,
+      "context_end": 328,
+      "context": "ena termalna pasta. Spreman za aktivno koriscnje.\n\nProcesor: AMD Phenom II P960\n\nGrafika: AMD Mobility Radeon HD 5450/5470\n\nRAM: 4GB DDR3\n\nHarddisk: 320HDD\n\nMonitor: 15.6”, HD (1366 x 768), TN\n\nWebcam: Da\n\nBateri",
+      "human_spans": [
+        {
+          "start": 206,
+          "end": 233,
+          "label": "GPU",
+          "text": "AMD Mobility Radeon HD 5450"
+        },
+        {
+          "start": 234,
+          "end": 238,
+          "label": "GPU",
+          "text": "5470"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 206,
+          "end": 238,
+          "label": "GPU",
+          "text": "AMD Mobility Radeon HD 5450/5470"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 32
+    },
+    {
+      "case_id": "K0306",
+      "ad_id": "278",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SPAJANJE",
+      "primary_label": "GPU",
+      "context_start": 134,
+      "context_end": 343,
+      "context": "orija 2 Gb DDR2\n\n- HDD 160 Gb - 100/100%\n\n- Integrisana graficka kartica Mobile Intel(R)\n\n965GM Expres Chipset - 128 Mb\n\n- LCD displej ocuvan dijagonele 15.4 inc\n\n- Wifi\n\n- bluetooth\n\n- Cardreader\n\n- DVR RW\n\n-",
+      "human_spans": [
+        {
+          "start": 224,
+          "end": 244,
+          "label": "GPU",
+          "text": "965GM Expres Chipset"
+        },
+        {
+          "start": 247,
+          "end": 253,
+          "label": "GPU",
+          "text": "128 Mb"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 224,
+          "end": 253,
+          "label": "GPU",
+          "text": "965GM Expres Chipset - 128 Mb"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 33
+    },
+    {
+      "case_id": "K0327",
+      "ad_id": "288",
+      "field": "body",
+      "part": 1,
+      "structural_category": "SUVISNO",
+      "primary_label": "SKLADISTE",
+      "context_start": 77,
+      "context_end": 264,
+      "context": "\n\nProcesor: AMD E1 2100 Processor 1.00ghz\n\nMemorija: 4GB DDR3\n\nHard disk: 500gb perfektan 100/100\n\nGraficka karta: AMD RADEON HD 8210\n\nOperativni sistem: Windows 10\n\nOptički uređaj: DVD\n\n",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 167,
+          "end": 174,
+          "label": "SKLADISTE",
+          "text": "100/100"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 34
+    },
+    {
+      "case_id": "K0349",
+      "ad_id": "305",
+      "field": "title",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "SKLADISTE",
+      "context_start": 0,
+      "context_end": 50,
+      "context": "Dell Precision M4800 intel i7-4700MQ 16gb Quadcore",
+      "human_spans": [
+        {
+          "start": 37,
+          "end": 41,
+          "label": "SKLADISTE",
+          "text": "16gb"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 37,
+          "end": 41,
+          "label": "RAM",
+          "text": "16gb"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 35
+    },
+    {
+      "case_id": "K0355",
+      "ad_id": "311",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SLOZENO",
+      "primary_label": "CPU",
+      "context_start": 69,
+      "context_end": 278,
+      "context": " koji ima punjivu bateriju.\nKarakteristike: Laptop marke Asus K53E, RAM4GB DDR3, Procesor Intel(R) Pentujum® CPU B950 @ 2,1 GHZ, Grafička karta Intel(R) HD 192 MB, Hard disk 500 GB\nZa više informacija pozvati.",
+      "human_spans": [
+        {
+          "start": 159,
+          "end": 186,
+          "label": "CPU",
+          "text": "Intel(R) Pentujum® CPU B950"
+        },
+        {
+          "start": 189,
+          "end": 196,
+          "label": "CPU",
+          "text": "2,1 GHZ"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 159,
+          "end": 177,
+          "label": "CPU",
+          "text": "Intel(R) Pentujum®"
+        },
+        {
+          "start": 182,
+          "end": 196,
+          "label": "CPU",
+          "text": "B950 @ 2,1 GHZ"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 36
+    },
+    {
+      "case_id": "K0371",
+      "ad_id": "332",
+      "field": "title",
+      "part": 2,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 29,
+      "context": "Gigabyte GA-946GM-S2 775 DDR2",
+      "human_spans": [
+        {
+          "start": 21,
+          "end": 24,
+          "label": "CPU",
+          "text": "775"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [
+        {
+          "start": 9,
+          "end": 20,
+          "label": "MODEL",
+          "text": "GA-946GM-S2"
+        }
+      ],
+      "sample_order": 37
+    },
+    {
+      "case_id": "K0373",
+      "ad_id": "334",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "SKLADISTE",
+      "context_start": 0,
+      "context_end": 189,
+      "context": "Ispravna, testirana polukonfiguracija.\n\nPloca : Asus P5KPL-CM Socket 775.\n\nMemorija : GEIL 2GB DDR2 (kuca casti).\n\nProcesor : Dual Core E5200 2.50 Ghz (kuca casti).\n\nKuler : Intel (kuca cas",
+      "human_spans": [
+        {
+          "start": 86,
+          "end": 99,
+          "label": "SKLADISTE",
+          "text": "GEIL 2GB DDR2"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 86,
+          "end": 99,
+          "label": "RAM",
+          "text": "GEIL 2GB DDR2"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 38
+    },
+    {
+      "case_id": "K0382",
+      "ad_id": "405",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SUVISNO",
+      "primary_label": "CPU",
+      "context_start": 75,
+      "context_end": 262,
+      "context": "sionalni izbor za najjače gejming i radne PC-je!\n1200 W snage – dovoljno za RTX 5090 + i9/Ryzen 9 + overklok\n80 PLUS Platinum sertifikat – do 94 % efikasnosti\nPotpuno modularni kablovi – ",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 165,
+          "end": 172,
+          "label": "CPU",
+          "text": "Ryzen 9"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 39
+    },
+    {
+      "case_id": "K0396",
+      "ad_id": "424",
+      "field": "body",
+      "part": 1,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "CPU",
+      "context_start": 230,
+      "context_end": 425,
+      "context": " external graphics (by overclocking)\n\n- fsb 800/533 mhz for internal graphics\n\n- supports hyper-threading technology\n\n- supports untied overclocking technology\n\n- supports em64t cpu\n\n*fsb1066-cpu",
+      "human_spans": [
+        {
+          "start": 320,
+          "end": 335,
+          "label": "CPU",
+          "text": "hyper-threading"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 40
+    },
+    {
+      "case_id": "K0421",
+      "ad_id": "438",
+      "field": "title",
+      "part": 3,
+      "structural_category": "SUVISNO",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 47,
+      "context": "Adata Memory Expert 2GB (2x1GB) DDR2 667MHz CL5",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "label": "RAM",
+          "text": "Adata Memory Expert 2GB (2x1GB) DDR2 667MHz CL5"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 41
+    },
+    {
+      "case_id": "K0423",
+      "ad_id": "442",
+      "field": "body",
+      "part": 3,
+      "structural_category": "SUVISNO",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 76,
+      "context": "Prodajem dva keksa Memorija DDR3 1600MHz 2GB Kingston HyperX, KHX1600C9D3/2G",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 9,
+          "end": 12,
+          "label": "RAM",
+          "text": "dva"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 42
+    },
+    {
+      "case_id": "K0425",
+      "ad_id": "443",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 136,
+      "context": "Infineon 512Mb / 400Mhz DDR1 SDRAM / set 4 kom\nSaljem kao CC paket ( 200,00 rsd ) uz prethodnu uplatu.\nLicno preuzimanje u Beogradu na K",
+      "human_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "label": "CPU",
+          "text": "Infineon 512Mb / 400Mhz DDR1 SDRAM / set 4 kom"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "label": "RAM",
+          "text": "Infineon 512Mb / 400Mhz DDR1 SDRAM / set 4 kom"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 43
+    },
+    {
+      "case_id": "K0427",
+      "ad_id": "447",
+      "field": "title",
+      "part": 1,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 41,
+      "context": "Hynix 2GB / 400Mhz DDR1 SDRAM / set 4 kom",
+      "human_spans": [
+        {
+          "start": 0,
+          "end": 29,
+          "label": "RAM",
+          "text": "Hynix 2GB / 400Mhz DDR1 SDRAM"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "label": "RAM",
+          "text": "Hynix 2GB / 400Mhz DDR1 SDRAM / set 4 kom"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 44
+    },
+    {
+      "case_id": "K0436",
+      "ad_id": "456",
+      "field": "body",
+      "part": 1,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "RAM",
+      "context_start": 78,
+      "context_end": 261,
+      "context": "predloga molim.\n\nNa prodaju odlicne ram memorije\n\nDDR 1\n\n2 X 256 MB :\n\nINFINEON na stanju dva identicna modula 2x 256 Mb @400 Mhz / CL3\n\nMemorije su iz mog racunara, rade odlicno.\n\nBl",
+      "human_spans": [
+        {
+          "start": 168,
+          "end": 171,
+          "label": "RAM",
+          "text": "dva"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 45
+    },
+    {
+      "case_id": "K0447",
+      "ad_id": "462",
+      "field": "body",
+      "part": 1,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 113,
+      "context": "Ispravna serverska DDR3 memorija\n\n- Micron\n\n- 4Gb 2RX4 PC3-10600R-9-10-JP\n\n- brzina 1333 MHz\n\n- 4096 Mb/1333 MHz\n",
+      "human_spans": [
+        {
+          "start": 9,
+          "end": 23,
+          "label": "RAM",
+          "text": "serverska DDR3"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 19,
+          "end": 23,
+          "label": "RAM",
+          "text": "DDR3"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 46
+    },
+    {
+      "case_id": "K0464",
+      "ad_id": "488",
+      "field": "body",
+      "part": 1,
+      "structural_category": "SPAJANJE",
+      "primary_label": "SKLADISTE",
+      "context_start": 0,
+      "context_end": 167,
+      "context": "Na prodaju sata 2.5' hard disk za laptopove. U hd sentinelu pokazuje 100% health i 100% performance. Prodaje se kao polovan. za sva pitanja vam stojim na raspolaganju.",
+      "human_spans": [
+        {
+          "start": 69,
+          "end": 73,
+          "label": "SKLADISTE",
+          "text": "100%"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "label": "SKLADISTE",
+          "text": "100%"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 69,
+          "end": 99,
+          "label": "SKLADISTE",
+          "text": "100% health i 100% performance"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 47
+    },
+    {
+      "case_id": "K0481",
+      "ad_id": "499",
+      "field": "body",
+      "part": 3,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "SKLADISTE",
+      "context_start": 0,
+      "context_end": 107,
+      "context": "Nove Kingston USB memorije 32-256GB, u originalnom pakovanju sa garancijom 5 godina, visok kvalitet i brzin",
+      "human_spans": [
+        {
+          "start": 5,
+          "end": 13,
+          "label": "SKLADISTE",
+          "text": "Kingston"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 5,
+          "end": 17,
+          "label": "SKLADISTE",
+          "text": "Kingston USB"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 48
+    },
+    {
+      "case_id": "K0487",
+      "ad_id": "510",
+      "field": "body",
+      "part": 1,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "SKLADISTE",
+      "context_start": 71,
+      "context_end": 259,
+      "context": " Proliant servere Generacije G1/G2/G3/G4/G5/G6/G7/G8 /G9 i G10 koji koriste 2.5 /3.5 inča SAS/SATA diskove.\n\nOznake:\nHP2.5` SFF 371593-001 - HP G1/G2/G3/G4/G5/G6/G7 ,\n2.5` SFF 651687-001 -",
+      "human_spans": [
+        {
+          "start": 161,
+          "end": 169,
+          "label": "SKLADISTE",
+          "text": "SAS/SATA"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 161,
+          "end": 164,
+          "label": "SKLADISTE",
+          "text": "SAS"
+        },
+        {
+          "start": 165,
+          "end": 169,
+          "label": "SKLADISTE",
+          "text": "SATA"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 49
+    },
+    {
+      "case_id": "K0492",
+      "ad_id": "519",
+      "field": "body",
+      "part": 1,
+      "structural_category": "SUVISNO",
+      "primary_label": "SKLADISTE",
+      "context_start": 0,
+      "context_end": 138,
+      "context": "USB 64GB 3u1 TYPE C/android/racunar\n\nText me Usb flash drives\n\nOTG pen drive\n\n3 IN 1\n\nTo android\n\nType C\n\nPC, laptop\n\npendrive usb stick 6",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 45,
+          "end": 48,
+          "label": "SKLADISTE",
+          "text": "Usb"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 50
+    },
+    {
+      "case_id": "K0497",
+      "ad_id": "527",
+      "field": "title",
+      "part": 1,
+      "structural_category": "SPAJANJE",
+      "primary_label": "SKLADISTE",
+      "context_start": 0,
+      "context_end": 20,
+      "context": "Lenovo USB Flash 2TB",
+      "human_spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "label": "SKLADISTE",
+          "text": "Lenovo"
+        },
+        {
+          "start": 7,
+          "end": 10,
+          "label": "SKLADISTE",
+          "text": "USB"
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "label": "SKLADISTE",
+          "text": "2TB"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "label": "SKLADISTE",
+          "text": "Lenovo USB Flash 2TB"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 51
+    },
+    {
+      "case_id": "K0553",
+      "ad_id": "668",
+      "field": "body",
+      "part": 3,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 173,
+      "context": "Apple iPhone 6s (baterija crkla), odlično očuvan, sistem je iOS 15.7.9, ima 2Gb RAM i 32Gb interne flash memorije. Baterija je crkla, treba da se zameni, neće da uključi tel",
+      "human_spans": [
+        {
+          "start": 76,
+          "end": 83,
+          "label": "RAM",
+          "text": "2Gb RAM"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 76,
+          "end": 79,
+          "label": "RAM",
+          "text": "2Gb"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 52
+    },
+    {
+      "case_id": "K0599",
+      "ad_id": "709",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "CPU",
+      "context_start": 2274,
+      "context_end": 2485,
+      "context": "ion Technology ‡ Yes\nIntel® Stable Image Platform Program (SIPP) No\nSecurity &Reliability\nIntel® AES New Instructions Yes\nSecure Key Yes\nIntel® Software Guard Extensions (Intel® SGX) Yes with Intel® ME\nIntel® Me",
+      "human_spans": [
+        {
+          "start": 2364,
+          "end": 2391,
+          "label": "CPU",
+          "text": "Intel® AES New Instructions"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 2364,
+          "end": 2395,
+          "label": "CPU",
+          "text": "Intel® AES New Instructions Yes"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 53
+    },
+    {
+      "case_id": "K0610",
+      "ad_id": "713",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 202,
+      "context_end": 405,
+      "context": " : 16MB\nProizvodni proces    14nm\nTDP    125W\nTip pakovanja    BOX\nIntegrisana grafika    Intel® UHD Graphics 750\nMaksimalna brzina memorije     DDR4-3200 MHz\nMaksimalna podržana memorija    128 GB\n\n2390",
+      "human_spans": [
+        {
+          "start": 292,
+          "end": 315,
+          "label": "CPU",
+          "text": "Intel® UHD Graphics 750"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 292,
+          "end": 315,
+          "label": "GPU",
+          "text": "Intel® UHD Graphics 750"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 54
+    },
+    {
+      "case_id": "K0611",
+      "ad_id": "713",
+      "field": "body",
+      "part": 3,
+      "structural_category": "SUVISNO",
+      "primary_label": "CENA",
+      "context_start": 311,
+      "context_end": 411,
+      "context": " 750\nMaksimalna brzina memorije     DDR4-3200 MHz\nMaksimalna podržana memorija    128 GB\n\n23900\n\nDsc",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 401,
+          "end": 406,
+          "label": "CENA",
+          "text": "23900"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 55
+    },
+    {
+      "case_id": "K0615",
+      "ad_id": "715",
+      "field": "body",
+      "part": 4,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 184,
+      "context_end": 387,
+      "context": " : 25MB\nProizvodni proces    14nm\nTDP    190W\nTip pakovanja    BOX\nIntegrisana grafika    Intel® UHD Graphics 770\nMaksimalna brzina memorije     DDR4-3200 MHz / DDR5-4800 MHz\nMaksimalna podržana memorija",
+      "human_spans": [
+        {
+          "start": 274,
+          "end": 297,
+          "label": "CPU",
+          "text": "Intel® UHD Graphics 770"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 274,
+          "end": 297,
+          "label": "GPU",
+          "text": "Intel® UHD Graphics 770"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 56
+    },
+    {
+      "case_id": "K0616",
+      "ad_id": "715",
+      "field": "body",
+      "part": 4,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "CPU",
+      "context_start": 239,
+      "context_end": 409,
+      "context": "anja    BOX\nIntegrisana grafika    Intel® UHD Graphics 770\nMaksimalna brzina memorije     DDR4-3200 MHz / DDR5-4800 MHz\nMaksimalna podržana memorija    128 GB\n\n26662\n\nDsc",
+      "human_spans": [
+        {
+          "start": 329,
+          "end": 358,
+          "label": "CPU",
+          "text": "DDR4-3200 MHz / DDR5-4800 MHz"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 329,
+          "end": 342,
+          "label": "CPU",
+          "text": "DDR4-3200 MHz"
+        },
+        {
+          "start": 345,
+          "end": 358,
+          "label": "CPU",
+          "text": "DDR5-4800 MHz"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 57
+    },
+    {
+      "case_id": "K0620",
+      "ad_id": "716",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 202,
+      "context_end": 405,
+      "context": " : 16MB\nProizvodni proces    14nm\nTDP    125W\nTip pakovanja    BOX\nIntegrisana grafika    Intel® UHD Graphics 750\nMaksimalna brzina memorije     DDR4-3200 MHz\nMaksimalna podržana memorija    128GB\n\n24749",
+      "human_spans": [
+        {
+          "start": 292,
+          "end": 315,
+          "label": "CPU",
+          "text": "Intel® UHD Graphics 750"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 292,
+          "end": 315,
+          "label": "GPU",
+          "text": "Intel® UHD Graphics 750"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 58
+    },
+    {
+      "case_id": "K0624",
+      "ad_id": "719",
+      "field": "body",
+      "part": 4,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 190,
+      "context_end": 373,
+      "context": "    4.2 GHz\nNačin izrade    7 nm\nMaks. Potrošnja u W    65\nGrafičko jezgro u procesoru    AMD Radeon Graphics\nPreporučeno za    Igrače\nPakovanje    Sa kulerom\nBoja    Siva\n\n27439\n\nDsc",
+      "human_spans": [
+        {
+          "start": 280,
+          "end": 299,
+          "label": "CPU",
+          "text": "AMD Radeon Graphics"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 280,
+          "end": 299,
+          "label": "GPU",
+          "text": "AMD Radeon Graphics"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 59
+    },
+    {
+      "case_id": "K0626",
+      "ad_id": "720",
+      "field": "body",
+      "part": 4,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "CPU",
+      "context_start": 216,
+      "context_end": 333,
+      "context": "5.1GHz\nL2 keš memorija:    6MB\nL3 keš memorija:    32MB\nIntegrisani grafički procesor:    Radeon Graphics\n\n33312\n\nDsc",
+      "human_spans": [
+        {
+          "start": 306,
+          "end": 321,
+          "label": "CPU",
+          "text": "Radeon Graphics"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 306,
+          "end": 321,
+          "label": "GPU",
+          "text": "Radeon Graphics"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 60
+    },
+    {
+      "case_id": "K0634",
+      "ad_id": "735",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "SKLADISTE",
+      "context_start": 162,
+      "context_end": 351,
+      "context": ".60GHz LGA-1200 BOX Intel\n  * GIGABYTE H410M ( vise modela)\n  * RAM : 16GB DDR4\n  * SSD : 512GB SSD\n  * Grafička kartica: Gtx 1060  (Više modela na stanju! )\n  *  Napajanje: 650 80+ (BeQuie",
+      "human_spans": [
+        {
+          "start": 252,
+          "end": 261,
+          "label": "SKLADISTE",
+          "text": "512GB SSD"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 252,
+          "end": 257,
+          "label": "SKLADISTE",
+          "text": "512GB"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 61
+    },
+    {
+      "case_id": "K0651",
+      "ad_id": "752",
+      "field": "body",
+      "part": 1,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "CPU",
+      "context_start": 0,
+      "context_end": 170,
+      "context": "Imamo na stanju preko 50 racunara Fujitsu Esprimo d556 za sestu generaciju Intel procesora. Svi racunari imaju win10 pro licence, koja ce biti iskazana na fakturi, kao i ",
+      "human_spans": [
+        {
+          "start": 58,
+          "end": 80,
+          "label": "CPU",
+          "text": "sestu generaciju Intel"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 75,
+          "end": 80,
+          "label": "CPU",
+          "text": "Intel"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 62
+    },
+    {
+      "case_id": "K0663",
+      "ad_id": "753",
+      "field": "body",
+      "part": 2,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "CENA",
+      "context_start": 1186,
+      "context_end": 1370,
+      "context": "pter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . (slika 6) cena 170e PRODATO\n5. NUC 8i7BEH\n    procesor: i7-8559 2.70Ghz up to 4.50Ghz 8MB\n    memorija: 16gb ",
+      "human_spans": [
+        {
+          "start": 1276,
+          "end": 1280,
+          "label": "CENA",
+          "text": "170e"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 63
+    },
+    {
+      "case_id": "K0692",
+      "ad_id": "768",
+      "field": "body",
+      "part": 1,
+      "structural_category": "SUVISNO",
+      "primary_label": "GPU",
+      "context_start": 673,
+      "context_end": 860,
+      "context": "rijske magistrale\n256-bitna\nRadni takt (eng. Engine Clock)\n2617 MHz\nTakt memorije\n30 Gbps\nAI TOPS\n1801\nPCI Express\nPCI Express 5.0 x16\nVideo izlazi\n3 x DisplayPort 2.1b sa UHBR20 (do 4K 4",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 763,
+          "end": 770,
+          "label": "GPU",
+          "text": "AI TOPS"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 64
+    },
+    {
+      "case_id": "K0710",
+      "ad_id": "772",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "GPU",
+      "context_start": 960,
+      "context_end": 1150,
+      "context": "I 2.1b\nDisplayPort Izlaz\n3x DisplayPort 2.1b\nRezolucija\n7680x4320\nMulti-view 4\nDirectX\n12\nOpenGL\n4.6\nPotrošnja\n575W\nPSU Konektor\n1 x 16-pin\nHladjenje\nAktivno\nDimenzije\n360x150x75mm\nDodatna o",
+      "human_spans": [
+        {
+          "start": 1050,
+          "end": 1060,
+          "label": "GPU",
+          "text": "OpenGL\n4.6"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1057,
+          "end": 1060,
+          "label": "GPU",
+          "text": "4.6"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 65
+    },
+    {
+      "case_id": "K0713",
+      "ad_id": "773",
+      "field": "body",
+      "part": 1,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "GPU",
+      "context_start": 387,
+      "context_end": 587,
+      "context": "a grafičke: 12 GB\n  * Memorijska magistrala: 192-bit\n  * Interface: Support PCI-E 4.0\n  * Broj HDMI portova: 1\n  * Broj DisplayPortova: 3\n  * Dimenzije: 242*130*44 mm\n  * Prava potrošača: : Zakonska s",
+      "human_spans": [
+        {
+          "start": 496,
+          "end": 497,
+          "label": "GPU",
+          "text": "1"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 477,
+          "end": 497,
+          "label": "GPU",
+          "text": "Broj HDMI portova: 1"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 66
+    },
+    {
+      "case_id": "K0724",
+      "ad_id": "786",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "GPU",
+      "context_start": 850,
+      "context_end": 1043,
+      "context": ", CUDA, MSI Center, Afterburner\nMaksimalna rezolucija: 7.680 x 4.320\nPodrška za monitore: do 4 monitora\nZero Frozr režim: Da\nSFF Ready: Da\n\nFizičke karakteristike\nDimenzije: oko 288mm x 112mm x",
+      "human_spans": [
+        {
+          "start": 940,
+          "end": 953,
+          "label": "GPU",
+          "text": "do 4 monitora"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 940,
+          "end": 944,
+          "label": "GPU",
+          "text": "do 4"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 67
+    },
+    {
+      "case_id": "K0740",
+      "ad_id": "789",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "GPU",
+      "context_start": 1234,
+      "context_end": 1422,
+      "context": "NIH OPCIJA, PREBRZI &OGROMNI NVMe DISK - BRŽI NA TRŽIŠTU - KAPACITETA 512GB, FENOMANALNIH 8GB DDR5- NAJBRŽE RADNE MEMORIJE NA TRŽIŠTU, ODLIČNA GRAFIKA KOJA ĆE POTERATI MNOŠTVO IGRICA, izuz",
+      "human_spans": [
+        {
+          "start": 1324,
+          "end": 1332,
+          "label": "GPU",
+          "text": "8GB DDR5"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1324,
+          "end": 1332,
+          "label": "RAM",
+          "text": "8GB DDR5"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 68
+    },
+    {
+      "case_id": "K0751",
+      "ad_id": "793",
+      "field": "body",
+      "part": 4,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "SKLADISTE",
+      "context_start": 433,
+      "context_end": 630,
+      "context": "0 GHz\nMemorija\n16GB DDR4\nIntel®\nUHD Graphics 630\n+ nVidia mx150 2GB DDR5\n(GTX1050 mobile)\nMicron\n512GB NVMe\nWebcam\nHD 720p\nStereo speakers , microphone, zvucnici\nnadprosecnog kvaliteta\nzvuka\nIntel\n",
+      "human_spans": [
+        {
+          "start": 523,
+          "end": 540,
+          "label": "SKLADISTE",
+          "text": "Micron\n512GB NVMe"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 523,
+          "end": 529,
+          "label": "SKLADISTE",
+          "text": "Micron"
+        },
+        {
+          "start": 530,
+          "end": 540,
+          "label": "SKLADISTE",
+          "text": "512GB NVMe"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 69
+    },
+    {
+      "case_id": "K0753",
+      "ad_id": "794",
+      "field": "body",
+      "part": 3,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "SKLADISTE",
+      "context_start": 1273,
+      "context_end": 1463,
+      "context": "\" intel i5-10210U 16GB RAM 256GB SSD\n-300 €\n#51-\nLenovo thinkpad L15 15.6\" i5-10310u 16GB 256GB nvme\n-300 €\n#52-\nPouzdan laptop za posao +12 meseci garanc i7-1165G7 32GB\n-400 €\n#54-\nLenovo t",
+      "human_spans": [
+        {
+          "start": 1363,
+          "end": 1368,
+          "label": "SKLADISTE",
+          "text": "256GB"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1363,
+          "end": 1373,
+          "label": "SKLADISTE",
+          "text": "256GB nvme"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 70
+    },
+    {
+      "case_id": "K0761",
+      "ad_id": "799",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SUVISNO",
+      "primary_label": "GPU",
+      "context_start": 976,
+      "context_end": 1167,
+      "context": "a za skladištenje svih vaših podataka.\nGrafika:\nIntel UHD Graphics 630\n– Grafička kartica integrisana u procesor pruža odlične performanse za svakodnevne multimedijalne i poslovne zadatke.\nNV",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 1066,
+          "end": 1077,
+          "label": "GPU",
+          "text": "integrisana"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 71
+    },
+    {
+      "case_id": "K0764",
+      "ad_id": "800",
+      "field": "body",
+      "part": 3,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "CENA",
+      "context_start": 282,
+      "context_end": 474,
+      "context": " namene. Preko 500 racunara prodatih do sada. Garancija na ispravnost. Cene povoljne, vec od 60-80 EUR\nMilan (Najbolje upit za slike, modele i cene). Viber/Sms\n063 77 55 725\nTakodje vršim uslu",
+      "human_spans": [
+        {
+          "start": 372,
+          "end": 384,
+          "label": "CENA",
+          "text": "od 60-80 EUR"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 375,
+          "end": 384,
+          "label": "CENA",
+          "text": "60-80 EUR"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 72
+    },
+    {
+      "case_id": "K0771",
+      "ad_id": "804",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "SKLADISTE",
+      "context_start": 150,
+      "context_end": 332,
+      "context": "TET BEZ KOMPROMISA ! ! ! ! !\nProfesionalni DELL Latitude 5401 , Intel i7-9850H procesor , 32\nGB DDR4 memorije\n, brzi\nSSD M2 NVME\nod\n512\nGB\ni najnovijim\nWindows 11 25H2\n+ Office paket",
+      "human_spans": [
+        {
+          "start": 240,
+          "end": 242,
+          "label": "SKLADISTE",
+          "text": "32"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 240,
+          "end": 242,
+          "label": "RAM",
+          "text": "32"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 73
+    },
+    {
+      "case_id": "K0772",
+      "ad_id": "804",
+      "field": "body",
+      "part": 3,
+      "structural_category": "GRANICA_I_OZNAKA",
+      "primary_label": "SKLADISTE",
+      "context_start": 153,
+      "context_end": 349,
+      "context": " BEZ KOMPROMISA ! ! ! ! !\nProfesionalni DELL Latitude 5401 , Intel i7-9850H procesor , 32\nGB DDR4 memorije\n, brzi\nSSD M2 NVME\nod\n512\nGB\ni najnovijim\nWindows 11 25H2\n+ Office paket i dosta kvalitet",
+      "human_spans": [
+        {
+          "start": 243,
+          "end": 259,
+          "label": "SKLADISTE",
+          "text": "GB DDR4 memorije"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 243,
+          "end": 250,
+          "label": "RAM",
+          "text": "GB DDR4"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 74
+    },
+    {
+      "case_id": "K0774",
+      "ad_id": "804",
+      "field": "body",
+      "part": 3,
+      "structural_category": "POGRESNA_OZNAKA",
+      "primary_label": "SKLADISTE",
+      "context_start": 337,
+      "context_end": 527,
+      "context": "sta kvalitetnih programa za rad !\nProcesor:\nIntel Core i7-9850H (Intel CPU 9th)\nMemorija:\n32 GB DDR4\nHard disk:\n512\nGB\n- SSD M2 Nvme\nGrafika:\nINTEL UHD Graphics 630\nEkran\n: IPS\nSlim LED FHD ",
+      "human_spans": [
+        {
+          "start": 427,
+          "end": 437,
+          "label": "SKLADISTE",
+          "text": "32 GB DDR4"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 427,
+          "end": 437,
+          "label": "RAM",
+          "text": "32 GB DDR4"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 75
+    },
+    {
+      "case_id": "K0776",
+      "ad_id": "808",
+      "field": "body",
+      "part": 1,
+      "structural_category": "SUVISNO",
+      "primary_label": "RAM",
+      "context_start": 1092,
+      "context_end": 1273,
+      "context": "mart cache\nOstalo 14nm\nMemorija (RAM) 32GB DDR4\nRadni takt memorije 2.933MHz\nBroj slotova 4\nPopunjeni slotovi 2\nMaksimalno podržano 128GB\nGrafika nVidia® Quadro® T1000\nKoličina graf",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 1182,
+          "end": 1183,
+          "label": "RAM",
+          "text": "4"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 76
+    },
+    {
+      "case_id": "K0781",
+      "ad_id": "810",
+      "field": "body",
+      "part": 2,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "CENA",
+      "context_start": 0,
+      "context_end": 173,
+      "context": "u ponudi kvalitetni laptopovi iz uvoza svih generacija.\ncene idu od 100e pa do 800e.\nima raznih brendova, uglavnom HP DELL LENOVO\nsvi dolaze sa ssd diskovima!\nnajbolje doci ",
+      "human_spans": [
+        {
+          "start": 65,
+          "end": 83,
+          "label": "CENA",
+          "text": "od 100e pa do 800e"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 68,
+          "end": 72,
+          "label": "CENA",
+          "text": "100e"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "label": "CENA",
+          "text": "800e"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 77
+    },
+    {
+      "case_id": "K0792",
+      "ad_id": "830",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SUVISNO",
+      "primary_label": "CENA",
+      "context_start": 537,
+      "context_end": 744,
+      "context": " za bateriju potpuno prazno. Nova zamenska baterija za ovaj model u Srbiji trenutno košta između 4.000 i 5.000 dinara, što će potencijalni kupci sigurno iskoristiti kao argument za spuštanje cene.\nPlus (Snaž",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 627,
+          "end": 654,
+          "label": "CENA",
+          "text": "između 4.000 i 5.000 dinara"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 78
+    },
+    {
+      "case_id": "K0798",
+      "ad_id": "834",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_UZA",
+      "primary_label": "CPU",
+      "context_start": 180,
+      "context_end": 379,
+      "context": "na ploca je ispravna i testirana.\nGarancijaaa! ! !\nPotpuno ispravna i 100% proverena\nCPU: AMD E-350 Processor\n\nProdaje se sa hladnjakom, bez kulera i wi fi kartice!\nNIKADA SERVISIRANA ILI RADJENA!\nMo",
+      "human_spans": [
+        {
+          "start": 270,
+          "end": 289,
+          "label": "CPU",
+          "text": "AMD E-350 Processor"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 270,
+          "end": 279,
+          "label": "CPU",
+          "text": "AMD E-350"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 79
+    },
+    {
+      "case_id": "K0805",
+      "ad_id": "838",
+      "field": "body",
+      "part": 1,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "RAM",
+      "context_start": 43,
+      "context_end": 230,
+      "context": "d Socket AM5\n\n  * Chipset: AMD B650E\n  * Processor socket: Socket AM5\n  * Memory support: 4x DDR5\n  * Form factor: ATX\n\n- Kontaktirajte nas za sve potrebne informacije na 38**********\n\n- ",
+      "human_spans": [
+        {
+          "start": 133,
+          "end": 140,
+          "label": "RAM",
+          "text": "4x DDR5"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 80
+    },
+    {
+      "case_id": "K0835",
+      "ad_id": "840",
+      "field": "body",
+      "part": 3,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "CPU",
+      "context_start": 1148,
+      "context_end": 1349,
+      "context": "e 3.0 x1\n  * Skladište:             Količina 1 x M.2 slotova i 4 x SATA 6Gb/s portova\n  * AMD Ryzen 5000 Series / 4000 G-Series / 3000 Series Desktop Procesori:\n  * 1 x M.2 Socket 3, sa M Key, Type 224",
+      "human_spans": [
+        {
+          "start": 1238,
+          "end": 1259,
+          "label": "CPU",
+          "text": "AMD Ryzen 5000 Series"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 81
+    },
+    {
+      "case_id": "K0857",
+      "ad_id": "874",
+      "field": "body",
+      "part": 2,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 126,
+      "context": "Na prodaju 4gb, 8gb, 16gb, 32gb ddr3 ddr4 ddr5 za racunare i laptopove raznih prozivodjaca i raznih jacina.\n\nMemorije su testr",
+      "human_spans": [
+        {
+          "start": 27,
+          "end": 36,
+          "label": "RAM",
+          "text": "32gb ddr3"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 27,
+          "end": 31,
+          "label": "RAM",
+          "text": "32gb"
+        },
+        {
+          "start": 32,
+          "end": 36,
+          "label": "RAM",
+          "text": "ddr3"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 82
+    },
+    {
+      "case_id": "K0866",
+      "ad_id": "880",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SUVISNO",
+      "primary_label": "RAM",
+      "context_start": 189,
+      "context_end": 415,
+      "context": "aziran na šesnaest 1G x 8-bitnih FBGA komponenti po modulu. Svaki komplet modula podržava Intel® Extreme Memory Profile (Intel® XMP) 2.0. Ukupan kapacitet kompleta je 32GB. Svaki modul je testiran da radi na DDR4-3200 sa malim",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 279,
+          "end": 325,
+          "label": "RAM",
+          "text": "Intel® Extreme Memory Profile (Intel® XMP) 2.0"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 83
+    },
+    {
+      "case_id": "K0870",
+      "ad_id": "880",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SPAJANJE",
+      "primary_label": "RAM",
+      "context_start": 714,
+      "context_end": 922,
+      "context": "DR4-2400 CL17-17-17 @ 1.2V\n-XMP Profile #1: DDR4-3200 CL16-18-18 @ 1.35V\n-XMP Profile #2: DDR4-3000 CL15-17-17 @ 1.35V\n-Power Supply: VDD = 1.2V Typical\n-VDDQ = 1.2V Typical\n-VPP = 2.5V Typical\n-VDDSPD = 2.2V",
+      "human_spans": [
+        {
+          "start": 804,
+          "end": 824,
+          "label": "RAM",
+          "text": "DDR4-3000 CL15-17-17"
+        },
+        {
+          "start": 827,
+          "end": 832,
+          "label": "RAM",
+          "text": "1.35V"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 804,
+          "end": 832,
+          "label": "RAM",
+          "text": "DDR4-3000 CL15-17-17 @ 1.35V"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 84
+    },
+    {
+      "case_id": "K0873",
+      "ad_id": "880",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "RAM",
+      "context_start": 799,
+      "context_end": 997,
+      "context": " #2: DDR4-3000 CL15-17-17 @ 1.35V\n-Power Supply: VDD = 1.2V Typical\n-VDDQ = 1.2V Typical\n-VPP = 2.5V Typical\n-VDDSPD = 2.2V to 3.6V\n-On-Die termination (ODT)\n-16 internal banks; 4 groups of 4 banks ",
+      "human_spans": [
+        {
+          "start": 895,
+          "end": 899,
+          "label": "RAM",
+          "text": "2.5V"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 889,
+          "end": 907,
+          "label": "RAM",
+          "text": "VPP = 2.5V Typical"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 85
+    },
+    {
+      "case_id": "K0892",
+      "ad_id": "883",
+      "field": "body",
+      "part": 4,
+      "structural_category": "FRAGMENTACIJA",
+      "primary_label": "RAM",
+      "context_start": 0,
+      "context_end": 238,
+      "context": "Brend: Kingston\n\nModel: KF552C40BB-8\n\nKarakteristike\nKingston FURY KF552C40BB-8 is a 1G x 64-bit (8GB) DDR5-5200\nCL40 SDRAM (Synchronous DRAM) 1Rx16, memory module,\nbased on four 1G x 16-bit FBGA components per module. The\nmodule supports",
+      "human_spans": [
+        {
+          "start": 85,
+          "end": 148,
+          "label": "RAM",
+          "text": "1G x 64-bit (8GB) DDR5-5200\nCL40 SDRAM (Synchronous DRAM) 1Rx16"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 85,
+          "end": 112,
+          "label": "RAM",
+          "text": "1G x 64-bit (8GB) DDR5-5200"
+        },
+        {
+          "start": 113,
+          "end": 148,
+          "label": "RAM",
+          "text": "CL40 SDRAM (Synchronous DRAM) 1Rx16"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 86
+    },
+    {
+      "case_id": "K0911",
+      "ad_id": "883",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "RAM",
+      "context_start": 922,
+      "context_end": 1109,
+      "context": "Active/Refresh: 295ns(min. )\nCommand Time (tRFCmin)\nRow Active Time (tRASmin):32ns(min. )\nUL Rating: 94 V - 0\nOperating Temperature: 0o\n C to +85o\n C\nStorage Temperature: -55o\n C to +100o",
+      "human_spans": [
+        {
+          "start": 1023,
+          "end": 1031,
+          "label": "RAM",
+          "text": "94 V - 0"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1012,
+          "end": 1031,
+          "label": "RAM",
+          "text": "UL Rating: 94 V - 0"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 87
+    },
+    {
+      "case_id": "K0921",
+      "ad_id": "887",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "CENA",
+      "context_start": 4,
+      "context_end": 195,
+      "context": " desktop\n4Gb - 1000din/kom  4 na stanju\n8Gb - 2000din/kom  6 na stanju\nDDR4 desktop\n4Gb - 1500din/kom nema na stanju\n8Gb-3500din/kom  8 na stanju\n4Gb sa hladnjacima 2000din/kom nema na stanju",
+      "human_spans": [
+        {
+          "start": 94,
+          "end": 101,
+          "label": "CENA",
+          "text": "1500din"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 94,
+          "end": 105,
+          "label": "CENA",
+          "text": "1500din/kom"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 88
+    },
+    {
+      "case_id": "K0939",
+      "ad_id": "897",
+      "field": "body",
+      "part": 3,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "SKLADISTE",
+      "context_start": 326,
+      "context_end": 513,
+      "context": "0 kompatibilan\n-SuperSpeed USB 3.0 HDD pristup - 10 puta brži od USB 2.0\n-Kompatibilan sa USB 2.0\n-Podržava SATA 2.5 '' diskove bilo kog kapaciteta i 9.5mm debljine\nInterfejs: do 5 Gbps U",
+      "human_spans": [
+        {
+          "start": 416,
+          "end": 423,
+          "label": "SKLADISTE",
+          "text": "USB 2.0"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 89
+    },
+    {
+      "case_id": "K0950",
+      "ad_id": "898",
+      "field": "body",
+      "part": 4,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "SKLADISTE",
+      "context_start": 3,
+      "context_end": 186,
+      "context": "ANCIJA 2 GODINE!\n\nProizvodjac: Seagate\nModel: ST3320311CS\nTip: Interni hard disk harddisk HDD\nPovezivanje: Sata\nKapacitet: 320GB\nBafer: 8MB\nBroj obrtaja u minuti: 5900rpm\nFormat: 3.5\"",
+      "human_spans": [
+        {
+          "start": 93,
+          "end": 96,
+          "label": "SKLADISTE",
+          "text": "HDD"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 90
+    },
+    {
+      "case_id": "K0977",
+      "ad_id": "903",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SUVISNO",
+      "primary_label": "SKLADISTE",
+      "context_start": 3000,
+      "context_end": 3206,
+      "context": "tivni sistemi\n\nMac OS X 10.10 Yosemite, Mac OS X 10.11 El Capitan, Mac OS X 10.12 Sierra, Mac OS X 10.13 High Sierra, Mac OS X 10.14 Mojave, Mac OS X 10.4 Tiger, Mac OS X 10.5 Leopard, Mac OS X 10.6 Snow Le",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 3090,
+          "end": 3116,
+          "label": "SKLADISTE",
+          "text": "Mac OS X 10.13 High Sierra"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 91
+    },
+    {
+      "case_id": "K0991",
+      "ad_id": "910",
+      "field": "body",
+      "part": 1,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "SKLADISTE",
+      "context_start": 140,
+      "context_end": 323,
+      "context": "eni od 3. 249 din\n\n512GB po ceni od 4. 349 din\n\n1TB po ceni od 6. 949 din\n\n  * pogodni za NAS uređaje, za skladištenje podataka. . .\n\nNa više komada imate popust!\n\nŠifra proizvoda: VH",
+      "human_spans": [
+        {
+          "start": 230,
+          "end": 233,
+          "label": "SKLADISTE",
+          "text": "NAS"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 92
+    },
+    {
+      "case_id": "K1007",
+      "ad_id": "914",
+      "field": "body",
+      "part": 4,
+      "structural_category": "SUVISNO",
+      "primary_label": "SKLADISTE",
+      "context_start": 153,
+      "context_end": 334,
+      "context": "0din\n\nVise modela SSD diskova 2.5\" sa dobrim heltom i malo radnih dana.\n\nSamsung, Micron, San Disk, A Data, Kingston\n\nCene se krecu od 2500din do 3000din\nM.2 sata 256gb 2500 do 3000",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 243,
+          "end": 251,
+          "label": "SKLADISTE",
+          "text": "San Disk"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 93
+    },
+    {
+      "case_id": "K1030",
+      "ad_id": "917",
+      "field": "body",
+      "part": 4,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "CENA",
+      "context_start": 1324,
+      "context_end": 1514,
+      "context": "ez kutija!\nKingston 1TB NV3 Gen4 sa heatsinkom - 13500 din.\nKingston 1TB NV2 bez kutije - 12000 din.\nSK Hynix 1TB Gen4 - kao nov - 14500 din.\nMicron Pyrite 1TB Gen4 2242 format - kao nov - 1",
+      "human_spans": [
+        {
+          "start": 1414,
+          "end": 1423,
+          "label": "CENA",
+          "text": "12000 din"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1414,
+          "end": 1424,
+          "label": "CENA",
+          "text": "12000 din."
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 94
+    },
+    {
+      "case_id": "K1072",
+      "ad_id": "936",
+      "field": "body",
+      "part": 1,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "CPU",
+      "context_start": 510,
+      "context_end": 707,
+      "context": "inicije (HD)WUXGA\nProcesor\nProizvođač procesoraUnisoc\nProcesorT610\nTakt procesora1,82 GHz\nJezgra procesora8\nMemorija\nInterna memorija4 GB\nVrsta interne memorijeLPDDR4x-SDRAM\nMaksimalna veličina int",
+      "human_spans": [
+        {
+          "start": 616,
+          "end": 617,
+          "label": "CPU",
+          "text": "8"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 600,
+          "end": 617,
+          "label": "CPU",
+          "text": "Jezgra procesora8"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 95
+    },
+    {
+      "case_id": "K1077",
+      "ad_id": "937",
+      "field": "body",
+      "part": 2,
+      "structural_category": "GRANICA_SIRA",
+      "primary_label": "SKLADISTE",
+      "context_start": 924,
+      "context_end": 1118,
+      "context": "ora: Unisoc T610\n  * Radni takt procesora: 2.00 GHz\n  * Naziv grafike: Mali\n  * micro SD: do 512 godineB\n  * Mikrofon: Da\n  * Zvučnici: Stereo\n  * Bluetooth: Da\n  * Mogucnost poziva: Ne\n  * OTG ",
+      "human_spans": [
+        {
+          "start": 1014,
+          "end": 1020,
+          "label": "SKLADISTE",
+          "text": "do 512"
+        }
+      ],
+      "llm_spans": [
+        {
+          "start": 1014,
+          "end": 1028,
+          "label": "SKLADISTE",
+          "text": "do 512 godineB"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 96
+    },
+    {
+      "case_id": "K1083",
+      "ad_id": "949",
+      "field": "body",
+      "part": 4,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "CENA",
+      "context_start": 420,
+      "context_end": 608,
+      "context": "efon\n\n           e-mail\n\nCena po težini:\n\ndo 2 300 rsd\ndo 5 590 rsd\n\ndo 10 780 rsd\n\ndo 15 1000 rsd\n\ndo 20 1150 rsd\n\ndo 30 1300 rsd\n\ndo 50 1900 rsd\n\nPovrat novca:\n\ndo 20000 - 70 rsd\n\nod 200",
+      "human_spans": [
+        {
+          "start": 510,
+          "end": 518,
+          "label": "CENA",
+          "text": "1000 rsd"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 97
+    },
+    {
+      "case_id": "K1090",
+      "ad_id": "951",
+      "field": "body",
+      "part": 2,
+      "structural_category": "SUVISNO",
+      "primary_label": "CENA",
+      "context_start": 653,
+      "context_end": 840,
+      "context": "500rsd ili 40w po ceni od 2200rsd.\n2) Zastita za ekran: Ultimativno plastificirano staklo 2200rsd ili UV Ultimate zastita 1600rsd ili Armor protection zastita 1200rsd\n✚ Nacin dostave:   P",
+      "human_spans": [],
+      "llm_spans": [
+        {
+          "start": 743,
+          "end": 750,
+          "label": "CENA",
+          "text": "2200rsd"
+        }
+      ],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 98
+    },
+    {
+      "case_id": "K1098",
+      "ad_id": "978",
+      "field": "body",
+      "part": 2,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "RAM",
+      "context_start": 424,
+      "context_end": 605,
+      "context": "GINALNI PUNJAČ 65W  45€❌\nSAMSUNG Z FOLD  8 256GB -graphite (crna)  1399€✅\nSAMSUNG Z FOLD  8 256GB ULTRA graphite 1550€✅\nSAMSUNG Z FLIP 7 FE 256 BLACK 560 €✅\nSAMSUNG A57 8/256 ICEBLU",
+      "human_spans": [
+        {
+          "start": 514,
+          "end": 515,
+          "label": "RAM",
+          "text": "8"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [
+        {
+          "start": 506,
+          "end": 515,
+          "label": "MODEL",
+          "text": "Z FOLD  8"
+        }
+      ],
+      "sample_order": 99
+    },
+    {
+      "case_id": "K1103",
+      "ad_id": "993",
+      "field": "body",
+      "part": 4,
+      "structural_category": "PROPUSTENO",
+      "primary_label": "CENA",
+      "context_start": 1068,
+      "context_end": 1261,
+      "context": "\n\n─────────────────────────────\n⭐ HONOR 600 Lite\n\n  * 256GB — 30.760 din (ili na 24 rate: 1.410 din/mes)\nIzgleda i deluje skuplje nego što košta. 108MP kamera, AMOLED ekran i 6.520 mAh baterija",
+      "human_spans": [
+        {
+          "start": 1158,
+          "end": 1171,
+          "label": "CENA",
+          "text": "1.410 din/mes"
+        }
+      ],
+      "llm_spans": [],
+      "dropped_llm_spans_nearby": [],
+      "sample_order": 100
+    }
+  ]
+}

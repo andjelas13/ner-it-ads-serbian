@@ -1,0 +1,43 @@
+TITLE:
+MSI GeForce RTX 5070 12G GAMING TRIO OC WHITE grafička karta
+
+BODY:
+MSI GeForce RTX 5070 12G GAMING TRIO OC WHITE grafička karta
+
+Grafički procesor
+Proizvođač čipa: nVidia
+Grafika: nVidia GeForce
+Model: GeForce RTX 5070
+Proizvođač kartice: MSI
+Serija: GAMING TRIO
+Grafički čip: Blackwell
+Broj CUDA jezgara: 6144
+Radni takt: oko 2.325MHz (boost do oko 2.610MHz OC)
+Memorija
+Količina memorije: 12GB
+Magistrala memorije: 192bit
+Tip memorije: GDDR7
+Brzina memorije: 28Gbps
+Propusni opseg memorije: 672GB/s
+
+Priključci
+Ukupno DisplayPort priključaka: 3
+DisplayPort priključci: 3x DisplayPort 2.1b
+Ukupno HDMI priključaka: 1
+HDMI priključci: 1x HDMI 2.1b
+Dodatni naponski priključci: 1x16pin (12V-2x6)
+Ostale karakteristike
+Slot: PCI-Express 5.0 x16
+Broj ventilatora: 3x ventilatora
+Sistem hlađenja: TRI FROZR 4 Thermal Design
+Podržane tehnologije: OpenGL 4.6, Microsoft DirectX 12 Ultimate, nVidia DLSS 4, Ray Tracing, nVidia Reflex 2, CUDA, MSI Center, Afterburner
+Maksimalna rezolucija: 7.680 x 4.320
+Podrška za monitore: do 4 monitora
+Zero Frozr režim: Da
+RGB osvetljenje: Da
+
+Fizičke karakteristike
+Dimenzije: oko 338mm x 140mm x 50mm
+Format: Pun format
+Boja: Bela
+Garancija 36 meseci

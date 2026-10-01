@@ -1,0 +1,38 @@
+TITLE:
+Procesori CPU AMD, Intel, i5, i7, Athlon Semprom Xeon Razno
+
+BODY:
+Na prodaju procesori CPU AMD Intel i5 i7 Athlon Semprom Xeon
+
+Na stanju:
+
+Intel Core 2 Duo T5550  socket  P     SLA4E
+Intel Core 2 Duo T5870  socket  P      SLAZR
+Intel Core 2 Duo T6670  socket   P      SLGLK
+Intel Xeon E5520    socket FCLGA1366     SLBFD
+Intel Xeon E5520    socket 1366               SLBFD
+Intel Xeon X5650   socket FCLGA1366     SLBV3
+Intel Xeon L5630    socket 1366               SLBVD
+Intel Xeon L5630    socket 1366               SLBVD
+
+Intel Xeon    E5345   socket 771       SLAC5
+Intel Xeon    E5345   socket 771      SLAC5
+Intel Xeon    E5420   socket 771       SLBBL
+Intel Xeon    E5420   socket LGA771  SLBBL
+AMD Phenom II X2  550     socket AM3              HDZ550WFK2DGI
+
+Intel Core i5-4310M      socket G3, rPGA946B     SR1L2
+
+Intel Core i7-4712MQ   socket G3, rPGA946B      SR1PS
+Intel Core i3-350M        socket G1, rPGA988A     SLBPK
+Intel Core i5-3210M      socket G2, rPGA988B     SROMZ
+Intel Core i3-3110M      socket G2                       SR0N1
+
+Intel Core i5-2400        socket 1155, LGA1155   SR00Q
+Intel Xeon E5-2609 v3  socket 2011-3, LGA2011-3   SR1YC
+Intel Core 2 Duo Q6600  socket  LGA775            SLACR
+Intel Core 2 DUO E8400  socket 775                    SLAPL
+
+Intel Core i5-2430M       socket PPGA988            SR04W
+
+Intel Pentium G3220      socket  LGA 1150          SR1CG

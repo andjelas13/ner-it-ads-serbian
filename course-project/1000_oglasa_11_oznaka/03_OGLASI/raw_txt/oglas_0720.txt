@@ -1,0 +1,21 @@
+TITLE:
+AMD Procesor CPU AM5 Ryzen 5 7600 6C/12T 3.80-5.10GHz MPK
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+
+Podnožje:    AMD® AM5
+Tip procesora:    AMD® Ryzen 5
+Broj jezgara:    6
+Threads:    12
+Tehnologija izrade:    5 nm
+TDP:    65W
+Radna frekvencija:    3.8GHz
+Turbo frekvencija:    5.1GHz
+L2 keš memorija:    6MB
+L3 keš memorija:    32MB
+Integrisani grafički procesor:    Radeon Graphics
+
+33312
+
+Dsc

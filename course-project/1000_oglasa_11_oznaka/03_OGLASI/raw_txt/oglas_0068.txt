@@ -1,0 +1,41 @@
+TITLE:
+Intel Pentium Processor 2020M za laptop
+
+BODY:
+Intelov mobilni procesor III generacije, Pentium 2020M radi na frekvenciji 2,40MHz i ima 2M L3 keš memorije. Skinut sa Asus laptopa radi nadogradnje, 100% ispravan. Za laptopove sa G1 soketom / FCPGA988. Specifikacije:
+Product Collection - Intel® Pentium® Processor 2000 Series
+Code Name - Ivy Bridge
+Vertical Segment - Mobile
+Processor Number - 2020M
+Lithography - 22 nm
+Recommended Customer Price - $134.00
+Total Cores - 2
+Total Threads - 2
+Processor Base Frequency - 2.40 GHz
+Cache - 2 MB Intel® Smart Cache
+Bus Speed - 5 GT/s
+TDP - 35 W
+Max Memory Size (dependent on memory type) - 32 GB
+Memory Types - DDR3/L/-RS 1333/1600
+Max # of Memory Channels - 2
+Max Memory Bandwidth - 25.6 GB/s
+GPU Name‡ - Intel® HD Graphics for 3rd Generation Intel® Processors
+Graphics Base Frequency - 650 MHz
+Graphics Max Dynamic Frequency - 1.10 GHz
+Graphics Output - eDP/DP/HDMI/SDVO/CRT
+PCI Express Revision - 2.0
+PCI Express Configurations - 1x16, 2x8, 1x8 2x4
+Max # of PCI Express Lanes - 16
+Sockets Supported - FCPGA988 – G1
+Intel® 64 - Yes
+Instruction Set - 64-bit
+Instruction Set Extensions - Intel® SSE4.1, Intel® SSE4.2
+Intel® My WiFi Technology - Yes
+Idle States - Yes
+Enhanced Intel SpeedStep® Technology - Yes
+Thermal Monitoring Technologies - Yes
+Intel® Fast Memory Access - Yes
+Intel® Flex Memory Access - Yes
+Execute Disable Bit - Yes
+Intel® Virtualization Technology (VT-x) - Yes
+Intel® VT-x with Extended Page Tables (EPT) - Yes

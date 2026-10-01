@@ -1,0 +1,7 @@
+TITLE:
+Intel Celeron 1,7ghz
+
+BODY:
+Ispravan procesor, radi na plocama sa 478 socketom.
+
+Magistrala 400 mhz, 128kb keš memorije.

@@ -1,0 +1,18 @@
+{
+  "n_folds": 10,
+  "fold_sizes": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "splitter": "MultilabelStratifiedKFold + deterministic exact-size group repair",
+  "grouping": "non-empty byte-exact body",
+  "fallback_allowed": false
+}

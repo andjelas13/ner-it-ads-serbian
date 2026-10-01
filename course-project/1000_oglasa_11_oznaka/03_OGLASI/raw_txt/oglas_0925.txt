@@ -1,0 +1,15 @@
+TITLE:
+GLOTRENDS PA40 PCIe x8 kartica za 4x NVMe SSD diska
+
+BODY:
+* Predmet nov, nekorišćen u originalnom pakovanju
+  * Testiran, garancija na ispravnost
+  * Prve fotografije i opis preuzete uglavnom sa sajta Amazon za navedeni predmet
+  * Ostatak fotografija i opisa lično fotografisano i dodato te predstavljaju stvarno stanje i izgled opisanog proizvoda,   K3105
+Četvorostruki M.2 NVMe na PCIe 3.0 X8 adapter: Instaliranjem 4 M.2 NVMe SSD-a (Podržava 22110/2280/2260/2242/2230 M.2 NVMe SSD) na ovaj PCIe 3.0 X8 adapter, vaš računar će moći da pristupi 4 x M.2 NVMe SSD-a istovremeno (Napomena: Ne podržava M.2 SATA SSD)
+ASM2824 čip Ugrađena PCIe bifurkacija: Može da radi sa svim vrstama matičnih ploča (Napomena: PCIe slot mora biti dodeljen sa PCIe X8 propusnim opsegom linije)
+Uzlazni propusni opseg: 4 x M.2 NVMe SSD-a dele PCIE 3.0 X8 propusni opseg (64Gbits/s = 8GB/s max), to znači da 4 x M.2 NVMe SSD-a ne mogu da rade punom brzinom istovremeno
+Hardverska platforma: Podržava Soft RAID na Intel/AMD platformi, ne podržava Mac Pro 5.1 (Napomena: Da biste podesili Intelov RAID-on-CPU (VROC), potrebno je da kupite licencu)
+Podrška za pokretanje operativnog sistema: Ponovo instalirajte operativni sistem i podesite BIOS/UEFI pokretanje sa ovog M.2 NVMe SSD-a (Napomena: Neke matične ploče su prestare da bi podržale pokretanje operativnog sistema. U ovom slučaju, M.2 NVMe SSD-ovi se mogu koristiti kao diskovi za skladištenje)
+Kompatibilnost sa operativnim sistemom: Plug-and-play u Windows 11/10/8/Linux/Mac OS (Napomena: Ne podržava Windows 7). Novi M.2 NVMe SSD treba inicijalizovati i formatirati pre nego što ga računar može prepoznati.
+Tihi ventilator hladnjaka osigurava da ovaj adapter radi dugo vremena bez gubitka performansi.

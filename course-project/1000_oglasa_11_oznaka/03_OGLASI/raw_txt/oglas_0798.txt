@@ -1,0 +1,15 @@
+TITLE:
+Laptop
+
+BODY:
+Lenovo IdeaPad slim 81vs
+Ekran: 14" led
+Procesor: AMD A6-9220e Radeon R4,5 Compute cores 2C+3G 1.60ghz
+Ram: 4gb
+SSD: 64GB
+Grafika: AMD Radeon R4
+Baterija 5h
+Punjac
+Web kamera, wifi, usb, hdmi,
+Windows 11 x64
+CENA 120€ (14 160din)

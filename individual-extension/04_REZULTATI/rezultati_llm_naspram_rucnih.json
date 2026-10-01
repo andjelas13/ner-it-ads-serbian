@@ -1,0 +1,1288 @@
+{
+  "metadata": {
+    "reference": "ručne anotacije tima",
+    "comparison": "prvi LLM prolaz",
+    "labels": [
+      "CPU",
+      "GPU",
+      "RAM",
+      "SKLADISTE",
+      "CENA"
+    ],
+    "bootstrap_unit": "oglas",
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 20260914
+  },
+  "validation": {
+    "human_ads": 800,
+    "llm_ads": 1000,
+    "shared_ads": 800,
+    "mismatched_text_fields": 0,
+    "invalid_offsets": 0
+  },
+  "counts": {
+    "human_spans": 5814,
+    "llm_spans_after_filter": 6064,
+    "exact_matches": 4986,
+    "difference_cases": 1114,
+    "ads_with_differences": 311
+  },
+  "overall": {
+    "strict": {
+      "tp": 4986,
+      "fp": 1078,
+      "fn": 828,
+      "precision": 0.8222295514511874,
+      "recall": 0.8575851393188855,
+      "f1": 0.8395352752988718
+    },
+    "relaxed": {
+      "tp": 5470,
+      "fp": 594,
+      "fn": 344,
+      "precision": 0.9020448548812665,
+      "recall": 0.9408324733402132,
+      "f1": 0.9210304765111971
+    },
+    "semantic": {
+      "tp": 21953,
+      "fp": 2217,
+      "fn": 1125,
+      "precision": 0.9082747207281754,
+      "recall": 0.9512522748938382,
+      "f1": 0.9292668472739587,
+      "per_label": {
+        "CPU": {
+          "tp": 5827,
+          "fp": 481,
+          "fn": 267,
+          "precision": 0.9237476220672163,
+          "recall": 0.9561864128651132,
+          "f1": 0.939687147234317
+        },
+        "GPU": {
+          "tp": 4249,
+          "fp": 603,
+          "fn": 211,
+          "precision": 0.8757213520197856,
+          "recall": 0.9526905829596413,
+          "f1": 0.912585910652921
+        },
+        "RAM": {
+          "tp": 4143,
+          "fp": 485,
+          "fn": 235,
+          "precision": 0.8952031114952463,
+          "recall": 0.9463225216994061,
+          "f1": 0.9200532978014656
+        },
+        "SKLADISTE": {
+          "tp": 5904,
+          "fp": 532,
+          "fn": 321,
+          "precision": 0.9173399627097576,
+          "recall": 0.948433734939759,
+          "f1": 0.9326277545217597
+        },
+        "CENA": {
+          "tp": 1830,
+          "fp": 116,
+          "fn": 91,
+          "precision": 0.9403905447070915,
+          "recall": 0.9526288391462779,
+          "f1": 0.9464701318851824
+        }
+      },
+      "token_count": 120829,
+      "accuracy_with_O": 0.9732680068526596
+    },
+    "cohen_kappa": 0.9223635276475487
+  },
+  "bootstrap_95_percent_intervals": {
+    "strict": {
+      "precision": [
+        0.7891446401040239,
+        0.8512691589422736
+      ],
+      "recall": [
+        0.8247102830530086,
+        0.8836066828321366
+      ],
+      "f1": [
+        0.8093668867353911,
+        0.8657657466870897
+      ]
+    },
+    "relaxed": {
+      "precision": [
+        0.8825619562747697,
+        0.9203879124147105
+      ],
+      "recall": [
+        0.9194612834803624,
+        0.9564580333407178
+      ],
+      "f1": [
+        0.9048355089034761,
+        0.934456094046771
+      ]
+    },
+    "semantic": {
+      "precision": [
+        0.878578263406158,
+        0.9341878927829387
+      ],
+      "recall": [
+        0.9268008454162028,
+        0.9683878224119041
+      ],
+      "f1": [
+        0.9085813982690724,
+        0.9469822468708791
+      ]
+    }
+  },
+  "per_label": [
+    {
+      "label": "CPU",
+      "human_spans": 1083,
+      "llm_spans": 1087,
+      "strict": {
+        "tp": 875,
+        "fp": 212,
+        "fn": 208,
+        "precision": 0.8049678012879485,
+        "recall": 0.8079409048938134,
+        "f1": 0.8064516129032259
+      },
+      "relaxed": {
+        "tp": 996,
+        "fp": 91,
+        "fn": 87,
+        "precision": 0.9162833486660533,
+        "recall": 0.9196675900277008,
+        "f1": 0.9179723502304147
+      },
+      "semantic": {
+        "tp": 5827,
+        "fp": 481,
+        "fn": 267,
+        "precision": 0.9237476220672163,
+        "recall": 0.9561864128651132,
+        "f1": 0.939687147234317,
+        "per_label": {
+          "CPU": {
+            "tp": 5827,
+            "fp": 481,
+            "fn": 267,
+            "precision": 0.9237476220672163,
+            "recall": 0.9561864128651132,
+            "f1": 0.939687147234317
+          },
+          "GPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAM": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "SKLADISTE": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CENA": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "token_count": 120829,
+        "accuracy_with_O": 0.993809433165879
+      },
+      "cohen_kappa": 0.9364254431015133
+    },
+    {
+      "label": "GPU",
+      "human_spans": 987,
+      "llm_spans": 1065,
+      "strict": {
+        "tp": 777,
+        "fp": 288,
+        "fn": 210,
+        "precision": 0.7295774647887324,
+        "recall": 0.7872340425531915,
+        "f1": 0.7573099415204678
+      },
+      "relaxed": {
+        "tp": 907,
+        "fp": 158,
+        "fn": 80,
+        "precision": 0.8516431924882629,
+        "recall": 0.9189463019250254,
+        "f1": 0.8840155945419104
+      },
+      "semantic": {
+        "tp": 4249,
+        "fp": 603,
+        "fn": 211,
+        "precision": 0.8757213520197856,
+        "recall": 0.9526905829596413,
+        "f1": 0.912585910652921,
+        "per_label": {
+          "CPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "GPU": {
+            "tp": 4249,
+            "fp": 603,
+            "fn": 211,
+            "precision": 0.8757213520197856,
+            "recall": 0.9526905829596413,
+            "f1": 0.912585910652921
+          },
+          "RAM": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "SKLADISTE": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CENA": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "token_count": 120829,
+        "accuracy_with_O": 0.9932632066805155
+      },
+      "cohen_kappa": 0.9090889715542234
+    },
+    {
+      "label": "RAM",
+      "human_spans": 1248,
+      "llm_spans": 1290,
+      "strict": {
+        "tp": 1086,
+        "fp": 204,
+        "fn": 162,
+        "precision": 0.8418604651162791,
+        "recall": 0.8701923076923077,
+        "f1": 0.855791962174941
+      },
+      "relaxed": {
+        "tp": 1174,
+        "fp": 116,
+        "fn": 74,
+        "precision": 0.9100775193798449,
+        "recall": 0.9407051282051282,
+        "f1": 0.9251379038613081
+      },
+      "semantic": {
+        "tp": 4143,
+        "fp": 485,
+        "fn": 235,
+        "precision": 0.8952031114952463,
+        "recall": 0.9463225216994061,
+        "f1": 0.9200532978014656,
+        "per_label": {
+          "CPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "GPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAM": {
+            "tp": 4143,
+            "fp": 485,
+            "fn": 235,
+            "precision": 0.8952031114952463,
+            "recall": 0.9463225216994061,
+            "f1": 0.9200532978014656
+          },
+          "SKLADISTE": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CENA": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "token_count": 120829,
+        "accuracy_with_O": 0.9940411656142152
+      },
+      "cohen_kappa": 0.916961023827347
+    },
+    {
+      "label": "SKLADISTE",
+      "human_spans": 1697,
+      "llm_spans": 1825,
+      "strict": {
+        "tp": 1505,
+        "fp": 320,
+        "fn": 192,
+        "precision": 0.8246575342465754,
+        "recall": 0.8868591632292281,
+        "f1": 0.8546280522430437
+      },
+      "relaxed": {
+        "tp": 1620,
+        "fp": 205,
+        "fn": 77,
+        "precision": 0.8876712328767123,
+        "recall": 0.9546258102533883,
+        "f1": 0.919931856899489
+      },
+      "semantic": {
+        "tp": 5904,
+        "fp": 532,
+        "fn": 321,
+        "precision": 0.9173399627097576,
+        "recall": 0.948433734939759,
+        "f1": 0.9326277545217597,
+        "per_label": {
+          "CPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "GPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAM": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "SKLADISTE": {
+            "tp": 5904,
+            "fp": 532,
+            "fn": 321,
+            "precision": 0.9173399627097576,
+            "recall": 0.948433734939759,
+            "f1": 0.9326277545217597
+          },
+          "CENA": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "token_count": 120829,
+        "accuracy_with_O": 0.9929404364846187
+      },
+      "cohen_kappa": 0.9289039066177011
+    },
+    {
+      "label": "CENA",
+      "human_spans": 799,
+      "llm_spans": 797,
+      "strict": {
+        "tp": 743,
+        "fp": 54,
+        "fn": 56,
+        "precision": 0.9322459222082811,
+        "recall": 0.9299123904881101,
+        "f1": 0.9310776942355891
+      },
+      "relaxed": {
+        "tp": 773,
+        "fp": 24,
+        "fn": 26,
+        "precision": 0.9698870765370138,
+        "recall": 0.967459324155194,
+        "f1": 0.968671679197995
+      },
+      "semantic": {
+        "tp": 1830,
+        "fp": 116,
+        "fn": 91,
+        "precision": 0.9403905447070915,
+        "recall": 0.9526288391462779,
+        "f1": 0.9464701318851824,
+        "per_label": {
+          "CPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "GPU": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "RAM": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "SKLADISTE": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "CENA": {
+            "tp": 1830,
+            "fp": 116,
+            "fn": 91,
+            "precision": 0.9403905447070915,
+            "recall": 0.9526288391462779,
+            "f1": 0.9464701318851824
+          }
+        },
+        "token_count": 120829,
+        "accuracy_with_O": 0.9982868351140869
+      },
+      "cohen_kappa": 0.945599656519846
+    }
+  ],
+  "per_field": [
+    {
+      "field": "title",
+      "human_spans": 775,
+      "llm_spans": 813,
+      "strict": {
+        "tp": 707,
+        "fp": 106,
+        "fn": 68,
+        "precision": 0.8696186961869619,
+        "recall": 0.912258064516129,
+        "f1": 0.8904282115869018
+      },
+      "relaxed": {
+        "tp": 760,
+        "fp": 53,
+        "fn": 15,
+        "precision": 0.9348093480934809,
+        "recall": 0.9806451612903225,
+        "f1": 0.9571788413098237
+      },
+      "semantic": {
+        "tp": 3496,
+        "fp": 131,
+        "fn": 68,
+        "precision": 0.9638819961400606,
+        "recall": 0.9809203142536476,
+        "f1": 0.9723265192601863,
+        "per_label": {
+          "CPU": {
+            "tp": 1007,
+            "fp": 25,
+            "fn": 19,
+            "precision": 0.9757751937984496,
+            "recall": 0.9814814814814815,
+            "f1": 0.9786200194363459
+          },
+          "GPU": {
+            "tp": 637,
+            "fp": 21,
+            "fn": 0,
+            "precision": 0.9680851063829787,
+            "recall": 1.0,
+            "f1": 0.9837837837837838
+          },
+          "RAM": {
+            "tp": 906,
+            "fp": 47,
+            "fn": 17,
+            "precision": 0.950682056663169,
+            "recall": 0.9815817984832069,
+            "f1": 0.9658848614072496
+          },
+          "SKLADISTE": {
+            "tp": 946,
+            "fp": 38,
+            "fn": 32,
+            "precision": 0.9613821138211383,
+            "recall": 0.967280163599182,
+            "f1": 0.9643221202854231
+          },
+          "CENA": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "token_count": 8215,
+        "accuracy_with_O": 0.9773584905660377
+      },
+      "cohen_kappa": 0.9643222128741242
+    },
+    {
+      "field": "body",
+      "human_spans": 5039,
+      "llm_spans": 5251,
+      "strict": {
+        "tp": 4279,
+        "fp": 972,
+        "fn": 760,
+        "precision": 0.8148924014473433,
+        "recall": 0.8491764238936297,
+        "f1": 0.8316812439261418
+      },
+      "relaxed": {
+        "tp": 4710,
+        "fp": 541,
+        "fn": 329,
+        "precision": 0.8969720053323177,
+        "recall": 0.9347092677118476,
+        "f1": 0.9154518950437318
+      },
+      "semantic": {
+        "tp": 18457,
+        "fp": 2086,
+        "fn": 1057,
+        "precision": 0.8984568952928005,
+        "recall": 0.9458337603771652,
+        "f1": 0.9215368100456849,
+        "per_label": {
+          "CPU": {
+            "tp": 4820,
+            "fp": 456,
+            "fn": 248,
+            "precision": 0.913570887035633,
+            "recall": 0.9510655090765588,
+            "f1": 0.9319412219644239
+          },
+          "GPU": {
+            "tp": 3612,
+            "fp": 582,
+            "fn": 211,
+            "precision": 0.8612303290414879,
+            "recall": 0.9448077426105153,
+            "f1": 0.901085193962829
+          },
+          "RAM": {
+            "tp": 3237,
+            "fp": 438,
+            "fn": 218,
+            "precision": 0.8808163265306123,
+            "recall": 0.9369030390738061,
+            "f1": 0.9079943899018232
+          },
+          "SKLADISTE": {
+            "tp": 4958,
+            "fp": 494,
+            "fn": 289,
+            "precision": 0.9093910491562729,
+            "recall": 0.9449209071850582,
+            "f1": 0.9268155902420787
+          },
+          "CENA": {
+            "tp": 1830,
+            "fp": 116,
+            "fn": 91,
+            "precision": 0.9403905447070915,
+            "recall": 0.9526288391462779,
+            "f1": 0.9464701318851824
+          }
+        },
+        "token_count": 112614,
+        "accuracy_with_O": 0.9729696130143677
+      },
+      "cohen_kappa": 0.9147756253982077
+    }
+  ],
+  "per_part": [
+    {
+      "part": 1,
+      "ads": 200,
+      "human_spans": 1530,
+      "llm_spans": 1499,
+      "difference_cases": 176,
+      "differences_per_100_human_spans": 11.50326797385621,
+      "strict": {
+        "tp": 1377,
+        "fp": 122,
+        "fn": 153,
+        "precision": 0.9186124082721815,
+        "recall": 0.9,
+        "f1": 0.9092109607131067
+      },
+      "relaxed": {
+        "tp": 1452,
+        "fp": 47,
+        "fn": 78,
+        "precision": 0.9686457638425617,
+        "recall": 0.9490196078431372,
+        "f1": 0.9587322548695938
+      },
+      "semantic": {
+        "tp": 5611,
+        "fp": 232,
+        "fn": 188,
+        "precision": 0.9602943693308232,
+        "recall": 0.9675806173478186,
+        "f1": 0.9639237244459714,
+        "per_label": {
+          "CPU": {
+            "tp": 1680,
+            "fp": 16,
+            "fn": 79,
+            "precision": 0.9905660377358491,
+            "recall": 0.9550881182490051,
+            "f1": 0.9725036179450072
+          },
+          "GPU": {
+            "tp": 1214,
+            "fp": 108,
+            "fn": 36,
+            "precision": 0.9183055975794251,
+            "recall": 0.9712,
+            "f1": 0.9440124416796266
+          },
+          "RAM": {
+            "tp": 1024,
+            "fp": 34,
+            "fn": 54,
+            "precision": 0.9678638941398866,
+            "recall": 0.9499072356215214,
+            "f1": 0.9588014981273408
+          },
+          "SKLADISTE": {
+            "tp": 1271,
+            "fp": 60,
+            "fn": 19,
+            "precision": 0.9549211119459053,
+            "recall": 0.9852713178294573,
+            "f1": 0.9698588325066769
+          },
+          "CENA": {
+            "tp": 422,
+            "fp": 14,
+            "fn": 0,
+            "precision": 0.9678899082568807,
+            "recall": 1.0,
+            "f1": 0.9836829836829836
+          }
+        },
+        "token_count": 30914,
+        "accuracy_with_O": 0.9866080093161674
+      },
+      "cohen_kappa": 0.9597964516933518
+    },
+    {
+      "part": 2,
+      "ads": 200,
+      "human_spans": 1520,
+      "llm_spans": 1621,
+      "difference_cases": 336,
+      "differences_per_100_human_spans": 22.105263157894736,
+      "strict": {
+        "tp": 1287,
+        "fp": 334,
+        "fn": 233,
+        "precision": 0.7939543491671808,
+        "recall": 0.8467105263157895,
+        "f1": 0.8194842406876791
+      },
+      "relaxed": {
+        "tp": 1413,
+        "fp": 208,
+        "fn": 107,
+        "precision": 0.8716841455891425,
+        "recall": 0.9296052631578947,
+        "f1": 0.8997134670487107
+      },
+      "semantic": {
+        "tp": 5540,
+        "fp": 1063,
+        "fn": 126,
+        "precision": 0.8390125700439194,
+        "recall": 0.9777620896576068,
+        "f1": 0.9030890863151031,
+        "per_label": {
+          "CPU": {
+            "tp": 1447,
+            "fp": 221,
+            "fn": 42,
+            "precision": 0.867505995203837,
+            "recall": 0.9717931497649429,
+            "f1": 0.9166930630345265
+          },
+          "GPU": {
+            "tp": 1275,
+            "fp": 250,
+            "fn": 29,
+            "precision": 0.8360655737704918,
+            "recall": 0.977760736196319,
+            "f1": 0.9013785790031813
+          },
+          "RAM": {
+            "tp": 1170,
+            "fp": 234,
+            "fn": 43,
+            "precision": 0.8333333333333334,
+            "recall": 0.964550700741962,
+            "f1": 0.8941536110049676
+          },
+          "SKLADISTE": {
+            "tp": 1306,
+            "fp": 284,
+            "fn": 5,
+            "precision": 0.8213836477987422,
+            "recall": 0.996186117467582,
+            "f1": 0.9003791795932437
+          },
+          "CENA": {
+            "tp": 342,
+            "fp": 74,
+            "fn": 7,
+            "precision": 0.8221153846153846,
+            "recall": 0.9799426934097422,
+            "f1": 0.8941176470588235
+          }
+        },
+        "token_count": 31784,
+        "accuracy_with_O": 0.9633463377800151
+      },
+      "cohen_kappa": 0.8924033080459738
+    },
+    {
+      "part": 3,
+      "ads": 200,
+      "human_spans": 1436,
+      "llm_spans": 1475,
+      "difference_cases": 264,
+      "differences_per_100_human_spans": 18.384401114206128,
+      "strict": {
+        "tp": 1261,
+        "fp": 214,
+        "fn": 175,
+        "precision": 0.8549152542372881,
+        "recall": 0.878133704735376,
+        "f1": 0.8663689453795946
+      },
+      "relaxed": {
+        "tp": 1343,
+        "fp": 132,
+        "fn": 93,
+        "precision": 0.9105084745762712,
+        "recall": 0.9352367688022284,
+        "f1": 0.9227069735486086
+      },
+      "semantic": {
+        "tp": 5587,
+        "fp": 458,
+        "fn": 449,
+        "precision": 0.9242349048800662,
+        "recall": 0.9256129887342611,
+        "f1": 0.9249234334906051,
+        "per_label": {
+          "CPU": {
+            "tp": 1328,
+            "fp": 125,
+            "fn": 95,
+            "precision": 0.9139710942876806,
+            "recall": 0.9332396345748419,
+            "f1": 0.9235048678720446
+          },
+          "GPU": {
+            "tp": 841,
+            "fp": 114,
+            "fn": 79,
+            "precision": 0.8806282722513089,
+            "recall": 0.9141304347826087,
+            "f1": 0.8970666666666668
+          },
+          "RAM": {
+            "tp": 808,
+            "fp": 117,
+            "fn": 96,
+            "precision": 0.8735135135135135,
+            "recall": 0.8938053097345132,
+            "f1": 0.8835429196282121
+          },
+          "SKLADISTE": {
+            "tp": 1988,
+            "fp": 96,
+            "fn": 178,
+            "precision": 0.9539347408829175,
+            "recall": 0.9178208679593721,
+            "f1": 0.9355294117647058
+          },
+          "CENA": {
+            "tp": 622,
+            "fp": 6,
+            "fn": 1,
+            "precision": 0.9904458598726115,
+            "recall": 0.9983948635634029,
+            "f1": 0.9944044764188649
+          }
+        },
+        "token_count": 30246,
+        "accuracy_with_O": 0.9719962970310123
+      },
+      "cohen_kappa": 0.9199992940001545
+    },
+    {
+      "part": 4,
+      "ads": 200,
+      "human_spans": 1328,
+      "llm_spans": 1469,
+      "difference_cases": 338,
+      "differences_per_100_human_spans": 25.451807228915662,
+      "strict": {
+        "tp": 1061,
+        "fp": 408,
+        "fn": 267,
+        "precision": 0.7222600408441117,
+        "recall": 0.7989457831325302,
+        "f1": 0.7586700035752593
+      },
+      "relaxed": {
+        "tp": 1262,
+        "fp": 207,
+        "fn": 66,
+        "precision": 0.8590878148400273,
+        "recall": 0.9503012048192772,
+        "f1": 0.9023954236682161
+      },
+      "semantic": {
+        "tp": 5215,
+        "fp": 464,
+        "fn": 362,
+        "precision": 0.9182954745553795,
+        "recall": 0.9350905504751659,
+        "f1": 0.9266169154228856,
+        "per_label": {
+          "CPU": {
+            "tp": 1372,
+            "fp": 119,
+            "fn": 51,
+            "precision": 0.92018779342723,
+            "recall": 0.9641602248770204,
+            "f1": 0.9416609471516816
+          },
+          "GPU": {
+            "tp": 919,
+            "fp": 131,
+            "fn": 67,
+            "precision": 0.8752380952380953,
+            "recall": 0.9320486815415822,
+            "f1": 0.9027504911591356
+          },
+          "RAM": {
+            "tp": 1141,
+            "fp": 100,
+            "fn": 42,
+            "precision": 0.91941982272361,
+            "recall": 0.9644970414201184,
+            "f1": 0.9414191419141915
+          },
+          "SKLADISTE": {
+            "tp": 1339,
+            "fp": 92,
+            "fn": 119,
+            "precision": 0.9357092941998603,
+            "recall": 0.9183813443072703,
+            "f1": 0.9269643475250952
+          },
+          "CENA": {
+            "tp": 444,
+            "fp": 22,
+            "fn": 83,
+            "precision": 0.9527896995708155,
+            "recall": 0.8425047438330171,
+            "f1": 0.8942598187311179
+          }
+        },
+        "token_count": 27885,
+        "accuracy_with_O": 0.9711672942442173
+      },
+      "cohen_kappa": 0.9185468787644344
+    }
+  ],
+  "difference_categories": [
+    {
+      "category": "SUVISNO",
+      "count": 405,
+      "percent": 36.35547576301616
+    },
+    {
+      "category": "GRANICA_SIRA",
+      "count": 219,
+      "percent": 19.658886894075405
+    },
+    {
+      "category": "PROPUSTENO",
+      "count": 204,
+      "percent": 18.31238779174147
+    },
+    {
+      "category": "FRAGMENTACIJA",
+      "count": 105,
+      "percent": 9.425493716337522
+    },
+    {
+      "category": "SPAJANJE",
+      "count": 83,
+      "percent": 7.450628366247756
+    },
+    {
+      "category": "GRANICA_UZA",
+      "count": 73,
+      "percent": 6.552962298025134
+    },
+    {
+      "category": "POGRESNA_OZNAKA",
+      "count": 17,
+      "percent": 1.5260323159784561
+    },
+    {
+      "category": "GRANICA_I_OZNAKA",
+      "count": 5,
+      "percent": 0.4488330341113106
+    },
+    {
+      "category": "GRANICA_POMERENA",
+      "count": 2,
+      "percent": 0.17953321364452424
+    },
+    {
+      "category": "SLOZENO",
+      "count": 1,
+      "percent": 0.08976660682226212
+    }
+  ],
+  "differences_by_primary_label": [
+    {
+      "primary_label": "SKLADISTE",
+      "count": 321,
+      "percent": 28.81508078994614
+    },
+    {
+      "primary_label": "GPU",
+      "count": 266,
+      "percent": 23.877917414721722
+    },
+    {
+      "primary_label": "CPU",
+      "count": 242,
+      "percent": 21.723518850987432
+    },
+    {
+      "primary_label": "RAM",
+      "count": 208,
+      "percent": 18.671454219030522
+    },
+    {
+      "primary_label": "CENA",
+      "count": 77,
+      "percent": 6.912028725314183
+    }
+  ],
+  "differences_by_field": [
+    {
+      "field": "body",
+      "count": 1020,
+      "percent": 91.56193895870736
+    },
+    {
+      "field": "title",
+      "count": 94,
+      "percent": 8.43806104129264
+    }
+  ],
+  "top_ads": [
+    {
+      "ad_id": "709",
+      "difference_cases": 51,
+      "percent_all_cases": 4.578096947935368
+    },
+    {
+      "ad_id": "840",
+      "difference_cases": 43,
+      "percent_all_cases": 3.859964093357271
+    },
+    {
+      "ad_id": "68",
+      "difference_cases": 34,
+      "percent_all_cases": 3.0520646319569122
+    },
+    {
+      "ad_id": "903",
+      "difference_cases": 32,
+      "percent_all_cases": 2.872531418312388
+    },
+    {
+      "ad_id": "880",
+      "difference_cases": 26,
+      "percent_all_cases": 2.3339317773788153
+    },
+    {
+      "ad_id": "883",
+      "difference_cases": 22,
+      "percent_all_cases": 1.9748653500897666
+    },
+    {
+      "ad_id": "424",
+      "difference_cases": 19,
+      "percent_all_cases": 1.7055655296229804
+    },
+    {
+      "ad_id": "917",
+      "difference_cases": 18,
+      "percent_all_cases": 1.6157989228007181
+    },
+    {
+      "ad_id": "914",
+      "difference_cases": 15,
+      "percent_all_cases": 1.3464991023339319
+    },
+    {
+      "ad_id": "929",
+      "difference_cases": 15,
+      "percent_all_cases": 1.3464991023339319
+    },
+    {
+      "ad_id": "768",
+      "difference_cases": 14,
+      "percent_all_cases": 1.2567324955116697
+    },
+    {
+      "ad_id": "278",
+      "difference_cases": 13,
+      "percent_all_cases": 1.1669658886894076
+    },
+    {
+      "ad_id": "993",
+      "difference_cases": 13,
+      "percent_all_cases": 1.1669658886894076
+    },
+    {
+      "ad_id": "752",
+      "difference_cases": 12,
+      "percent_all_cases": 1.0771992818671454
+    },
+    {
+      "ad_id": "897",
+      "difference_cases": 12,
+      "percent_all_cases": 1.0771992818671454
+    },
+    {
+      "ad_id": "332",
+      "difference_cases": 11,
+      "percent_all_cases": 0.9874326750448833
+    },
+    {
+      "ad_id": "887",
+      "difference_cases": 11,
+      "percent_all_cases": 0.9874326750448833
+    },
+    {
+      "ad_id": "159",
+      "difference_cases": 10,
+      "percent_all_cases": 0.8976660682226212
+    },
+    {
+      "ad_id": "759",
+      "difference_cases": 9,
+      "percent_all_cases": 0.8078994614003591
+    },
+    {
+      "ad_id": "786",
+      "difference_cases": 9,
+      "percent_all_cases": 0.8078994614003591
+    }
+  ],
+  "concentration": {
+    "top_8_cases": 245,
+    "top_8_percent": 21.99281867145422
+  },
+  "old_scheme": {
+    "removed_spans_total": 5048,
+    "removed_spans_by_label": {
+      "MODEL": 1826,
+      "BRAND": 1297,
+      "EKRAN": 1007,
+      "MESTO": 438,
+      "BATERIJA": 292,
+      "GARANCIJA": 188
+    },
+    "cases_with_direct_overlap_of_dropped_label": 18,
+    "cases_with_dropped_label_within_3_characters": 47,
+    "note": "Mera sa pragom od 3 karaktera je kontekstualna blizina, ne direktno preklapanje."
+  },
+  "sensitivity": {
+    "strict_after_trimming_outer_space_and_punctuation": {
+      "tp": 4994,
+      "fp": 1070,
+      "fn": 820,
+      "precision": 0.8235488126649076,
+      "recall": 0.8589611283109735,
+      "f1": 0.8408823034180838
+    },
+    "without_ads_709_and_840": {
+      "counts": {
+        "human_spans": 5709,
+        "llm_spans": 5999,
+        "difference_cases": 1020
+      },
+      "metrics": {
+        "strict": {
+          "tp": 4971,
+          "fp": 1028,
+          "fn": 738,
+          "precision": 0.8286381063510585,
+          "recall": 0.8707304256437205,
+          "f1": 0.8491629654936795
+        },
+        "relaxed": {
+          "tp": 5409,
+          "fp": 590,
+          "fn": 300,
+          "precision": 0.9016502750458409,
+          "recall": 0.9474513925380977,
+          "f1": 0.9239836009566108
+        },
+        "semantic": {
+          "tp": 21643,
+          "fp": 2078,
+          "fn": 910,
+          "precision": 0.9123982968677543,
+          "recall": 0.9596506008069879,
+          "f1": 0.935428102174007,
+          "per_label": {
+            "CPU": {
+              "tp": 5591,
+              "fp": 395,
+              "fn": 220,
+              "precision": 0.9340126962913464,
+              "recall": 0.9621407675098951,
+              "f1": 0.9478681020598457
+            },
+            "GPU": {
+              "tp": 4176,
+              "fp": 550,
+              "fn": 193,
+              "precision": 0.8836225137537029,
+              "recall": 0.9558251316090639,
+              "f1": 0.9183067619571192
+            },
+            "RAM": {
+              "tp": 4143,
+              "fp": 485,
+              "fn": 161,
+              "precision": 0.8952031114952463,
+              "recall": 0.962592936802974,
+              "f1": 0.9276757725033588
+            },
+            "SKLADISTE": {
+              "tp": 5904,
+              "fp": 532,
+              "fn": 245,
+              "precision": 0.9173399627097576,
+              "recall": 0.9601561229468206,
+              "f1": 0.9382598331346842
+            },
+            "CENA": {
+              "tp": 1829,
+              "fp": 116,
+              "fn": 91,
+              "precision": 0.9403598971722366,
+              "recall": 0.9526041666666667,
+              "f1": 0.9464424320827944
+            }
+          },
+          "token_count": 119323,
+          "accuracy_with_O": 0.9758973542401717
+        },
+        "cohen_kappa": 0.9295030497873796
+      },
+      "difference_categories": {
+        "SUVISNO": 401,
+        "GRANICA_SIRA": 174,
+        "PROPUSTENO": 160,
+        "FRAGMENTACIJA": 105,
+        "SPAJANJE": 83,
+        "GRANICA_UZA": 72,
+        "POGRESNA_OZNAKA": 17,
+        "GRANICA_I_OZNAKA": 5,
+        "GRANICA_POMERENA": 2,
+        "SLOZENO": 1
+      }
+    }
+  }
+}

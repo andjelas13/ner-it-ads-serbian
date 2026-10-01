@@ -1,0 +1,30 @@
+TITLE:
+NVIDIA Tesla K80 GPU
+
+BODY:
+Prodaje se NVIDIA Tesla K80 – moćna grafička kartica namenjena za naučne proračune, veštačku inteligenciju, mašinsko učenje, obradu velikih količina podataka i 3D renderovanje. Tesla K80 je deo NVIDIA Tesla serije i optimizovana je za paralelne proračune u data centrima i poslovnim aplikacijama.
+  * Specifikacije: Model: NVIDIA Tesla K80
+  * Broj GPU-ova: Dual GPU (dva GK210 procesora)
+  * CUDA jezgra: 4,992 (2 x 2,496 CUDA jezgara)
+  * Memorija: 24 GB GDDR5 (12 GB po GPU-u)
+  * Propusnost memorije: Do 480 GB/s
+  * Takt jezgra: Do 875 MHz
+  * Interfejs: PCI Express 3.0 x16
+  * Potrošnja: 300 W TDP
+  * Hlađenje: Pasivno (zahteva adekvatan protok vazduha u kućištu)
+  * Ključne prednosti: Visoke performanse: Namenjena za zahtevne aplikacije kao što su simulacije, analize podataka i AI treninzi.
+  * Velika količina memorije: 24 GB GDDR5 omogućava rad sa velikim datasetovima.
+  * Podrška za CUDA: Optimizovana za paralelne računarske zadatke koristeći CUDA tehnologiju.
+  * Stabilnost: Dizajnirana za rad u okruženjima gde je potrebna pouzdanost tokom dugotrajnih operacija.
+  * Namena: Mašinsko učenje i AI (Artificial Intelligence)
+  * Video i Audio streaming
+  * Video obrada
+  * Analiza velikih podataka (Big Data)
+  * Naučni proračuni (HPC – High Performance Computing)
+  * 3D renderovanje i simulacije
+Napomena:
+Tesla K80 nije namenjena za gaming. Nema izlaze za monitore (HDMI, DisplayPort), jer je optimizovana za servere i radne stanice.   Naravno postoji mogucnost da se koristi i kao kartica za gaming ali to joj nije primarna namena.
+
+  * Stanje: Uređaj je očuvan i potpuno funkcionalan.
+  * Testiran i spreman za upotrebu.
+  * Vise komada na stanju

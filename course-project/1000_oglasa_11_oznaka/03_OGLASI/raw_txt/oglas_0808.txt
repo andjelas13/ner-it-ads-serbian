@@ -1,0 +1,66 @@
+TITLE:
+Dell 7550/i7 10-te gen/ 32gb DDR4/512 NVMe
+
+BODY:
+U dobrom stanju.
+Dell Precission7550 azdaja od laptopa, čuvena serija najboljih laptopova sa tastaturom otpornom na prosipanje tečnosti, u magnezijumskom kućištu, laptop koji je otporan na udarce, hladnoću, i testiran da zadovolji standarde - nesvakidašnji laptop, neuništiva mašina.
+Ovo je Workstation - radna stanica, laptop koji je zamena za desktop računare, može da radi non stop. Idealan za it profesionalce, zahtevne korisnike koji žele brz i stabilan laptop u svim uslovima rada.
+LSV sertifikovan za preko 100 aplikacija, zadovoljiće svakog profesionalca.
+Mil spec testiran na izdržvljivost i trajnost
+15.6 incha UHD IPS, fantastičan ekran sa realnim i jasnim prikazom boja, slika je neuporedivo lepša i bolja nego na većini običnih laptopova
+SmartCard Da
+Veličina ekrana 15.6"
+Rezolucija ekrana 1.920 x 1.080
+Format rezolucije Full HD
+Tip panela WVA
+Ostalo Anti-glare, High-brightness 500-nit
+Klasa procesora Intel® Core™ i7
+Model procesora i7-10750H
+Broj jezgara procesora 6
+Broj logičkih jezgara (niti) 12
+Radni takt procesora 2.6 GHz (5.0 GHz)
+Keš memorija procesora 12MB Intel® Smart cache
+Ostalo 14nm
+Memorija (RAM) 32GB DDR4
+Radni takt memorije 2.933MHz
+Broj slotova 4
+Popunjeni slotovi 2
+Maksimalno podržano 128GB
+Grafika nVidia® Quadro® T1000
+Količina grafičke memorije 4GB
+Tip grafičke memorije GDDR6
+SSD 512 GB
+SSD interfejs M.2 NVMe
+Disk slotovi 3 x M.2 NVMe
+Wi-Fi Da
+Bežični mrežni standardi IEEE 802.11a/b/g/, IEEE 802.11ac, IEEE 802.11ax, IEEE 802.11n
+Model Intel® Wireless AX201
+Bluetooth™ verzija 5.1
+Žična mreža (LAN) 1x 10/100/1.000Mbps (Gigabit ethernet)
+Thunderbolt™ 2x USB Tip C
+DisplayPort priključci 1x Mini DisplayPort 1.4
+HDMI priključci 1x HDMI 2.0
+Ukupno USB priključaka 2
+USB 3.2 priključci 2 (Tip A) Gen1
+RJ-45 (LAN) 1
+Audio 1x 3.5mm (izlaz i mikrofon)
+Čitač kartica SD
+Ostali priključci / Slotovi Slot za micro SIM karticu
+Bezbednost
+TPM Da
+Kamera
+Rezolucija 0.92 Megapiksela
+Snimanje videa 1.280 x 720, 30fps
+Model HD RGB
+Zvučnici 2.0
+Snaga 2.5W
+Mikrofon Dual (ugrađeni)
+Ostalo High Definition audio
+Tastatura
+Slovni raspored tastera EN (US)
+Numerički deo tastature Da
+Tip Litijum-jonska baterija 6-Cell (95WHr)
+Ostalo ExpressCharge™ tehnologija
+Operativni sistem Microsoft Windows® 10 Professionall
+Instaliran Autocad i Archicad, idealno za studente buduce arhitekte!
+baterija dobra, orginal punjac 180 w

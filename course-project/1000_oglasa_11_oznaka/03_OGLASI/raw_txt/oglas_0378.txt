@@ -1,0 +1,21 @@
+TITLE:
+Monitor (88) Samsung 940N
+
+BODY:
+Ispravan LCD monitor
+
+- Proizvodjac Samsung
+
+- Tip SyncMaster 940 N
+
+- VGA ulaz
+
+- Dijagonala 19 inch
+
+- odziv 8 ms
+
+- dinamic Contrast
+
+- ulazni napon 100-240 V AC
+
+- VGA kabl

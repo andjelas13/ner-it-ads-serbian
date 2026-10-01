@@ -1,0 +1,1158 @@
+PRIRUČNIK ZA SEMANTIČKU NER ANOTACIJU
+
+
+
+Uputstvo za anotaciju IT oglasa
+Pravila za semantičko označavanje identiteta proizvoda,
+formalnih specifikacija komponenti, garancije, cene i mesta u IT
+oglasima.
+
+
+
+   11 tagova                                        Jedan princip
+   Šest komponentnih, dva taga za identitet i tri   Isti tekst može dobiti različit tag u različitom
+   netehnička taga.                                 kontekstu.
+
+
+
+
+   Semantika pre granica                            Bez nagađanja
+   Prvo odluči šta izraz znači; tek onda označi     Anotira se samo ono što je napisano i
+   tačne karaktere.                                 dovoljno jasno iz konteksta.
+
+
+
+
+Uputstvo za anotatore • avgust 2026.
+Sadržaj
+
+1. Cilj i osnovni pojmovi   8. BRAND i MODEL
+
+2. Tri grupe tagova         9. GARANCIJA, CENA i MESTO
+
+3. Prvi primer              10. Kratki anotirani primeri
+
+4. Pregled svih tagova      11. Algoritam anotiranja
+
+5. Opšta pravila            12. Kompletan oglas: proces i rešenje
+
+6. Granice spana            13. Završna kontrola
+
+7. Komponentni tagovi
+1. Cilj i osnovni pojmovi
+
+Cilj anotiranja je da u tekstovima IT oglasa označimo delove teksta koji nose unapred definisana značenja. Tako
+nastaje skup primera iz kojih model može da nauči da prepoznaje komponente, njihove specifikacije, identitet
+proizvoda, cenu, garanciju i mesto.
+
+
+  Pojam          Značenje                                                              Primer
+
+
+  SPAN           Neprekidan deo originalnog teksta koji označavamo. Može biti jedna    16 GB DDR5
+                 reč, broj, simbol ili više susednih reči.
+
+
+  TAG            Klasa značenja koju dodeljujemo spanu.                                RAM
+
+
+  ANOTACIJA      Dodela jednog taga jednom spanu.                                      16 GB DDR5 → RAM
+
+
+  ANOTATOR       Osoba koja razume tekst, bira span i dodeljuje mu odgovarajući tag.   Anotator u alatu označi tekst
+                                                                                       i izabere RAM.
+
+
+
+
+   Ovo je semantička anotacija. Span se taguje prema značenju u konkretnoj rečenici, a ne prema reči koju
+   smo prepoznali iz rečnika. Zato isti napisani izraz može dobiti različite tagove u različitom okruženju.
+
+
+
+  Samsung → BRAND                                              Samsung → SKLADISTE
+  u izrazu „Samsung Galaxy S24“, jer je Samsung                u izrazu „SSD Samsung 990 PRO“, jer identifikuje
+  brand telefona.                                              skladište.
+
+
+
+  Samsung → EKRAN                                              16 GB → zavisi od konteksta
+  u izrazu „monitor Samsung Odyssey G5“, jer                   može biti RAM, skladište ili VRAM, odnosno GPU.
+  identifikuje ekran/monitor.
+Pojam           Značenje                                                   Primeri
+
+
+UREĐAJ          Celovit IT proizvod ili sistem koji ima glavnu funkciju.   laptop, telefon, monitor, ruter
+
+
+OPREMA          Zajednički naziv za pomenute uređaje, komponente,          laptop, SSD, miš, punjač
+                periferije i dodatke; „oprema“ nije tag.
+
+
+KOMPONENTA      Tehnički deo uređaja ili periferija povezana sa njim.      procesor, grafička kartica, RAM,
+                                                                           SSD, ekran, baterija, miš
+
+
+PODKOMPONENTA   Deo neke komponente.                                       VRAM grafičke kartice, cache
+                                                                           procesora
+
+
+OSNOVNE         Šest vrsta za koje postoje posebni tagovi.                 CPU, GPU, RAM, skladište, ekran,
+KOMPONENTE                                                                 baterija
+2. Tri grupe tagova
+
+ Grupa 1 — osnovne komponente
+ Tagovi CPU, GPU, RAM, SKLADISTE, EKRAN i BATERIJA obuhvataju sve eksplicitne formalne specifikacije
+ odgovarajuće komponente: brand, model, seriju, kapacitet, brzinu, tehnologiju i formalne podatke njenih
+ podkomponenti. Na primer, VRAM pripada tagu GPU, a CPU cache tagu CPU.
+
+
+
+ Grupa 2 — BRAND i MODEL za sve ostalo
+ Za uređaje i komponente koje nemaju jedan od šest posebnih tagova označavaju se samo njihov BRAND i
+ MODEL. Ostale specifikacije se ignorišu. Zato kod miša „Logitech G502, 25.600 DPI“ označavamo Logitech i
+ G502, ali 25.600 DPI nema tag.
+
+
+
+ Grupa 3 — netehničke informacije
+ Tagovi GARANCIJA, CENA i MESTO nisu ograničeni na glavni proizvod koji se prodaje. Označavaju se svuda
+ gde span u rečenici stvarno ima značenje garancijskog roka, cene ili mesta na kojem se pomenuta oprema
+ može dobiti — i kada se odnosi na dodatak, deo, uporedni uređaj ili proizvod koji nije deo ponude.
+
+
+
+  Generički nazivi nisu posebna grupa tagova. Reči poput „laptop“, „telefon“, „miš“, „procesor“, „SSD“ i
+  „baterija“ same po sebi ne dobijaju tag. Tag dobijaju konkretan identitet, formalna specifikacija ili jedna
+  od tri netehničke vrednosti.
+3. Prvi primer
+
+  „Prodajem Lenovo ThinkPad T14: AMD Ryzen 7 7840U, 16 GB DDR5, Samsung 990 PRO 1 TB, ekran 14" OLED.
+  Uz njega ide Logitech G502 miš od 25.600 DPI. Cena je 750 €, garancija 6 meseci, preuzimanje u Nišu.“
+
+
+ Tekst                          Odluka               Zašto
+
+
+ Lenovo                         BRAND                Brand laptopa.
+
+
+ ThinkPad T14                   MODEL                Model laptopa.
+
+
+ AMD Ryzen 7 7840U              CPU                  Identitet procesora je formalni CPU podatak.
+
+
+ 16 GB DDR5                     RAM                  Kapacitet i tip radne memorije.
+
+
+ Samsung 990 PRO 1 TB           SKLADISTE            Brand, model i kapacitet SSD-a pripadaju skladištu.
+
+
+ 14" OLED                       EKRAN                Dijagonala i tehnologija ekrana.
+
+
+ Logitech / G502                BRAND / MODEL        Miš nema poseban komponentni tag.
+
+
+ 25.600 DPI                     bez taga             Specifikacije miša ne pripadaju nijednom tagu.
+
+
+ 750 €                          CENA                 Trenutna cena.
+
+
+ 6 meseci                       GARANCIJA            Konkretan garancijski rok.
+
+
+ Nišu                           MESTO                Mesto preuzimanja.
+
+
+
+Ovde nam je važna samo semantička odluka: šta svaki izraz znači i kom tagu pripada. Precizno određivanje
+granica dolazi kasnije.
+4. Pregled svih tagova
+
+Grupa             Tag           Šta označava                                     Tipične vrednosti
+
+
+Osnovne           CPU           Identitet i formalne specifikacije procesora i    Ryzen 7 7800X3D        8 jezgara
+komponente                      njegovih podkomponenti.                           5.0 GHz     32 MB cache       AM5
+
+
+                  GPU           Identitet i formalne specifikacije grafike,       RTX 4070     12 GB GDDR6
+                                uključujući VRAM.                                 192-bit     DLSS
+                                                                                  DisplayPort 1.4
+
+
+                  RAM           Identitet i formalne specifikacije glavne         Kingston Fury        16 GB     DDR5
+                                radne memorije.                                   6000 MHz     CL36     2×8 GB
+
+
+                  SKLADISTE     Identitet i formalne specifikacije                Samsung 990 PRO        1 TB
+                                prostora/uređaja za čuvanje podataka.             NVMe     PCIe 4.0     7000 MB/s
+
+
+                  EKRAN         Identitet i formalne specifikacije ekrana,        Odyssey G5        15.6"
+                                panela ili monitora.                              2560×1440     144 Hz        IPS
+                                                                                  OLED
+
+
+                  BATERIJA      Identitet i formalne, merljive specifikacije      BTY-M6D     5000 mAh       80 Wh
+                                baterije.                                         91%     230 ciklusa
+
+
+Identitet         BRAND         Proizvođač ili robna marka                        Lenovo     Apple     Logitech
+ostalog                         uređaja/komponente bez posebnog taga.             Noctua     Corsair        Gigabyte
+
+
+                  MODEL         Komercijalna porodica, serija ili model           ThinkPad T14        iPhone 15 Pro
+                                uređaja/komponente bez posebnog taga.             G502     NH-D15     RM750x
+
+
+Netehnički        GARANCIJA     Konkretan vremenski rok, datum ili opseg          12 meseci     još 30 dana
+                                garancije.                                        do decembra 2027.
+
+
+                  CENA          Trenutna cena ili trenutni cenovni opseg          350 €     40.000 din
+                                pomenute opreme.                                  od 500 do 600 evra
+
+
+                  MESTO         Geografsko mesto na kojem se pomenuta             Beograd     Novi Sad       Zemun
+                                oprema može dobiti.                               Srbija
+
+
+
+
+ Tabela je podsetnik, a ne rečnik ključnih reči. Na primer, Samsung nije uvek BRAND, a 16 GB nije uvek
+ RAM. Konačnu odluku uvek daje kontekst.
+5. Opšta pravila
+
+ 5.1. Prvo značenje, zatim tag
+ Pročitaj celu rečenicu i utvrdi šta izraz opisuje. Ako rečenica nije dovoljna, pogledaj naslov ili susedni deo
+ oglasa. Ne klasifikuj izolovanu reč ili broj.
+
+
+
+ 5.2. Anotiraju se naslov i telo
+ Anotiraju se i naslov i telo oglasa. Ako se isti relevantan podatak pojavljuje i u naslovu i u telu, anotira se na
+ oba mesta.
+
+
+
+ 5.3. Označava se samo eksplicitno napisano
+ Ne dopisuj izostavljen brand, jedinicu ili naziv komponente. Skraćen izraz poput i5 može biti CPU ako je
+ značenje jasno; usamljeno 16 bez pouzdanog konteksta ostaje bez taga.
+
+
+
+ 5.4. Šest osnovnih komponenti ima širok obuhvat
+ Njihovi tagovi obuhvataju brand, model, seriju, formalnu tehnologiju, merljive specifikacije i podatke
+ podkomponenti. Pravilo važi i u poređenju, kompatibilnosti ili opisu proizvoda koji se ne prodaje.
+
+
+
+ 5.5. Za ostale uređaje i komponente samo BRAND i MODEL
+ Miš, tastatura, matična ploča, kućište, hladnjak, napajanje, ruter i slični predmeti nemaju tag za svoje
+ specifikacije. Njihov brand i model se anotiraju; DPI, snaga, dimenzije, sertifikati i druge osobine ostaju bez
+ taga.
+
+
+
+ 5.6. Formalna vrednost da; reklamni opis i stanje ne
+ Formalna specifikacija je eksplicitno napisan, objektivan i proverljiv tehnički podatak koji identifikuje
+ konkretnu komponentu ili opisuje njenu konfiguraciju, konstrukciju, kapacitet, performanse, standard,
+ interfejs, funkciju, kompatibilnost ili rezultat tehničkog merenja/dijagnostike. Može biti model, broj sa
+ jedinicom, tehnički termin, standard, vrednost „Da/Ne“ ili rečima iskazana količina. Subjektivni opis,
+ reklamna tvrdnja, opšte stanje i narativ o korišćenju nisu formalne specifikacije.
+
+
+
+  Nikada ne uključuj u span reklamne i subjektivne prideve kao „vrh“, „vrhunski“, „brutalan“, „jak“,
+  „odličan“, „prelep“ i „najbolji“, niti reči stanja kao „nov“, „polovan“, „očuvan“ i „neispravan“. One ne
+  postaju deo formalne specifikacije samo zato što stoje pored nje.
+5.7. Formalna specifikacija ne mora biti zapisana ciframa
+Anotira se i rečima napisana, nedvosmislena i proverljiva tehnička količina ili osobina komponente. U „sa
+duplim procesorima“ anotira se duplim kao CPU, a u „poseduje dve grafičke“ anotira se dve kao GPU.
+Generičke reči „procesorima“ i „grafičke“ ostaju van spanova. Subjektivni i reklamni izrazi poput „jak“, „brz“,
+„moćan“, „odličan“ i „vrhunski“ nisu formalne specifikacije.
+
+
+
+5.8. Negacija ne poništava napisanu formalnu specifikaciju
+U „nema ekran na dodir“, na dodir je formalna osobina ekrana i dobija EKRAN; reč „nema“ ne ulazi u span.
+U „bez baterije“ nema konkretne specifikacije baterije, pa nema ni anotacije.
+
+
+
+5.9. Greške u pisanju se ne ispravljaju
+Ako je značenje jasno, anotiraj originalni tekst uprkos grešci u pravopisu, razmaku ili kapitalizaciji: 16 gb
+ddr4, racuinar, sAMsung.
+
+
+
+5.10. Nema preklapanja
+Isti karakter teksta ne sme istovremeno pripadati dvema anotacijama. Kada brand ili model identifikuje
+jednu od šest osnovnih komponenti, prednost ima komponentni tag.
+6. Granice spana
+
+Tek kada si odredio značenje i tag, označi najmanji neprekidan span koji čuva potpuno traženo značenje. Granica
+odgovara onome što je stvarno napisano, ne onome što možemo da zaključimo.
+
+
+6.1. Spoljna interpunkcija i uvodne reči ostaju van spana
+    „(Lenovo),“ → Lenovo;
+    „Cena: 350 €.“ → 350 €;
+    „preuzimanje u Beogradu“ → Beogradu;
+    „garancija je 12 meseci“ → 12 meseci.
+
+
+6.2. Jedinice i simboli koji pripadaju jednoj vrednosti ostaju u spanu
+Jedinica, procenat, navodnik za inče i unutrašnji znak modela deo su vrednosti: 4.6 GHz, 91%, 15.6", i5-12400F,
+1920×1080.
+
+
+
+6.3. Susedni delovi istog taga spajaju se samo kada opisuju istu instancu
+Nije dovoljno da oba dela imaju isti tag. Moraju da opisuju isti konkretan procesor, grafiku, memorijski modul,
+disk, ekran ili bateriju i da budu neposredno povezana.
+
+
+  Kako čitati primere: svaki zaokružen tekst predstavlja jednu anotaciju, odnosno jedan span. Znak koji je
+  izvan okvira nije deo anotacije.
+
+
+
+  Tekst i značenje                          Tačna odluka
+
+
+   i7/8 jezgara — model i broj jezgara      Jedan CPU span; kosa crta je unutar istog okvira.
+  istog procesora
+
+
+   8 GB GDDR6/128-bit — VRAM i              Jedan GPU span; kosa crta je unutar istog okvira.
+  sabirnica iste grafike
+
+
+   i7 / i5 — dve procesorske alternative    Dva CPU spana. Kosa crta je izvan oba okvira.
+
+
+   prve i druge generacije — dve CPU        Dva CPU spana. Veznik „i“ je van spanova, a reč „generacije“ ne dopisuje se
+  generacije                                prvom spanu.
+
+
+   8 / 16 / 32 GB — tri opcije              Tri odvojena spana. Tag je RAM, GPU ili SKLADISTE, zavisno od toga šta
+  kapaciteta iste vrste komponente          vrednosti opisuju u kontekstu. Kose crte su van spanova.
+
+
+   8 GB / 16 GB / 32 GB — tri opcije sa     Tri zasebna spana, svaki sa svojom napisanom jedinicom; tag i dalje
+  ponovljenom jedinicom                     određuje kontekst.
+    Test: pitaj „da li oba dela opisuju isti konkretan primerak?“ Ako da, unutrašnji simbol može ostati u
+    jednom spanu. Ako su to alternative, različiti primerci ili različiti tagovi, pravi odvojene spanove i ne
+    uključuj separator.
+
+
+
+6.4. Različiti tagovi se uvek razdvajaju
+    Lenovo-T480: Lenovo → BRAND; T480 → MODEL; crtica je van oba;
+
+    8/256 GB u potvrđenom telefonskom zapisu: 8 → RAM; 256 GB → SKLADISTE; kosa crta je van oba.
+
+
+
+6.5. Reči prekidaju span, a separator zavisi od iste instance
+U „Intel Core i5 sa 6 jezgara“ prave se dva CPU spana: Intel Core i5 i 6 jezgara. Reč „sa“ ne ulazi jer sama ne
+nosi formalnu specifikaciju. Međutim, zarez, kosa crta, zagrada ili drugi separator ostaje u jednom spanu kada
+povezuje formalne podatke iste konkretne instance: Intel Core i5, 6 jezgara, 4.4 GHz. Ako razdvaja
+alternative, različite instance ili različite tagove, separator ostaje van spanova.
+
+
+6.6. Raspon i približna vrednost ostaju celi
+Reči koje menjaju numeričko značenje ulaze u span kada su neophodne za vrednost: do 4.6 GHz, oko 3 sata,
+duže od 24 h, od 500 do 600 € i 30–60 dana.
+
+
+
+6.7. Zvanični višerečni model se ne cepa
+Ceo zvanični naziv ostaje jedan span: Surface Laptop 5, Galaxy Tab S9+ 5G, H410M H V3. Reč koja liči na
+generički naziv uređaja ostaje u spanu ako je deo zvaničnog modela.
+
+
+6.8. Deljena ili izostavljena jedinica se ne dopisuje
+U 64/128/256 GB spanovi su 64, 128 i 256 GB. Jedinica semantički može važiti za sve tri alternative, ali se ne
+kopira u tekst. Vrednost bez jedinice anotira se samo ako kontekst pouzdano određuje njeno značenje.
+7. Komponentni tagovi
+
+Za svaki od sledećih tagova važi isto osnovno pravilo: označavaju se identitet komponente, sve njene eksplicitne
+formalne specifikacije i formalni podaci njenih podkomponenti. Generički naziv komponente, stanje i reklamni
+pridevi nisu specifikacije.
+
+
+7.1. CPU
+
+    Semantika: konkretan procesor, njegov identitet i formalne vrednosti procesora i njegovih
+    podkomponenti.
+
+
+Uključuje: proizvođača i model CPU-a, arhitekturu/generaciju, jezgra, threadove, takt, socket, cache, TDP i
+standardne CPU tehnologije.
+
+Tipične vrednosti:
+ AMD Ryzen 7 7800X3D          8 jezgara   16 threadova     do 5.0 GHz     96 MB L3 cache    AM5    120 W TDP
+
+Ne uključuje: samu reč „CPU/procesor“, „jak“, „brz“, „vrhunski“ i podatke integrisane grafike — njih anotiramo
+kao GPU.
+
+
+  Edge: u „AMD Ryzen 7 procesor“ ceo AMD Ryzen 7 dobija CPU. U „AMD je predstavio novu tehnologiju“ AMD
+  nema tag, jer ovde označava kompaniju, a ne brand konkretnog uređaja ili komponente.
+
+
+
+7.2. GPU
+
+    Semantika: konkretan grafički procesor/kartica, njene formalne specifikacije i podkomponente,
+    uključujući VRAM.
+
+
+Uključuje: proizvođača/model GPU-a ili kartice, VRAM kapacitet i tip, proizvođača VRAM-a, takt, memorijsku
+sabirnicu, formalne tehnologije, izlaze i naponske/interfejs konektore.
+
+Tipične vrednosti:
+ NVIDIA GeForce RTX 4070          12 GB GDDR6X   192-bit     DLSS 3     ray tracing   3× DisplayPort 1.4
+ 16-pin 12VHPWR
+
+Ne uključuje: samu reč „GPU/grafička“, „moćna“, „odlična za gaming“. VRAM, GDDR i HBM nikada nisu
+sistemski RAM.
+
+  Edge: 256 GB HBM Micron je jedan GPU span kada sve opisuje VRAM iste grafike; Micron tada nije BRAND.
+7.3. RAM
+
+    Semantika: glavna sistemska/host radna memorija, njen identitet i formalne specifikacije.
+
+
+Uključuje: proizvođača/model modula, kapacitet, DDR generaciju, brzinu, latenciju i raspored modula.
+
+Tipične vrednosti:
+ Kingston Fury Beast       16 GB DDR5 6000 MHz       CL36    2×8 GB
+
+Ne uključuje: samu reč „RAM/memorija“, VRAM grafike, CPU cache ni internu memoriju telefona kada ona znači
+skladište.
+
+  Edge: u „128 MB total memory (64 MB ROM i 64 MB SDRAM)“ zbirnih 128 MB total memory nema tag jer
+  meša dve klase; 64 MB ROM → SKLADISTE, a 64 MB SDRAM → RAM.
+
+
+
+7.4. SKLADISTE
+
+    Semantika: uređaj ili prostor za čuvanje podataka, njegov identitet i formalne specifikacije.
+
+
+Uključuje: proizvođača/model SSD-a, HDD-a ili flash memorije, kapacitet, protokol, interfejs, format, brzinu i
+formalne dijagnostičke vrednosti.
+
+Tipične vrednosti:
+ Samsung 990 PRO 1 TB       NVMe    PCIe 4.0     7000 MB/s     100/100      8 sati rada
+ 256 GB interne memorije
+
+Ne uključuje: samu reč „SSD/HDD/disk“, „zdrav“, „perfektan“ ili „radi odlično“ bez formalne vrednosti.
+
+  Edge: u oznaci B450M deo B450 može biti MODEL čipseta kada kontekst potvrđuje da označava čipset.
+  Završno M, socket i DDR oznaka nisu automatski deo modela.
+
+
+
+7.5. EKRAN
+
+    Semantika: ekran, panel ili monitor, njegov identitet i sve formalne specifikacije.
+
+
+Uključuje: proizvođača/model monitora ili panela, dijagonalu, rezoluciju, osvežavanje, tip panela, osvetljenje i
+standardne funkcije.
+
+Tipične vrednosti:
+ Samsung Odyssey G5       15.6" IPS     2560×1440     165 Hz     500 nita     anti-glare    WLED-backlit
+ na dodir
+
+Ne uključuje: samu reč „ekran/monitor/panel“, „prelep“, „bez ogrebotina“, „oštećen“ i „mrtav piksel“ kao opis
+stanja.
+ Edge: u „nema ekran na dodir“ samo na dodir dobija EKRAN. Formalna osobina je eksplicitno navedena
+ iako je negirana.
+
+
+
+7.6. BATERIJA
+
+   Semantika: konkretna baterija, njen identitet i formalne ili precizno merljive vrednosti.
+
+
+Uključuje: proizvođača/model, kapacitet, napon, tehnologiju, battery health, broj ciklusa i precizno iskazano
+trajanje rada.
+
+Tipične vrednosti:
+ MSI BTY-M6D     5000 mAh       80 Wh      11.4 V       91%     230 ciklusa         oko 7 sati rada
+
+Ne uključuje: samu reč „baterija“, „odlična“, „drži super“, „ceo dan“ i „bez baterije“.
+
+ Edge: duže od 24 h dobija BATERIJA jer je merljiva granica; „drži dugo“ nema tag jer nije precizna vrednost.
+
+
+
+7.7. Najčešća polja koja možeš očekivati
+
+   Ovo nije konačna lista niti rečnik ključnih reči. Nazivi polja samo pomažu da prepoznaš kakav podatak
+   gledaš; tag određuju značenje, vlasnik podatka i kontekst. U zapisu „Takt: 3.4 GHz“ etiketa „Takt“ obično
+   ostaje van spana, a anotira se formalna vrednost 3.4 GHz. Ako formalna reč sama menja značenje
+   vrednosti, kao boost clock, ona može biti deo spana prema pravilima granica.
+
+
+
+  Tag            Primeri polja i vrsta podataka koje se često pojavljuju
+
+
+  CPU            proizvođač; model i serija; generacija; arhitektura; socket/platforma; broj procesora (dual, dupli, 2× CPU); broj
+                 jezgara; broj niti/threadova; bazni takt; boost/turbo takt; L1/L2/L3 cache; proces izrade/litografija; TDP;
+                 instrukcijski skup; množilac; podržana memorija/memorijski kontroler; maksimalna temperatura; standardne
+                 CPU tehnologije.
+
+
+  GPU            proizvođač; model/serija grafike ili čipa; arhitektura; proces izrade; broj grafika (dve grafičke); broj
+                 CUDA/SP/unificiranih procesora; bazni i boost takt; VRAM kapacitet; VRAM tip; takt VRAM-a; proizvođač
+                 VRAM-a; širina i propusnost magistrale; PCIe interfejs; video-izlazi; maksimalna rezolucija; broj monitora; ray
+                 tracing; DLSS/FSR; DirectX/Vulkan/OpenGL; sistem hlađenja; ventilatori; naponski priključci; TDP.
+
+
+  RAM            proizvođač; model/serija modula; ukupni kapacitet; kapacitet modula; broj i raspored modula; DDR generacija;
+                 DIMM/SO-DIMM/CUDIMM format; frekvencija/brzina; latencija CL; kompletni tajminzi; napon; ECC;
+                 Registered/Buffered/Unbuffered; broj kanala; rank; XMP/EXPO profil; kit/broj komada; hladnjak; kompatibilnost
+                 memorije.
+
+
+  SKLADISTE      proizvođač; model/serija; vrsta SSD/HDD/NVMe/flash/optical; kapacitet; interfejs; protokol; konektor;
+                 format/form factor; brzina čitanja i pisanja; broj obrtaja; cache/buffer; NAND tip; kontroler; TBW/endurance;
+                 health/performance; broj sati rada i uključenja; file system; SMR/CMR; enkripcija; podržani operativni sistemi i
+                 druga formalna kompatibilnost konkretnog skladišta; podržani optički formati.
+Tag           Primeri polja i vrsta podataka koje se često pojavljuju
+
+
+EKRAN         proizvođač; model/serija monitora ili panela; dijagonala; rezolucija; odnos stranica; tehnologija panela;
+              pozadinsko osvetljenje; frekvencija osvežavanja; vreme odziva; osvetljenost; kontrast; dubina i broj boja;
+              gamut/pokrivenost boja; uglovi gledanja; zakrivljenost; gustina piksela; touch; anti-glare/premaz; HDR;
+              Adaptive-Sync/FreeSync/ G-Sync; video-ulazi; maksimalan broj prikaza; klasa defektnih piksela.
+
+
+BATERIJA      proizvođač; model/oznaka; hemija/tehnologija; kapacitet mAh/Ah; energija Wh; napon; broj ćelija; broj baterija;
+              trajanje rada; battery health; broj ciklusa; trenutni nivo napunjenosti; snaga punjenja; brzo punjenje i standard
+              punjenja; vreme punjenja; ulazni/izlazni napon; uklonjiva/ugrađena; konektor; formalna kompatibilnost baterije.
+
+
+
+
+ Ako naiđeš na polje ili tehnički termin koji nije na listi i ne znaš šta opisuje, proveri ga na internetu —
+ prvenstveno u zvaničnoj specifikaciji proizvođača, datasheet-u ili pouzdanom tehničkom izvoru. Pretraga
+ služi samo da utvrdiš značenje termina i njegovog semantičkog vlasnika. Ne dopisuj niti anotiraj podatak
+ koji nije eksplicitno prisutan u oglasu.
+8. BRAND i MODEL
+
+8.1. BRAND
+
+   Semantika: eksplicitno naveden proizvođač ili robna marka uređaja ili komponente koja nema jedan od
+   šest posebnih tagova.
+
+
+Tipične vrednosti:
+ Lenovo    Apple     Logitech   Noctua     Corsair
+
+Ne uključuje: brand CPU-a, GPU-a, RAM-a, skladišta, ekrana ili baterije — on dobija odgovarajući komponentni
+tag. Ne uključuje prodavnicu, korisničko ime i softver samo zato što naziv liči na firmu.
+
+ Kingston u „Kingston Fury RAM“ → RAM; Kingston u „Kingston slušalice“ → BRAND; Apple u „kupljen u
+ Apple store“ nema tag jer označava prodavnicu, a ne brand uređaja ili komponente.
+
+
+
+8.2. MODEL
+
+   Semantika: komercijalna porodica, serija ili oznaka modela uređaja ili komponente koja nema jedan od
+   šest posebnih tagova.
+
+
+Tipične vrednosti:
+ ThinkPad T14      iPhone 15 Pro    G502    NH-D15    RM750x     H410M H V3
+
+Ne uključuje: model osnovne komponente, serijski broj, inventarski kod, IMEI, količinu, socket, format ili DDR
+oznaku. Zvanična oznaka čipseta, poput B650 ili B760, jeste MODEL čipseta kada je semantika jasna iz konteksta.
+
+   Pro, Plus, Max i 5G ulaze u MODEL kada su deo zvanične varijante, npr. Galaxy Tab S9+ 5G.
+
+   U „telefon podržava 5G“ izraz 5G nije MODEL i nema drugi tag u ovoj šemi.
+   U oglasu za bateriju, BTY-M6D → BATERIJA, ali kompatibilni laptopi GT60 i GT70 → MODEL.
+   Softver, operativni sistemi, igre i čisti nazivi funkcija ostaju van BRAND/MODEL tagova.
+
+
+8.3. Polja drugih uređaja i komponenti
+Sledeća polja anotator može često videti i korisno je da zna šta ona znače. Međutim, većina tih vrednosti nema
+tag u ovoj šemi: za uređaje i komponente iz ove tabele anotiraju se samo njihov BRAND i MODEL. Lista služi za
+prepoznavanje semantičkog vlasnika i pravilno obrazlaganje zašto neka formalna vrednost ostaje bez taga.
+Uređaj/komponenta    Polja koja se često pojavljuju                                 Šta se anotira
+
+
+Matična ploča /      socket; čipset; format ATX/mATX/ITX; podržani CPU;             BRAND i MODEL ploče; BRAND i MODEL
+čipset               RAM slotovi, tip, kapacitet i brzina; PCIe/M.2/SATA            čipseta, npr. INTEL i B760. Ostale
+                     slotovi; USB i video-portovi; LAN/Wi-Fi; audio; VRM;           navedene specifikacije nemaju tag.
+                     BIOS.
+
+
+Napajanje            snaga W; 80 PLUS sertifikat; efikasnost; modularnost;          Samo BRAND i MODEL; npr. 700 W nema
+                     ATX standard; napon i strujne grane; PCIe/CPU/SATA             tag.
+                     konektori; zaštite; dimenzije; ventilator.
+
+
+Hladnjak / kuler     tip vazdušni/AIO; podržani socketi; TDP; dimenzije;            Samo BRAND i MODEL.
+                     visina; materijal; heatpipe; veličina, broj, brzina i buka
+                     ventilatora; veličina radijatora; protok vazduha.
+
+
+Kućište              format; podržane ploče; dimenzije; materijal; broj             Samo BRAND i MODEL.
+                     ležišta; slotovi; USB/audio portovi; broj i veličina
+                     ventilatora; podržani radijatori; maksimalna dužina
+                     GPU-a; visina kulera.
+
+
+Tastatura / miš      raspored i jezik; tip i model prekidača; broj tastera; anti-   Samo BRAND i MODEL.
+                     ghosting/N-key rollover; DPI; polling rate; broj
+                     dugmadi; senzor; žično/bežično; USB/Bluetooth; RGB.
+
+
+Ruter / mrežna       Wi-Fi standard; frekvencijski opsezi; maksimalna brzina;       Samo BRAND i MODEL.
+oprema               broj antena; LAN/WAN portovi; Ethernet brzina; mesh;
+                     modem; SIM; VPN; WPA standard; PoE; domet.
+
+
+Kamera / štampač     rezolucija; senzor; objektiv; fps; povezivanje; format         Samo BRAND i MODEL, osim kada
+/ druga oprema       snimanja; tip štampe; brzina; duplex; format papira;           kontekst jasno pokazuje da podatak
+                     toner/kertridž; mesečni ciklus i druge kataloške               zapravo opisuje jednu od šest osnovnih
+                     vrednosti.                                                     komponenti.
+
+
+
+
+ Polje nije tag samo zato što izgleda tehnički. Na primer, 700 W napajanja ostaje bez taga, dok 45 W koji u
+ kontekstu opisuje snagu punjenja baterije dobija BATERIJA. Uvek prvo odredi šta vrednost opisuje.
+9. GARANCIJA, CENA i MESTO
+
+Ova tri taga prate svoje značenje gde god se ono pojavi u IT oglasu. Nije važno da li se vrednost odnosi na
+glavni artikal, deo, dodatak, uporedni uređaj ili opremu koja nije u ponudi. Važno je da span stvarno ima
+definisanu semantiku taga.
+
+
+9.1. GARANCIJA
+
+   Semantika: konkretan vremenski period, datum ili opseg tokom kojeg se garantuje za neku pomenutu
+   opremu, deo ili popravku.
+
+
+Tipične vrednosti:
+ 12 meseci     još 30 dana       30–60 dana   do decembra 2027.
+
+   „za ekran garantujem 30 dana“ → GARANCIJA iako se garancija odnosi samo na ekran;
+   „garancija za miš je 6 meseci“ → GARANCIJA iako miš nije glavni proizvod.
+
+Ne uključuje: reči „garancija/garantujem“ niti neodređeno „dok radi“ ili „neko vreme“.
+
+
+9.2. CENA
+
+   Semantika: trenutna cena ili trenutni cenovni opseg konkretne pomenute opreme.
+
+
+Tipične vrednosti:
+ 350 €     40.000 dinara     od 500 do 600 evra
+
+   ako piše samo „Cena 1499“, anotira se broj bez dopisivanja valute;
+   u „ovaj laptop je 700 €, a sličan Dell sada košta 900 €“ obe vrednosti su CENA.
+
+Ako su jasno navedene stara i nova cena, anotira se samo trenutna. Iznos dostave, carine, servisa, popravke, rate
+bez ukupne cene ili istorijske kupovine nije CENA opreme.
+
+
+9.3. MESTO
+
+   Semantika: geografsko mesto na kojem se neka pomenuta oprema može kupiti, dobiti, primiti ili
+   preuzeti.
+
+
+Tipične vrednosti:
+ Beograd     Novi Sad    Zemun     Srbija
+
+   mesto može da pripada dodatnom monitoru, mišu ili drugom pomenutom uređaju;
+   kod alternativa „Beograd/Novi Sad“ anotiraju se dva MESTO spana, a kosa crta ostaje van.
+Označava se samo geografski naziv, bez predloga i uvodnih reči. Mesto proizvodnje, porekla ili istorijske
+kupovine nije MESTO ako se oprema tamo sada ne može dobiti.
+
+ „Kupljen u Nemačkoj, preuzimanje u Subotici“: Nemačkoj nema tag; Subotici → MESTO.
+10. Kratki anotirani primeri
+
+Semantika se najčešće može videti iz jedne rečenice, pa nije potrebno prikazivati ceo oglas za svaku odluku. U
+listama je naveden tačan tekst koji se označava; svaki zaokružen tekst je jedna anotacija, odnosno jedan span.
+Sve ostalo u rečenici ostaje bez anotacije.
+
+
+  Primer 1. Isti napisani izraz, različita semantika
+
+     „Samsung Galaxy S24 koristim uz Samsung 990 PRO SSD i Samsung Odyssey G5 monitor.“
+
+       Samsung → BRAND; Galaxy S24 → MODEL
+
+       Samsung 990 PRO → SKLADISTE
+
+       Samsung Odyssey G5 → EKRAN
+
+  Ista reč menja tag prema tome šta identifikuje.
+
+
+
+
+  Primer 2. CPU identitet, formalne vrednosti i reklamni opis
+
+     „Vrhunski AMD Ryzen 7 7800X3D radi na do 5.0 GHz i ima 96 MB cache.“
+
+       AMD Ryzen 7 7800X3D → CPU
+
+       do 5.0 GHz → CPU
+
+       96 MB cache → CPU
+
+  „Vrhunski“ ne ulazi ni u jedan span.
+
+
+
+
+  Primer 3. Ista CPU instanca naspram alternative
+
+     „Prva konfiguracija ima i7/8 jezgara, a druga nudi i5/i7.“
+
+       i7/8 jezgara → CPU
+
+       i5 → CPU
+       i7 → CPU
+
+  Prva kosa crta spaja model i specifikaciju istog procesora; druga razdvaja dve alternative i ostaje van spanova.
+Primer 4. GPU i VRAM
+
+  „Moćna NVIDIA GeForce RTX 4070 ima 12 GB GDDR6X/192-bit i podržava DLSS 3.“
+
+    NVIDIA GeForce RTX 4070 → GPU
+
+    12 GB GDDR6X/192-bit → GPU
+
+    DLSS 3 → GPU
+
+VRAM i sabirnica pripadaju istoj GPU instanci; „Moćna“ nema tag.
+
+
+
+
+Primer 5. Alternative kapaciteta više grafika
+
+  „Grafičke su dostupne sa 8/16/32 GB VRAM-a.“
+
+    8 → GPU
+
+    16 → GPU
+    32 GB → GPU
+
+Tri vrednosti pripadaju različitim opcijama; kose crte su van spanova, a jedinica se ne dopisuje prvim dvema.
+
+
+
+
+Primer 6. RAM, skladište i neodređen zbir
+
+  „Telefon ima 8 GB RAM-a i 256 GB interne memorije, ukupno 264 GB memorije.“
+
+    8 GB → RAM
+    256 GB → SKLADISTE
+
+264 GB memorije meša dve klase i zato nema tag.
+
+
+
+
+Primer 7. Skraćen zapis dve različite komponente
+
+  „Za ovaj telefon oznaka 8/256 GB znači RAM/interna memorija.“
+
+    8 → RAM
+    256 GB → SKLADISTE
+
+Kontekst potvrđuje značenje; kosa crta razdvaja različite tagove.
+Primer 8. Formalna dijagnostika skladišta
+
+  „Samsung 970 EVO 1 TB je perfektan: health 100/100 i svega 8 sati rada.“
+
+    Samsung 970 EVO 1 TB → SKLADISTE
+
+    100/100 → SKLADISTE
+
+    8 sati → SKLADISTE
+
+Formalna dijagnostika se anotira; „perfektan“ ne.
+
+
+
+
+Primer 9. Formalna osobina ekrana pod negacijom
+
+  „Ekran je prelep i očuvan, ali nema na dodir; rezolucija je 2560×1600.“
+
+    na dodir → EKRAN
+
+    2560×1600 → EKRAN
+
+Negirana formalna funkcija ostaje EKRAN; subjektivni opis i stanje nemaju tag.
+
+
+
+
+Primer 10. Baterija: merljiva granica i neodređen opis
+
+  „Baterija je odlična, health 91% i drži duže od 24 h, a rezervni uređaj je bez baterije.“
+
+    91% → BATERIJA
+
+    duže od 24 h → BATERIJA
+
+„Odlična“ i „bez baterije“ ne sadrže formalnu vrednost.
+
+
+
+
+Primer 11. Ostala komponenta: samo brand i model
+
+  „Logitech G502 miš ima 25.600 DPI, a Corsair RM750x napajanje 750 W i 80+ Gold.“
+
+    Logitech → BRAND; G502 → MODEL
+
+    Corsair → BRAND; RM750x → MODEL
+
+DPI, snaga i sertifikat nemaju tag jer miš i napajanje nisu osnovne komponente.
+Primer 12. Čipset naspram pravog modela matične ploče
+
+  „Matična je Gigabyte H410M H V3, dok B450M ovde označava samo čipset/format druge ploče.“
+
+    Gigabyte → BRAND
+
+    H410M H V3 → MODEL
+
+B450M nije model u datom kontekstu.
+
+
+
+
+Primer 13. Zvanična varijanta modela i samostalna tehnologija
+
+  „Samsung Galaxy Tab S9+ 5G je model, a ovaj drugi telefon samo podržava 5G.“
+
+    Samsung → BRAND
+
+    Galaxy Tab S9+ 5G → MODEL
+
+Drugi 5G nije deo modela i nema odgovarajući tag.
+
+
+
+
+Primer 14. Model baterije i modeli kompatibilnih uređaja
+
+  „Baterija MSI BTY-M6D odgovara laptopovima GT60, GT70 i GT683R.“
+
+    MSI BTY-M6D → BATERIJA
+
+    GT60 → MODEL
+    GT70 → MODEL
+
+    GT683R → MODEL
+
+Odluka zavisi od toga šta svaki model identifikuje.
+
+
+
+
+Primer 15. Garancije za različite pomenute predmete
+
+  „Laptop ima garanciju još 10 meseci, a za miš garantujem 30 dana iako nije deo ponude.“
+
+    još 10 meseci → GARANCIJA
+    30 dana → GARANCIJA
+
+GARANCIJA se anotira prema značenju, ne prema tome šta se prodaje.
+Primer 16. Stara, trenutna i servisna novčana vrednost
+
+  „Laptop je bio 900 €, sada je 750 €, a zamena ekrana me je koštala 80 €.“
+
+     750 € → CENA
+
+900 € je stara cena, a 80 € istorijski trošak servisa.
+
+
+
+
+Primer 17. Cena drugog uređaja i trošak dostave
+
+  „Moj računar je 500 €, sličan Dell sada košta 650 €, a dostava je 10 €.“
+
+     500 € → CENA
+
+     Dell → BRAND
+
+     650 € → CENA
+
+Cena uporednog uređaja se anotira; trošak dostave se ne anotira.
+
+
+
+
+Primer 18. Poreklo i dve alternative za preuzimanje
+
+  „Kupljen je u Nemačkoj, a sada se preuzima u Beogradu/Nišu.“
+
+     Beogradu → MESTO
+
+     Nišu → MESTO
+
+Nemačka je mesto stare kupovine; Beograd i Niš su dve alternative, pa je kosa crta van spanova.
+
+
+
+
+Primer 19. Izostavljena jedinica sa pouzdanim kontekstom
+
+  „Takt istog CPU-a je 3.20/3.40 GHz, a ekran je 11, što telo oglasa potvrđuje kao 11".“
+
+     3.20/3.40 GHz → CPU
+
+     11 → EKRAN
+
+     11" → EKRAN
+
+Obe vrednosti takta opisuju isti CPU pa kosa crta ostaje u spanu; izostavljena jedinica uz 11 se ne dopisuje, ali kontekst
+razrešava značenje.
+Primer 20. Greške u pisanju i spoljne granice
+
+  „Vrh racuinar ima (Intel i5-12400F), 16 gb ddr4; cena: 430 €.“
+
+    Intel i5-12400F → CPU
+
+    16 gb ddr4 → RAM
+
+    430 € → CENA
+
+Greške ne menjaju jasnu semantiku; „Vrh“, zagrade, tačka i oznaka polja ostaju van spanova.
+11. Algoritam anotiranja
+
+  Mentalni model: najpre pročitaj rečenicu i u glavi odredi koje reči nose relevantno značenje i kom tagu
+  pripadaju. Tek kada je semantička odluka gotova, koristi alat i razmišljaj o tačnim granicama svakog
+  spana.
+
+
+1. Pročitaj celu rečenicu. Ako postoji stvarna nejasnoća, pročitaj naslov i relevantni deo oglasa.
+
+2. Pronađi kandidate. U glavi označi identitete, formalne tehničke vrednosti, garancijske rokove, cene i mesta.
+
+3. Odredi semantičkog vlasnika. Zapitaj se šta podatak opisuje: CPU, GPU/VRAM, RAM, skladište, ekran,
+   bateriju ili nešto drugo.
+
+4. Dodeli tag u glavi. Za šest osnovnih komponenti koristi komponentni tag; za ostalo samo BRAND/MODEL;
+   zatim pronađi GARANCIJU, CENU i MESTO.
+
+5. Odbaci ono što nema tag. Ukloni generičke reči, stanje, reklamne prideve, specifikacije ostalih komponenti,
+   neodređene brojeve i podatke koje samo pretpostavljaš.
+
+6. Pređi u alat. Sada označi tačan originalni tekst, bez ispravljanja ili dopisivanja.
+
+7. Dotegni granice. Zadrži jedinice; izbaci spoljnu interpunkciju i uvodne reči; primeni test iste instance za
+   unutrašnje simbole.
+
+8. Proveri svaku anotaciju. Dovrši rečenicu: „Ovaj span znači ___, opisuje ___ i zato dobija tag ___.“
+12. Kompletan oglas: proces i rešenje
+
+Oglas ispod je izmišljen za ovo uputstvo i nije preuzet iz skupa oglasa za anotiranje.
+
+
+   Lenovo ThinkPad P16 Gen 2 — dve konfiguracije
+   Prodajem odlično očuvan laptop. CPU Intel Core i7-13700HX/16 jezgara. Grafika NVIDIA RTX A2000 8
+   GB GDDR6/128-bit. RAM 16/32 GB DDR5. SSD Samsung 990 PRO 1 TB NVMe, health 100/100, samo 8
+   sati rada. Ekran 16" IPS 2560×1600/165 Hz, nije na dodir. Baterija 80 Wh, drži oko 7 sati. Uz uređaj ide
+   Logitech G502 miš od 25.600 DPI. Laptop je kupljen u Nemačkoj. Garancija za laptop još 10 meseci, a za
+   miš 30 dana. Bio je 1.600 €, sada 1.350 €. Dell UltraSharp U2723QE monitor sa slike nije uključen, ali
+   trenutno košta 450 €. Preuzimanje: Novi Sad/Beograd.
+
+
+
+
+  FAZA 1 — ČITANJE BEZ KLIKTANJA
+
+  Oglas nudi Lenovo laptop u dve RAM konfiguracije i miš. Pominje i Dell monitor koji nije uključen. To je
+  dovoljno da razumemo odnose; još ne određujemo granice u alatu.
+
+
+
+  FAZA 2 — SEMANTIČKA KLASIFIKACIJA
+
+      Identitet laptopa → BRAND + MODEL.
+      Procesor i broj jezgara → CPU; oba podatka opisuju isti procesor.
+      Grafika, VRAM i sabirnica → GPU; sve opisuje istu grafiku.
+      16 i 32 GB DDR5 → RAM, ali predstavljaju dve konfiguracije.
+      SSD identitet, kapacitet, protokol, health i vreme rada → SKLADISTE.
+      Dijagonala, panel, rezolucija, osvežavanje i negirana touch osobina → EKRAN.
+      Kapacitet i merljivo trajanje baterije → BATERIJA.
+      Logitech/G502 → BRAND/MODEL; DPI miša nema tag.
+      Oba garancijska roka → GARANCIJA.
+      1.350 € i 450 € → CENA; 1.600 € je stara cena.
+      Dell monitor → EKRAN iako nije uključen; Novi Sad i Beograd → MESTO; Nemačka je samo mesto stare
+      kupovine.
+
+
+
+
+  FAZA 3 — TAČNI SPANOVI I TAGOVI U ALATU
+
+
+    Tačan span                                 Tag           Napomena o granici
+
+
+     Lenovo                                    BRAND         Odvojeno od modela.
+
+
+     ThinkPad P16 Gen 2                        MODEL         Ceo zvanični model.
+ Tačan span                          Tag         Napomena o granici
+
+
+  Intel Core i7-13700HX/16 jezgara   CPU         Kosa crta spaja podatke iste CPU instance.
+
+
+  NVIDIA RTX A2000 8 GB GDDR6/128-   GPU         Jedna grafika i njen VRAM; kosa crta ostaje unutra.
+  bit
+
+
+  16                                 RAM         Prva konfiguracija; bez dopisane jedinice.
+
+
+  32 GB DDR5                         RAM         Druga konfiguracija; kosa crta je van oba spana.
+
+
+  Samsung 990 PRO 1 TB NVMe          SKLADISTE   Jedan kontinuiran identitet i specifikacija SSD-a.
+
+
+  100/100                            SKLADISTE   Jedna dijagnostička vrednost.
+
+
+  8 sati                             SKLADISTE   Merljivo vreme rada SSD-a.
+
+
+  16" IPS 2560×1600/165 Hz           EKRAN       Susedne vrednosti iste instance ekrana.
+
+
+  na dodir                           EKRAN       „nije“ ostaje van spana.
+
+
+  80 Wh                              BATERIJA    Kapacitet baterije.
+
+
+  oko 7 sati                         BATERIJA    „oko“ menja numeričko značenje i ulazi u span.
+
+
+  Logitech                           BRAND       Brand miša.
+
+
+  G502                               MODEL       Model miša; 25.600 DPI nema tag.
+
+
+  još 10 meseci                      GARANCIJA   Rok za laptop.
+
+
+  30 dana                            GARANCIJA   Rok za miš.
+
+
+  1.350 €                            CENA        Trenutna cena; stara cena se ne označava.
+
+
+  Dell UltraSharp U2723QE            EKRAN       Identitet monitora dobija EKRAN, ne BRAND/MODEL.
+
+
+  450 €                              CENA        Trenutna cena pomenutog monitora, iako nije u
+                                                 ponudi.
+
+
+  Novi Sad                           MESTO       Prva alternativa; kosa crta je van.
+
+
+  Beograd                            MESTO       Druga alternativa.
+
+
+
+
+FAZA 4 — SEMANTIČKA PROVERA TEŽIH ODLUKA
+Za odluke koje nisu očigledne dovršavamo kontrolnu rečenicu:
+
+    Intel Core i7-13700HX/16 jezgara — „Ovaj span znači identitet i broj jezgara procesora, opisuje
+   isti konkretan CPU i zato dobija tag CPU.“
+
+    16 — „Ovaj span znači kapacitet prve ponuđene RAM konfiguracije, opisuje radnu memoriju i zato
+   dobija tag RAM.“ Jedinicu ne dopisujemo jer uz ovu alternativu nije napisana.
+
+    na dodir — „Ovaj span znači formalnu touch osobinu, opisuje ekran i zato dobija tag EKRAN.“
+   Negacija „nije“ ostaje van spana.
+
+    Dell UltraSharp U2723QE — „Ovaj span znači identitet monitora, opisuje ekran i zato dobija tag
+   EKRAN.“ Pravilo važi iako monitor nije deo ponude.
+
+    450 € — „Ovaj span znači trenutnu cenu pomenutog monitora, opisuje cenu konkretne opreme i
+   zato dobija tag CENA.“
+
+    G502 — „Ovaj span znači model miša, opisuje komponentu bez posebnog komponentnog taga i zato
+   dobija tag MODEL.“ Njegovih 25.600 DPI nema tag.
+
+
+
+
+ Namerno bez anotacije: „laptop“, „CPU“, „Grafika“, „RAM“, „SSD“, „Ekran“, „Baterija“, „miš“ i „monitor“ su
+ generičke reči; „odlično očuvan“ je stanje/reklamni opis; 25.600 DPI je specifikacija miša; Nemačkoj je
+ mesto stare kupovine; 1.600 € je stara cena.
+13. Završna kontrolna lista
+
+ 1. Da li sam prvo razumeo rečenicu, a tek onda birao tag?
+
+ 2. Da li svaki komponentni podatak ima pravog semantičkog vlasnika?
+
+ 3. Da li su VRAM/HBM/GDDR dobili GPU, CPU cache CPU, a interna memorija telefona SKLADISTE?
+
+ 4. Da li sam brand i model osnovne komponente stavio u njen komponentni tag?
+
+ 5. Da li sam za ostale uređaje i komponente označio samo BRAND i MODEL, a njihove specifikacije izostavio?
+
+ 6. Da li sam GARANCIJU, CENU i MESTO pronašao i kod dodataka, delova i drugih pomenutih uređaja?
+
+ 7. Da li sam izostavio generičke reči, stanje i prideve kao „vrh“, „jak“ i „odličan“?
+
+ 8. Da li sam izbegao nagađanje i dopisivanje izostavljenih jedinica ili reči?
+
+ 9. Da li svaki span ima najmanju potpunu granicu, bez spoljne interpunkcije i uvodnih reči?
+
+10. Da li sam susedne delove istog taga spojio samo kada opisuju istu instancu?
+
+11. Da li sam alternative i različite tagove razdvojio, ostavljajući separator van spanova?
+
+12. Da li u anotacijama nema preklapanja?
+
+
+    Završni test: za svaki span moraš moći jasno da kažeš: „Ovaj tekst znači ___, opisuje ___ i zato dobija tag
+    ___.“
+
+
+
+
+Anotira se originalni tekst oglasa. Pravopis se ne popravlja, nenapisani delovi se ne dopisuju, a odluka se donosi prema značenju u
+kontekstu.
+

@@ -1,0 +1,25 @@
+TITLE:
+Procesor (74) AMD Sempron 3000+ 1600-800-256
+
+BODY:
+Ispravan procesor za Desktop racunar
+
+- Proizvodjac AMD
+
+- Tip Sempron 3000+
+
+- tehnologija 0.09 mm
+
+- podnozje AM2
+
+- brzina 1600 MHz
+
+- magistrala 800 MHz
+
+- memorija 256 kb
+
+- broj jezgra 1
+
+- u mogucnosti sam da nabavim
+
+ventilator za procesor a on se doplacuje odvojeno

@@ -1,0 +1,30 @@
+TITLE:
+Grafička karta Biostar GTX 1660 Super 6GB DDR6 192bit DVIHD
+
+BODY:
+Kupac dobija fiskalni račun i garanciju!
+
+Moguće plaćanje preko računa firme!
+
+Moguće plaćanje na rate od 3 do 12 meseci preko Intesa kreditnih kartica Master Card i American Express!
+
+Nismo u mogućnosti da sve artikle postavimo ovde koje možemo da ponudimo, slobodno pošaljite upit za određeni artikal.
+Uvek proveriti cenu pre porudžbine. Može da se desi da cena nekog proizvoda bude niža nego što trenutno stoji, ali i obrnuto — ili da proizvod trenutno nije dostupan.
+
+-------------------------------------------------------------------------------------------------------------------
+Grafički procesor
+NVIDIA GeForce GTX 1660 SUPER
+Memorija
+Tip memorije : GDDR6
+Količina memorije : 6 GB
+Magistrala memorije : 192 bit
+Priključci
+DVI : 1
+HDMI : 1
+DisplayPort : 1
+Ostale karakteristike
+Interfejs : PCI Express 3.0
+GPU Boost Clock : 1785 MHz
+GPU Base Clock : 1530 MHz
+CUDA procesori  : 1408
+Hlađenje : Aktivno

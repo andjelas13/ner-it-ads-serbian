@@ -1,0 +1,31 @@
+TITLE:
+Kingston Fury Impact 16GB/32GB DDR5 Garancija 2035
+
+BODY:
+Kingston Fury Impact 16GB DDR5 5600MHz, KF556S40IB-16, SO-DIMM (laptop Ram memorija)
+
+Cena za jedan modul od 16GB 200e
+
+Cena za 32GB (2x 16GB) 400e
+
+Fiskalni račun i Garancija Big Bang (BC Group) Avgust 2035.
+
+Originalna ambalaža.
+
+Kapacitet 16GB
+
+Tip memorije DDR5
+
+Brzina 5600MTs
+
+Voltaža 1.1V
+
+Latencija CL40
+
+Broj pinova 262
+
+Serija Fury Impact
+
+Factory Timing Parameters:
+
+Default (Plug N Play): DDR5-5600 CL40-40-40 @ 1.1V

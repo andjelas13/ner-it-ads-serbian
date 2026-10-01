@@ -1,0 +1,22 @@
+TITLE:
+AMD Procesor CPU AM4 Ryzen 5 4600G 6C/12T 3.70-4.20GHz
+
+BODY:
+FISKALNI RACUN I GARANCIJA 3 GODINE!
+Proizvođač    AMD
+Tip procesora    AMD Ryzen
+Podnožje ( soket )    AM4
+Broj jezgara    6
+Broj Threads    12
+Clock brzina    3.7 GHz
+Max Turbo Frekvencija    4.2 GHz
+Način izrade    7 nm
+Maks. Potrošnja u W    65
+Grafičko jezgro u procesoru    AMD Radeon Graphics
+Preporučeno za    Igrače
+Pakovanje    Sa kulerom
+Boja    Siva
+
+27439
+
+Dsc

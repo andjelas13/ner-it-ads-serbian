@@ -1,0 +1,40 @@
+TITLE:
+Baterija za laptop Lenovo ThinkPad T60
+
+BODY:
+Baterija za laptop Lenovo ThinkPad T60-6 10.8V-4400mAh - 3300 Dinara;
+Baterija za laptop Lenovo ThinkPad T60-9 10.8V-6600mAh - 3700 Dinara;
+Baterija za laptop Lenovo ThinkPad T60-9 10.8V-7200mAh - 4100 Dinara;
+Baterija za laptop Lenovo ThinkPad T60-9 10.8V-7800mAh - 4300 Dinara;
+
+Baterija je kompatabilna sa sledecim modelima laptop racunara:
+  * Lenovo Thinkpad R500;
+  * Lenovo ThinkPad R61 14.1";
+  * Lenovo ThinkPad R61 15.0";
+  * Lenovo ThinkPad R61 15.4" wide;
+  * Lenovo ThinkPad R61;
+  * Lenovo ThinkPad R61e 15.4" wide;
+  * Lenovo ThinkPad R61i 14.1";
+  * Lenovo ThinkPad R61i 15.0";
+  * Lenovo ThinkPad R61 15.4" wide;
+  * Lenovo ThinkPad T500;
+  * Lenovo ThinkPad T61 14.1";
+  * Lenovo ThinkPad T61 15.4" wide;
+  * Lenovo ThinkPad T61p 14.1";
+  * Lenovo ThinkPad T61p 15.4" wide;
+  * Lenovo Thinkpad W500;
+  * Lenovo ThinkPad R60;
+  * Lenovo ThinkPad R60e;
+  * Lenovo ThinkPad R61;
+  * Lenovo ThinkPad R61e;
+  * Lenovo ThinkPad R61i;
+  * Lenovo ThinkPad T60;
+  * Lenovo ThinkPad T61;
+  * Lenovo ThinkPad T61p;
+  * Lenovo Thinkpad R500;
+  * Lenovo ThinkPad T500;
+  * Lenovo Thinkpad W500;
+  * Lenovo ThinkPad Z60;
+  * Lenovo ThinkPad Z61e;
+  * Lenovo ThinkPad Z60m;
+  * Lenovo ThinkPad T60p;

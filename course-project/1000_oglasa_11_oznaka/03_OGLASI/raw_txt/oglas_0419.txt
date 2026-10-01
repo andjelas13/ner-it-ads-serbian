@@ -1,0 +1,10 @@
+TITLE:
+Ram 4GB/1600mhz/DDR3/Take MS
+
+BODY:
+Proizvodjač: takeMS
+RAM tehnologija: DDR 3
+Kapacitet: 4GB
+Broj modula: 1
+RAM brzina: 1600 Mhz
+CAS latency: CL11

@@ -1,0 +1,49 @@
+TITLE:
+Sony VAIO PCG-4121EM i3
+
+BODY:
+Product: Sony Vaio
+
+Model: PCG 4121GM
+
+Processor: intel core i3
+
+Generation: 4th gen
+
+Logical cores: 4Cores
+
+Graphics card: intel(R) HD Graphics full HD
+
+Storage: 250gb HDD
+
+Ram: 4GB
+
+Backlit keyborad: Yes
+
+Screen size: 13,3inches
+
+Dvd rw: Yes
+
+Webcam: Yes
+
+HDMI: Yes
+
+Wireless: Yes
+
+USB: Yes
+
+Audio jack: Yes
+
+Micro-phone: Yes
+
+Ethernet port: Yes
+
+Fingerprint: No
+
+OS: Windows 10.
+
+slot za SIM karticu za mobilni telefon
+
+baterija prisutna ali ne drži
+
+originalan punjač

@@ -1,0 +1,7 @@
+TITLE:
+Intel Core 2 Duo E8200 775 2x 2.67Ghz 6MB
+
+BODY:
+Intel Core2Duo E8200 procesor, socket 775, frekvencija 2x 2.67Ghz, cache 6MB
+
+Proveren, testiran, ispravan

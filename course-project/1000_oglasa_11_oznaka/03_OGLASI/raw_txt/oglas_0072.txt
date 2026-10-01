@@ -1,0 +1,16 @@
+TITLE:
+Intel Xeon E5645 12x 2.66Ghz Turbo 1366 12MB
+
+BODY:
+Fenomenalan, moćan procesor Intel Xeon E5645, sledećih specifikacija:
+
+socket - LGA 1366
+frekvencija - 2.40Ghz
+max turbo frekvencija - 2.67Ghz
+broj jezgara - 12
+cache / keš memorija - 12mb SmartCache
+TDP - 80W
+max podržana memorija - do neverovatnih 288GB
+max memorijskih kanala - 3 (triple channel)
+
+Proveren, testiran, perfektan

@@ -1,0 +1,7 @@
+TITLE:
+Intel Celeron DualCore G1820 1150 2x 2.70Ghz 3MB
+
+BODY:
+Intel Celeron DualCore G1820 procesor, socket 1150, frekvencija 2x 2.70Ghz, cache 2x 256KB L2 + 3MB L3
+
+Proveren, testiran, ispravan

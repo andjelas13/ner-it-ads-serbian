@@ -1,0 +1,36 @@
+TITLE:
+RAM memorija KINGSTON KF432C16BB1K2/32 DDR4 2x16GB 3200MHz
+
+BODY:
+Brend: Kingston
+
+Model: KF432C16BB1K2/32
+
+Karakteristike
+Kingston FURI KF432C16BB1K2/32 je komplet od dva 2G x 64-bitna (16GB) DDR4-3200 CL16 SDRAM (sinhrona DRAM) 2Rx8, memorijski modul, baziran na šesnaest 1G x 8-bitnih FBGA komponenti po modulu. Svaki komplet modula podržava Intel® Extreme Memory Profile (Intel® XMP) 2.0. Ukupan kapacitet kompleta je 32GB. Svaki modul je testiran da radi na DDR4-3200 sa malim vremenom latencije od 16-18-18 na 1,35V. SPD-ovi su programirani na JEDEC standardno vreme latencije DDR4-2400 od 17-17-17 na 1,2V.
+Svaki 288-pinski DIMM koristi zlatne kontaktne prste. JEDEC standardne električne i mehaničke specifikacije su sledeće:
+FACTORY TIMING PARAMETERS
+-Default (JEDEC): DDR4-2400 CL17-17-17 @ 1.2V
+-XMP Profile #1: DDR4-3200 CL16-18-18 @ 1.35V
+-XMP Profile #2: DDR4-3000 CL15-17-17 @ 1.35V
+-Power Supply: VDD = 1.2V Typical
+-VDDQ = 1.2V Typical
+-VPP = 2.5V Typical
+-VDDSPD = 2.2V to 3.6V
+-On-Die termination (ODT)
+-16 internal banks; 4 groups of 4 banks each
+-Bi-Directional Differential Data Strobe
+-8 bit pre-fetch
+-Burst Length (BL) switch on-the-fly BL8 or BC4(Burst Chop)
+-Height 1.34” (34mm), w/heatsink
+Specifikacije
+  * CL(IDD): 17 cycles
+  * Row Cycle Time (tRCmin): 45.75ns(min. )
+  * Refresh to Active/Refresh
+Command Time (tRFCmin):350ns(min. )
+  * Row Active Time (tRASmin):32ns(min. )
+  * UL Rating: 94 V - 0
+  * Operating Temperature: 0o
+ C to +85oC
+  * Storage Temperature: -55o
+ C to +100oC

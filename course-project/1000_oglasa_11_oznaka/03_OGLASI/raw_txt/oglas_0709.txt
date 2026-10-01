@@ -1,0 +1,82 @@
+TITLE:
+of Cores 2
+
+BODY:
+Product CollectionIntel® Celeron® Processor G Series
+Code NameProducts formerly Coffee Lake
+Vertical SegmentDesktop
+Processor Number G4930
+StatusLaunched
+Launch Date Q2'19
+Lithography 14 nm
+Use Conditions For SKU specific use condition information, see PRQ report.
+For current use condition information, see Intel UC (CNDA site)*. " data-search-title="Find products with Use Conditions" data-search-href="" data-search-icon="true" data-keyboard="true"> PC/Client/Tablet
+CPU Specifications
+# of Cores 2
+# of Threads 2
+Processor Base Frequency 3.20 GHz
+Cache 2 MB Intel® Smart Cache
+Bus Speed 8 GT/s
+TDP 54 W
+Supplemental Information
+Embedded Options Available No
+DatasheetView now
+Memory Specifications
+Max Memory Size (dependent on memory type) 64 GB
+Memory Types DDR4-2400
+Max # of Memory Channels 2
+ECC Memory Supported ‡ Yes
+Processor Graphics
+Processor Graphics ‡ Intel® UHD Graphics 610
+Graphics Base Frequency 350 MHz
+Graphics Max Dynamic Frequency 1.05 GHz
+Graphics Video Max Memory 64 GB
+4K Support Yes, at 60Hz
+Max Resolution (HDMI)‡ 4096x2304@24Hz
+Max Resolution (DP)‡ 4096x2304@60Hz
+Max Resolution (eDP - Integrated Flat Panel)‡ 4096x2304@60Hz
+DirectX* Support 12
+OpenGL* Support 4.5
+Intel® Quick Sync Video Yes
+Intel® InTru™ 3D Technology Yes
+Intel® Clear Video HD Technology Yes
+Intel® Clear Video Technology Yes
+# of Displays Supported ‡3
+Device ID0x3E93
+Expansion Options
+Scalability1S Only
+PCI Express Revision 3.0
+PCI Express Configurations ‡ Up to 1x16, 2x8, 1x8+2x4
+Max # of PCI Express Lanes 16
+Package Specifications
+Sockets Supported FCLGA1151
+Max CPU Configuration1
+Thermal Solution Specification PCG 2015C (65W)
+TJUNCTION 100° C
+Package Size37.5mm x 37.5mm
+Advanced Technologies
+Intel® Optane™ Memory Supported ‡ Yes
+Intel® Turbo Boost Technology ‡ No
+Intel vPro® Platform Eligibility ‡ No
+Intel® Hyper-Threading Technology ‡ No
+Intel® Virtualization Technology (VT-x) ‡ Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡ Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡ Yes
+Intel® Transactional Synchronization Extensions No
+Intel® 64 ‡ Yes
+Instruction Set 64-bit
+Instruction Set Extensions Intel® SSE4.1, Intel® SSE4.2
+Idle States Yes
+Enhanced Intel SpeedStep® Technology Yes
+Thermal Monitoring Technologies Yes
+Intel® Identity Protection Technology ‡ Yes
+Intel® Stable Image Platform Program (SIPP) No
+Security &Reliability
+Intel® AES New Instructions Yes
+Secure Key Yes
+Intel® Software Guard Extensions (Intel® SGX) Yes with Intel® ME
+Intel® Memory Protection Extensions (Intel® MPX) Yes
+Intel® OS GuardYes
+Intel® Trusted Execution Technology ‡ No
+Execute Disable Bit ‡ Yes
+Intel® Boot Guard Yes

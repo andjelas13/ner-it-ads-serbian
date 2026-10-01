@@ -1,0 +1,35 @@
+TITLE:
+Gainward 9600GT 512MB
+
+BODY:
+Kartica je potpuno ispravna i testirana. Ima 512 MB RAM-a DDR3, 256bit. Od izlaza ima DVI x2, tv izlaz.
+
+Product Name : Gainward 9600GT 512MB
+
+Barcode : 471846200-9245
+
+GPU : NVIDIA GeForce® 9600GT
+
+GPU Clockspeed : 650 MHz
+
+Memory : 512 MB GDDR3 (256 bits)
+
+Memory Clockspeed : 900 MHz
+
+Pixels per clock
+
+(peak) :
+
+N/A
+
+Bandwidth : 57.6 GB/s
+
+Ramdac : 400 MHz
+
+Bus : PCI-Express
+
+Cooling : 2-Slot Fan
+
+Video-Features : HD-Output
+
+Connectivity : DUAL DVI + TVO

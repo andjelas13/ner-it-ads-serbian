@@ -1,0 +1,1948 @@
+[
+  {
+    "ad_id": "104",
+    "field": "body",
+    "start": 8,
+    "end": 17,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "104",
+    "field": "body",
+    "start": 21,
+    "end": 22,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "104",
+    "field": "body",
+    "start": 23,
+    "end": 29,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "104",
+    "field": "body",
+    "start": 32,
+    "end": 47,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "104",
+    "field": "body",
+    "start": 58,
+    "end": 64,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "104",
+    "field": "body",
+    "start": 137,
+    "end": 144,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "106",
+    "field": "body",
+    "start": 31,
+    "end": 40,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "106",
+    "field": "body",
+    "start": 44,
+    "end": 49,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "106",
+    "field": "body",
+    "start": 50,
+    "end": 52,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "106",
+    "field": "body",
+    "start": 56,
+    "end": 71,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 1,
+    "end": 7,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 16,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 32,
+    "end": 37,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 39,
+    "end": 41,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 43,
+    "end": 44,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 55,
+    "end": 56,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 75,
+    "end": 78,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 80,
+    "end": 95,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 106,
+    "end": 112,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 158,
+    "end": 160,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "107",
+    "field": "body",
+    "start": 184,
+    "end": 191,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 106,
+    "end": 111,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 112,
+    "end": 118,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 120,
+    "end": 131,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 204,
+    "end": 210,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 245,
+    "end": 247,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 609,
+    "end": 615,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "112",
+    "field": "body",
+    "start": 619,
+    "end": 620,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "114",
+    "field": "body",
+    "start": 64,
+    "end": 69,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "114",
+    "field": "body",
+    "start": 70,
+    "end": 76,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "114",
+    "field": "body",
+    "start": 78,
+    "end": 82,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "114",
+    "field": "body",
+    "start": 284,
+    "end": 286,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "114",
+    "field": "body",
+    "start": 294,
+    "end": 295,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "137",
+    "field": "body",
+    "start": 137,
+    "end": 144,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "137",
+    "field": "body",
+    "start": 284,
+    "end": 286,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "137",
+    "field": "body",
+    "start": 317,
+    "end": 321,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "137",
+    "field": "body",
+    "start": 323,
+    "end": 329,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "137",
+    "field": "title",
+    "start": 13,
+    "end": 21,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "137",
+    "field": "title",
+    "start": 22,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 8,
+    "end": 13,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 14,
+    "end": 19,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 20,
+    "end": 29,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 30,
+    "end": 39,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 118,
+    "end": 122,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 123,
+    "end": 124,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 131,
+    "end": 134,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 156,
+    "end": 161,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 163,
+    "end": 173,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 174,
+    "end": 180,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 194,
+    "end": 200,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 206,
+    "end": 210,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 222,
+    "end": 232,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 234,
+    "end": 241,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 242,
+    "end": 252,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 285,
+    "end": 297,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "body",
+    "start": 299,
+    "end": 305,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "title",
+    "start": 9,
+    "end": 12,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "title",
+    "start": 13,
+    "end": 18,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "title",
+    "start": 19,
+    "end": 29,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "title",
+    "start": 30,
+    "end": 40,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "155",
+    "field": "title",
+    "start": 41,
+    "end": 45,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 45,
+    "end": 55,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 58,
+    "end": 62,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 64,
+    "end": 70,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 129,
+    "end": 141,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 163,
+    "end": 167,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 182,
+    "end": 184,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 189,
+    "end": 202,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 220,
+    "end": 223,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 234,
+    "end": 246,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 248,
+    "end": 256,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 283,
+    "end": 284,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "body",
+    "start": 357,
+    "end": 358,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "179",
+    "field": "title",
+    "start": 9,
+    "end": 21,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "181",
+    "field": "title",
+    "start": 10,
+    "end": 11,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "208",
+    "field": "body",
+    "start": 95,
+    "end": 107,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "229",
+    "field": "title",
+    "start": 14,
+    "end": 22,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "237",
+    "field": "body",
+    "start": 49,
+    "end": 55,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "body",
+    "start": 191,
+    "end": 192,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "body",
+    "start": 199,
+    "end": 200,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "body",
+    "start": 326,
+    "end": 339,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "body",
+    "start": 359,
+    "end": 366,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "title",
+    "start": 11,
+    "end": 12,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "title",
+    "start": 19,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "title",
+    "start": 30,
+    "end": 37,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "242",
+    "field": "title",
+    "start": 38,
+    "end": 39,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 97,
+    "end": 110,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 113,
+    "end": 117,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 120,
+    "end": 127,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 140,
+    "end": 149,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 157,
+    "end": 163,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 224,
+    "end": 229,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 405,
+    "end": 407,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 526,
+    "end": 528,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 530,
+    "end": 531,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 536,
+    "end": 559,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 562,
+    "end": 566,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 569,
+    "end": 576,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 589,
+    "end": 598,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 614,
+    "end": 620,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 622,
+    "end": 627,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 641,
+    "end": 643,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 686,
+    "end": 707,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 978,
+    "end": 980,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 982,
+    "end": 983,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 988,
+    "end": 1007,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1010,
+    "end": 1014,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1017,
+    "end": 1024,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1037,
+    "end": 1046,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1054,
+    "end": 1060,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1062,
+    "end": 1067,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1077,
+    "end": 1083,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1139,
+    "end": 1142,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1159,
+    "end": 1164,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1168,
+    "end": 1175,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "278",
+    "field": "body",
+    "start": 1178,
+    "end": 1184,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "283",
+    "field": "body",
+    "start": 150,
+    "end": 154,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "283",
+    "field": "body",
+    "start": 159,
+    "end": 160,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "283",
+    "field": "body",
+    "start": 162,
+    "end": 185,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "283",
+    "field": "body",
+    "start": 192,
+    "end": 197,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "283",
+    "field": "title",
+    "start": 9,
+    "end": 10,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "283",
+    "field": "title",
+    "start": 25,
+    "end": 34,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "310",
+    "field": "body",
+    "start": 57,
+    "end": 58,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "310",
+    "field": "body",
+    "start": 85,
+    "end": 103,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "310",
+    "field": "body",
+    "start": 106,
+    "end": 125,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "310",
+    "field": "body",
+    "start": 717,
+    "end": 718,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "310",
+    "field": "title",
+    "start": 27,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "310",
+    "field": "title",
+    "start": 40,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "39",
+    "field": "body",
+    "start": 16,
+    "end": 23,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "39",
+    "field": "body",
+    "start": 24,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "39",
+    "field": "title",
+    "start": 16,
+    "end": 23,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "39",
+    "field": "title",
+    "start": 24,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 7,
+    "end": 8,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 14,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 30,
+    "end": 31,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 32,
+    "end": 36,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 74,
+    "end": 82,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 118,
+    "end": 120,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 178,
+    "end": 180,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 229,
+    "end": 230,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 252,
+    "end": 253,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 254,
+    "end": 258,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "body",
+    "start": 277,
+    "end": 278,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "title",
+    "start": 4,
+    "end": 6,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "title",
+    "start": 35,
+    "end": 38,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "41",
+    "field": "title",
+    "start": 39,
+    "end": 41,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "423",
+    "field": "body",
+    "start": 91,
+    "end": 92,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "423",
+    "field": "body",
+    "start": 118,
+    "end": 143,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "423",
+    "field": "title",
+    "start": 27,
+    "end": 43,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "body",
+    "start": 83,
+    "end": 91,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "body",
+    "start": 113,
+    "end": 119,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "body",
+    "start": 409,
+    "end": 432,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "body",
+    "start": 438,
+    "end": 441,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "body",
+    "start": 461,
+    "end": 466,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "body",
+    "start": 471,
+    "end": 475,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "title",
+    "start": 27,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "438",
+    "field": "title",
+    "start": 35,
+    "end": 47,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "45",
+    "field": "title",
+    "start": 4,
+    "end": 17,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "454",
+    "field": "body",
+    "start": 50,
+    "end": 52,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "454",
+    "field": "title",
+    "start": 27,
+    "end": 35,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "458",
+    "field": "body",
+    "start": 266,
+    "end": 274,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "458",
+    "field": "body",
+    "start": 288,
+    "end": 290,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "458",
+    "field": "body",
+    "start": 308,
+    "end": 311,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "458",
+    "field": "body",
+    "start": 321,
+    "end": 322,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "458",
+    "field": "body",
+    "start": 366,
+    "end": 375,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "458",
+    "field": "title",
+    "start": 8,
+    "end": 26,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "body",
+    "start": 24,
+    "end": 25,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "body",
+    "start": 29,
+    "end": 40,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "body",
+    "start": 64,
+    "end": 79,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "body",
+    "start": 102,
+    "end": 117,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "body",
+    "start": 132,
+    "end": 147,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "body",
+    "start": 160,
+    "end": 174,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "460",
+    "field": "title",
+    "start": 7,
+    "end": 12,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "465",
+    "field": "body",
+    "start": 62,
+    "end": 77,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "465",
+    "field": "body",
+    "start": 87,
+    "end": 100,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "465",
+    "field": "body",
+    "start": 114,
+    "end": 115,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "465",
+    "field": "body",
+    "start": 153,
+    "end": 156,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "465",
+    "field": "title",
+    "start": 12,
+    "end": 27,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "465",
+    "field": "title",
+    "start": 37,
+    "end": 49,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "507",
+    "field": "body",
+    "start": 13,
+    "end": 18,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "507",
+    "field": "title",
+    "start": 12,
+    "end": 17,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "513",
+    "field": "title",
+    "start": 2,
+    "end": 8,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "513",
+    "field": "title",
+    "start": 9,
+    "end": 13,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "513",
+    "field": "title",
+    "start": 23,
+    "end": 26,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "518",
+    "field": "title",
+    "start": 10,
+    "end": 21,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "518",
+    "field": "title",
+    "start": 26,
+    "end": 34,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "559",
+    "field": "body",
+    "start": 21,
+    "end": 24,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "559",
+    "field": "title",
+    "start": 12,
+    "end": 15,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "573",
+    "field": "body",
+    "start": 360,
+    "end": 369,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "711",
+    "field": "title",
+    "start": 20,
+    "end": 21,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "body",
+    "start": 190,
+    "end": 191,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "body",
+    "start": 219,
+    "end": 220,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "body",
+    "start": 247,
+    "end": 248,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "body",
+    "start": 323,
+    "end": 328,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "title",
+    "start": 17,
+    "end": 36,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "title",
+    "start": 37,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "title",
+    "start": 43,
+    "end": 47,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "720",
+    "field": "title",
+    "start": 48,
+    "end": 57,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 348,
+    "end": 361,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 364,
+    "end": 377,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 380,
+    "end": 401,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 428,
+    "end": 445,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 469,
+    "end": 470,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 505,
+    "end": 531,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 560,
+    "end": 573,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 575,
+    "end": 580,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 582,
+    "end": 589,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "body",
+    "start": 603,
+    "end": 621,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "title",
+    "start": 12,
+    "end": 25,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "title",
+    "start": 28,
+    "end": 41,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "727",
+    "field": "title",
+    "start": 44,
+    "end": 60,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "73",
+    "field": "body",
+    "start": 23,
+    "end": 24,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "73",
+    "field": "body",
+    "start": 67,
+    "end": 68,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "73",
+    "field": "body",
+    "start": 69,
+    "end": 74,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "73",
+    "field": "body",
+    "start": 82,
+    "end": 83,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "73",
+    "field": "title",
+    "start": 18,
+    "end": 47,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 314,
+    "end": 315,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 321,
+    "end": 329,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 330,
+    "end": 338,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 380,
+    "end": 388,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 389,
+    "end": 397,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 439,
+    "end": 447,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "752",
+    "field": "body",
+    "start": 448,
+    "end": 456,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "756",
+    "field": "body",
+    "start": 68,
+    "end": 69,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "756",
+    "field": "body",
+    "start": 75,
+    "end": 79,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "756",
+    "field": "body",
+    "start": 97,
+    "end": 108,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "756",
+    "field": "body",
+    "start": 114,
+    "end": 118,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "756",
+    "field": "body",
+    "start": 121,
+    "end": 131,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "body",
+    "start": 23,
+    "end": 28,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "body",
+    "start": 67,
+    "end": 68,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "body",
+    "start": 69,
+    "end": 74,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "body",
+    "start": 82,
+    "end": 83,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "body",
+    "start": 85,
+    "end": 93,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "body",
+    "start": 96,
+    "end": 101,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "76",
+    "field": "title",
+    "start": 18,
+    "end": 48,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "77",
+    "field": "body",
+    "start": 14,
+    "end": 19,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "77",
+    "field": "body",
+    "start": 58,
+    "end": 59,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "77",
+    "field": "body",
+    "start": 60,
+    "end": 65,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "77",
+    "field": "body",
+    "start": 73,
+    "end": 74,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "77",
+    "field": "title",
+    "start": 14,
+    "end": 29,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "77",
+    "field": "title",
+    "start": 30,
+    "end": 39,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "780",
+    "field": "body",
+    "start": 4,
+    "end": 22,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "803",
+    "field": "body",
+    "start": 26,
+    "end": 30,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "803",
+    "field": "body",
+    "start": 32,
+    "end": 38,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "803",
+    "field": "body",
+    "start": 40,
+    "end": 41,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "803",
+    "field": "body",
+    "start": 42,
+    "end": 47,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "803",
+    "field": "body",
+    "start": 58,
+    "end": 66,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "803",
+    "field": "body",
+    "start": 78,
+    "end": 87,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "body",
+    "start": 18,
+    "end": 45,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "body",
+    "start": 61,
+    "end": 70,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "body",
+    "start": 110,
+    "end": 115,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "body",
+    "start": 142,
+    "end": 143,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "body",
+    "start": 158,
+    "end": 166,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "body",
+    "start": 357,
+    "end": 360,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "873",
+    "field": "title",
+    "start": 22,
+    "end": 39,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 310,
+    "end": 313,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 322,
+    "end": 323,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 342,
+    "end": 343,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 390,
+    "end": 392,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 653,
+    "end": 654,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 709,
+    "end": 716,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 835,
+    "end": 836,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 844,
+    "end": 850,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 914,
+    "end": 916,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "body",
+    "start": 917,
+    "end": 929,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "title",
+    "start": 27,
+    "end": 32,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "title",
+    "start": 33,
+    "end": 37,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "889",
+    "field": "title",
+    "start": 38,
+    "end": 45,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "898",
+    "field": "title",
+    "start": 27,
+    "end": 44,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "932",
+    "field": "body",
+    "start": 507,
+    "end": 508,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "932",
+    "field": "body",
+    "start": 520,
+    "end": 521,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "932",
+    "field": "body",
+    "start": 630,
+    "end": 631,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "932",
+    "field": "title",
+    "start": 45,
+    "end": 46,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "955",
+    "field": "body",
+    "start": 1530,
+    "end": 1536,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "955",
+    "field": "body",
+    "start": 1538,
+    "end": 1539,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "955",
+    "field": "body",
+    "start": 1555,
+    "end": 1556,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "955",
+    "field": "body",
+    "start": 1557,
+    "end": 1558,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "955",
+    "field": "body",
+    "start": 1559,
+    "end": 1564,
+    "label": "CPU"
+  }
+]

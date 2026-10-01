@@ -1,0 +1,67 @@
+TITLE:
+Digitalni USB mikroskop koji uvećava od 50 do 500X
+
+BODY:
+Primena:
+
+Posmatranje kože i promena na koži
+
+Posmatranje fosilnih uzoraka i hobi proveru
+
+Za procenu nakita, satova i rukotvorina
+
+Pregled industrije proizvodimo npr PCB-a Elektronske komponente inspekcije
+
+Vizuelna pomoć
+
+Tekstilne inspekcije
+
+Naučna istraživanja
+
+Možete da radite neke ozbiljne stvari, preglede, istraživanja, da ga koristite u obrazovanju ili da se jednostavno igrate
+
+Ono sto je jako bitno je da to što vidite u određenom trenutku možete i da snimite pritiskom na dugme i napravite video file ili fotografiju
+
+Paket sadrži:
+
+Mikroskop
+
+Nosač za mikroskop
+
+CD sa programima
+
+Micro-metar za merenje- kalibracioni
+
+Karakteristike:
+
+Snimajte živopisne slike u boji sa rezolucijom od 640 k 480 piksela
+
+Video slike se šalju na računar preko USB porta
+
+Lako se instalira softverski paket za pregledanje, uređivanje, čuvanje slika i još mnogo toga
+
+Senzor slike: 1,3 mega piksela (mak 5.0Mega)
+
+Objektiv: Dual Axis 20X i 500X Micro-Scope Lens
+
+Opseg fokusa: Manuelni fokus na oko 10mm
+
+Snap shot: softver i hardver (opciono)
+
+Video capture rezolucija: 1280k1024 (1.3M piksela), 640×480, 320×240, 160×120. 2560×2048 (5M piksela), 2304×1738 (4Mpiksela), 1600×1200 (2Mpiksela)
+
+Frame rate: Maks 30 f / s pod 600 Luk Osvetljenost
+
+Brzina zatvarača: 1 sek do 1 / 1000 sek
+
+Video format: AVI / Format
+
+Snap shot format: JPEG
+
+Svetlosni izvor: Bela svetlost 8 LED dioda sa ON / OFF prekidačem
+
+Odnos Uvećanje: 20x – 500X (ručno)
+
+Napajanje: USB port (5V DC)
+
+Dimenzije: 110 mm (dužina)

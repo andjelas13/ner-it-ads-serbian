@@ -1,0 +1,345 @@
+[
+  {
+    "ad_id": "116",
+    "field": "body",
+    "start": 157,
+    "end": 159,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "116",
+    "field": "body",
+    "start": 159,
+    "end": 160,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "116",
+    "field": "title",
+    "start": 34,
+    "end": 36,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "116",
+    "field": "title",
+    "start": 36,
+    "end": 37,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "141",
+    "field": "body",
+    "start": 139,
+    "end": 141,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "141",
+    "field": "body",
+    "start": 155,
+    "end": 157,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "141",
+    "field": "title",
+    "start": 21,
+    "end": 23,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "141",
+    "field": "title",
+    "start": 25,
+    "end": 26,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "189",
+    "field": "title",
+    "start": 37,
+    "end": 39,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "190",
+    "field": "title",
+    "start": 17,
+    "end": 18,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "239",
+    "field": "body",
+    "start": 57,
+    "end": 59,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "243",
+    "field": "title",
+    "start": 16,
+    "end": 17,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "279",
+    "field": "body",
+    "start": 135,
+    "end": 136,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "279",
+    "field": "body",
+    "start": 574,
+    "end": 575,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "281",
+    "field": "body",
+    "start": 238,
+    "end": 240,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "321",
+    "field": "body",
+    "start": 221,
+    "end": 223,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "321",
+    "field": "body",
+    "start": 224,
+    "end": 225,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "426",
+    "field": "body",
+    "start": 184,
+    "end": 185,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "426",
+    "field": "body",
+    "start": 214,
+    "end": 215,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "426",
+    "field": "body",
+    "start": 241,
+    "end": 242,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "426",
+    "field": "body",
+    "start": 281,
+    "end": 282,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "426",
+    "field": "title",
+    "start": 13,
+    "end": 14,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "50",
+    "field": "body",
+    "start": 36,
+    "end": 37,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "50",
+    "field": "body",
+    "start": 49,
+    "end": 53,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "50",
+    "field": "body",
+    "start": 276,
+    "end": 277,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "734",
+    "field": "body",
+    "start": 162,
+    "end": 163,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "734",
+    "field": "body",
+    "start": 177,
+    "end": 178,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "734",
+    "field": "body",
+    "start": 178,
+    "end": 179,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "734",
+    "field": "body",
+    "start": 185,
+    "end": 186,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "734",
+    "field": "title",
+    "start": 30,
+    "end": 31,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "734",
+    "field": "title",
+    "start": 38,
+    "end": 42,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "734",
+    "field": "title",
+    "start": 47,
+    "end": 51,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "737",
+    "field": "body",
+    "start": 163,
+    "end": 165,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "737",
+    "field": "body",
+    "start": 165,
+    "end": 166,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "737",
+    "field": "title",
+    "start": 31,
+    "end": 41,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "737",
+    "field": "title",
+    "start": 41,
+    "end": 42,
+    "label": "CPU"
+  },
+  {
+    "ad_id": "737",
+    "field": "title",
+    "start": 43,
+    "end": 45,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 77,
+    "end": 81,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 85,
+    "end": 86,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 460,
+    "end": 462,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 726,
+    "end": 728,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 1022,
+    "end": 1024,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 1327,
+    "end": 1329,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 1403,
+    "end": 1405,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "753",
+    "field": "body",
+    "start": 1962,
+    "end": 1964,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "754",
+    "field": "body",
+    "start": 488,
+    "end": 489,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "88",
+    "field": "title",
+    "start": 8,
+    "end": 9,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "88",
+    "field": "title",
+    "start": 11,
+    "end": 12,
+    "label": "SKLADISTE"
+  },
+  {
+    "ad_id": "880",
+    "field": "title",
+    "start": 55,
+    "end": 56,
+    "label": "SKLADISTE"
+  }
+]

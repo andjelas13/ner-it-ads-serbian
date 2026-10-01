@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.smoke_deps/
+results/**/checkpoint_*/
+results/**/cache*/
+report_artifacts/**/*.png
+report_artifacts/analysis/
+results/**/final/

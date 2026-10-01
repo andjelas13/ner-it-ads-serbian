@@ -1,0 +1,38 @@
+TITLE:
+Desktop Računar i7-13700KF/32GB/1TB/RTX4070
+
+BODY:
+Nov proizvod, u originalnom pakovanju sa domaćom garancijom i fiskalnim računom. Mogućnost kupovine preko računa firme, pri čemu dobijate fakturu sa iskazanim PDV-om.
+Proizvod je nov,  nekorišćen i dolazi u originalnom, neotpakovanom pakovanju sa važećom garancijom od dana kupovine.  Svi proizvodi u našem asortimanu su isključivo novi, isključivo uvezeni od strane zvaničnog (generalnog) uvoznika za dati brend, poseduju svu prateću dokumentaciju i u slučaju bilo kakve potrebe, garancija se ostvaruje u Srbiji kod ovlašćenog uvoznika.
+Plaćanje možete obaviti pouzećem (kuriru na ruke nakon što Vam preda proizvod) ili na račun naše firme (po dostavljenom predračunu sa podacima za uplatu).
+Pakovanje proizvoda je dodatno obezbedjeno kako bi se izbegla i najmanja mogućnost oštećenja prilikom transporta.
+Za sve dodatne informacije, slobodno nas kontaktirajte putem KP poruka, telefonom ili SMS porukom, kako Vama najviše odgovara.
+----------------------------------------------
+OPIS PROIZVODA:
+Klasa procesora    Intel Core i7
+Model    i7-13700KF
+Broj jezgara procesora    16
+Radni takt procesora    2.5GHz
+Procesorsko ležište (socket)    Intel 1700
+Model matične ploče    ASUS PRIME B760M-R
+Čipset    Intel B760
+Memorija (RAM)
+Memorija (RAM)    32GB
+Tip memorije    DDR4
+Radni takt memorije    3.200MHz
+Model    2x KF432C16BB1/16 Fury Beast
+Grafika
+Model grafičke karte    GV-N4070WF2OC-12GD
+Grafika    nVidia
+Grafički procesor    RTX 4070
+Količina memorije    12GB
+Tip memorije    GDDR6
+Skladištenje podataka
+Tip skladištenja    SSD
+SSD    1TB
+Model SSD    M.2 NVMe SNV3S/1000G NV3
+SSD interfejs    PCIe NVMe
+Kućište / Napajanje
+Model kućišta    NZXT H5 FLOW RGB
+Model napajanja    PA-7B2BB-EU
+Snaga napajanja    750W

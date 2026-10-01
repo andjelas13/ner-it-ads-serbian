@@ -1,0 +1,12 @@
+TITLE:
+Polovan laptop HP ZBook 15/G1
+
+BODY:
+U pitanju je HP ZBook 15 (prve generacije, poznat i kao G1), vrhunska mobilna radna stanica iz 2013/2014. godine.
+Procesor: Prema plavoj nalepnici, unutra je Intel Core i7 (verovatno 4. generacije, poput i7-4700MQ ili i7-4800MQ).
+Operativni sistem: Windows 8 Pro nalepnica na dnu potvrđuje iz koje je ere uređaj.
+Grafika: Ovi modeli su standardno dolazili sa profesionalnim Nvidia Quadro karticama (najčešće K1100M ili K2100M).
+Plusevi i minusi sa slika
+Minus (Nedostatak baterije): Na slikama sa donje strane jasno se vidi da je ležište za bateriju potpuno prazno. Nova zamenska baterija za ovaj model u Srbiji trenutno košta između 4.000 i 5.000 dinara, što će potencijalni kupci sigurno iskoristiti kao argument za spuštanje cene.
+Plus (Snažan punjač): Uz laptop ide originalni HP punjač od čak 200W (19.5V, 10.3A). Ovi punjači su prilično masivni, kvalitetni i sami po sebi na oglasima vrede oko 3.000.
+Fizičko stanje: Uređaj je pristojno očuvan za svoje godine.

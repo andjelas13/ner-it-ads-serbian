@@ -1,0 +1,45 @@
+TITLE:
+Tablet NOV 6/128GB, OctaCore,Dual Sim, WiFi, full
+
+BODY:
+Tehničke informacije
+
+- Model: UTAB M1019 Max
+- Dimenzije: 247.3*157.1*7.7mm
+- Težina: 510g
+- Operativni sistem: Android 12
+- Boja: Pastel plava
+- Jezik: Podržava više jezika
+
+HARDWARE
+
+- Ekran: 10.34 inča incell FHD IPS ekran osetljiv na dodir (touch screen), 1920*1280px!
+- Procesor: Unisoc T616 octa core (2*A75+6*A55), 2.0GHz
+- Grafička kartica GPU: Mali G57 750MHz
+- RAM - 6GB RAM memorije
+- Hard disk memorija - 128GB ROM, a podržava i TF-SD karticu do 256GB max
+- Kamera: Dual Kamera: zadnja kamera 13MP AI sa blicom, prednja (selfi) kamera 5MP
+- Senzori: G-sensor
+- Baterija: 6500mAh Li-Po battery
+- Zvučnik: 8Ω/1W *4
+
+Umrežavanje &konekcija
+
+- 2G: GSM 850/900/1800/1900MHz
+- 3G: WCDMA 850/900/1900/2100MHz; TD-SCDMA B34/B39
+- 4G: FDD-LTE B1/B3/B5/B7/B8/B20, TDD-LTE B38/B39/B40/B41
+- WiFi IEEE 802.11a/b/g/n/ac, support 2.4GHz/5GHz dual band WiFi
+- BlueTooth V5.0
+- GPS - Globalni navigacioni satelitski sistem podržava GPS/A-GPS/GLONASS/Beidou
+
+Ulazni/izlazni konektori
+
+- 2 x SIM slot (Nano+Nano ili Nano+TF)
+- 1 x USB Tip-C port
+- 1 x 3.5mm Audio konektor za slušalice ili zvučnike:
+
+Pribor i oprema koja se dobija
+
+- USB punjač (5V/2A)
+- USB kabl
+- Korisničko uputstvo

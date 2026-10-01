@@ -1,0 +1,29 @@
+TITLE:
+KINGSTON 4TB M.2 NVMe SNV3S/4000G series NV3 SSD
+
+BODY:
+KINGSTON 4TB M.2 NVMe SNV3S/4000G series NV3 SSD
+
+Osnovne karakteristike
+Tip: SSD
+Format: M.2 2280
+Kapacitet diska: 4TB
+Interfejs: PCI Express 4.0 x4 NVMe
+Sekvencionalno čitanje: 6.000MB/s
+Sekvencionalan upis: 5.000MB/s
+
+Ostale karakteristike
+Tip memorije: 3D NAND
+Podržane tehnologije: NVMe 1.4, S. M. A. R. T. , TRIM, Wear Leveling, ECC
+IOPS čitanje: do 900.000 IOPS
+IOPS upis: do 1.000.000 IOPS
+MTBF: 2.000.000 sati
+Napomena: Pogodan za desktop i laptop računare sa M.2 PCIe NVMe slotom
+
+Fizičke karakteristike
+Dimenzije: 80mm x 22mm x 2.3mm
+Debljina: 2.3mm
+Masa: 7g
+
+Reklamacioni period
+Reklamacioni period: 60 meseci

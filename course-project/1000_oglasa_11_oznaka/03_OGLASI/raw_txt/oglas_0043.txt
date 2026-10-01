@@ -1,0 +1,23 @@
+TITLE:
+AMD Sempron procesor za desktop računar
+
+BODY:
+Ispravan AMD Sempron procesor za Desktop racunar
+
+Svaki procesor ima svoju cenu i prodaje se posebno
+
+- Procesor (71) AMD Sempron 2500+ 1400 MHz-800-256 - 250 din
+
+Tip Sempron 2500+
+
+tehnologija 0.09 mm
+
+podnozje 754
+
+brzina 1400 MHz
+
+magistrala 800 MHz
+
+memorija 256 kb
+
+broj jezgra 1

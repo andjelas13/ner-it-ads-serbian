@@ -1,0 +1,381 @@
+PRIRUČNIK ZA SEMANTIČKU NER ANOTACIJU IT OGLASA
+
+Skraćena verzija: CPU, GPU, RAM, SKLADIŠTE i CENA
+
+Uputstvo za anotatore • septembar 2026.
+
+
+1. CILJ
+
+U tekstovima IT oglasa označavaju se samo delovi teksta koji pripadaju jednoj
+od sledećih pet oznaka:
+
+  CPU          identitet i formalne specifikacije procesora
+  GPU          identitet i formalne specifikacije grafike, uključujući VRAM
+  RAM          identitet i formalne specifikacije glavne radne memorije
+  SKLADIŠTE    identitet i formalne specifikacije prostora za čuvanje podataka
+  CENA         trenutna cena ili trenutni cenovni opseg opreme
+
+Sve što ne pripada jednoj od ovih pet oznaka ostaje bez anotacije.
+
+
+2. OSNOVNI POJMOVI
+
+SPAN
+  Neprekidan deo originalnog teksta koji označavamo. Može biti reč, broj,
+  simbol ili više neposredno povezanih reči.
+
+OZNAKA
+  Semantička klasa dodeljena spanu: CPU, GPU, RAM, SKLADIŠTE ili CENA.
+
+ANOTACIJA
+  Dodela jedne oznake jednom spanu, na primer:
+
+  "16 GB DDR5" → RAM
+
+Anotira se prema značenju izraza u konkretnom kontekstu, ne prema izolovanoj
+reči ili broju. Na primer, "16 GB" može biti RAM, GPU ili SKLADIŠTE, zavisno
+od toga šta opisuje.
+
+
+3. OPŠTA PRAVILA
+
+3.1. Prvo značenje, zatim oznaka
+
+Pročitaj celu rečenicu. Ako nije dovoljna, pogledaj naslov ili susedni deo
+oglasa. Prvo utvrdi šta podatak opisuje, pa tek onda dodeli jednu od pet
+oznaka.
+
+3.2. Anotiraju se naslov i telo
+
+Ako se isti relevantan podatak pojavi u naslovu i u telu, anotira se na oba
+mesta. Naslov i telo su odvojena tekstualna polja.
+
+3.3. Označava se samo eksplicitno napisan tekst
+
+Ne dopisuj nenapisanu jedinicu, naziv komponente ili drugu informaciju. Ako
+je skraćeni zapis jasan iz konteksta, može se anotirati; nejasan broj ostaje
+bez oznake.
+
+  "i5" u jasnom opisu procesora → CPU
+  "16" bez jasnog konteksta → bez oznake
+
+3.4. Formalna specifikacija da; reklamni opis i stanje ne
+
+Formalna specifikacija je eksplicitno napisan, objektivan i proverljiv
+tehnički podatak: identitet, kapacitet, brzina, tehnologija, standard,
+interfejs, kompatibilnost ili rezultat tehničkog merenja/dijagnostike.
+
+Ne uključuj reklamne i subjektivne prideve kao "vrh", "vrhunski", "brutalan",
+"jak", "odličan", "prelep" i "najbolji", niti opšti opis stanja kao "nov",
+"polovan", "očuvan" i "neispravan".
+
+3.5. Formalna količina može biti napisana rečima
+
+Ako je tehnička količina nedvosmislena, može biti anotirana i kada nije
+zapisana ciframa:
+
+  "sa duplim procesorima" → "duplim" je CPU
+  "poseduje dve grafičke" → "dve" je GPU
+
+Sama generička imenica ne ulazi u span.
+
+3.6. Greške u pisanju se ne ispravljaju
+
+Ako je značenje jasno, anotira se tačno onaj tekst koji postoji u oglasu,
+uključujući greške u kapitalizaciji, razmacima ili pravopisu:
+
+  "16 gb ddr4" → RAM
+
+3.7. Nema preklapanja
+
+Isti karakter teksta ne sme pripadati dvema anotacijama. Svaki span dobija
+najviše jednu od pet oznaka.
+
+
+4. GRANICE SPANA
+
+4.1. Najmanji potpun span
+
+Označi najmanji neprekidan deo teksta koji čuva potpuno traženo značenje.
+Granice odgovaraju napisanom tekstu, ne onome što se može zaključiti.
+
+4.2. Spoljna interpunkcija i uvodne reči ostaju van
+
+  "(Intel i5)," → Intel i5
+  "Cena: 350 €." → 350 €
+
+4.3. Jedinice i unutrašnji simboli ostaju kada pripadaju vrednosti
+
+Jedinica, procenat i unutrašnji znak modela deo su spana:
+
+  4.6 GHz
+  91%
+  i5-12400F
+  1920×1080
+
+4.4. Delovi iste instance mogu biti jedan span
+
+Susedni formalni podaci mogu se spojiti samo ako opisuju istu konkretnu
+instancu i neposredno su povezani:
+
+  i7/8 jezgara                 → jedan CPU span
+  8 GB GDDR6/128-bit           → jedan GPU span
+  Samsung 990 PRO 1 TB NVMe    → jedan SKLADIŠTE span
+
+Zarez, kosa crta ili zagrada mogu ostati u spanu samo kada povezuju podatke
+iste instance.
+
+4.5. Alternative i različite oznake se razdvajaju
+
+  i7 / i5                 → dva CPU spana
+  8 / 16 / 32 GB          → tri odvojena spana iste oznake kada kontekst
+                             potvrđuje da su alternative iste vrste
+  8/256 GB u zapisu RAM/interna memorija
+                           → "8" je RAM; "256 GB" je SKLADIŠTE
+
+Separator je van spanova kada razdvaja alternative, različite instance ili
+različite oznake.
+
+4.6. Narativne reči obično prekidaju span
+
+  "Intel Core i5 sa 6 jezgara"
+
+dobija dva CPU spana: "Intel Core i5" i "6 jezgara". Reč "sa" ne ulazi u
+span. Suprotno tome, neposredno povezani formalni podaci iste instance mogu
+ostati objedinjeni:
+
+  "Intel Core i5, 6 jezgara, 4.4 GHz" → jedan CPU span
+
+4.7. Raspon i približna vrednost ostaju celi
+
+Reči koje menjaju numeričko značenje ulaze u span:
+
+  do 4.6 GHz
+  od 500 do 600 €
+
+4.8. Izostavljena jedinica se ne dopisuje
+
+U zapisu "64/128/256 GB" spanovi su "64", "128" i "256 GB". Jedinica se
+ne kopira u ranije alternative. Vrednost bez jedinice anotira se samo kada
+kontekst pouzdano određuje značenje.
+
+
+5. CPU
+
+Semantika: konkretan procesor, njegov identitet i eksplicitne formalne
+specifikacije procesora i njegovih podkomponenti.
+
+Uključuje:
+
+  - proizvođača i model procesora;
+  - arhitekturu i generaciju;
+  - broj jezgara i niti/threadova;
+  - bazni, boost i turbo takt;
+  - socket/platformu;
+  - cache, TDP i standardne procesorske tehnologije.
+
+Primeri:
+
+  AMD Ryzen 7 7800X3D
+  8 jezgara
+  16 threadova
+  do 5.0 GHz
+  96 MB L3 cache
+  AM5
+  120 W TDP
+
+Ne uključuje generičku reč "CPU" ili "procesor", niti reklamne opise kao
+"jak" i "brz".
+
+Primer:
+
+  "Vrhunski AMD Ryzen 7 7800X3D radi na do 5.0 GHz i ima 96 MB cache."
+
+  AMD Ryzen 7 7800X3D → CPU
+  do 5.0 GHz          → CPU
+  96 MB cache         → CPU
+
+"Vrhunski" ostaje van anotacije.
+
+
+6. GPU
+
+Semantika: konkretna grafička kartica/procesor, njen identitet i eksplicitne
+formalne specifikacije, uključujući VRAM i njegove podatke.
+
+Uključuje:
+
+  - proizvođača i model grafike;
+  - VRAM kapacitet, tip, takt i proizvođača;
+  - memorijsku sabirnicu;
+  - grafički takt, formalne tehnologije i izlaze;
+  - interfejse, naponske priključke i TDP grafike.
+
+Primeri:
+
+  NVIDIA GeForce RTX 4070
+  12 GB GDDR6X
+  192-bit
+  DLSS 3
+  ray tracing
+  3× DisplayPort 1.4
+  16-pin 12VHPWR
+
+Ne uključuje generičku reč "GPU" ili "grafička", niti reklamni opis kao
+"moćna" ili "odlična za gaming".
+
+VRAM, GDDR i HBM pripadaju GPU, a ne RAM-u.
+
+Primer:
+
+  "Moćna NVIDIA GeForce RTX 4070 ima 12 GB GDDR6X/192-bit i podržava DLSS 3."
+
+  NVIDIA GeForce RTX 4070 → GPU
+  12 GB GDDR6X/192-bit    → GPU
+  DLSS 3                  → GPU
+
+
+7. RAM
+
+Semantika: glavna sistemska/host radna memorija, njen identitet i eksplicitne
+formalne specifikacije.
+
+Uključuje:
+
+  - proizvođača i model memorijskog modula;
+  - kapacitet;
+  - DDR generaciju;
+  - brzinu/frekvenciju;
+  - latenciju i tajminge;
+  - raspored i broj modula.
+
+Primeri:
+
+  Kingston Fury Beast
+  16 GB DDR5 6000 MHz
+  CL36
+  2×8 GB
+
+Ne uključuje VRAM grafike, procesorski cache ni internu memoriju uređaja kada
+ona predstavlja prostor za čuvanje podataka.
+
+Primer:
+
+  "Telefon ima 8 GB RAM-a i 256 GB interne memorije."
+
+  8 GB   → RAM
+  256 GB → SKLADIŠTE
+
+
+8. SKLADIŠTE
+
+Semantika: uređaj ili prostor za čuvanje podataka, njegov identitet i
+eksplicitne formalne specifikacije.
+
+Uključuje:
+
+  - proizvođača i model SSD-a, HDD-a, NVMe ili flash memorije;
+  - kapacitet;
+  - protokol, interfejs i format;
+  - brzinu čitanja/pisanja;
+  - formalne dijagnostičke vrednosti, broj sati rada i uključenja;
+  - file system i formalnu kompatibilnost konkretnog skladišta.
+
+Primeri:
+
+  Samsung 990 PRO 1 TB
+  NVMe
+  PCIe 4.0
+  7000 MB/s
+  100/100
+  8 sati rada
+  256 GB interne memorije
+
+Ne uključuje samu generičku reč "SSD", "HDD" ili "disk", niti opis kao
+"zdrav", "perfektan" ili "radi odlično" bez formalne vrednosti.
+
+Ako zbirna vrednost meša RAM i skladište, ona se ne anotira:
+
+  "128 MB total memory (64 MB ROM i 64 MB SDRAM)"
+
+  128 MB total memory → bez oznake
+  64 MB ROM           → SKLADIŠTE
+  64 MB SDRAM         → RAM
+
+Primer:
+
+  "Samsung 970 EVO 1 TB je perfektan: health 100/100 i svega 8 sati rada."
+
+  Samsung 970 EVO 1 TB → SKLADIŠTE
+  100/100              → SKLADIŠTE
+  8 sati                → SKLADIŠTE
+
+
+9. CENA
+
+Semantika: trenutna cena ili trenutni cenovni opseg konkretne pomenute
+opreme.
+
+Uključuje:
+
+  350 €
+  40.000 dinara
+  od 500 do 600 evra
+
+Ako piše samo "Cena 1499", anotira se "1499" bez dopisivanja valute.
+
+Ako su jasno navedene stara i nova cena, anotira se samo trenutna cena.
+Iznos dostave, carine, servisa, popravke, rate bez ukupne cene i istorijske
+kupovine nije CENA.
+
+Cena se anotira i kada se odnosi na drugu konkretnu opremu pomenutu u oglasu,
+ako je njena trenutna cena jasno navedena.
+
+Primer:
+
+  "Laptop je bio 900 €, sada je 750 €, a zamena dela me je koštala 80 €."
+
+  750 € → CENA
+
+900 € je stara cena, a 80 € je istorijski trošak i ostaje bez oznake.
+
+Primer:
+
+  "Moj računar je 500 €, sličan uređaj sada košta 650 €, a dostava je 10 €."
+
+  500 € → CENA
+  650 € → CENA
+
+10 € je trošak dostave i ostaje bez oznake.
+
+
+10. KRATAK ALGORITAM ANOTIRANJA
+
+1. Pročitaj celu rečenicu, a po potrebi naslov i susedni deo oglasa.
+2. Pronađi kandidate: identitet, formalne specifikacije i trenutne cene.
+3. Odredi semantičkog vlasnika podatka: CPU, GPU/VRAM, RAM, skladište ili
+   trenutna cena opreme.
+4. Ako podatak ne pripada jednoj od pet oznaka, ostavi ga bez anotacije.
+5. Označi tačan originalni tekst bez ispravljanja i bez dopisivanja.
+6. Proveri granice: jedinice ostaju uz vrednost; spoljne oznake i uvodne reči
+   ostaju van; alternative se razdvajaju.
+7. Proveri da nema preklapanja.
+
+
+11. ZAVRŠNA KONTROLNA LISTA
+
+1. Da li sam odredio značenje pre izbora oznake?
+2. Da li svaki označeni podatak pripada CPU, GPU, RAM-u, SKLADIŠTU ili CENI?
+3. Da li su VRAM/HBM/GDDR označeni kao GPU, procesorski cache kao CPU, a
+   interna memorija kao SKLADIŠTE kada to znači prostor za podatke?
+4. Da li sam izostavio generičke reči, reklamne prideve i opis stanja?
+5. Da li sam anotirao samo eksplicitno napisani tekst, bez dopisivanja?
+6. Da li span ima najmanju potpunu granicu bez spoljne interpunkcije?
+7. Da li su alternative i različite oznake odvojene?
+8. Da li u anotacijama nema preklapanja?
+
+Završni test: za svaki span moraš moći jasno da kažeš:
+
+  "Ovaj tekst znači ___, opisuje ___ i zato dobija oznaku ___."
+

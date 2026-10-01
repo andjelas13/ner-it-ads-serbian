@@ -1,0 +1,49 @@
+TITLE:
+SSD 2.5 480GB KingFast F6 PRO 550MBs/400MBs
+
+BODY:
+Specifications:
+
+1) Product Name: f6 pro ssd
+
+2) Brand: KingFast
+
+3) Series: f6 pro
+
+4) Device Type: Internal Solid State Drive (SSD)
+
+5) Form Factor: 2.5″
+
+6) Capacity: 480gb
+
+7) Memory Type: mlc
+
+8) Interface: Sataiii
+
+9) Size: 100*70*7 mm
+
+10) Performance
+
+Sequential Read/Write (Max): 550/480MB/s
+
+11) Power Consumption
+
+Input Voltage: 5V±5%
+
+Power Consumption (Idle): 0.3W
+
+Power Consumption (Active): 2W
+
+12) Reliability
+
+M.T.B.F.: >2,000,000 hours
+
+S.M.A.R.T.: support
+
+13) Environment
+
+Operating Temp.: 0°~70°
+
+Storage Temp.: –55°~95°
+
+Anti Shock Operation Shock: 1500G (@0.5ms half sine wave)

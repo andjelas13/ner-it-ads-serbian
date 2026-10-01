@@ -1,0 +1,27 @@
+TITLE:
+Intel® Core™2 Extreme QX9770 {Intel Confindential}
+
+BODY:
+Procesor je extra redak poslednji u klasi 775 soketa plus na to je inzenjerski primerak intelovog vlasnistva sto znaci dase neprodaje ali u saradnji sa intelom uspelismo da kupimo jedan primerak.
+
+Perfomanse su sledece :
+
+Total Cores 4.
+
+Processor Base Frequency 3. 20 GHz.
+
+Cache 12 MB L2 Cache.
+
+Bus Speed 1600 MHz.
+
+FSB Parity No.
+
+TDP 136 W.
+
+VID Voltage Range 0. 8500V-1. 3625V.
+
+Temp 55c
+
+Za njjega treba jace, stabilnije i bolje napajanje kao i bolja maticna ploca ddr2 ili ddr3
+
+Pogledajte ostale nase oglase hvala.

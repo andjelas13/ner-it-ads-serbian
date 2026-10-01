@@ -1,0 +1,23 @@
+TITLE:
+Multiboot usb 64gb , Zorin OS Pro , Android
+
+BODY:
+Bootabilni 15 in1 KingstonDT100 64gb vrhunski alat sve na jednom usb stiku .
+
+Sa ovim USB stikom mozete sami veoma lako i uprosceno da:
+
+Instalirate sisteme :
+
+W11,10,8.1,7,
+
+Zorin OS 18.1 Pro , trenutno jedna od popularnijih Linux zamena za Win10 i verzija kao i za ozivljavanje dotrajalih konfiguracija (ima bezbednosnu podrsku do 2029e) i pro verzije se inace placaju ovde je imate free .
+
+Bliss os v16.9.7 x86_64 vrhunski Android sistem za racunare
+
+Bekapujete i testirate
+
+Servisirate delove (ram, harddiskovi)
+
+Direktno se konektujete live
+
+Mozete da resite bilo koji racunarski problem gde god da se nadjete .

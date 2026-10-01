@@ -1,0 +1,13 @@
+TITLE:
+Nvidia D33088 P118 AGP 64MB GeForce4 MX 440
+
+BODY:
+Nvidia GeForce4 MX 440 VGA 64MB AGP
+
+DX9.0
+
+pasivni hladnjak
+
+p/N : CN-0J0880-69861
+
+šifra prilikom upita: D018

@@ -1,0 +1,33 @@
+TITLE:
+Grafička (162) Gigabyte GV-R4350C-512I
+
+BODY:
+Ispravna PCI-E graficka kartica
+
+- Gigabyte
+
+- GV-R4350C-512I
+
+- 1 X HDMI izlaz
+
+- 1 x DVI izlaz
+
+- 1 x VGA izlaz
+
+- 512 Mb
+
+- Win index > 3.5/5.7
+
+Ispravnost navedene graficke kartice je poverena
+
+U kombinaciji sa maticnim plocama koje koriste
+
+Intel-ove procesore
+
+- DELL 755 - OS WIN 7-32 bit
+
+- P5K PRO - Q-6600 - OS WIN 10-64 bin
+
+Proverite da li je ova kartica kompatibilna
+
+sa vasom maticnom plocom i brzinama memorijama.

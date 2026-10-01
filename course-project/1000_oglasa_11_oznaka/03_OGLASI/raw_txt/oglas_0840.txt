@@ -1,0 +1,79 @@
+TITLE:
+Matična ploča AM4 Asus Prime A520M-K VGA/HDMI/M.2
+
+BODY:
+⭐ Svi naši proizvodi su novi i dolaze sa fiskalnim računom po osnovu koga ostvarujete zakonsku saobraznost od dve godine
+☎️ Kontakt telefon (sms, poziv, viber, whats app): broj se nalazi u sekciji "Klik za broj telefona"
+➡️ Zbog mogućih promena kod dobavljača, pre kupovine nas konaktirajte i raspitajte se o ceni i dostupnosti proizvoda.
+
+Karakteristike:
+  * Tip procesora:   Podnožje:   AMD® AM4
+  *                          Čipset:  AMD® A520
+
+  * Format ploče:     Micro ATX
+  * Memorija:          Podržani tip memorije: DDR4                                                                Memorijski slotovi :   2 x DIMM, Max. 64GB, DDR4                                                          Podržane brzine: 4600(O. C)/4400(O. C)/4000(O. C. )/3866(O. C. )/3733(O. C. )/3600(O. C. )/3466(O. C. )/3333(O. C. ) 3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory
+
+  * Podržani procesori:   AMD AM4 Socket za AMD Ryzen 5000 Serija / 4000 G-Serija / 3000 Serija Desktop procesora
+  * Slotovi za proširenje:    AMD Ryzen 5000 Series / 4000 G-Series / 3000 Series Desktop procesori
+  * 1 x PCIe 3.0 x16 (x16 mode)
+  * AMD A520 Chipset
+  * 2 x PCIe 3.0 x1
+  * Skladište:             Količina 1 x M.2 slotova i 4 x SATA 6Gb/s portova
+  * AMD Ryzen 5000 Series / 4000 G-Series / 3000 Series Desktop Procesori:
+  * 1 x M.2 Socket 3, sa M Key, Type 2242/2260/2280 (PCIE 3.0 x4 i SATA modusi) podrška za uređaje za skladništenje podataka
+  * AMD A520 Chipset:
+  * 4 x SATA 6Gb/s portova, podržavaju Raid 0, 1, 10
+  * Zvučna kartica:   Realtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC
+  * - Podržava: Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback
+  * Ostalo: Integrisana grafička karta:
+  * 1  x D-Sub
+  * 1  x HDMI 2.1(4K@60HZ)
+  * Mrežna karta:    Realtek RTL8111H 1Gb Ethernet
+  * ASUS LANGuard
+  * Audio Feature:
+  * - Audio Shielding
+  * - Dedicated audio PCB layers
+  * USB:      Zadnji USB Port (Total 6)
+  * 4 x USB 3.2 Gen 1 port(s) (4 x Type-A)
+  * 2 x USB 2.0 port(s) (2 x Type-A)
+  * Prednji USB Port (Total 6)
+  * 2 x USB 3.2 Gen 1 port(s) (2 x Type-A)
+  * 4 x USB 2.0 port(s) (4 x Type-A)
+  * Konektori na zadnjoj strani:        1 x PS/2 tastatura/miš kombinovani portovi
+  * 1 x D-Sub
+  * 1 x HDMI
+  * 1 x LAN (RJ45) portovi
+  * 4 x USB 3.2 Gen 1 (blue) Type-A
+  * 2 x USB 2.0
+  * 3 x Audio džekovi
+  * Interni konektori:            1 x CPU Fan konektor
+  * 1 x Chassis Fan konektor
+  * 1 x USB 3.2 Gen 1(do 5Gbps) konektori podržavaju dodatnih 2 USB 3.2 Gen 1 portova
+  * 2 x USB 2.0 konektorapodržavaju dodatnih 4 USB 2.0 portova
+  * 1 x M.2 Socket 3 with M key, type 2242/2260/2280 podrška za uređaje za skladištenje podatka (SATA &PCIE 3.0 x 4 mode)
+  * 1 x SPI TPM header
+  * 4 x SATA 6Gb/s konektora
+  * 1 x S/PDIF out header(s)
+  * 1 x 24-pin EATX konektor za napajanje
+  * 1 x 8-pin EATX 12V konektor za napajanje
+  * 1 x Audio konektor na prednjoj ploči (AAFP)
+  * 1 x Clear CMOS jumper
+  * 1 x System panel konektor
+  * 1 x COM port header
+  * 1 x Konektor za zvučnike
+  * BIOS:     256 Mb Flash ROM, UEFI AMI BIOS
+  * Ostalo:  ASUS 5X PROTECTION III
+  * - ASUS DIGI+ VRM
+  * - ASUS LANGuard
+  * - ASUS Overvoltage Protection
+  * - ASUS SafeSlot Core
+  * - ASUS Stainless-Steel Back I/O
+  * ASUS Q-Design
+  * - ASUS Q-DIMM
+  * - ASUS Q-Slot
+  * ASUS Thermal Solution
+  * - Aluminum heatsink design
+Cena: 6290
+Stanje: proizvod trenutno nije na stanju u radnji u Kragujevcu ali postoji mogućnost njegovog poručivanja. Za više informacija kontaktirajte nas.
+
+Šifra proizvoda: US-61546

@@ -1,0 +1,15 @@
+TITLE:
+Tablet - Alcatel Pixi 3 Pixi
+
+BODY:
+Proizvođač: Alcatel
+
+Alcatel One Touch tablet, odlicno sa cuvan, bez nijedne ogrebotine i radi bez bagova. Ima ulaz za memorisku karticu, obican Android ulaz za punjac i slusalice 3.5mm. Ekran je od 10` (inca), rezolucije 1280x800. RAM memorija od 1GB i procesor 1.30GHz.Android je 5.0, ali ja nisam imao problema sa aplikacijama, samo ih prebacite na memorisku i radi bez ikakvog problema.Prednja kamera od 0.3 megapiksela Vam omogućava da snimite selfi fotografiju ili učestvujete u video pozivu sa porodicom ili prijateljima, dok je sa zadnje strane smeštena kamera od 2 megapiksela.
+
+Baterija: Lithium ion 4060mAh
+
+Model: 8079
+
+input: 5.0V
+
+DC=2QA

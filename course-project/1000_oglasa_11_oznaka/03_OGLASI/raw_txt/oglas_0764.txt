@@ -1,0 +1,8 @@
+TITLE:
+GPU support / podrska za graficku kartu
+
+BODY:
+3D štampani stalak koji efikasno eliminiše „ sag“ kod grafičkih kartica, štiteći PCIe slot i lutajući PCB. Potpuno prilagodljiv, sa modelima za NVIDIA i Radeon serije, koji pokrivaju visinske opsege od 70 mm pa sve do 125 mm
+
+* Podesivost:
+Veličina se ručno podešava uz pomoć navojnog mehanizma – idealno za različite visine kartica i kućišta
