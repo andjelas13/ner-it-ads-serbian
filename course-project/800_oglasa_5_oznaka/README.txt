@@ -3,24 +3,21 @@ OPJ NER — minimalni predajni paket: 800 IT oglasa, pet oznaka
 Ovaj folder sadrži materijale tražene za predaju podataka i dokumentacije,
 i uz njih izvorni kod eksperimenta sa rezultatima.
 
-1. Izvestaj.pdf
-   Finalni izveštaj.
-
-2. 01_ORIGINALNI_TEKSTOVI_800/oglasi_800_utf8.jsonl.txt
+1. 01_ORIGINALNI_TEKSTOVI_800/oglasi_800_utf8.jsonl.txt
    Jedan UTF-8 TXT/JSONL fajl sa 800 originalnih oglasa. Svaki red sadrži ad_id, naslov, telo, URL, izvor i source ID.
 
-3. 02_FINALNE_ANOTACIJE_800/finalne_anotacije_800_span.tsv
+2. 02_FINALNE_ANOTACIJE_800/finalne_anotacije_800_span.tsv
    Finalne span anotacije u UTF-8 TSV formatu: ad_id, field, start, end, label, text.
    Offset je 0-based, end-exclusive: text je field[start:end]. Ukupno spanova: 5814.
 
-4. 03_KALIBRACIJA_50_ODVOJENO
+3. 03_KALIBRACIJA_50_ODVOJENO
    Četiri odvojene ljudske anotacije nad istih 50 kalibracionih oglasa, filtrirane na pet oznaka.
    Broj anotacija: {'A': 442, 'B': 330, 'C': 388, 'D': 383}.
 
-5. 04_UPUTSTVO/Uputstvo_za_anotaciju_CPU_GPU_RAM_SKLADISTE_CENA.txt
+4. 04_UPUTSTVO/Uputstvo_za_anotaciju_CPU_GPU_RAM_SKLADISTE_CENA.txt
    Finalno uputstvo za pet korišćenih oznaka.
 
-6. 05_KOD/
+5. 05_KOD/
    Izvorni kod eksperimenta nad ovim skupom podataka.
 
    src/            prikupljanje, priprema skupa, podela na foldove, odlike, modeli, evaluacija, izveštajni artefakti
@@ -48,7 +45,7 @@ i uz njih izvorni kod eksperimenta sa rezultatima.
                    figures/   grafikoni koje pravi src/report/make_model_report_artifacts.py
                    analysis/  statistika korpusa, provera duplikata, saglasnost anotatora
 
-   Svi brojevi u results/ i report_artifacts/ poklapaju se sa Izvestaj.pdf.
+   Brojevi u results/ i report_artifacts/ dobijeni su iz istih predikcija.
    Pooled rezultat se može ponovo izračunati iz predikcija, na primer:
 
      python -m src.evaluation.evaluate_predictions \

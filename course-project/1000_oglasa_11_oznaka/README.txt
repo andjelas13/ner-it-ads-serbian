@@ -1,8 +1,5 @@
 OPJ NER — clean predajni paket: 1000 IT oglasa, jedanaest oznaka
 
-01_IZVESTAJ.pdf
-  Finalni projektni izveštaj.
-
 02_UPUTSTVO_ZA_ANOTACIJU.pdf
   Finalno anotaciono uputstvo korišćeno u projektu.
 
@@ -31,8 +28,8 @@ OPJ NER — clean predajni paket: 1000 IT oglasa, jedanaest oznaka
                   saglasnost anotatora, poređenje automatske predanotacije sa ljudskom,
                   i pregled izmena u fazi revizije
 
-  Rezultati modela za ovu verziju nalaze se u 01_IZVESTAJ.pdf; same OOF predikcije
-  nisu čuvane u repozitorijumu, pa je results/ prazan.
+  OOF predikcije za ovu verziju nisu čuvane u repozitorijumu, pa je results/
+  prazan. Rezultati modela nad finalnim skupom su u folderu 800_oglasa_5_oznaka.
 
 Oznake: CPU, GPU, RAM, SKLADISTE, EKRAN, BATERIJA, BRAND, MODEL, GARANCIJA, CENA, MESTO.
 Svi tekstualni fajlovi su UTF-8.
